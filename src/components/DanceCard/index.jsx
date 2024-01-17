@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
 import "./style.css";
 
-export const LandingCard = ({ img, name, description, modality }) => {
+// eslint-disable-next-line no-unused-vars
+export const DanceCard = ({ img, name, description, modality }) => {
   return (
     <div className="landingCard">
       <div style={{ backgroundImage: `url(${img})` }} className="cardImg" />

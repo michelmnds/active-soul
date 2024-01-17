@@ -45,3 +45,8 @@
 
     color: var(--primary-white);
 }
+.line{
+    border: 1px solid var(--primary-grey);
+
+    width: 100%;
+}
