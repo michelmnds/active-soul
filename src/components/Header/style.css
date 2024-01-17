@@ -1,0 +1,16 @@
+.headerContainer{
+    background-color: var(--primary-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+.logoHeader{
+    width: 150px;
+}
+.headerIcon{
+    height: 15px;
+}

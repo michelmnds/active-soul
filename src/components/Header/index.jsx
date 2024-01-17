@@ -1,9 +1,35 @@
+/* eslint-disable react/prop-types */
 import "./style.css";
+import logo from "../../assets/logo-png.png";
+import menuIcon from "../../assets/menu.png";
+import x from "../../assets/x.png";
 
-export const Header = () => {
+export const Header = ({ menu, setMenu }) => {
+  const handleClick = () => {
+    !menu ? setMenu(true) : setMenu(false);
+  };
+
   return (
-    <div className="landingContainer">
-      <h1>Landing</h1>
+    <div className="headerContainer">
+      <img className="logoHeader" src={logo} alt="logo" />
+
+      <div className="headerIconContainer">
+        {menu ? (
+          <img
+            className="headerIcon"
+            src={x}
+            alt="x icon"
+            onClick={handleClick}
+          />
+        ) : (
+          <img
+            className="headerIcon"
+            src={menuIcon}
+            alt="menu icon"
+            onClick={handleClick}
+          />
+        )}
+      </div>
     </div>
   );
 };
