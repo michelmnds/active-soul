@@ -1,6 +1,6 @@
 import "./style.css";
-import { danceData } from "../../danceData";
-import { newsData } from "../../newsData";
+import { danceData } from "../../data/danceData";
+import { newsData } from "../../data/newsData";
 import { DanceCard } from "../../components/DanceCard";
 import { Link } from "react-router-dom";
 import { NewsCard } from "../../components/NewsCard";
@@ -17,37 +17,45 @@ export const LandingPage = () => {
           <div className="danceContainer">
             <h2 className="mainTitle">Vem dançar conosco!</h2>
 
-            {danceData.map((dance) => {
-              return (
-                <DanceCard
-                  key={dance.id}
-                  img={dance.image}
-                  name={dance.name}
-                  description={dance.description}
-                  modality={dance.modality}
-                />
-              );
-            })}
+            {danceData
+              .map((dance) => {
+                return (
+                  <DanceCard
+                    key={dance.id}
+                    img={dance.image}
+                    name={dance.name}
+                    description={dance.description}
+                    modality={dance.modality}
+                  />
+                );
+              })
+              .slice(0, 3)}
 
-            <Link className="danceBtn">VER TODAS AS MODALIDADES</Link>
+            <Link to="/dancas" className="danceBtn">
+              VER TODAS AS MODALIDADES
+            </Link>
           </div>
 
           <hr className="line" />
 
           <div className="newsContainer">
             <h2 className="mainTitle">Próximos eventos</h2>
-            {newsData.map((currentNew) => {
-              return (
-                <NewsCard
-                  key={currentNew.id}
-                  img={currentNew.image}
-                  name={currentNew.name}
-                  description={currentNew.description}
-                />
-              );
-            })}
+            {newsData
+              .map((currentNew) => {
+                return (
+                  <NewsCard
+                    key={currentNew.id}
+                    img={currentNew.image}
+                    name={currentNew.name}
+                    description={currentNew.description}
+                  />
+                );
+              })
+              .slice(0, 3)}
 
-            <Link className="newsBtn">VER CALENDÁRIO</Link>
+            <Link to="/eventos" className="newsBtn">
+              VER CALENDÁRIO
+            </Link>
           </div>
         </main>
       </div>

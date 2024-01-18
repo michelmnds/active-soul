@@ -1,0 +1,41 @@
+.teamPageContainer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    min-height: 100vh;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+.teamPageTitle{
+    font-size: 42px;
+    font-weight: bolder;
+
+    color: var(--primary-white);
+}
+.teamBackground{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: var(--secondary-green);
+
+    padding: 20px;
+
+    height: 150px;
+
+    border-radius: 0 0 100% 0;
+}
+.teamPageMain{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    gap: 30px;
+}

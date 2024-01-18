@@ -25,4 +25,31 @@ export const newsData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
     image: "https://files.blogs.illinois.edu/files/6367/25338253/219540.jpg",
   },
+  {
+    id: 4,
+    name: "Exemplo de noticia 1",
+    date: "01/01/2024",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
+    image:
+      "https://kaufman.usc.edu/wp-content/uploads/2020/06/ElectiveExperienceDec19_2-1.jpg",
+  },
+  {
+    id: 5,
+    name: "Exemplo de noticia 2",
+    date: "01/01/2024",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
+    image:
+      "https://dancingopportunities.com/wp-content/uploads/2023/01/Audition-BA-Dance-Program-At-The-Frankfurt-University-of-Music-and-Performing-Arts.jpg",
+  },
+  {
+    id: 6,
+    name: "Exemplo de noticia 3",
+    date: "01/01/2024",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
+    image:
+      "https://cmsr-web-assets.glos.ac.uk/sites/129/2021/02/17114708/Dance-1280x720.jpg",
+  },
 ];

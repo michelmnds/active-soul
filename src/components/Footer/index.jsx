@@ -1,7 +1,5 @@
 import "./style.css";
 import logo from "../../assets/logo-completa.png";
-import instagram from "../../assets/instagram.png";
-import facebook from "../../assets/facebook.png";
 
 export const Footer = () => {
   return (
@@ -11,8 +9,18 @@ export const Footer = () => {
       <hr className="footerLine" />
 
       <div className="footerIconContainer">
-        <img className="icon" src={instagram} alt="instagram icon" />
-        <img className="icon" src={facebook} alt="facebook icon" />
+        <a
+          style={{ backgroundImage: "url(https://i.imgur.com/Ia1Q9wE.png)" }}
+          href="https://www.instagram.com/activesoul.studio/"
+          className="icon"
+          alt="instagram icon"
+        />
+        <a
+          style={{ backgroundImage: "url(https://i.imgur.com/9aJPrO4.png)" }}
+          href="https://www.facebook.com/activesoulstudio/"
+          className="icon"
+          alt="facebook icon"
+        />
       </div>
     </div>
   );

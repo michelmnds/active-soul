@@ -3,6 +3,7 @@ import "./style.css";
 import logo from "../../assets/logo-png.png";
 import menuIcon from "../../assets/menu.png";
 import x from "../../assets/x.png";
+import { Link } from "react-router-dom";
 
 export const Header = ({ menu, setMenu }) => {
   const handleClick = () => {
@@ -11,7 +12,9 @@ export const Header = ({ menu, setMenu }) => {
 
   return (
     <div className="headerContainer">
-      <img className="logoHeader" src={logo} alt="logo" />
+      <Link to="/">
+        <img className="logoHeader" src={logo} alt="logo" />
+      </Link>
 
       <div className="headerIconContainer">
         {menu ? (

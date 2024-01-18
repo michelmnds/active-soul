@@ -3,6 +3,10 @@ import { LandingPage } from "./pages/LandingPage";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { useState } from "react";
+import { DancePage } from "./pages/DancePage";
+import { NewsPage } from "./pages/NewsPage";
+import { AboutPage } from "./pages/AboutPage";
+import { TeamPage } from "./pages/TeamPage";
 
 function App() {
   const [menu, setMenu] = useState(false);
@@ -12,6 +16,10 @@ function App() {
       <Header menu={menu} setMenu={setMenu} />
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/dancas" element={<DancePage />} />
+        <Route path="/eventos" element={<NewsPage />} />
+        <Route path="/sobre" element={<AboutPage />} />
+        <Route path="/equipa" element={<TeamPage />} />
       </Routes>
       <Footer />
     </>
