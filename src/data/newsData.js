@@ -1,7 +1,7 @@
 export const newsData = [
   {
     id: 1,
-    name: "Exemplo de noticia 1",
+    name: "Exemplo de evento 1",
     date: "01/01/2024",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
@@ -10,7 +10,7 @@ export const newsData = [
   },
   {
     id: 2,
-    name: "Exemplo de noticia 2",
+    name: "Exemplo de evento 2",
     date: "01/01/2024",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
@@ -19,7 +19,7 @@ export const newsData = [
   },
   {
     id: 3,
-    name: "Exemplo de noticia 3",
+    name: "Exemplo de evento 3",
     date: "01/01/2024",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
@@ -27,7 +27,7 @@ export const newsData = [
   },
   {
     id: 4,
-    name: "Exemplo de noticia 1",
+    name: "Exemplo de evento 4",
     date: "01/01/2024",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
@@ -36,7 +36,7 @@ export const newsData = [
   },
   {
     id: 5,
-    name: "Exemplo de noticia 2",
+    name: "Exemplo de evento 5",
     date: "01/01/2024",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
@@ -45,7 +45,7 @@ export const newsData = [
   },
   {
     id: 6,
-    name: "Exemplo de noticia 3",
+    name: "Exemplo de evento 6",
     date: "01/01/2024",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",

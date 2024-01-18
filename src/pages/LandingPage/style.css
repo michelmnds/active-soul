@@ -74,7 +74,7 @@
 .danceBtn{
     text-decoration: none;
 
-    padding: 15px;
+    padding: 15px 10px;
 
     border: 4px solid var(--secondary-green);
     border-radius: 36px;
@@ -82,6 +82,10 @@
     color: var(--secondary-green);
 
     font-weight: bolder;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .newsContainer{
     display: flex;
