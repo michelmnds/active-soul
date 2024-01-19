@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import "./style.css";
 import { newsData } from "../../data/newsData";
 import { NewsCard } from "../../components/NewsCard";
 
-export const NewsPage = () => {
+export const NewsPage = ({ menu }) => {
   return (
-    <div className="newsPageContainer">
+    <div className={`newsPageContainer ${menu ? "move" : ""}`}>
       <div className="newsBackground">
         <h2 className="newsPageTitle">Próximos eventos</h2>
       </div>

@@ -10,6 +10,8 @@
     align-items: center;
 
     gap: 50px;
+
+    transition: 0.3s ease-in-out;
 }
 .landingTitle{
     font-size: 36px;
@@ -33,6 +35,8 @@
 
 
     border-radius: 0 0 100% 0;
+
+    transition: 0.3s ease-in-out;
 }
 .landingImage{
     height: 300px;
@@ -42,6 +46,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    transition: 0.3s ease-in-out;
 }
 .landingMain{
     display: flex;
@@ -111,4 +117,9 @@
     background-color: var(--secondary-green);
 
     font-weight: bolder;
+}
+
+.move {
+    transform: translateX(-150px);
+    transition: 0.3s ease-in-out;
 }

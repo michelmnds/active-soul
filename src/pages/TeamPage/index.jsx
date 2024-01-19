@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import "./style.css";
 import { TeamCard } from "../../components/TeamCard";
 import { teamData } from "../../data/teamData";
 
-export const TeamPage = () => {
+export const TeamPage = ({ menu }) => {
   return (
-    <div className="teamPageContainer">
+    <div className={`teamPageContainer ${menu ? "move" : ""}`}>
       <div className="teamBackground">
         <h2 className="teamPageTitle">Conheça a equipa!</h2>
       </div>

@@ -5,14 +5,15 @@ import { DanceCard } from "../../components/DanceCard";
 import { Link } from "react-router-dom";
 import { NewsCard } from "../../components/NewsCard";
 
-export const LandingPage = () => {
+// eslint-disable-next-line react/prop-types
+export const LandingPage = ({ menu }) => {
   return (
     <>
-      <div className="landingImage" />
-      <div className="titleContainer">
+      <div className={`landingImage ${menu ? "move" : ""}`} />
+      <div className={`titleContainer ${menu ? "move" : ""}`}>
         <h1 className="landingTitle">Bem-vindo à Active Soul!</h1>
       </div>
-      <div className="landingContainer">
+      <div className={`landingContainer ${menu ? "move" : ""}`}>
         <main className="landingMain">
           <div className="danceContainer">
             <h2 className="mainTitle">Vem dançar conosco!</h2>

@@ -15,13 +15,13 @@ function App() {
   return (
     <>
       <Header menu={menu} setMenu={setMenu} />
-      <SideBar menu={menu} />
+      <SideBar menu={menu} setMenu={setMenu} />
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/dancas" element={<DancePage />} />
-        <Route path="/eventos" element={<NewsPage />} />
-        <Route path="/sobre" element={<AboutPage />} />
-        <Route path="/equipa" element={<TeamPage />} />
+        <Route path="/" element={<LandingPage menu={menu} />} />
+        <Route path="/dancas" element={<DancePage menu={menu} />} />
+        <Route path="/eventos" element={<NewsPage menu={menu} />} />
+        <Route path="/sobre" element={<AboutPage menu={menu} />} />
+        <Route path="/equipa" element={<TeamPage menu={menu} />} />
       </Routes>
       <Footer />
     </>

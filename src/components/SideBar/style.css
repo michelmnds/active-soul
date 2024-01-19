@@ -1,9 +1,9 @@
 .sideBarContainer{
     position: absolute;
-    right: -170px;
+    right: 0;
     bottom: 0;
     top: 59px;
-
+    
     display: flex;
     flex-direction: column;
 
@@ -13,13 +13,16 @@
     background-color: var(--primary-white);
 
     width: 150px;
+    height: 1000px;
     
     transition: 0.3s ease-out;
-}
-.sideBarContainer.open{
-    right: 0;
 
-    transition: 0.3s ease-out;
+    z-index: -1;
+}
+.sideBarContainer.open{ 
+    display: flex;
+
+    z-index: 0;
 }
 .navLink{
     display: flex;
@@ -41,11 +44,14 @@
 
     transition: 0.2s;
 }
-.navLink:hover{
+.white {
+    color: var(--primary-white);
+}
+/* .navLink:hover{
     background-color: var(--secondary-green);
     color: var(--primary-white);
 
     transition: 0.2s;
     width: calc(100% - 27px);
     transform: scaleX(1.1);
-}
+} */

@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import "./style.css";
 
-export const AboutPage = () => {
+export const AboutPage = ({ menu }) => {
   return (
-    <div className="aboutPageContainer">
+    <div className={`aboutPageContainer ${menu ? "move" : ""}`}>
       <div className="aboutBackground">
         <h2 className="aboutPageTitle">Nossa história</h2>
       </div>

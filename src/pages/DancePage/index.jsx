@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import "./style.css";
 import { danceData } from "../../data/danceData";
 import { DanceCard } from "../../components/DanceCard";
 
-export const DancePage = () => {
+export const DancePage = ({ menu }) => {
   return (
-    <div className="dancePageContainer">
+    <div className={`dancePageContainer ${menu ? "move" : ""}`}>
       <div className="danceBackground">
         <h2 className="dancePageTitle">Vem dançar conosco!</h2>
       </div>
