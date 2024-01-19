@@ -15,7 +15,7 @@
 }
 .landingTitle{
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 400;
 
     text-align: start;
 
@@ -62,7 +62,7 @@
 }
 .mainTitle{
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: 400;
 
     color: var(--secondary-green);
 }
@@ -87,7 +87,7 @@
 
     color: var(--secondary-green);
 
-    font-weight: bolder;
+    font-weight: 400;
 
     display: flex;
     align-items: center;
@@ -116,7 +116,8 @@
     color: var(--primary-white);
     background-color: var(--secondary-green);
 
-    font-weight: bolder;
+    font-weight: 400;
+
 }
 
 .move {

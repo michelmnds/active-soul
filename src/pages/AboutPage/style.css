@@ -15,7 +15,7 @@
 }
 .aboutPageTitle{
     font-size: 42px;
-    font-weight: bolder;
+    font-weight: 400;
 
     color: var(--primary-white);
 }
