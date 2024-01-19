@@ -6,7 +6,11 @@ import { Link } from "react-router-dom";
 // eslint-disable-next-line react/prop-types
 export const SideBar = ({ menu, setMenu }) => {
   const handleNavClick = () => {
-    setMenu(false);
+    setMenu(true);
+
+    setTimeout(() => {
+      setMenu(false);
+    }, 10);
   };
 
   const handleOutsideClick = (e) => {
@@ -48,18 +52,18 @@ export const SideBar = ({ menu, setMenu }) => {
 
         <Link
           className={`navLink ${menu ? "" : "white"}`}
-          to="/eventos"
+          to="/equipa"
           onClick={handleNavClick}
         >
-          EVENTOS
+          NOSSA EQUIPA
         </Link>
 
         <Link
           className={`navLink ${menu ? "" : "white"}`}
-          to="/equipa"
+          to="/eventos"
           onClick={handleNavClick}
         >
-          EQUIPA
+          EVENTOS
         </Link>
 
         <Link
