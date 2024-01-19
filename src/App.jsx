@@ -7,6 +7,7 @@ import { DancePage } from "./pages/DancePage";
 import { NewsPage } from "./pages/NewsPage";
 import { AboutPage } from "./pages/AboutPage";
 import { TeamPage } from "./pages/TeamPage";
+import { SideBar } from "./components/SideBar";
 
 function App() {
   const [menu, setMenu] = useState(false);
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <Header menu={menu} setMenu={setMenu} />
+      <SideBar menu={menu} />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/dancas" element={<DancePage />} />
