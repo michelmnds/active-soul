@@ -46,3 +46,20 @@
 
     border-radius: 0 0 100% 0;
 }
+
+@media(width >= 768px){
+    .newsPageContainer{
+        align-items: center;
+    }
+    .newsPageTitle{
+        font-size: 60px;
+        font-weight: 400;
+    
+        width: 400px;
+    
+        color: var(--primary-white);
+    }
+    .newsBackground{
+        height: 200px;
+    }
+}

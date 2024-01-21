@@ -39,3 +39,14 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+@media(width >= 768px){
+    .footerLogo{
+        width: 250px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+}

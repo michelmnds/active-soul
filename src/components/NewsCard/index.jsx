@@ -4,15 +4,14 @@ import "./style.css";
 export const NewsCard = ({ img, name, description, date }) => {
   return (
     <div className="newsCard">
-      <div style={{ backgroundImage: `url(${img})` }} className="cardImg" />
+      <div style={{ backgroundImage: `url(${img})` }} className="newsCardImg" />
 
-      <div className="infoContainer">
-        <span className="cardName">{name}</span>
-        <span className="cardDesc">{description}</span>
-        <span className="cardDesc">{date}</span>
+      <div className="newsInfoContainer">
+        <span className="newsCardName">{name}</span>
+        <span className="newsCardDesc">{description}</span>
+        <span className="newsCardDesc">{date}</span>
+        <span className="newsCardMore">Ver mais &gt;</span>
       </div>
-
-      <span className="cardMore">Ver mais &gt;</span>
     </div>
   );
 };

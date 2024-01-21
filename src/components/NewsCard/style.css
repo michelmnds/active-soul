@@ -12,7 +12,7 @@
     border-radius: 12px;
 }
 
-.cardImg{
+.newsCardImg{
     height: 200px;
 
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 
     border-radius: 12px 12px 0 0;
 }
-.infoContainer{
+.newsInfoContainer{
     display: flex;
     flex-direction: column;
 
@@ -28,25 +28,81 @@
 
     gap: 10px;
 }
-.cardName{
+.newsCardName{
     font-weight: bolder;
 
     color: var(--primary-color);
 }
-.cardDesc{
+.newsCardDesc{
     font-size: 14px;
 
     color: var(--primary-color);
 }
-.cardMore{
+.newsCardMore{
     padding: 20px 10px;
 
     font-weight: bolder;
 
     color: var(--primary-white);
+
+    cursor: pointer;
 }
 .line{
     border: 1px solid var(--primary-grey);
 
     width: 100%;
+}
+
+@media(width >= 768px){
+    .newsCard{
+        width: 100%;
+    
+        height: 400px;
+    
+        background-color: var(--secondary-green);
+    
+        display: flex;
+        flex-direction: row;
+    
+        justify-content: flex-start;
+        align-items: center;
+    
+        border-radius: 12px;
+
+        gap: 20px;
+    }
+    .newsCardImg{
+        height: 400px;
+        width: 300px;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        border-radius: 12px 0 0 12px;
+    }
+    .newsInfoContainer{
+        width: 300px;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-start;
+        justify-content: center;
+
+        padding: 10px;
+
+        gap: 20px;
+    }
+    .newsCardName{
+        font-size: 36px;
+
+        width: auto;
+    }
+    .newsCardDesc{
+        font-size: 18px;
+    }
+    .newsCardMore{
+        font-size: 20px;
+    }
 }

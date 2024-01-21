@@ -20,6 +20,8 @@
     text-align: start;
 
     color: var(--secondary-green);
+
+    width: 260px;
 }
 .titleContainer{
     background-color: var(--primary-color);
@@ -64,7 +66,7 @@
     font-size: 24px;
     font-weight: 400;
 
-    color: var(--secondary-green);
+    color: var(--secondary-green)
 }
 .danceContainer{
     display: flex;
@@ -121,6 +123,32 @@
 }
 
 .move {
-    transform: translateX(-150px);
+    transform: translateX(-200px);
     transition: 0.3s ease-in-out;
+}
+
+@media(width >= 768px){
+    .landingTitle{
+        font-size: 60px;
+
+        width: 400px;
+    }
+    .mainTitle{
+        font-size: 36px;
+    }
+    .danceBtn{
+        width: 508px;
+
+        font-size: 24px;
+    }
+    .newsBtn{
+        width: 400px;
+        
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 24px;
+    }
 }

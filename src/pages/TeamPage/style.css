@@ -44,3 +44,20 @@
 
     gap: 30px;
 }
+
+@media(width >= 768px){
+    .teamPageContainer{
+        align-items: center;
+    }
+    .teamPageTitle{
+        font-size: 60px;
+        font-weight: 400;
+    
+        width: 400px;
+    
+        color: var(--primary-white);
+    }
+    .teamBackground{
+        height: 200px;
+    }
+}

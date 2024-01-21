@@ -39,3 +39,23 @@
     color: var(--secondary-green);
     
 }
+
+@media(width >= 768px){
+    .teamCardImage{
+        width: 150px;
+    }
+    .teamCardName{
+        font-weight: bolder;
+        font-size: 32px;
+    
+        color: var(--secondary-green);
+    
+    }
+    .teamCardAge{
+        font-size: 20px;
+    }
+    .teamCardModality{
+        font-size: 20px;
+        
+    }
+}

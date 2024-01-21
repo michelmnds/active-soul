@@ -10,9 +10,8 @@ export const DanceCard = ({ img, name, description, modality }) => {
       <div className="infoContainer">
         <span className="cardName">{name}</span>
         <span className="cardDesc">{description}</span>
+        <span className="cardMore">Ver mais &gt;</span>
       </div>
-
-      <span className="cardMore">Ver mais &gt;</span>
     </div>
   );
 };

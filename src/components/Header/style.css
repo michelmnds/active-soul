@@ -13,4 +13,18 @@
 }
 .headerIcon{
     height: 15px;
+
+    cursor: pointer;
+}
+
+@media(width >= 768px){
+    .headerContainer{
+        height: 60px;
+    }
+    .logoHeader{
+        width: 200px;
+    }
+    .headerIcon {
+        height: 20px;
+    }
 }
