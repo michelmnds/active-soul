@@ -42,12 +42,28 @@
 .cardMore{
     padding: 20px 0;
 
+    width: 100%;
+
     font-weight: bolder;
 
     color: var(--primary-white);
 
     text-decoration: none;
 
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 5px;
+
+    transition: 0.3s ease-in-out;
+}
+.cardMore:hover{
+    gap: 10px;
+
+    transition: 0.3s ease-in-out;
 }
 .line{
     border: 1px solid var(--primary-grey);

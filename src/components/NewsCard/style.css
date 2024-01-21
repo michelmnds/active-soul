@@ -39,15 +39,30 @@
     color: var(--primary-color);
 }
 .newsCardMore{
-    padding: 20px 10px;
+    padding: 20px 0;
+
+    width: 100%;
 
     font-weight: bolder;
 
     color: var(--primary-white);
 
+    text-decoration: none;
+
     cursor: pointer;
 
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 5px;
+
+    transition: 0.3s ease-in-out;
+}
+.newsCardMore:hover{
+    gap: 10px;
+
+    transition: 0.3s ease-in-out;
 }
 .line{
     border: 1px solid var(--primary-grey);

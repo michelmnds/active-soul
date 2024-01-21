@@ -12,7 +12,8 @@ export const DanceCard = ({ id, img, name, description }) => {
         <span className="cardName">{name}</span>
         <span className="cardDesc">{description}</span>
         <Link to={`/danca/${id}`} className="cardMore">
-          Ver mais &gt;
+          <span>Ver mais</span>
+          <span>&gt;</span>
         </Link>
       </div>
     </div>
