@@ -71,3 +71,8 @@
         width: 640px;
     }
 }
+@media(width >= 1440px){
+    .teamTitleContainer{
+        width: 1040px;
+    }
+}

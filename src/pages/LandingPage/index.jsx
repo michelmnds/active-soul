@@ -11,8 +11,10 @@ export const LandingPage = ({ menu }) => {
     <>
       <div className="landingTopContainer">
         <div className={`landingImage ${menu ? "move" : ""}`} />
-        <div className={`titleContainer ${menu ? "move" : ""}`}>
-          <h1 className="landingTitle">Bem-vindo à Active Soul!</h1>
+        <div className={`titleBackground ${menu ? "move" : ""}`}>
+          <div className="titleContainer">
+            <h1 className="landingTitle">Bem-vindo à Active Soul!</h1>
+          </div>
         </div>
       </div>
       <div className={`landingContainer ${menu ? "move" : ""}`}>

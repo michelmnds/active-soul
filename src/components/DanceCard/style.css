@@ -80,7 +80,7 @@
         border-radius: 12px 0 0 12px;
     }
     .infoContainer{
-        width: 300px;
+        width: 500px;
         height: 100%;
 
         display: flex;
@@ -105,5 +105,25 @@
         font-size: 20px;
 
         cursor: pointer;
+    }
+}
+@media(width >= 1440px) {
+    .landingCard{
+        max-width: 1230px;
+    }
+    .cardImg{
+        width: 500px;
+    }
+    .infoContainer{
+        width: auto;
+    }
+    .cardName{
+        font-size: 42px
+    }
+    .cardDesc{
+        width: 500px;
+    }
+    .cardMore{
+        font-size: 24px;
     }
 }
