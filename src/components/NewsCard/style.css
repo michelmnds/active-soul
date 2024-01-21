@@ -46,6 +46,8 @@
     color: var(--primary-white);
 
     cursor: pointer;
+
+    text-decoration: none;
 }
 .line{
     border: 1px solid var(--primary-grey);

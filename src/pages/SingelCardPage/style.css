@@ -1,0 +1,57 @@
+.singleDanceContainer{
+    min-height: 100vh;
+    
+    margin-bottom: 210px;
+}
+.singleDanceImg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+
+    height: 300px;
+}
+.singleDanceInfos{
+    padding: 40px 20px;
+}
+.singleDanceInfos{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    gap: 20px;
+}
+.singleDanceName{
+    font-size: 24px;
+    font-weight: 600;
+
+    color: var(--secondary-green);
+}
+.singleDanceModality{
+    color: var(--secondary-green);
+}
+.singleDanceDesc{
+    color: var(--secondary-green);
+}
+.singleDanceBtnContainer{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.singleDanceBtn{
+    border: 2px solid var(--secondary-green);
+    border-radius: 36px;
+
+    padding: 10px;
+
+    text-decoration: none;
+
+    color: var(--secondary-green);
+
+    margin: 0 auto;
+}

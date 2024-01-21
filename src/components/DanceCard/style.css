@@ -45,6 +45,9 @@
     font-weight: bolder;
 
     color: var(--primary-white);
+
+    text-decoration: none;
+
 }
 .line{
     border: 1px solid var(--primary-grey);

@@ -17,6 +17,7 @@ export const NewsPage = ({ menu }) => {
           return (
             <NewsCard
               key={currentNew.id}
+              id={currentNew.id}
               img={currentNew.image}
               name={currentNew.name}
               description={currentNew.description}

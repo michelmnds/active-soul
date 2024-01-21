@@ -8,6 +8,7 @@ import { NewsPage } from "./pages/NewsPage";
 import { AboutPage } from "./pages/AboutPage";
 import { TeamPage } from "./pages/TeamPage";
 import { SideBar } from "./components/SideBar";
+import { SingleDancePage } from "./pages/SingelCardPage";
 
 function App() {
   const [menu, setMenu] = useState(false);
@@ -17,10 +18,22 @@ function App() {
       <Header menu={menu} setMenu={setMenu} />
       <SideBar menu={menu} setMenu={setMenu} />
       <Routes>
-        <Route path="/" element={<LandingPage menu={menu} />} />
+        <Route
+          path="/"
+          element={<LandingPage setMenu={setMenu} menu={menu} />}
+        />
+
         <Route path="/dancas" element={<DancePage menu={menu} />} />
+        <Route
+          path="/danca/:danceId"
+          element={<SingleDancePage menu={menu} />}
+        />
+
         <Route path="/eventos" element={<NewsPage menu={menu} />} />
+        <Route path="/evento/:newId" element={<NewsPage menu={menu} />} />
+
         <Route path="/sobre" element={<AboutPage menu={menu} />} />
+
         <Route path="/equipa" element={<TeamPage menu={menu} />} />
       </Routes>
       <Footer />

@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 import "./style.css";
 
 // eslint-disable-next-line no-unused-vars
-export const DanceCard = ({ img, name, description, modality }) => {
+export const DanceCard = ({ id, img, name, description }) => {
   return (
     <div className="landingCard">
       <div style={{ backgroundImage: `url(${img})` }} className="cardImg" />
@@ -10,7 +11,9 @@ export const DanceCard = ({ img, name, description, modality }) => {
       <div className="infoContainer">
         <span className="cardName">{name}</span>
         <span className="cardDesc">{description}</span>
-        <span className="cardMore">Ver mais &gt;</span>
+        <Link to={`/danca/${id}`} className="cardMore">
+          Ver mais &gt;
+        </Link>
       </div>
     </div>
   );

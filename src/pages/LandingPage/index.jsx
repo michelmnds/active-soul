@@ -27,6 +27,7 @@ export const LandingPage = ({ menu }) => {
                 return (
                   <DanceCard
                     key={dance.id}
+                    id={dance.id}
                     img={dance.image}
                     name={dance.name}
                     description={dance.description}
@@ -50,6 +51,7 @@ export const LandingPage = ({ menu }) => {
                 return (
                   <NewsCard
                     key={currentNew.id}
+                    id={currentNew.id}
                     img={currentNew.image}
                     name={currentNew.name}
                     description={currentNew.description}
