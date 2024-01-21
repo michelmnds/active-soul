@@ -29,7 +29,7 @@ export const SingleNewPage = ({ menu }) => {
 
           <span className="singleNewText">Agenda: </span>
 
-          <section className="schedule">
+          <section className="newsSchedule">
             {currentNew.schedule.map((currentNew) => {
               return (
                 <div key={currentNew.day} className="newContainer">

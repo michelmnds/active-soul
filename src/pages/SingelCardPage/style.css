@@ -36,7 +36,7 @@
     color: var(--secondary-green);
 }
 .singleDanceDesc{
-    width: 500px;
+    max-width: 500px;
     color: var(--secondary-green);
 }
 .singleDanceText{
@@ -86,7 +86,7 @@
     align-items: center;
     justify-content: space-evenly;
 
-    gap: 50px;
+    gap: 20px;
 }
 .dayContainer > span {
     color: var(--secondary-green);
@@ -96,6 +96,9 @@
 @media(width >= 768px){
     .singleDanceImg{
         height: 400px;
+    }
+    .dayContainer{
+        gap: 50px;
     }
 }
 @media(width >= 1024px){

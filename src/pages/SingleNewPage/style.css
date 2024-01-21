@@ -36,7 +36,8 @@
     color: var(--secondary-green);
 }
 .singleNewDesc{
-    width: 500px;
+    width: auto;
+    max-width: 500px;
     color: var(--secondary-green);
 }
 .singleNewText{
@@ -63,7 +64,7 @@
 
     transition: 0.3s;
 }
-.schedule{
+.newsSchedule{
     width: 100%;
     height: auto;
 
@@ -80,22 +81,31 @@
     padding: 20px 0;
 }
 .newContainer{
-    width: 400px;
+    width: auto;
+    max-width: 400px;
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 
-    gap: 50px;
+    gap: 15px;
 }
 .newContainer > span {
     color: var(--secondary-green);
     font-weight: 500;
+
+    font-size: 14px;
 }
 
 @media(width >= 768px){
     .singleNewImg{
         height: 400px;
+    }
+    .newContainer{
+        gap: 50px;
+    }
+    .newContainer > span {
+        font-size: 18px;
     }
 }
 @media(width >= 1024px){
