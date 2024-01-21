@@ -5,7 +5,9 @@ export const AboutPage = ({ menu }) => {
   return (
     <div className={`aboutPageContainer ${menu ? "move" : ""}`}>
       <div className="aboutBackground">
-        <h2 className="aboutPageTitle">Nossa história</h2>
+        <div className="aboutTitleContainer">
+          <h2 className="aboutPageTitle">Nossa história</h2>
+        </div>
       </div>
 
       <main className="aboutPageMain">

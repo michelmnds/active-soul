@@ -44,7 +44,7 @@
     height: 300px;
     width: 100%;
 
-    background-image: url('../../assets/ballet.jpg');
+    background-image: url('https://static01.nyt.com/images/2023/10/03/multimedia/01fall-for-dance-pzgb/01fall-for-dance-pzgb-mediumSquareAt3X.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -150,5 +150,55 @@
         justify-content: center;
 
         font-size: 24px;
+    }
+}
+@media(width >= 1024px){
+    .landingContainer{
+        padding: 50px 105px;
+    }
+    .landingTopContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+        
+        height: 500px;
+
+        position: relative;
+    }
+    .landingImage{
+        height: 100%;
+        width: 100%;
+    }
+    .titleContainer{
+        position: absolute;
+        bottom: 0;
+
+        padding: 20px 105px;
+
+        width: calc(100% - 210px);
+
+        border-radius: 60% 0 0 0;
+
+        background-color: #bdded73f;
+    }
+    .danceBtn{
+        transition: 0.3s;
+    }
+    .danceBtn:hover{
+        background-color: var(--secondary-green);
+        color: var(--primary-white);
+
+        transition: 0.3s;
+    }
+    .newsBtn{
+        transition: 0.3s;
+    }
+    .newsBtn:hover{
+        background-color:  var(--primary-white);
+        color: var(--secondary-green);
+
+        transition: 0.3s;
     }
 }

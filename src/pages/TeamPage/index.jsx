@@ -7,7 +7,9 @@ export const TeamPage = ({ menu }) => {
   return (
     <div className={`teamPageContainer ${menu ? "move" : ""}`}>
       <div className="teamBackground">
-        <h2 className="teamPageTitle">Conheça a equipa!</h2>
+        <div className="teamTitleContainer">
+          <h2 className="teamPageTitle">Conheça a equipa!</h2>
+        </div>
       </div>
 
       <main className="teamPageMain">

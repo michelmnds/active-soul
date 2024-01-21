@@ -9,9 +9,11 @@ import { NewsCard } from "../../components/NewsCard";
 export const LandingPage = ({ menu }) => {
   return (
     <>
-      <div className={`landingImage ${menu ? "move" : ""}`} />
-      <div className={`titleContainer ${menu ? "move" : ""}`}>
-        <h1 className="landingTitle">Bem-vindo à Active Soul!</h1>
+      <div className="landingTopContainer">
+        <div className={`landingImage ${menu ? "move" : ""}`} />
+        <div className={`titleContainer ${menu ? "move" : ""}`}>
+          <h1 className="landingTitle">Bem-vindo à Active Soul!</h1>
+        </div>
       </div>
       <div className={`landingContainer ${menu ? "move" : ""}`}>
         <main className="landingMain">

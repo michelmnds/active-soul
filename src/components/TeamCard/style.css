@@ -59,3 +59,10 @@
         
     }
 }
+@media(width >= 1024px){
+    .teamCardContainer{
+        width: 640px;
+
+        gap: 40px;
+    }
+}

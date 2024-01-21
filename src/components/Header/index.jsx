@@ -12,9 +12,29 @@ export const Header = ({ menu, setMenu }) => {
 
   return (
     <div className="headerContainer">
+      <div className="headerLinkLeft">
+        <Link className="headerLink" to="/dancas">
+          MODALIDADES
+        </Link>
+
+        <Link className="headerLink" to="/equipa">
+          EQUIPA
+        </Link>
+      </div>
+
       <Link to="/">
         <img className="logoHeader" src={logo} alt="logo" />
       </Link>
+
+      <div className="headerLinkRight">
+        <Link className="headerLink" to="/eventos">
+          EVENTOS
+        </Link>
+
+        <Link className="headerLink" to="/sobre">
+          SOBRE
+        </Link>
+      </div>
 
       <div className="headerIconContainer">
         {menu ? (

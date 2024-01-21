@@ -96,3 +96,13 @@
         display: block;
     }
 }
+@media(width >= 1024px){
+    .aboutBackground{
+        width: 100%;
+        padding: 20px 0;
+        justify-content: center;
+    }
+    .aboutTitleContainer{
+        width: 640px;
+    }
+}

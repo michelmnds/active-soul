@@ -63,3 +63,13 @@
         height: 200px;
     }
 }
+@media(width >= 1024px){
+    .newsBackground{
+        width: 100%;
+        padding: 20px 0;
+        justify-content: center;
+    }
+    .newsTitleContainer{
+        width: 640px;
+    }
+}

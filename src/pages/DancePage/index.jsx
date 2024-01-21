@@ -7,7 +7,9 @@ export const DancePage = ({ menu }) => {
   return (
     <div className={`dancePageContainer ${menu ? "move" : ""}`}>
       <div className="danceBackground">
-        <h2 className="dancePageTitle">Vem dançar conosco!</h2>
+        <div className="danceTitleContainer">
+          <h2 className="dancePageTitle">Vem dançar conosco!</h2>
+        </div>
       </div>
 
       <main className="dancePageMain">

@@ -7,7 +7,9 @@ export const NewsPage = ({ menu }) => {
   return (
     <div className={`newsPageContainer ${menu ? "move" : ""}`}>
       <div className="newsBackground">
-        <h2 className="newsPageTitle">Próximos eventos</h2>
+        <div className="newsTitleContainer">
+          <h2 className="newsPageTitle">Próximos eventos</h2>
+        </div>
       </div>
 
       <main className="newsPageMain">

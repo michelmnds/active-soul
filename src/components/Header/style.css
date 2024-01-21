@@ -16,6 +16,9 @@
 
     cursor: pointer;
 }
+.headerLinkLeft, .headerLinkRight{
+    display: none;
+}
 
 @media(width >= 768px){
     .headerContainer{
@@ -26,5 +29,50 @@
     }
     .headerIcon {
         height: 20px;
+    }
+}
+@media(width >= 1024px){
+    .headerContainer{
+        justify-content: center;
+
+        position: relative;
+    }
+    .headerIcon {
+        display: none;
+    }
+    .headerLinkLeft, .headerLinkRight{
+        display: flex;
+        gap: 40px;
+
+        position: absolute;
+
+        top: 0;
+        bottom: 0;
+    }
+    .headerLinkLeft{
+        align-items: center;
+        justify-content: center;
+
+        left: calc(50% - 380px);
+    }
+    .headerLinkRight{
+        align-items: center;
+        justify-content: center;
+
+        right: calc(50% - 330px);
+    }
+    .headerLink{
+        text-decoration: none;
+
+        color: var(--primary-black);
+
+        transition: 0.2s;
+    }
+    .headerLink:hover{
+        color: var(--secondary-green);
+
+        transform: scale(0.95);
+        
+        transition: 0.2s;
     }
 }

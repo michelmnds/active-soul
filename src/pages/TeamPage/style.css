@@ -61,3 +61,13 @@
         height: 200px;
     }
 }
+@media(width >= 1024px){
+    .teamBackground{
+        width: 100%;
+        padding: 20px 0;
+        justify-content: center;
+    }
+    .teamTitleContainer{
+        width: 640px;
+    }
+}

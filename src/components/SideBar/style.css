@@ -47,14 +47,7 @@
 .white {
     color: var(--primary-white);
 }
-/* .navLink:hover{
-    background-color: var(--secondary-green);
-    color: var(--primary-white);
 
-    transition: 0.2s;
-    width: calc(100% - 27px);
-    transform: scaleX(1.1);
-} */
 
 @media(width >= 768px){
     .sideBarContainer{
@@ -66,5 +59,11 @@
     }   
     .navLink{
         padding: 0 20px 20px 0;
+    }
+}
+
+@media(width >= 1024px){
+    .sideBarContainer{
+        display: none;
     }
 }
