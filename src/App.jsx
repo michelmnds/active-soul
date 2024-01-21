@@ -9,6 +9,7 @@ import { AboutPage } from "./pages/AboutPage";
 import { TeamPage } from "./pages/TeamPage";
 import { SideBar } from "./components/SideBar";
 import { SingleDancePage } from "./pages/SingelCardPage";
+import { SingleNewPage } from "./pages/SingleNewPage";
 
 function App() {
   const [menu, setMenu] = useState(false);
@@ -30,7 +31,10 @@ function App() {
         />
 
         <Route path="/eventos" element={<NewsPage menu={menu} />} />
-        <Route path="/evento/:newId" element={<NewsPage menu={menu} />} />
+        <Route
+          path="/evento/:currentNewId"
+          element={<SingleNewPage menu={menu} />}
+        />
 
         <Route path="/sobre" element={<AboutPage menu={menu} />} />
 

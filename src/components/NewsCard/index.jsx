@@ -11,7 +11,7 @@ export const NewsCard = ({ id, img, name, description, date }) => {
         <span className="newsCardName">{name}</span>
         <span className="newsCardDesc">{description}</span>
         <span className="newsCardDesc">{date}</span>
-        <Link to={`evento/${id}`} className="newsCardMore">
+        <Link to={`/evento/${id}`} className="newsCardMore">
           Ver mais &gt;
         </Link>
       </div>

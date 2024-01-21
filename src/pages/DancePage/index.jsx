@@ -17,6 +17,7 @@ export const DancePage = ({ menu }) => {
           return (
             <DanceCard
               key={dance.id}
+              id={dance.id}
               img={dance.image}
               name={dance.name}
               description={dance.description}

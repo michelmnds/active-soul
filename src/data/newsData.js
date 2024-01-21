@@ -3,6 +3,23 @@ export const newsData = [
     id: 1,
     name: "Exemplo de evento 1",
     date: "01/01/2024",
+    schedule: [
+      {
+        day: "01/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "02/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "03/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+    ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
     image:
@@ -12,6 +29,23 @@ export const newsData = [
     id: 2,
     name: "Exemplo de evento 2",
     date: "01/01/2024",
+    schedule: [
+      {
+        day: "01/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "02/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "03/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+    ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
     image:
@@ -21,6 +55,23 @@ export const newsData = [
     id: 3,
     name: "Exemplo de evento 3",
     date: "01/01/2024",
+    schedule: [
+      {
+        day: "01/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "02/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "03/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+    ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
     image: "https://files.blogs.illinois.edu/files/6367/25338253/219540.jpg",
@@ -29,6 +80,23 @@ export const newsData = [
     id: 4,
     name: "Exemplo de evento 4",
     date: "01/01/2024",
+    schedule: [
+      {
+        day: "01/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "02/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "03/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+    ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
     image:
@@ -38,6 +106,23 @@ export const newsData = [
     id: 5,
     name: "Exemplo de evento 5",
     date: "01/01/2024",
+    schedule: [
+      {
+        day: "01/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "02/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "03/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+    ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
     image:
@@ -47,6 +132,23 @@ export const newsData = [
     id: 6,
     name: "Exemplo de evento 6",
     date: "01/01/2024",
+    schedule: [
+      {
+        day: "01/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "02/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+      {
+        day: "03/01/2024",
+        time: "17:00",
+        location: "Rua Exemplo, 123",
+      },
+    ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum neque incidunt quisquam, ex esse facere saepe iusto voluptatem maxime molestiae nulla unde veritatis assumenda? Recusandae nostrum quaerat distinctio nesciunt!",
     image:

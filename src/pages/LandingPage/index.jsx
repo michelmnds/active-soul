@@ -30,6 +30,7 @@ export const LandingPage = ({ menu }) => {
                     id={dance.id}
                     img={dance.image}
                     name={dance.name}
+                    teacher={dance.teacher}
                     description={dance.description}
                     modality={dance.modality}
                   />

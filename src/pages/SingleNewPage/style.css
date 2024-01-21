@@ -1,11 +1,11 @@
-.singleDanceContainer{
+.singleNewContainer{
     min-height: 100vh;
     
     margin-bottom: 50px;
 
     transition: 0.2s ease-in-out;
 }
-.singleDanceImg{
+.singleNewImg{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,10 +14,10 @@
 
     height: 300px;
 }
-.singleDanceInfos{
+.singleNewInfos{
     padding: 100px 20px;
 }
-.singleDanceInfos{
+.singleNewInfos{
     display: flex;
     flex-direction: column;
 
@@ -26,25 +26,25 @@
 
     gap: 20px;
 }
-.singleDanceName{
+.singleNewName{
     font-size: 24px;
     font-weight: 600;
 
     color: var(--secondary-green);
 }
-.singleDanceModality{
+.singleNewModality{
     color: var(--secondary-green);
 }
-.singleDanceDesc{
+.singleNewDesc{
     width: 500px;
     color: var(--secondary-green);
 }
-.singleDanceText{
+.singleNewText{
     margin-top: 50px;
 
     color: var(--secondary-green);
 }
-.singleDanceBtn{
+.singleNewBtn{
     border: 2px solid var(--secondary-green);
     border-radius: 36px;
 
@@ -79,8 +79,8 @@
     gap: 50px;
     padding: 20px 0;
 }
-.dayContainer{
-    width: 300px;
+.newContainer{
+    width: 400px;
 
     display: flex;
     align-items: center;
@@ -88,25 +88,25 @@
 
     gap: 50px;
 }
-.dayContainer > span {
+.newContainer > span {
     color: var(--secondary-green);
     font-weight: 500;
 }
 
 @media(width >= 768px){
-    .singleDanceImg{
+    .singleNewImg{
         height: 400px;
     }
 }
 @media(width >= 1024px){
-    .singleDanceName{
+    .singleNewName{
         font-size: 36px;
     }
-    .singleDanceDesc{
+    .singleNewDesc{
         text-align: center;
         font-size: 18px;
     }
-    .singleDanceInfos{
+    .singleNewInfos{
         padding-left: 105px ;
         padding-right: 105px ;
         max-width: 1024px;
@@ -115,14 +115,14 @@
 
         margin: 0 auto;
     }
-    .singleDanceBtn:hover{
+    .singleNewBtn:hover{
         background-color: var(--secondary-green);
         color: var(--primary-white);
 
         transition: 0.3s;
     }
     @media(width >= 1440px){
-        .singleDanceImg{
+        .singleNewImg{
             height: 600px;
         }
     }
