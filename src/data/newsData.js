@@ -162,7 +162,7 @@ export const newsData = [
       {
         day: "17/12/2022",
         time: "19:00",
-        location: "Estúdio Superiror Agrária",
+        location: "Escola Superiror Agrária",
       },
     ],
     description:
