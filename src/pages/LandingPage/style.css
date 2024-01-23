@@ -46,8 +46,8 @@
 
     background-image: url('https://i.imgur.com/mBuvBGU.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -500px;
+    background-size: 150%;
+    background-position: center;
 
     transition: 0.3s ease-in-out;
 }
@@ -133,6 +133,10 @@
 
         width: 400px;
     }
+    .landingImage{
+        background-position: right;
+        background-size: cover;
+    }
     .mainTitle{
         font-size: 36px;
     }
@@ -170,6 +174,9 @@
     .landingImage{
         height: 100%;
         width: 100%;
+
+        background-position: center;
+        background-size: cover;
     }
     .titleBackground{
         position: absolute;
