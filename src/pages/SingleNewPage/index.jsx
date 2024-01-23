@@ -13,6 +13,8 @@ export const SingleNewPage = ({ menu }) => {
   }, []);
 
   if (currentNew.id) {
+    const formattedDescription = currentNew.description.replace(/\./g, ".<br>");
+
     return (
       <div className={`singleNewContainer ${menu ? "move" : ""}`}>
         <div
@@ -25,7 +27,10 @@ export const SingleNewPage = ({ menu }) => {
 
           <span className="singleNewDesc">Publicado em: {currentNew.date}</span>
 
-          <span className="singleNewDesc">{currentNew.description}</span>
+          <span
+            className="singleNewDesc"
+            dangerouslySetInnerHTML={{ __html: formattedDescription }}
+          ></span>
 
           <span className="singleNewText">Agenda: </span>
 

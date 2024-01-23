@@ -173,12 +173,13 @@
     }
     .landingTitle{
         color: var(--primary-black);
+        font-weight: 600;
     }
     .landingImage{
         height: 100%;
         width: 100%;
 
-        background-position: center;
+        background-position-y: center;
         background-size: cover;
     }
     .titleBackground{

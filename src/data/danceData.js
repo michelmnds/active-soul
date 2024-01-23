@@ -3,27 +3,28 @@ export const danceData = [
     id: 1,
     name: "Contemporâneo",
     modality: "Aulas a partir dos 6 anos",
-    description:
-      "A Dança Contemporânea não apresenta uma técnica com uma linguagem única. É um estilo que concede espaço à individualidade do intérprete, valorizando a transmissão de sentimentos, ideias e conceitos. Na dança é reforçada constantemente a importância da experimentação coreográfica, onde os alunos recebem estímulos para desenvolverem interpretações de movimento que os conduzem à criação final.",
+    description: `A Dança Contemporânea não apresenta uma técnica com uma linguagem única.
+      É um estilo que concede espaço à individualidade do intérprete, valorizando a transmissão de sentimentos, ideias e conceitos. 
+      Na dança é reforçada constantemente a importância da experimentação coreográfica, onde os alunos recebem estímulos para desenvolverem interpretações de movimento que os conduzem à criação final.`,
 
     image: "https://i.imgur.com/GtrHOu1.jpg",
     schedule: [
       {
         day: "Ter",
         time: "19:30 - 20:15",
-        teacher: "Patricia",
+        teacher: "Patrícia Lourenço",
         type: "Contemporâneo II",
       },
       {
         day: "Qui",
         time: "18:00 - 18:45",
-        teacher: "Patricia",
+        teacher: "Patrícia Lourenço",
         type: "Contemporâneo I",
       },
       {
         day: "Qui",
         time: "19:30 - 20:15",
-        teacher: "Patricia",
+        teacher: "Patrícia Lourenço",
         type: "Contemporâneo II",
       },
     ],
@@ -39,13 +40,13 @@ export const danceData = [
       {
         day: "Qua",
         time: "18:45 - 19:30",
-        teacher: "Patricia",
+        teacher: "Sofia Ferreira",
         type: "Jazz I",
       },
       {
         day: "Qui",
         time: "19:30 - 20:15",
-        teacher: "Patricia",
+        teacher: "Sofia Ferreira",
         type: "Jazz II",
       },
     ],
@@ -61,13 +62,13 @@ export const danceData = [
       {
         day: "Sex",
         time: "18:00 - 18:30",
-        teacher: "Patricia",
+        teacher: "Leonor Farias",
         type: "+3 anos",
       },
       {
         day: "Sex",
         time: "18:45 - 19:15",
-        teacher: "Patricia",
+        teacher: "Leonor Farias",
         type: "+6 anos",
       },
     ],
@@ -83,25 +84,25 @@ export const danceData = [
       {
         day: "Seg",
         time: "19:30 - 20:15",
-        teacher: "Patricia",
+        teacher: "Patrícia Lourenço",
         type: "Ballet II",
       },
       {
         day: "Ter",
         time: "18:45 - 19:30",
-        teacher: "Patricia",
+        teacher: "Patrícia Lourenço",
         type: "Ballet I",
       },
       {
         day: "Qui",
         time: "18:45 - 19:30",
-        teacher: "Patricia",
+        teacher: "Patrícia Lourenço",
         type: "Ballet I",
       },
       {
         day: "Qui",
         time: "18:00 - 18:45",
-        teacher: "Patricia",
+        teacher: "Patrícia Lourenço",
         type: "Pré-Ballet",
       },
     ],
@@ -117,7 +118,7 @@ export const danceData = [
       {
         day: "Sex",
         time: "19:00 - 20:30",
-        teacher: "Patricia",
+        teacher: "Fábio Sscola e Patrícia Lourenço",
       },
     ],
   },

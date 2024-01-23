@@ -13,6 +13,7 @@ export const SingleDancePage = ({ menu }) => {
   }, []);
 
   if (dance.id) {
+    const formattedDescription = dance.description.replace(/\./g, ".<br>");
     return (
       <div className={`singleDanceContainer ${menu ? "move" : ""}`}>
         <div
@@ -25,18 +26,29 @@ export const SingleDancePage = ({ menu }) => {
 
           <h3 className="singleDanceModality">{dance.modality}</h3>
 
-          <span className="singleDanceDesc">{dance.description}</span>
+          <span
+            className="singleDanceDesc"
+            dangerouslySetInnerHTML={{ __html: formattedDescription }}
+          ></span>
 
-          <span className="singleDanceText">Agenda: </span>
+          <span className="singleDanceText">Cronograma: </span>
 
           <section className="schedule">
             {dance.schedule.map((day) => {
               return (
                 <div key={day.day} className="dayContainer">
                   <span className="dayDay">{day.day}</span>
-                  <span className="dayTime">{day.time}</span>
-                  <span className="dayTeacher">{day.teacher}</span>
-                  {/* <span className="dayTeacher">{day.type}</span> */}
+                  <div className="dayInfosContainer">
+                    <span className="dayTime">
+                      <strong>Horário</strong>: {day.time}
+                    </span>
+                    <span className="dayTeacher">
+                      <strong>Aula por</strong>: {day.teacher}
+                    </span>
+                    <span className="dayTeacher">
+                      <strong>Modalidade</strong>: {day.type}
+                    </span>
+                  </div>
                 </div>
               );
             })}

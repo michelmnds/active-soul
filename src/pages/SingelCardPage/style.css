@@ -41,6 +41,7 @@
 }
 .singleDanceText{
     margin-top: 50px;
+    margin-bottom: 10px;
 
     color: var(--secondary-green);
 }
@@ -67,9 +68,6 @@
     width: 100%;
     height: auto;
 
-    border: 1px solid var(--secondary-green);
-    border-radius: 36px;
-
     display: flex;
     flex-direction: column;
 
@@ -77,17 +75,40 @@
     justify-content: space-evenly;
 
     gap: 50px;
-    padding: 20px 0;
 }
 .dayContainer{
-    width: 300px;
+    width: 100%;
 
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    justify-content: flex-start;
 
     gap: 20px;
+
+
+    border-bottom: 2px solid var(--secondary-green);
+}
+.dayInfosContainer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-bottom: 10px;
+}
+.dayInfosContainer > span{
+    display: flex;
+    font-size: 14px;
+
+    color: var(--secondary-green);
+}
+.dayInfosContainer > span > strong{
+  font-weight: 550;
 }
 .dayContainer > span {
     color: var(--secondary-green);
@@ -95,28 +116,44 @@
 }
 
 @media(width >= 768px){
+    .schedule{
+        align-items: flex-start;
+    }
     .singleDanceImg{
         height: 400px;
     }
-    .dayContainer{
-        gap: 50px;
-        width: 500px;
+    .dayContainer > span {
+        font-size: 24px;
+    }
+    .dayInfosContainer > span{
+        display: flex;
+        font-size: 16px;
+    
+        color: var(--secondary-green);
+    }
+    .singleDanceName{
+        font-size: 36px;
+        font-weight: 600;
+    
+        color: var(--secondary-green);
     }
 }
 @media(width >= 1024px){
     .singleDanceName{
         font-size: 36px;
     }
+    .singleDanceText{
+        width: 100%;
+        font-size: 20px;
+    }
     .singleDanceDesc{
-        text-align: center;
         font-size: 18px;
+        max-width: 1024px;
     }
     .singleDanceInfos{
         padding-left: 105px ;
         padding-right: 105px ;
         max-width: 1024px;
-
-        align-items: center;
 
         margin: 0 auto;
     }

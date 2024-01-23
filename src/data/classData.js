@@ -34,7 +34,7 @@ export const classData = [
       {
         day: "Qui",
         time: "18:45 - 19:30",
-        teacher: "Patricia",
+        teacher: "Sandra Vicente",
       },
     ],
   },
@@ -49,7 +49,7 @@ export const classData = [
       {
         day: "Seg",
         time: "19:30 - 20:15",
-        teacher: "Patricia",
+        teacher: "Sandra Vicente",
       },
     ],
   },
@@ -64,7 +64,7 @@ export const classData = [
       {
         day: "Sex",
         time: "19:30 - 20:30",
-        teacher: "Patricia",
+        teacher: "Sandra Vicente",
       },
     ],
   },
@@ -79,7 +79,7 @@ export const classData = [
       {
         day: "Seg",
         time: "18:45 - 19:15",
-        teacher: "Patricia",
+        teacher: "Sandra Vicente",
       },
     ],
   },
@@ -94,7 +94,7 @@ export const classData = [
       {
         day: "Sex",
         time: "19:00 - 20:30",
-        teacher: "Patricia",
+        teacher: "Sandra Vicente",
       },
     ],
   },
