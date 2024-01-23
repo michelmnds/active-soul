@@ -40,7 +40,7 @@ function App() {
 
         <Route path="/equipa" element={<TeamPage menu={menu} />} />
 
-        <Route path="*" element={<LandingPage />} />
+        {/* <Route path="*" element={<LandingPage />} /> */}
       </Routes>
       <Footer />
     </>
