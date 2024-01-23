@@ -19,7 +19,7 @@
 
     text-align: start;
 
-    color: var(--primary-white);
+    color: var(--secondary-green);
 
     width: 260px;
 }
@@ -170,6 +170,9 @@
         height: 500px;
 
         position: relative;
+    }
+    .landingTitle{
+        color: var(--primary-black);
     }
     .landingImage{
         height: 100%;
