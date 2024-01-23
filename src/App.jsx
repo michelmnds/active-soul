@@ -39,6 +39,10 @@ function App() {
         <Route path="/sobre" element={<AboutPage menu={menu} />} />
 
         <Route path="/equipa" element={<TeamPage menu={menu} />} />
+
+        <Route path="*" element={<LandingPage />} />
+
+        <Route path="/sitemap.xml" element={"../sitemap.xml"} />
       </Routes>
       <Footer />
     </>
