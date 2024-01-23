@@ -10,7 +10,7 @@ export const DanceCard = ({ id, img, name, description }) => {
 
       <div className="infoContainer">
         <span className="cardName">{name}</span>
-        <span className="cardDesc">{description}</span>
+        <span className="cardDesc">{description.slice(0, 100)}...</span>
         <Link to={`/danca/${id}`} className="cardMore">
           <span>Ver mais</span>
           <span>&gt;</span>

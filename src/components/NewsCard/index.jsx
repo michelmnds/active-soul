@@ -1,7 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import "./style.css";
 
-// eslint-disable-next-line react/prop-types
 export const NewsCard = ({ id, img, name, description }) => {
   return (
     <div className="newsCard">
@@ -9,7 +9,7 @@ export const NewsCard = ({ id, img, name, description }) => {
 
       <div className="newsInfoContainer">
         <span className="newsCardName">{name}</span>
-        <span className="newsCardDesc">{description}</span>
+        <span className="newsCardDesc">{description.slice(0, 100)}...</span>
         <Link to={`/evento/${id}`} className="newsCardMore">
           <span>Ver mais</span>
           <span>&gt;</span>

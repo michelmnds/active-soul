@@ -17,15 +17,17 @@
 
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
     border-radius: 12px 12px 0 0;
 }
 .newsInfoContainer{
     display: flex;
     flex-direction: column;
-
+    height: 40%;
+    align-items: flex-start;
+    justify-content: space-between;
     padding: 10px;
-
     gap: 10px;
 }
 .newsCardName{

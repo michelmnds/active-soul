@@ -23,7 +23,7 @@ export const SingleNewPage = ({ menu }) => {
         <div className="singleNewInfos">
           <h2 className="singleNewName">{currentNew.name}</h2>
 
-          <h3 className="singleNewModality">{currentNew.modality}</h3>
+          <span className="singleNewDesc">Publicado em: {currentNew.date}</span>
 
           <span className="singleNewDesc">{currentNew.description}</span>
 

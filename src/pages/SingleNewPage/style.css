@@ -96,6 +96,9 @@
 
     font-size: 14px;
 }
+.newLocation{
+    text-align: center;
+}
 
 @media(width >= 768px){
     .singleNewImg{

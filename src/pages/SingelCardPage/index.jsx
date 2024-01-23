@@ -36,6 +36,7 @@ export const SingleDancePage = ({ menu }) => {
                   <span className="dayDay">{day.day}</span>
                   <span className="dayTime">{day.time}</span>
                   <span className="dayTeacher">{day.teacher}</span>
+                  {/* <span className="dayTeacher">{day.type}</span> */}
                 </div>
               );
             })}
