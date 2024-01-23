@@ -1,17 +1,10 @@
 {
-    "rewrites": [
-        {"source": "/(.*)", "destination": "/"}
-    ],
-
     "version": 2,
     "builds": [
-        {
-            "src": "vercel-build-command",
-            "use": "@vercel/node"
-          }
-        ],
-        "files": ["sitemap.xml"],
-        "routes": []
-      
-      
-}
+      {
+        "src": "vercel-build-command"
+      }
+    ],
+    "files": ["sitemap.xml"],
+    "routes": []
+  }
