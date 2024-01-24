@@ -1,9 +1,14 @@
 import "./style.css";
+
 import { danceData } from "../../data/danceData";
 import { newsData } from "../../data/newsData";
-import { DanceCard } from "../../components/DanceCard";
+import { classData } from "../../data/classData";
+
 import { Link } from "react-router-dom";
+
+import { DanceCard } from "../../components/DanceCard";
 import { NewsCard } from "../../components/NewsCard";
+import { ClassCard } from "../../components/ClassCard";
 
 // eslint-disable-next-line react/prop-types
 export const LandingPage = ({ menu }) => {
@@ -63,6 +68,29 @@ export const LandingPage = ({ menu }) => {
 
             <Link to="/eventos" className="newsBtn">
               VER CALENDÁRIO
+            </Link>
+          </div>
+
+          <hr className="line" />
+
+          <div className="classContainer">
+            <h2 className="mainTitle">Bem estar</h2>
+            {classData
+              .map((currentClass) => {
+                return (
+                  <ClassCard
+                    key={currentClass.id}
+                    id={currentClass.id}
+                    img={currentClass.image}
+                    name={currentClass.name}
+                    description={currentClass.description}
+                  />
+                );
+              })
+              .slice(0, 3)}
+
+            <Link to="/aulas" className="danceBtn">
+              VER TODAS AS AULAS
             </Link>
           </div>
         </main>

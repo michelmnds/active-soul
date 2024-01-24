@@ -107,6 +107,18 @@
     gap: 30px;
 
 }
+.classContainer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    gap: 30px;
+
+}
 .newsBtn{
     text-decoration: none;
 
@@ -214,7 +226,7 @@
     }
 }
 @media(width >= 1440px){
-    .landingMain, .danceContainer, .newsContainer{
+    .landingMain, .danceContainer, .newsContainer, .classContainer{
         gap: 80px;
     }
     .titleBackground{

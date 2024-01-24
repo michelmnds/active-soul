@@ -1,0 +1,150 @@
+.classCard{
+    width: 100%;
+
+    height: 400px;
+
+    background-color: var(--secondary-green);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    border-radius: 12px;
+}
+
+.classCardImg{
+    height: 200px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 12px 12px 0 0;
+}
+.classInfoContainer{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+.classCardName{
+    font-weight: bolder;
+
+    color: var(--primary-color);
+}
+.classCardDesc{
+    font-size: 14px;
+
+    color: var(--primary-color);
+}
+.classCardMore{
+    padding: 20px 0;
+
+    width: 100%;
+
+    font-weight: bolder;
+
+    color: var(--primary-white);
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 5px;
+
+    transition: 0.3s ease-in-out;
+}
+.classCardMore:hover{
+    gap: 10px;
+
+    transition: 0.3s ease-in-out;
+}
+.line{
+    border: 1px solid var(--primary-grey);
+
+    width: 100%;
+}
+
+@media(width >= 768px){
+    .classCard{
+        width: 80%;
+    
+        height: 300px;
+    
+        background-color: var(--secondary-green);
+    
+        display: flex;
+        flex-direction: row;
+    
+        justify-content: flex-start;
+        align-items: center;
+    
+        border-radius: 12px;
+
+        gap: 20px;
+    }
+    .classCardImg{
+        height: 298px;
+        width: 300px;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        border-radius: 12px 0 0 12px;
+    }
+    .classInfoContainer{
+        width: 500px;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-start;
+        justify-content: center;
+
+        padding: 10px;
+
+        gap: 20px;
+    }
+    .classCardName{
+        font-size: 24px;
+
+        width: auto;
+    }
+    .classCardDesc{
+        font-size: 18px;
+    }
+    .classCardMore{
+        font-size: 20px;
+
+        cursor: pointer;
+    }
+}
+@media(width >= 1440px) {
+    .classCard{
+        max-width: 1230px;
+    }
+    .classCardImg{
+        width: 500px;
+    }
+    .classInfoContainer{
+        width: auto;
+    }
+    .classCardName{
+        font-size: 36px
+    }
+    .classCardDesc{
+        width: 500px;
+    }
+    .classCardMore{
+        font-size: 24px;
+    }
+}
