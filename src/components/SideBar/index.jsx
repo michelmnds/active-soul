@@ -47,7 +47,15 @@ export const SideBar = ({ menu, setMenu }) => {
           to="/dancas"
           onClick={handleNavClick}
         >
-          MODALIDADES
+          DANÇAS
+        </Link>
+
+        <Link
+          className={`navLink ${menu ? "" : "white"}`}
+          to="/dancas"
+          onClick={handleNavClick}
+        >
+          BEM ESTAR
         </Link>
 
         <Link
@@ -55,7 +63,7 @@ export const SideBar = ({ menu, setMenu }) => {
           to="/equipa"
           onClick={handleNavClick}
         >
-          NOSSA EQUIPA
+          EQUIPA
         </Link>
 
         <Link
@@ -64,6 +72,14 @@ export const SideBar = ({ menu, setMenu }) => {
           onClick={handleNavClick}
         >
           EVENTOS
+        </Link>
+
+        <Link
+          className={`navLink ${menu ? "" : "white"}`}
+          to="/eventos"
+          onClick={handleNavClick}
+        >
+          SERVIÇOS
         </Link>
 
         <Link

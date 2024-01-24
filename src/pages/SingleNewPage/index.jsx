@@ -32,6 +32,15 @@ export const SingleNewPage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
+          <a
+            className="link"
+            href={currentNew.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Vídeo
+          </a>
+
           <span className="singleNewText">Agenda: </span>
 
           <section className="newsSchedule">

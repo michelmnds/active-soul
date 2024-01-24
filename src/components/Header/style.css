@@ -53,13 +53,13 @@
         align-items: center;
         justify-content: center;
 
-        left: calc(50% - 380px);
+        left: calc(50% - 450px);
     }
     .headerLinkRight{
         align-items: center;
         justify-content: center;
 
-        right: calc(50% - 330px);
+        right: calc(50% - 430px);
     }
     .headerLink{
         text-decoration: none;

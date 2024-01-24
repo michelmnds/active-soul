@@ -8,18 +8,14 @@ export const classData = [
     schedule: [
       {
         day: "Ter",
-        time: "18:45 - 19:30",
-        teacher: "Patricia",
+        time: "18:45 - 19:30 & 19:30 - 20:15",
+        teacher: "Sandra Vicente",
       },
-      {
-        day: "Ter",
-        time: "19:30 - 20:15",
-        teacher: "Patricia",
-      },
+
       {
         day: "Qui",
         time: "19:30 - 20:15",
-        teacher: "Patricia",
+        teacher: "Sandra Vicente",
       },
     ],
   },
@@ -55,21 +51,6 @@ export const classData = [
   },
   {
     id: 4,
-    name: "Teatro Musical",
-    modality: "Aulas a partir dos 3 anos",
-    description:
-      "O Teatro trabalha a consciência corporal; explora a socialização, intuição, criação e comunicação; Desenvolve a criatividade, capacidade de improviso, memorização e demais aptidões expressivas corporais; Participe na criação e execução de espetáculos de teatro musical.",
-    image: "https://i.imgur.com/0Ig658y.jpg",
-    schedule: [
-      {
-        day: "Sex",
-        time: "19:30 - 20:30",
-        teacher: "Sandra Vicente",
-      },
-    ],
-  },
-  {
-    id: 5,
     name: "Meditação",
     modality: "Aulas a partir dos 16 anos",
     description:
@@ -84,7 +65,7 @@ export const classData = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     name: "Personal Trainer",
     modality: " Aulas a partir dos 8 anos",
     description:
@@ -92,8 +73,8 @@ export const classData = [
     image: "https://i.imgur.com/Ig0mbAD.jpg",
     schedule: [
       {
-        day: "Sex",
-        time: "19:00 - 20:30",
+        day: "Seg à Sex",
+        time: "Marcar com a professora",
         teacher: "Sandra Vicente",
       },
     ],

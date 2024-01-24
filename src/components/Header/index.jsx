@@ -14,7 +14,11 @@ export const Header = ({ menu, setMenu }) => {
     <div className="headerContainer">
       <div className="headerLinkLeft">
         <Link className="headerLink" to="/dancas">
-          MODALIDADES
+          DANÇAS
+        </Link>
+
+        <Link className="headerLink" to="/aulas">
+          BEM ESTAR
         </Link>
 
         <Link className="headerLink" to="/equipa">
@@ -29,6 +33,10 @@ export const Header = ({ menu, setMenu }) => {
       <div className="headerLinkRight">
         <Link className="headerLink" to="/eventos">
           EVENTOS
+        </Link>
+
+        <Link className="headerLink" to="/servicos">
+          SERVIÇOS
         </Link>
 
         <Link className="headerLink" to="/sobre">

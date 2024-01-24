@@ -10,6 +10,8 @@ import { TeamPage } from "./pages/TeamPage";
 import { SideBar } from "./components/SideBar";
 import { SingleDancePage } from "./pages/SingelCardPage";
 import { SingleNewPage } from "./pages/SingleNewPage";
+import { SingleClassPage } from "./pages/SingleClassPage";
+import { ClassPage } from "./pages/ClassPage";
 
 function App() {
   const [menu, setMenu] = useState(false);
@@ -34,6 +36,12 @@ function App() {
         <Route
           path="/evento/:currentNewId"
           element={<SingleNewPage menu={menu} />}
+        />
+
+        <Route path="/aulas" element={<ClassPage menu={menu} />} />
+        <Route
+          path="/aula/:currentClassId"
+          element={<SingleClassPage menu={menu} />}
         />
 
         <Route path="/sobre" element={<AboutPage menu={menu} />} />
