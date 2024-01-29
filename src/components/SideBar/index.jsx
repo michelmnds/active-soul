@@ -52,7 +52,7 @@ export const SideBar = ({ menu, setMenu }) => {
 
         <Link
           className={`navLink ${menu ? "" : "white"}`}
-          to="/dancas"
+          to="/aulas"
           onClick={handleNavClick}
         >
           BEM ESTAR
@@ -76,7 +76,7 @@ export const SideBar = ({ menu, setMenu }) => {
 
         <Link
           className={`navLink ${menu ? "" : "white"}`}
-          to="/eventos"
+          to="/servicos"
           onClick={handleNavClick}
         >
           SERVIÇOS
