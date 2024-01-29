@@ -32,14 +32,16 @@ export const SingleNewPage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
-          <a
-            className="link"
-            href={currentNew.link}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Vídeo
-          </a>
+          {currentNew.link ? (
+            <a
+              className="link"
+              href={currentNew.link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vídeo
+            </a>
+          ) : null}
 
           <span className="singleNewText">Agenda: </span>
 

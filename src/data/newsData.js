@@ -7,7 +7,7 @@ export const newsData = [
       {
         day: "14/01/2024",
         time: "17:00",
-        location: "Cine Teatro Avenida ",
+        location: "Cine Teatro Avenida de Castelo Branco",
       },
     ],
     description:
@@ -43,7 +43,7 @@ export const newsData = [
       },
     ],
     description:
-      "O Dia Nacional do Pijama é um dia educativo e solidário! 👧🏻 Este é o dia que marca a importância de lembrar, a todos que “uma criança tem direito a crescer numa família”. Celebrámos este dia junto dos nossos alunos, partilhem este miminho",
+      "O Dia Nacional do Pijama é um dia educativo e solidário! Este é o dia que marca a importância de lembrar, a todos que “uma criança tem direito a crescer numa família”. Celebraremos este dia junto dos nossos alunos!",
     image: "https://i.imgur.com/PzNcEn1.png",
     link: "https://www.instagram.com/reel/Cz4KFWktQDu/",
   },
@@ -59,14 +59,14 @@ export const newsData = [
       },
     ],
     description:
-      "'O sonho comanda a vida' já dizia Fernando Pessoa... E é sobre isso que falamos, sobre o sonho destas 2 meninas que temos o privilégio de ver crescer! Mais uma vez o esforço, trabalho e dedicação deram frutos e na competição “Mostra o que vales 5”, na Guarda alcançaram uma belíssima qualificação",
+      "“O sonho comanda a vida” já dizia Fernando Pessoa. E é sobre isso que falamos, sobre o sonho destas 2 meninas que temos o privilégio de ver crescer! Mais uma vez o esforço, trabalho e dedicação deram frutos e na competição “Mostra o que vales 5”, na Guarda alcançaram uma belíssima qualificação",
     image: "https://i.imgur.com/83sY777.png",
     link: "",
   },
   {
     id: 17,
     name: "Halloween",
-    date: "27/10/2023",
+    date: "31/10/2023",
     schedule: [
       {
         day: "31/10/2023",
@@ -325,7 +325,7 @@ export const newsData = [
     ],
     description:
       "A Active Soul promete encantar a todos nesta temporada festiva com o espetáculo natalino 'Pipoto Maroto'. Repleto de magia, música e personagens cativantes, o espetáculo promete ser um evento imperdível para toda a família. Com coreografias envolventes e figurinos deslumbrantes, 'Pipoto Maroto' transportará o público para um mundo encantado, onde a alegria do Natal se manifesta de maneiras únicas.",
-    image: "https://i.imgur.com/f8PNSa4.jpg",
+    image: "https://i.imgur.com/u81VQEO.png",
     link: "",
   },
   {

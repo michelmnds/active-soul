@@ -13,17 +13,59 @@ export const NewsPage = ({ menu }) => {
       </div>
 
       <main className="newsPageMain">
-        {newsData.map((currentNew) => {
-          return (
-            <NewsCard
-              key={currentNew.id}
-              id={currentNew.id}
-              img={currentNew.image}
-              name={currentNew.name}
-              description={currentNew.description}
-            />
-          );
-        })}
+        <section className="newsPageSection">
+          <h3 className="newsPageYear">2024</h3>
+
+          {newsData.map((currentNew) => {
+            if (currentNew.date.split("/")[2] == "2024") {
+              return (
+                <NewsCard
+                  key={currentNew.id}
+                  id={currentNew.id}
+                  img={currentNew.image}
+                  name={currentNew.name}
+                  description={currentNew.description}
+                />
+              );
+            }
+          })}
+        </section>
+
+        <section className="newsPageSection">
+          <h3 className="newsPageYear">2023</h3>
+
+          {newsData.map((currentNew) => {
+            if (currentNew.date.split("/")[2] == "2023") {
+              return (
+                <NewsCard
+                  key={currentNew.id}
+                  id={currentNew.id}
+                  img={currentNew.image}
+                  name={currentNew.name}
+                  description={currentNew.description}
+                />
+              );
+            }
+          })}
+        </section>
+
+        <section className="newsPageSection">
+          <h3 className="newsPageYear">2022</h3>
+
+          {newsData.map((currentNew) => {
+            if (currentNew.date.split("/")[2] == "2022") {
+              return (
+                <NewsCard
+                  key={currentNew.id}
+                  id={currentNew.id}
+                  img={currentNew.image}
+                  name={currentNew.name}
+                  description={currentNew.description}
+                />
+              );
+            }
+          })}
+        </section>
       </main>
     </div>
   );
