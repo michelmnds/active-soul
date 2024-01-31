@@ -109,11 +109,17 @@
     width: 100%;
     height: 500px;
 }
+
 .instaLink{
     color: var(--secondary-green);
     font-weight: bolder;
 }
 @media(width >= 768px){
+    .fb{
+        margin: 0 auto;
+        width: 300px;
+        height: 510px;
+    }
     .schedule{
         align-items: flex-start;
     }
@@ -137,6 +143,9 @@
     }
 }
 @media(width >= 1024px){
+    .fb{
+        height: 550px;
+    }
     .singleNewName{
         font-size: 36px;
     }

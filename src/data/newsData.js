@@ -154,7 +154,7 @@ export const newsData = [
       "Decidimos juntar o exercício com água, música, trabalho em equipa e boa energia. Eis o resultado: MEGA AULA! Todos saíram com um MEGA sorriso, com as energias renovadas, cansados é certo e molhados também mas com este calor, não há nada que melhor do que isso! Fazer exercício, treinar, pode ser divertido, basta imaginação e isso, não nos falta.",
     image: "https://i.imgur.com/YTxiURb.png",
     link: "https://www.facebook.com/watch/?v=6394273757318102",
-    linkType: "FB",
+    linkType: "FBDesktop",
   },
   {
     id: 12,
@@ -188,7 +188,7 @@ export const newsData = [
       "Aqui fica um resumo da nossa tarde de ontem foi um dia da criança muito bem passado junto de meninos e meninas muito queridos e que se quiseram juntar ao “Active Kids” para terminar o seu dia da melhor forma.",
     image: "https://i.imgur.com/byZS7Tx.png",
     link: "https://www.facebook.com/teatrotramedia/videos/652959506675294/",
-    linkType: "FB",
+    linkType: "FBMobile",
   },
   {
     id: 10,
@@ -239,7 +239,7 @@ export const newsData = [
       "Celebramos o dia mundial da atividade física em colaboração com a Apef Castelo Branco",
     image: "https://i.imgur.com/RmLtV2x.png",
     link: "https://www.facebook.com/apef.castelobranco/videos/798096874506071/",
-    linkType: "FB",
+    linkType: "FBDesktop",
   },
   {
     id: 7,
@@ -328,7 +328,7 @@ export const newsData = [
     description:
       "A Active Soul promete encantar a todos nesta temporada festiva com o espetáculo natalino 'Pipoto Maroto'. Repleto de magia, música e personagens cativantes, o espetáculo promete ser um evento imperdível para toda a família. Com coreografias envolventes e figurinos deslumbrantes, 'Pipoto Maroto' transportará o público para um mundo encantado, onde a alegria do Natal se manifesta de maneiras únicas.",
     image: "https://i.imgur.com/f8PNSa4.jpg",
-    link: "ba7o7XYgBK4&t=26s&ab",
+    link: "ba7o7XYgBK4",
     linkType: "YT",
   },
   {

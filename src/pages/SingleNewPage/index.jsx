@@ -51,9 +51,18 @@ export const SingleNewPage = ({ menu }) => {
               >
                 Veja no Instagram
               </a>
-            ) : currentNew.linkType == "FB" ? (
+            ) : currentNew.linkType == "FBDesktop" ? (
               <iframe
                 className="videoPlayer"
+                src={`https://www.facebook.com/plugins/post.php?href=${currentNew.link}`}
+                title="Facebook video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            ) : currentNew.linkType == "FBMobile" ? (
+              <iframe
+                className="videoPlayer fb"
                 src={`https://www.facebook.com/plugins/post.php?href=${currentNew.link}`}
                 title="Facebook video player"
                 frameBorder="0"
