@@ -33,14 +33,36 @@ export const SingleNewPage = ({ menu }) => {
           ></span>
 
           {currentNew.link ? (
-            <a
-              className="link"
-              href={currentNew.link}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Vídeo
-            </a>
+            currentNew.linkType == "YT" ? (
+              <iframe
+                className="videoPlayer"
+                src={`https://www.youtube.com/embed/${currentNew.link}`}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            ) : currentNew.linkType == "IG" ? (
+              <a
+                target="_blank"
+                className="instaLink"
+                href={currentNew.link}
+                rel="noreferrer"
+              >
+                Veja no Instagram
+              </a>
+            ) : currentNew.linkType == "FB" ? (
+              <iframe
+                className="videoPlayer"
+                src={`https://www.facebook.com/plugins/post.php?href=${currentNew.link}`}
+                title="Facebook video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            ) : (
+              false
+            )
           ) : null}
 
           <span className="singleNewText">Agenda: </span>

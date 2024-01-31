@@ -14,7 +14,7 @@ export const Header = ({ menu, setMenu }) => {
     <div className="headerContainer">
       <div className="headerLinkLeft">
         <Link className="headerLink" to="/dancas">
-          DANÇAS
+          DANÇA
         </Link>
 
         <Link className="headerLink" to="/aulas">

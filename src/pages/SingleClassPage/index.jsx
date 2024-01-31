@@ -17,7 +17,7 @@ export const SingleClassPage = ({ menu }) => {
   if (currentClass.id) {
     const formattedDescription = currentClass.description.replace(
       /\./g,
-      ".<br>"
+      ".<br />"
     );
     return (
       <div className={`singleDanceContainer ${menu ? "move" : ""}`}>
@@ -34,7 +34,7 @@ export const SingleClassPage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
-          <span className="singleDanceText">Cronograma: </span>
+          <span className="singleDanceText">Horário: </span>
 
           <section className="schedule">
             {currentClass.schedule.map((day) => {

@@ -38,6 +38,8 @@
 .singleDanceDesc{
     max-width: 500px;
     color: var(--secondary-green);
+
+    line-height: 1.5;
 }
 .singleDanceText{
     margin-top: 50px;

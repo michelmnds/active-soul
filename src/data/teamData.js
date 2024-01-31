@@ -4,7 +4,7 @@ export const teamData = [
     image: "https://i.imgur.com/Tjtpt4L.jpg",
     name: "Patricia Lourenço",
     modality:
-      "Diretora Active Soul, Professora de Contemporâneo e Ballet e Personal Trainer",
+      "Diretora Active Soul, Professora de Contemporâneo, Ballet e Personal Trainer",
   },
   {
     id: 2,

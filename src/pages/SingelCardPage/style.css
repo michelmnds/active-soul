@@ -149,6 +149,8 @@
     .singleDanceDesc{
         font-size: 18px;
         max-width: 1024px;
+
+        line-height: 1.5;
     }
     .singleDanceInfos{
         padding-left: 105px ;
