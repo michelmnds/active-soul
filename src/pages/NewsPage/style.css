@@ -40,6 +40,8 @@
     padding: 20px;
 
     gap: 20px;
+
+    width: 90%;
 }
 .newsPageYear{
     color: var(--secondary-green);

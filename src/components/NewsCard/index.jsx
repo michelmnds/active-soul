@@ -2,19 +2,15 @@
 import { Link } from "react-router-dom";
 import "./style.css";
 
+// eslint-disable-next-line no-unused-vars
 export const NewsCard = ({ id, img, name, description }) => {
   return (
-    <div className="newsCard">
-      <div style={{ backgroundImage: `url(${img})` }} className="newsCardImg" />
-
-      <div className="newsInfoContainer">
-        <span className="newsCardName">{name}</span>
-        <span className="newsCardDesc">{description.slice(0, 100)}...</span>
-        <Link to={`/evento/${id}`} className="newsCardMore">
-          <span>Ver mais</span>
-          <span>&gt;</span>
-        </Link>
-      </div>
-    </div>
+    <Link
+      to={`/evento/${id}`}
+      style={{ backgroundImage: `url(${img})` }}
+      className="newsCard"
+    >
+      <span className="cardName">{name}</span>
+    </Link>
   );
 };

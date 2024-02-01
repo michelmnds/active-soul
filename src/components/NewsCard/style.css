@@ -1,97 +1,45 @@
 .newsCard{
     width: 100%;
 
-    height: 400px;
-
-    background-color: var(--secondary-green);
-
-    display: flex;
-    flex-direction: column;
-
-    justify-content: space-between;
-
-    border-radius: 12px;
-}
-
-.newsCardImg{
     height: 200px;
 
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
-    border-radius: 12px 12px 0 0;
-}
-.newsInfoContainer{
     display: flex;
     flex-direction: column;
-    height: 40%;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 10px;
+
+    justify-content: flex-end;
+    align-items: center;
+
+    border-radius: 12px;
+
     gap: 10px;
-}
-.newsCardName{
-    font-weight: bolder;
-
-    color: var(--primary-color);
-}
-.newsCardDesc{
-    font-size: 14px;
-
-    color: var(--primary-color);
-}
-.newsCardMore{
-    padding: 20px 0;
-
-    width: 100%;
-
-    font-weight: bolder;
-
-    color: var(--primary-white);
 
     text-decoration: none;
 
-    cursor: pointer;
+    transition: transform 0.3s;
 
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-    gap: 5px;
-
-    transition: 0.3s ease-in-out;
 }
-.newsCardMore:hover{
-    gap: 10px;
-
-    transition: 0.3s ease-in-out;
+.newsCard:hover{
+    transform: scale(0.98);
 }
-.line{
-    border: 1px solid var(--primary-grey);
+.cardName{
+    font-weight: bolder;
+    font-size: 24px;
 
-    width: 100%;
+    color: var(--primary-color);
+
+    text-shadow: 0px 2.5px rgba(0, 0, 0, 0.9);
+
+    margin-bottom: 20px;
 }
 
 @media(width >= 768px){
     .newsCard{
-        width: 80%;
-    
-        height: 300px;
-    
-        background-color: var(--secondary-green);
-    
-        display: flex;
-        flex-direction: row;
-    
-        justify-content: flex-start;
-        align-items: center;
-    
-        border-radius: 12px;
-
-        gap: 20px;
+        max-width: 690px;
     }
-    .newsCardImg{
+    .cardImg{
         height: 298px;
         width: 300px;
     
@@ -100,51 +48,43 @@
     
         border-radius: 12px 0 0 12px;
     }
-    .newsInfoContainer{
-        width: 500px;
-        height: 100%;
-
-        display: flex;
-        flex-direction: column;
-
-        align-items: flex-start;
-        justify-content: center;
-
-        padding: 10px;
-
-        gap: 20px;
-    }
-    .newsCardName{
-        font-size: 24px;
+    .cardName{
+        font-size: 28px;
 
         width: auto;
     }
-    .newsCardDesc{
+    .cardDesc{
         font-size: 18px;
     }
-    .newsCardMore{
+    .cardMore{
         font-size: 20px;
 
         cursor: pointer;
     }
 }
+@media(width >= 1024px){
+    .newsCard{
+        max-width: 800px;
+    }
+}
 @media(width >= 1440px) {
     .newsCard{
-        max-width: 1230px;
+        max-width: 1050px;
+        height: 250px;
     }
-    .newsCardImg{
+    .cardImg{
         width: 500px;
     }
     .infoContainer{
         width: auto;
     }
-    .newsCardName{
+    .cardName{
         font-size: 36px
     }
-    .newsCardDesc{
+    .cardDesc{
         width: 500px;
     }
-    .newsCardMore{
+    .cardMore{
         font-size: 24px;
     }
 }
