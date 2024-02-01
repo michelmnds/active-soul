@@ -28,28 +28,6 @@ export const LandingPage = ({ menu }) => {
       <div className={`landingContainer ${menu ? "move" : ""}`}>
         <main className="landingMain">
           <div className="danceContainer">
-            {/* <h2 className="mainTitle">Vem dançar conosco!</h2>
-
-            {danceData
-              .map((dance) => {
-                return (
-                  <DanceCard
-                    key={dance.id}
-                    id={dance.id}
-                    img={dance.image}
-                    name={dance.name}
-                    teacher={dance.teacher}
-                    description={dance.description}
-                    modality={dance.modality}
-                  />
-                );
-              })
-              .slice(0, 3)}
-
-            <Link to="/dancas" className="danceBtn">
-              VER TODAS AS MODALIDADES
-            </Link> */}
-
             <LandingCard
               image={"https://i.imgur.com/GtrHOu1.jpg"}
               link={"/dancas"}
@@ -58,25 +36,6 @@ export const LandingPage = ({ menu }) => {
           </div>
 
           <div className="classContainer">
-            {/* <h2 className="mainTitle">Bem estar</h2>
-            {classData
-              .map((currentClass) => {
-                return (
-                  <ClassCard
-                    key={currentClass.id}
-                    id={currentClass.id}
-                    img={currentClass.image}
-                    name={currentClass.name}
-                    description={currentClass.description}
-                  />
-                );
-              })
-              .slice(0, 3)}
-
-            <Link to="/aulas" className="danceBtn">
-              VER TODAS AS AULAS
-            </Link> */}
-
             <LandingCard
               image={"https://i.imgur.com/mlQyZX8.jpg"}
               link={"/aulas"}
@@ -85,25 +44,6 @@ export const LandingPage = ({ menu }) => {
           </div>
 
           <div className="newsContainer">
-            {/* <h2 className="mainTitle">Próximos eventos</h2>
-            {newsData
-              .map((currentNew) => {
-                return (
-                  <NewsCard
-                    key={currentNew.id}
-                    id={currentNew.id}
-                    img={currentNew.image}
-                    name={currentNew.name}
-                    description={currentNew.description}
-                  />
-                );
-              })
-              .slice(0, 3)}
-
-            <Link to="/eventos" className="newsBtn">
-              VER CALENDÁRIO
-            </Link> */}
-
             <LandingCard
               image={"https://i.imgur.com/iCriVFr.png"}
               link={"/eventos"}
