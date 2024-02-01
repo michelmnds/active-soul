@@ -13,9 +13,8 @@ export const NewsPage = ({ menu }) => {
       </div>
 
       <main className="newsPageMain">
+        <h3 className="newsPageYear">2024</h3>
         <section className="newsPageSection">
-          <h3 className="newsPageYear">2024</h3>
-
           {newsData.map((currentNew) => {
             if (currentNew.date.split("/")[2] == "2024") {
               return (
@@ -31,9 +30,8 @@ export const NewsPage = ({ menu }) => {
           })}
         </section>
 
+        <h3 className="newsPageYear">2023</h3>
         <section className="newsPageSection">
-          <h3 className="newsPageYear">2023</h3>
-
           {newsData.map((currentNew) => {
             if (currentNew.date.split("/")[2] == "2023") {
               return (
@@ -49,9 +47,8 @@ export const NewsPage = ({ menu }) => {
           })}
         </section>
 
+        <h3 className="newsPageYear">2022</h3>
         <section className="newsPageSection">
-          <h3 className="newsPageYear">2022</h3>
-
           {newsData.map((currentNew) => {
             if (currentNew.date.split("/")[2] == "2022") {
               return (

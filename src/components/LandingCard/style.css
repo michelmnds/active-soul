@@ -9,10 +9,17 @@
     align-items: flex-end;
     justify-content: center;
 
-    border: 1px solid var(--secondary-green);
     border-radius: 8px;
 
     text-decoration: none;
+
+    transition: 0.3s ease;
+
+}
+.landingPageCard:hover{
+    transform: scale(0.98);
+
+    transition: 0.3s ease;
 }
 .landingPageCardTitle{
     color: var(--primary-green);
