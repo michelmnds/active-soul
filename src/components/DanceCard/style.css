@@ -48,11 +48,6 @@
     
         border-radius: 12px 0 0 12px;
     }
-    .cardName{
-        font-size: 28px;
-
-        width: auto;
-    }
     .cardDesc{
         font-size: 18px;
     }
@@ -77,9 +72,6 @@
     }
     .infoContainer{
         width: auto;
-    }
-    .cardName{
-        font-size: 36px
     }
     .cardDesc{
         width: 500px;

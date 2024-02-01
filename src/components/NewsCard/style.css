@@ -25,7 +25,7 @@
 .newsCard:hover{
     transform: scale(0.98);
 }
-.cardName{
+.newsCardName{
     font-weight: bolder;
     font-size: 24px;
 
@@ -63,19 +63,10 @@
         transition: transform 0.3s;
     
     }
-    .cardName{
-        font-size: 28px;
-
-        width: auto;
-
-    }
 }
 
 @media(width >= 1440px) {
     .infoContainer{
         width: auto;
-    }
-    .cardName{
-        font-size: 36px
     }
 }

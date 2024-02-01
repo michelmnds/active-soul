@@ -10,7 +10,7 @@ export const NewsCard = ({ id, img, name, description }) => {
       style={{ backgroundImage: `url(${img})` }}
       className="newsCard"
     >
-      <span className="cardName">{name}</span>
+      <span className="newsCardName">{name}</span>
     </Link>
   );
 };
