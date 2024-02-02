@@ -4,15 +4,44 @@ import { newsData } from "../../data/newsData";
 import { NewsCard } from "../../components/NewsCard";
 
 export const NewsPage = ({ menu }) => {
+  const today = new Date();
+
+  const upcomingEvents = newsData.filter((event) => {
+    const formatedDate = `${event.date.split("/")[2]}-${
+      event.date.split("/")[1]
+    }-${event.date.split("/")[0]}`;
+
+    return new Date(formatedDate) > today;
+  });
+
   return (
     <div className={`newsPageContainer ${menu ? "move" : ""}`}>
       <div className="newsBackground">
         <div className="newsTitleContainer">
-          <h2 className="newsPageTitle">Próximos eventos</h2>
+          <h2 className="newsPageTitle">Eventos</h2>
         </div>
       </div>
 
       <main className="newsPageMain">
+        <h3 className="newsPageYear">Próximos eventos</h3>
+        <section className="newsPageSection">
+          {upcomingEvents.length ? (
+            upcomingEvents.map((currentNew) => {
+              return (
+                <NewsCard
+                  key={currentNew.id}
+                  id={currentNew.id}
+                  img={currentNew.image}
+                  name={currentNew.name}
+                  description={currentNew.description}
+                />
+              );
+            })
+          ) : (
+            <span className="newsSpan">Novidades em breve :)</span>
+          )}
+        </section>
+
         <h3 className="newsPageYear">2024</h3>
         <section className="newsPageSection">
           {newsData.map((currentNew) => {
