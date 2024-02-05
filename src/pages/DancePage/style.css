@@ -43,7 +43,7 @@
     padding: 20px;
 
     height: 150px;
-    width: calc(100% - 40px);
+    width: 100%;
 
     border-radius: 0 0 100% 0;
 }
