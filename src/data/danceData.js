@@ -11,7 +11,7 @@ export const danceData = [
     schedule: [
       {
         day: "Ter",
-        time: "19:30 - 20:15",
+        time: "19:45 - 20:30",
         teacher: "Patrícia Lourenço",
         type: "Contemporâneo II (+12 anos)",
       },
@@ -95,7 +95,7 @@ export const danceData = [
       },
       {
         day: "Ter",
-        time: "18:45 - 19:30",
+        time: "19:00 - 19:45",
         teacher: "Patrícia Lourenço",
         type: "Ballet I (6 aos 12 anos)",
       },

@@ -43,7 +43,7 @@ export const SingleDancePage = ({ menu }) => {
                       <strong>Horário</strong>: {day.time}
                     </span>
                     <span className="dayTeacher">
-                      <strong>Aula por</strong>: {day.teacher}
+                      <strong>Professor</strong>: {day.teacher}
                     </span>
                     <span className="dayTeacher">
                       <strong>Modalidade</strong>: {day.type}

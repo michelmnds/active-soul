@@ -60,7 +60,7 @@ export const classData = [
       {
         day: "Seg",
         time: "18:45 - 19:15",
-        teacher: "Sandra Vicente",
+        teacher: "Andreia Gabriel",
       },
     ],
   },
@@ -74,8 +74,8 @@ export const classData = [
     schedule: [
       {
         day: "Seg à Sex",
-        time: "Marcar com a professora",
-        teacher: "Sandra Vicente",
+        time: "Por marcação",
+        teacher: "Equipa Active Soul",
       },
     ],
   },

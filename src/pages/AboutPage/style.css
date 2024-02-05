@@ -50,19 +50,60 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://static.giggster.com/images/location/1cc257df-46e2-48f0-baec-95f3a646e449/1f937ea3-f66b-4456-a52b-95baae2b5597/mid_x3.jpeg");
-    
+
     height: 300px;
     width: 100%;
 
     border-radius: 12px 12px 0 0;
 }
-.aboutPageText{
-    font-size: 20px;
-    font-weight: 400;
+.tabsContainer{
+    width: 100%;
 }
+.aboutPageNav{
+    display: flex;
+    flex-direction: row;
 
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+.aboutNavLink{
+    font-size: 8px;
+}
+.aboutTextContainer{
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+.aboutPageText{
+    font-size: 16px;
+    font-weight: 400;
+
+    text-align: justify;
+
+    color: var(--secondary-green);
+
+    line-height: 1.5;
+}
+@media(width >= 375px){
+    .aboutNavLink{
+        font-size: 12px
+    }
+}
+@media(width >= 375px){
+    .aboutNavLink{
+        font-size: 16px
+    }
+}
 @media(width >= 768px){
+    .aboutPageMain{
+        display: flex;
+    }
     .aboutPageContainer{
         align-items: center;
 
@@ -78,22 +119,16 @@
     }
     .aboutBackground{
         height: 200px;
-    }
-    .aboutPageMainBackground{
-        width: 640px;
-    }
-    .aboutTextContainer{
-        display: flex;
-        align-items: flex-start;
-
         width: 100%;
     }
+    .aboutPageMainBackground{
+        height: 500px;
+    }
+    .aboutTextContainer{
+        width: 640px;
+    }
     .aboutPageText{
-        font-size: 24px;
-
-        width: 500px;
-
-        display: block;
+        font-size: 18px;
     }
 }
 @media(width >= 1024px){
@@ -107,6 +142,10 @@
     }
 }
 @media(width >= 1440px){
+    .aboutPageNav{
+        align-items: center;
+        justify-content: space-evenly;
+    }
     .aboutTitleContainer{
         width: 1040px;
     }
@@ -115,5 +154,7 @@
     }
     .aboutPageText{
         width: 1040px;
+
+        text-align: justify;
     }
 }

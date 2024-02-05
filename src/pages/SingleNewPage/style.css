@@ -40,6 +40,8 @@
     color: var(--secondary-green);
 
     line-height: 1.5;
+
+    text-align: justify;
 }
 .singleNewText{
     margin-top: 50px;

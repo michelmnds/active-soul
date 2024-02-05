@@ -74,12 +74,12 @@ export const newsData = [
     schedule: [
       {
         day: "31/10/2023",
-        time: "18:00",
+        time: "18:00 - 20:00",
         location: "Estúdio Active Soul",
       },
     ],
     description:
-      "O Estúdio Active Soul proporcionou aos seus alunos um final de tarde diferente. Obrigada a todos por terem participado em mais uma iniciativa",
+      "O Estúdio Active Soul proporcionou aos seus alunos um final de tarde diferente. Obrigada a todos por terem participado em mais uma iniciativa.",
     image: "https://i.imgur.com/LWJ7HMJ.png",
     link: "",
     linkType: "none",
@@ -96,7 +96,7 @@ export const newsData = [
       },
     ],
     description:
-      "Vamos participar da Semana da Juventude com o espetáculo 'Contador de Histórias'. Encontramo-nos lá",
+      "Para quem não teve a oportunidade de ir ver o nosso espetáculo poderá ir assistir gratuitamente a um excerto da “Contadora de histórias”, para quem foi ver poderá ir rever alguns dos momentos. Esperamos por vocês.",
     image: "https://i.imgur.com/N3ILSDR.png",
     link: "oGGn7ISFTlg",
     linkType: "YT",
@@ -104,16 +104,16 @@ export const newsData = [
   {
     id: 15,
     name: "Festival +Solidário",
-    date: "04/08/2023",
+    date: "13/08/2023",
     schedule: [
       {
         day: "12/08/2023",
         time: "18:00",
-        location: "",
+        location: "Campos da Nercab",
       },
     ],
     description:
-      "Vamos estar presentes no Festival Mais Solidário com muita animação e dança",
+      "Estivemos presentes Festival Mais Solidário com muita animação e dança.",
     image: "https://i.imgur.com/eBqOsMj.png",
     link: "aTjJUz_NNoU",
     linkType: "YT",
@@ -129,7 +129,8 @@ export const newsData = [
         location: "Malpica do Tejo ",
       },
     ],
-    description: "Vamos partilhar o palco com o DJ Giga, esperamos por ti.",
+    description:
+      "Vamos partilhar o palco com o DJ Giga na Festa de Malpica do Tejo, esperamos por ti.",
     image: "https://i.imgur.com/GzdEgLd.png",
     link: "",
     linkType: "none",
@@ -219,7 +220,7 @@ export const newsData = [
       },
     ],
     description:
-      "Um encantador espetáculo Active Kids que combina elementos de fantasia, música e interatividade para celebrar a temporada da Páscoa de maneira única e emocionante. A história gira em torno de um grupo de amigos curiosos que embarcam em uma jornada extraordinária para descobrir o significado verdadeiro da Páscoa.",
+      "O Teatro Tramédia e o Active Soul uniram-se para oferecer às crianças albicastrenses um ATL de Páscoa totalmente diferente daquilo a que estão habituados! Aqui vamos fazer teatro, vamos dançar e no final ainda vamos construir uma peça de Teatro Musical.",
     image: "https://i.imgur.com/niEMQYv.jpg",
     link: "tezTAfNg5a0",
     linkType: "YT",
@@ -258,7 +259,7 @@ export const newsData = [
       },
     ],
     description:
-      "Em um espetáculo de dança envolvente inspirado em 'Alice no País das Maravilhas', os bailarinos ganham vida, transportando o público para o mundo mágico e surreal criado por Lewis Carroll. A coreografia dinâmica e os figurinos deslumbrantes dão vida aos personagens icônicos, como a própria Alice, o Chapeleiro Maluco e a Rainha de Copas. A trilha sonora encantadora guia os dançarinos através de cenários deslumbrantes, recriando momentos clássicos da história. Com movimentos graciosos e uma atmosfera encantadora, o espetáculo de dança oferece uma interpretação cativante e visualmente deslumbrante do amado conto de fadas de Carroll.",
+      "Um espetáculo de dança envolvente inspirado na “Alice no País das Maravilhas”, os bailarinos ganham vida, transportando o público para o mundo mágico e surreal. A coreografia dinâmica e os figurinos deslumbrantes dão vida às personagens icônicas. A música encantadora guia os dançarinos através de cenários deslumbrantes, recriando momentos clássicos da história.",
     image: "https://i.imgur.com/W30dAsi.jpg",
     link: "https://www.instagram.com/reel/CrD3C-SPMev/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     linkType: "IG",
@@ -275,7 +276,7 @@ export const newsData = [
       },
     ],
     description:
-      "Com o objetivo de promover a saúde e a alegria, a Active Soul se une para realizar uma animada Matinê Dançante, uma sessão matinal de dança aberta a todos. O evento oferece uma oportunidade única para começar o dia com movimento, música e diversão, contribuindo para o bem-estar físico e mental.",
+      "Depois de conversas e mais conversas nasceu este pequeno projeto “Matiné Dançante” , onde abrimos o nosso estúdio a toda a população (alunos e pessoas externas) para uma tarde divertida, de aprendizagem, com dança social à mistura. Isto quer dizer que a última meia hora a música toca e vocês fazem a vossa coreografia. Podem praticar o que é ensinado durante os workshops ou mostrar os vossos melhores passos😍Não é espetacular?!",
     image: "https://i.imgur.com/QS2hIRO.jpg",
     link: "",
     linkType: "none",
@@ -292,7 +293,7 @@ export const newsData = [
       },
     ],
     description:
-      "No espírito de solidariedade e reconhecimento, a Active Soul se reúne para celebrar o Dia Internacional da Mulher. Um evento especial está sendo organizado, destacando as conquistas e contribuições significativas das mulheres em diversas áreas.",
+      "No espírito de solidariedade e reconhecimento, a Active Soul reúne-se para celebrar o Dia Internacional da Mulher.",
     image: "https://i.imgur.com/JItmDtK.jpg",
     link: "",
     linkType: "none",
@@ -309,7 +310,7 @@ export const newsData = [
       },
     ],
     description:
-      "Em clima de festa e alegria, a Active Soul e a Praça se reúnem para celebrar o Carnaval com uma empolgante sessão de dança. Sob o ritmo contagiante de músicas carnavalescas, pessoas de todas as idades se juntam para uma festa animada e colorida.",
+      "Em clima de festa e alegria, a Active Soul e a Praça juntam-se para celebrar o Carnaval com um empolgante final de tarde de dança. Sob o ritmo contagiante de músicas carnavalescas, pessoas de todas as idades juntam-se para uma festa animada e colorida.",
     image: "https://i.imgur.com/0NeyoM0.jpg",
     link: "",
     linkType: "none",
@@ -343,7 +344,7 @@ export const newsData = [
       },
     ],
     description:
-      "A Active Soul promete encantar a todos nesta temporada festiva com o espetáculo natalino 'Pipoto Maroto'. Repleto de magia, música e personagens cativantes, o espetáculo promete ser um evento imperdível para toda a família. Com coreografias envolventes e figurinos deslumbrantes, 'Pipoto Maroto' transportará o público para um mundo encantado, onde a alegria do Natal se manifesta de maneiras únicas.",
+      "💃🏻A dança ajuda a desacelerar o ritmo nas crianças agitadas, fazendo com que se sintam mais tranquilas. Por outro lado, como há regras que devem cumprir, permite-lhes aprender a controlar a ansiedade e a impulsividade. 🕴🏻 Sabias que a prática de exercício físico permite potenciar o crescimento celular no cérebro e de neurotransmissores associados ao humor? Que ela pode reduzir o stress e aliviar a tensão muscular, melhorar a qualidade de sono e, consequentemente, contribuir para uma sensação generalizada de bem-estar⁉️ Ana Isabel Marques praticou dança na sua infância/adolescência e quer poder partilhar a sua experiência com crianças e jovens utilizando ferramentas adquiridas no seu percurso pessoal, académico e na sua carreira como Psicóloga. Neste workshop as crianças vão aprender algumas técnicas e como controlar as suas emoções.",
     image: "https://i.imgur.com/u81VQEO.png",
     link: "",
     linkType: "none",
@@ -360,7 +361,7 @@ export const newsData = [
       },
     ],
     description:
-      "A Active Soul anuncia um workshop imperdível para os amantes da dança: o Workshop Dance Hall! Este evento envolvente oferecerá uma experiência única, explorando os ritmos vibrantes e a cultura do Dance Hall. Conduzido por instrutores talentosos, o workshop promete aprimorar habilidades de dança, proporcionar momentos de diversão e celebrar a energia contagiante do Dance Hall.",
+      "A Active Soul anuncia um workshop imperdível para os amantes da dança: o Workshop Dancehall! Este evento envolvente oferecerá uma experiência única, explorando os ritmos vibrantes e a cultura do Dance Hall. Dinamizado por uma professora de excelência, Andreia Lemos, o workshop promete aprimorar habilidades, proporcionar momentos de diversão e celebrar a energia contagiante do Dancehall.",
     image: "https://i.imgur.com/zStKdyu.jpg",
     link: "https://www.instagram.com/reel/CjNU3MCDYWa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
     linkType: "IG",

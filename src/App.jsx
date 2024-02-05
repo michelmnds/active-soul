@@ -1,3 +1,5 @@
+import "@mantine/carousel/styles.css";
+import "@mantine/core/styles.css";
 import { Routes, Route } from "react-router-dom";
 import { LandingPage } from "./pages/LandingPage";
 import { Header } from "./components/Header";
@@ -12,12 +14,13 @@ import { SingleDancePage } from "./pages/SingelCardPage";
 import { SingleNewPage } from "./pages/SingleNewPage";
 import { SingleClassPage } from "./pages/SingleClassPage";
 import { ClassPage } from "./pages/ClassPage";
+import { MantineProvider } from "@mantine/core";
 
 function App() {
   const [menu, setMenu] = useState(false);
 
   return (
-    <>
+    <MantineProvider>
       <Header menu={menu} setMenu={setMenu} />
       <SideBar menu={menu} setMenu={setMenu} />
       <Routes>
@@ -51,7 +54,7 @@ function App() {
         <Route path="*" element={<LandingPage />} />
       </Routes>
       <Footer />
-    </>
+    </MantineProvider>
   );
 }
 

@@ -40,6 +40,8 @@
     color: var(--secondary-green);
 
     line-height: 1.5;
+
+    text-align: justify;
 }
 .singleDanceText{
     margin-top: 50px;
@@ -151,7 +153,8 @@
     .singleDanceDesc{
         font-size: 18px;
         max-width: 1024px;
-    }
+
+        }
     .singleDanceInfos{
         padding-left: 105px ;
         padding-right: 105px ;
