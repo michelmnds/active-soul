@@ -15,6 +15,8 @@ import { SingleNewPage } from "./pages/SingleNewPage";
 import { SingleClassPage } from "./pages/SingleClassPage";
 import { ClassPage } from "./pages/ClassPage";
 import { MantineProvider } from "@mantine/core";
+import { ServicePage } from "./pages/ServicePage";
+import { SingleServicePage } from "./pages/SingleServicePage";
 
 function App() {
   const [menu, setMenu] = useState(false);
@@ -50,6 +52,12 @@ function App() {
         <Route path="/sobre" element={<AboutPage menu={menu} />} />
 
         <Route path="/equipa" element={<TeamPage menu={menu} />} />
+
+        <Route path="/servicos" element={<ServicePage menu={menu} />} />
+        <Route
+          path="/servico/:currentServiceId"
+          element={<SingleServicePage menu={menu} />}
+        />
 
         <Route path="*" element={<LandingPage />} />
       </Routes>

@@ -44,7 +44,7 @@ export const LandingPage = ({ menu }) => {
 
           <div className="serviceContainer">
             <LandingCard
-              image={"https://i.imgur.com/QS2hIRO.jpg"}
+              image={"https://i.imgur.com/kl2JIqp.png"}
               link={"/servicos"}
               title={"Serviços"}
             ></LandingCard>
