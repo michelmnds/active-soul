@@ -21,6 +21,14 @@ export const Footer = () => {
           className="icon"
           alt="facebook icon"
         />
+        <a
+          style={{
+            backgroundImage: "url(https://i.imgur.com/n3vYTSB.png)",
+          }}
+          href="https://www.youtube.com/@studio_activesoul"
+          className="icon"
+          alt="youtube icon"
+        />
       </div>
     </div>
   );
