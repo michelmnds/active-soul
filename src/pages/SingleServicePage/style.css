@@ -1,11 +1,11 @@
-.singleDanceContainer{
+.singleServiceContainer{
     min-height: 100vh;
     
     margin-bottom: 50px;
 
     transition: 0.2s ease-in-out;
 }
-.singleDanceImg{
+.singleServiceImg{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,10 +14,10 @@
 
     height: 300px;
 }
-.singleDanceInfos{
+.singleServiceInfos{
     padding: 100px 20px;
 }
-.singleDanceInfos{
+.singleServiceInfos{
     display: flex;
     flex-direction: column;
 
@@ -26,16 +26,16 @@
 
     gap: 20px;
 }
-.singleDanceName{
+.singleServiceName{
     font-size: 24px;
     font-weight: 600;
 
     color: var(--secondary-green);
 }
-.singleDanceModality{
+.singleServiceModality{
     color: var(--secondary-green);
 }
-.singleDanceDesc{
+.singleServiceDesc{
     max-width: 500px;
     color: var(--secondary-green);
 
@@ -43,13 +43,13 @@
 
     text-align: justify;
 }
-.singleDanceText{
+.singleServiceText{
     margin-top: 50px;
     margin-bottom: 10px;
 
     color: var(--secondary-green);
 }
-.singleDanceBtn{
+.singleServiceBtn{
     border: 2px solid var(--secondary-green);
     border-radius: 36px;
 
@@ -123,7 +123,7 @@
     .schedule{
         align-items: flex-start;
     }
-    .singleDanceImg{
+    .singleServiceImg{
         height: 400px;
     }
     .dayContainer > span {
@@ -135,7 +135,7 @@
     
         color: var(--secondary-green);
     }
-    .singleDanceName{
+    .singleServiceName{
         font-size: 36px;
         font-weight: 600;
     
@@ -143,33 +143,33 @@
     }
 }
 @media(width >= 1024px){
-    .singleDanceName{
+    .singleServiceName{
         font-size: 36px;
     }
-    .singleDanceText{
+    .singleServiceText{
         width: 100%;
         font-size: 20px;
     }
-    .singleDanceDesc{
+    .singleServiceDesc{
         font-size: 18px;
         max-width: 1024px;
 
         }
-    .singleDanceInfos{
+    .singleServiceInfos{
         padding-left: 105px ;
         padding-right: 105px ;
         max-width: 1024px;
 
         margin: 0 auto;
     }
-    .singleDanceBtn:hover{
+    .singleServiceBtn:hover{
         background-color: var(--secondary-green);
         color: var(--primary-white);
 
         transition: 0.3s;
     }
     @media(width >= 1440px){
-        .singleDanceImg{
+        .singleServiceImg{
             height: 600px;
         }
     }
