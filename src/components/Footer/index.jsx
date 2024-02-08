@@ -14,12 +14,16 @@ export const Footer = () => {
           href="https://www.instagram.com/activesoul.studio/"
           className="icon"
           alt="instagram icon"
+          target="_blank"
+          rel="noreferrer"
         />
         <a
           style={{ backgroundImage: "url(https://i.imgur.com/9aJPrO4.png)" }}
           href="https://www.facebook.com/activesoulstudio/"
           className="icon"
           alt="facebook icon"
+          target="_blank"
+          rel="noreferrer"
         />
         <a
           style={{
@@ -28,6 +32,8 @@ export const Footer = () => {
           href="https://www.youtube.com/@studio_activesoul"
           className="icon"
           alt="youtube icon"
+          target="_blank"
+          rel="noreferrer"
         />
       </div>
     </div>
