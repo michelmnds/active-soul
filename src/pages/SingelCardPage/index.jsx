@@ -31,7 +31,7 @@ export const SingleDancePage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
-          <span className="singleDanceText">Cronograma: </span>
+          <span className="singleDanceText">Horário: </span>
 
           <section className="schedule">
             {dance.schedule.map((day) => {

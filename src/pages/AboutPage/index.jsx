@@ -4,6 +4,8 @@ import "./style.css";
 import { Tabs, rem } from "@mantine/core";
 import { IconPhoto, IconHome } from "@tabler/icons-react";
 
+import { Infos } from "../../components/Infos";
+
 export const AboutPage = ({ menu }) => {
   const iconStyle = { width: rem(12), height: rem(12) };
 
@@ -81,18 +83,10 @@ export const AboutPage = ({ menu }) => {
             disponibilizando assim à cidade um espaço de excelência. Todos os
             caminhos vão dar ao Active Soul!
           </span>
-
-          <span className="aboutPageText">
-            <strong style={{ fontWeight: "bolder" }}>Endereço: </strong>Estrada
-            do Montalvão 19 R/chºao drt, 6000-054 Castelo Branco
-          </span>
-
-          <span className="aboutPageText">
-            <strong style={{ fontWeight: "bolder" }}>Contacto: </strong>962 817
-            248
-          </span>
         </div>
       </main>
+
+      <Infos />
     </div>
   );
 };

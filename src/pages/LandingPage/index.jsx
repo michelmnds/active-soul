@@ -1,17 +1,8 @@
 /* eslint-disable no-unused-vars */
 import "./style.css";
 
-import { danceData } from "../../data/danceData";
-import { newsData } from "../../data/newsData";
-import { classData } from "../../data/classData";
-
-import { Link } from "react-router-dom";
-
-import { DanceCard } from "../../components/DanceCard";
-import { NewsCard } from "../../components/NewsCard";
-import { ClassCard } from "../../components/ClassCard";
-
 import { LandingCard } from "../../components/LandingCard";
+import { Infos } from "../../components/Infos";
 
 // eslint-disable-next-line react/prop-types
 export const LandingPage = ({ menu }) => {
