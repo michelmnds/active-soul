@@ -3,7 +3,7 @@ export const servicesData = [
     id: 1,
     title: "Agenciamento",
     description: `Os nossos bailarinos adaptam-se a todas as exigências e diversidades que o sector de eventos exige. Quer tornar o seu evento/espetáculo único e inesquecível? Os nossos bailarinos fazem-no com qualidade, profissionalismo e dedicação. Para os bailarinos: Queres fazer parte desta equipa?`,
-    image: "https://i.imgur.com/K5aya9O.png",
+    image: "https://i.imgur.com/NwEKoJg.jpg",
   },
   {
     id: 2,
