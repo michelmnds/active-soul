@@ -16,9 +16,17 @@ export const SingleServicePage = ({ menu }) => {
 
   if (currentClass.id) {
     const formattedDescription = currentClass.description.replace(
-      /\./g,
-      ".<br />"
+      // eslint-disable-next-line no-useless-escape
+      /[\.\*]/g,
+      (match) => {
+        if (match === ".") {
+          return ".<br />";
+        } else if (match === "*") {
+          return "<br />";
+        }
+      }
     );
+
     return (
       <div className={`singleServiceContainer ${menu ? "move" : ""}`}>
         <div
@@ -34,7 +42,12 @@ export const SingleServicePage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
-          <a href="#" className="singleServiceBtn">
+          <a
+            href="https://wa.me/message/P62IN6OYSZ5YN1"
+            className="singleServiceBtn"
+            target="_blank"
+            rel="noreferrer"
+          >
             CONTACTE-NOS
           </a>
         </div>

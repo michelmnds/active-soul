@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import "./style.css";
 import { newsData } from "../../data/newsData";
@@ -7,12 +8,14 @@ export const NewsPage = ({ menu }) => {
   const today = new Date();
 
   const upcomingEvents = newsData.filter((event) => {
-    const formatedDate = `${event.date.split("/")[2]}-${
-      event.date.split("/")[1]
-    }-${event.date.split("/")[0]}`;
+    const formatedDate = `${event.schedule[0].day.split("/")[2]}-${
+      event.schedule[0].day.split("/")[1]
+    }-${event.schedule[0].day.split("/")[0]}`;
 
     return new Date(formatedDate) > today;
   });
+
+  const upcomingEventIds = upcomingEvents.map((event) => event.id);
 
   return (
     <div className={`newsPageContainer ${menu ? "move" : ""}`}>
@@ -45,7 +48,10 @@ export const NewsPage = ({ menu }) => {
         <h3 className="newsPageYear">2024</h3>
         <section className="newsPageSection">
           {newsData.map((currentNew) => {
-            if (currentNew.date.split("/")[2] == "2024") {
+            if (
+              currentNew.date.split("/")[2] === "2024" &&
+              !upcomingEventIds.includes(currentNew.id)
+            ) {
               return (
                 <NewsCard
                   key={currentNew.id}
@@ -58,7 +64,6 @@ export const NewsPage = ({ menu }) => {
             }
           })}
         </section>
-
         <h3 className="newsPageYear">2023</h3>
         <section className="newsPageSection">
           {newsData.map((currentNew) => {

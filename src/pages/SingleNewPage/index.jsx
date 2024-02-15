@@ -13,7 +13,17 @@ export const SingleNewPage = ({ menu }) => {
   }, []);
 
   if (currentNew.id) {
-    const formattedDescription = currentNew.description.replace(/\./g, ".<br>");
+    const formattedDescription = currentNew.description.replace(
+      // eslint-disable-next-line no-useless-escape
+      /[\.\!]/g,
+      (match) => {
+        if (match === ".") {
+          return ".<br />";
+        } else if (match === "!") {
+          return "!<br />";
+        }
+      }
+    );
 
     return (
       <div className={`singleNewContainer ${menu ? "move" : ""}`}>
@@ -88,7 +98,12 @@ export const SingleNewPage = ({ menu }) => {
             })}
           </section>
 
-          <a href="#" className="singleNewBtn">
+          <a
+            href="https://wa.me/message/P62IN6OYSZ5YN1"
+            className="singleNewBtn"
+            target="_blank"
+            rel="noreferrer"
+          >
             CONTACTE-NOS
           </a>
         </div>

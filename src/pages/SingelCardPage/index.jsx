@@ -54,7 +54,12 @@ export const SingleDancePage = ({ menu }) => {
             })}
           </section>
 
-          <a href="#" className="singleDanceBtn">
+          <a
+            href="https://wa.me/message/P62IN6OYSZ5YN1"
+            className="singleDanceBtn"
+            target="_blank"
+            rel="noreferrer"
+          >
             CONTACTE-NOS
           </a>
         </div>
