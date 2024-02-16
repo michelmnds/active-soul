@@ -1,6 +1,6 @@
 export const newsData = [
   {
-    id: 26,
+    id: 25,
     name: "Espetáculo Final de Ano Letivo",
     date: "14/02/2024",
     schedule: [
@@ -17,7 +17,7 @@ export const newsData = [
     linkType: "IG",
   },
   {
-    id: 25,
+    id: 24,
     name: "Juntos pelo Arthur",
     date: "12/02/2024",
     schedule: [
@@ -29,12 +29,12 @@ export const newsData = [
     ],
     description:
       "O Rotaract Club de Castelo Branco, com apoio da Beira Eventos, realiza, dia 23 de fevereiro, a partir das 21 horas, no Cine-Teatro Avenida, em Castelo Branco, o espetáculo solidário Juntos Pelo Arthur. A Iniciativa tem por objetivo angariar fundos para as necessidades do jovem Arthur que, no ano passado sofreu um acidente na Piscina de Castelo Branco, tendo ficado com sequelas para a vida. Contamos com a vossa ajuda!",
-    image: "https://i.imgur.com/N63U62D.jpg",
+    image: "https://i.imgur.com/wFqjORa.jpg",
     link: "",
     linkType: "IG",
   },
   {
-    id: 24,
+    id: 23,
     name: "Workshop de Kizomba",
     date: "01/02/2024",
     schedule: [
@@ -47,24 +47,7 @@ export const newsData = [
     description:
       "Dia 14 de fevereiro de 2024, pelas 19h00 vamos dinamizar um Workshop de Kizomba. Traz o teu par e vem passar um final de tarde diferente. Surpreende a tua cara metade. Haverá surpresas por isso não vais querer ficar de fora! ✏️Inscrições no nosso estúdio ou por mensagem privada.",
     image: "https://i.imgur.com/UOQc1bA.jpg",
-    link: "https://www.instagram.com/p/C2rmb6oNVuC/",
-    linkType: "IG",
-  },
-  {
-    id: 23,
-    name: "Atividade Física Carnavalesca",
-    date: "14/02/2024",
-    schedule: [
-      {
-        day: "12/02/2024",
-        time: "19:30",
-        location: "Estúdio Active Soul",
-      },
-    ],
-    description:
-      "Este foi o NOSSO CARNAVAL 🤡. Obrigada a quem esteve presente e fez parte deste final de tarde super divertido 🎉",
-    image: "https://i.imgur.com/xROGVqC.jpg",
-    link: "https://www.instagram.com/p/C3UkxlttBeY/?img_index=1",
+    link: "",
     linkType: "IG",
   },
   {
@@ -74,7 +57,17 @@ export const newsData = [
     schedule: [
       {
         day: "12/02/2024",
-        time: "18:00",
+        time: "18:00 - Baile",
+        location: "Estúdio Active Soul",
+      },
+      {
+        day: "12/02/2024",
+        time: "18:45 - Meditação",
+        location: "Estúdio Active Soul",
+      },
+      {
+        day: "12/02/2024",
+        time: "19:30 - Atividade Física",
         location: "Estúdio Active Soul",
       },
     ],

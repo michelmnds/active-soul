@@ -16,7 +16,6 @@ export const NewsPage = ({ menu }) => {
   });
 
   const upcomingEventIds = upcomingEvents.map((event) => event.id);
-
   return (
     <div className={`newsPageContainer ${menu ? "move" : ""}`}>
       <div className="newsBackground">
@@ -37,6 +36,8 @@ export const NewsPage = ({ menu }) => {
                   img={currentNew.image}
                   name={currentNew.name}
                   description={currentNew.description}
+                  month={currentNew.schedule[0].day.split("/")[1]}
+                  coming={true}
                 />
               );
             })
