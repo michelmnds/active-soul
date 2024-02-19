@@ -1,17 +1,16 @@
 export const newsData = [
   {
     id: 25,
-    name: "Espetáculo Final de Ano Letivo",
+    name: "Espetáculo Final de Ano Letivo 2023/2024",
     date: "14/02/2024",
     schedule: [
       {
         day: "23/06/2024",
-        time: "00:00",
+        time: "17:00",
         location: "Cine Teatro Avenida de Castelo Branco",
       },
     ],
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, quis autem rerum omnis id laborum quam laudantium, esse provident velit dicta asperiores excepturi magnam voluptate eveniet tempore veniam architecto earum!",
+    description: "Informações brevemente",
     image: "https://i.imgur.com/mBuvBGU.jpg",
     link: "",
     linkType: "IG",

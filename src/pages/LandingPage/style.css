@@ -148,8 +148,54 @@
     transform: translateX(-200px);
     transition: 0.3s ease-in-out;
 }
+.tableContainer{
+    display: flex;
+    flex-direction: column;
 
+    align-items: flex-start;
+    justify-content: center;
+
+    padding: 20px;
+    gap: 10px;
+
+    width: 100%;
+    max-width: 768px;
+
+    margin: 0 auto;
+}
+.tableTxt{
+    font-size: 20px;
+
+    color: var(--secondary-green);
+}
+.table{
+    background-size: cover;
+    background-position: center;
+
+    background-image: url('https://i.imgur.com/TfTm3u6.jpg');
+
+    width: 100%;
+    max-width: 370px;
+    height: 300px;
+
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    position: relative;
+}
+.table:hover{
+    transform: scale(1.01);
+
+    transition: 0.3s ease-in-out;
+}
 @media(width >= 768px){
+    .tableTxt{
+        font-size: 24px;
+    }
+    .table{
+        max-width: 768px;
+        height: 600px;
+    }
     .danceContainer, .newsContainer, .classContainer, .serviceContainer{
         width: 350px;
     }
