@@ -30,8 +30,22 @@
     background-position: center;
     background-size: cover;
 
-    width: 280px;
-    height: 280px;
+    width: 90%;
+    max-width: 315px;
+    height: 60%;
 
     position: relative;
+}
+
+@media(width >= 768px){
+    .tableModal{
+        max-width: 500px;
+        height: 500px;
+    }
+}
+@media(width >= 1440px){
+    .tableModal{
+        max-width: 700px;
+        height: 700px;
+    }
 }

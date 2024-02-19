@@ -10,15 +10,19 @@ import { Modal } from "../../components/Modal";
 export const LandingPage = ({ menu }) => {
   const [tableModal, setTableModal] = useState(false);
 
-  const handleModalClick = () => {};
-
   const handleModalOpening = () => {
     setTableModal(true);
   };
 
   return (
     <>
-      {tableModal && <Modal from={"table"} />}
+      {tableModal && (
+        <Modal
+          from={"table"}
+          setTableModal={setTableModal}
+          tableModal={tableModal}
+        />
+      )}
 
       <div className="landingTopContainer">
         <div className={`landingImage ${menu ? "move" : ""}`} />
