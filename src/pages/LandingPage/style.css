@@ -244,7 +244,7 @@
         position: relative;
     }
     .landingTitle{
-        color: var(--primary-black);
+        color: var(--primary-white);
         font-weight: 600;
     }
     .landingImage{
@@ -256,7 +256,7 @@
     }
     .titleBackground{
         position: absolute;
-        bottom: 0;
+        top: 20px;
 
         padding: 20px 105px;
 
@@ -264,7 +264,7 @@
 
         border-radius: 60% 0 0 0;
 
-        background-color: #bdded73f;
+        background-color: transparent;
     }
     .danceBtn{
         transition: 0.3s;
