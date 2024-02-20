@@ -16,6 +16,6 @@ export const servicesData = [
     id: 3,
     title: "Eventos",
     description: `• Espetáculos de Dança, Música, Teatro e Interação*• Espetáculos Infantis*• Eventos Privados e Corporativos*• Eventos Desportivos e Culturais*• Activações de Marca*• Flashmob*• Team Building* A nossa equipa é composta por criativos e fornecedores que fazem acontecer qualquer tipo de evento. Criamos eventos à medida de cada cliente, produzindo e dando o melhor da nossa equipa em cada projeto!`,
-    image: "https://i.imgur.com/mBuvBGU.jpg",
+    image: "https://i.imgur.com/JfVouRR.jpg",
   },
 ];
