@@ -231,7 +231,7 @@ export const newsData = [
     description:
       "Decidimos juntar o exercício com água, música, trabalho em equipa e boa energia. Eis o resultado: MEGA AULA! Todos saíram com um MEGA sorriso, com as energias renovadas, cansados é certo e molhados também mas com este calor, não há nada que melhor do que isso! Fazer exercício, treinar, pode ser divertido, basta imaginação e isso, não nos falta.",
     image: "https://i.imgur.com/YTxiURb.png",
-    link: "https://fb.watch/qkh4EDo9tF/",
+    link: "",
     linkType: "FBDesktop",
   },
   {
@@ -282,7 +282,7 @@ export const newsData = [
     description:
       "Juntámos cerca de 70 pessoas e saímos à rua para celebrar todos juntos este dia tão especial! Todos aqui estiveram juntos pela paixão a esta grande arte que é a dança. Dancem, dancem muito… porque quem dança é mesmo mais feliz!",
     image: "https://i.imgur.com/Z60jJcx.jpg",
-    link: "https://www.facebook.com/activesoulstudio/videos/712056454003272/",
+    link: "",
     linkType: "FBDesktop",
   },
   {
