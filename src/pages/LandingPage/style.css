@@ -291,6 +291,10 @@
     }
     .titleBackground{
         justify-content: center;
+        position: absolute;
+        top:  20px;
+
+        background-color: transparent;
     }
     .titleContainer{
         max-width: 1230px;
@@ -299,6 +303,10 @@
     .landingTitle{
         font-size: 72px;
         width: 500px;
+
+        color: var(--primary-white);
+
+        text-align: center;
     }
     .mainTitle{
         font-size: 46px;

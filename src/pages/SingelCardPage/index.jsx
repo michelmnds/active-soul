@@ -8,12 +8,25 @@ import { useEffect, useState } from "react";
 export const SingleDancePage = ({ menu }) => {
   const { danceId } = useParams();
   const [dance, setDance] = useState({});
+
   useEffect(() => {
     setDance(danceData.find((dance) => dance.id == danceId));
   }, []);
 
   if (dance.id) {
-    const formattedDescription = dance.description.replace(/\./g, ".<br>");
+    const formattedDescription = dance.description.replace(
+      // eslint-disable-next-line no-useless-escape
+      /[\.\;\:]/g,
+      (match) => {
+        if (match === ".") {
+          return ".<br />";
+        } else if (match === ";") {
+          return ";<br />";
+        } else if (match === ":") {
+          return ":<br />";
+        }
+      }
+    );
     return (
       <div className={`singleDanceContainer ${menu ? "move" : ""}`}>
         <div

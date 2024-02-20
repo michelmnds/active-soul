@@ -39,7 +39,7 @@ export const LandingPage = ({ menu }) => {
             <LandingCard
               image={"https://i.imgur.com/GtrHOu1.jpg"}
               link={"/dancas"}
-              title={"Aulas de dança"}
+              title={"Dança"}
             ></LandingCard>
           </div>
 
@@ -47,13 +47,13 @@ export const LandingPage = ({ menu }) => {
             <LandingCard
               image={"https://i.imgur.com/mlQyZX8.jpg"}
               link={"/aulas"}
-              title={"Aulas de bem estar"}
+              title={"Bem Estar"}
             ></LandingCard>
           </div>
 
           <div className="newsContainer">
             <LandingCard
-              image={"https://i.imgur.com/iCriVFr.png"}
+              image={"https://i.imgur.com/JfVouRR.jpg"}
               link={"/eventos"}
               title={"Próximos eventos"}
             ></LandingCard>

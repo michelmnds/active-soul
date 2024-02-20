@@ -11,7 +11,7 @@ export const newsData = [
       },
     ],
     description: "Informações brevemente",
-    image: "https://i.imgur.com/mBuvBGU.jpg",
+    image: "https://i.imgur.com/v6AIE49.jpg",
     link: "",
     linkType: "IG",
   },
@@ -231,7 +231,7 @@ export const newsData = [
     description:
       "Decidimos juntar o exercício com água, música, trabalho em equipa e boa energia. Eis o resultado: MEGA AULA! Todos saíram com um MEGA sorriso, com as energias renovadas, cansados é certo e molhados também mas com este calor, não há nada que melhor do que isso! Fazer exercício, treinar, pode ser divertido, basta imaginação e isso, não nos falta.",
     image: "https://i.imgur.com/YTxiURb.png",
-    link: "https://www.facebook.com/watch/?v=6394273757318102",
+    link: "https://fb.watch/qkh4EDo9tF/",
     linkType: "FBDesktop",
   },
   {
@@ -282,8 +282,8 @@ export const newsData = [
     description:
       "Juntámos cerca de 70 pessoas e saímos à rua para celebrar todos juntos este dia tão especial! Todos aqui estiveram juntos pela paixão a esta grande arte que é a dança. Dancem, dancem muito… porque quem dança é mesmo mais feliz!",
     image: "https://i.imgur.com/Z60jJcx.jpg",
-    link: "https://www.instagram.com/reel/CrojpvRPueH/",
-    linkType: "IG",
+    link: "https://www.facebook.com/activesoulstudio/videos/712056454003272/",
+    linkType: "FBDesktop",
   },
   {
     id: 9,
@@ -338,8 +338,8 @@ export const newsData = [
     description:
       "Um espetáculo de dança envolvente inspirado na “Alice no País das Maravilhas”, os bailarinos ganham vida, transportando o público para o mundo mágico e surreal. A coreografia dinâmica e os figurinos deslumbrantes dão vida às personagens icônicas. A música encantadora guia os dançarinos através de cenários deslumbrantes, recriando momentos clássicos da história.",
     image: "https://i.imgur.com/W30dAsi.jpg",
-    link: "https://www.instagram.com/reel/CrD3C-SPMev/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    linkType: "IG",
+    link: "t5l2XtC97Ec",
+    linkType: "YT",
   },
   {
     id: 6,
