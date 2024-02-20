@@ -128,9 +128,9 @@ export const danceData = [
   {
     id: 6,
     name: "Teatro Musical",
-    modality: "Aulas a partir dos 3 anos",
+    modality: "Aulas a partir dos 6 anos",
     description:
-      "O Teatro trabalha: A consciência corporal; Explora a socialização, intuição, criação e comunicação; Desenvolve a criatividade, capacidade de improviso, memorização e demais aptidões expressivas corporais. Participe na criação e execução de espetáculos de teatro musical.",
+      "O Teatro trabalha: A consciência corporal; Explora a socialização, intuição, criação e comunicação; Desenvolve a criatividade, capacidade de improviso, memorização e outras aptidões expressivas corporais. Participe na criação e execução de espetáculos de teatro musical.",
     image: "https://i.imgur.com/0Ig658y.jpg",
     schedule: [
       {
