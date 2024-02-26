@@ -4,12 +4,14 @@
 
     position: fixed;
 
-    right: 10px;
+    left: 0px;
     bottom: 10px;
 
     background-color: transparent;
 
     z-index: 5;
+
+    width: 100px;
 }
 .musicIcon > img{
     width: 50px;
