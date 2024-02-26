@@ -25,7 +25,7 @@ export const MusicPlayer = () => {
   };
 
   useEffect(() => {
-    audioRef.current.volume = 0.02;
+    audioRef.current.volume = 0.1;
   }, []);
 
   return (
