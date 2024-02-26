@@ -5,7 +5,7 @@ export const classData = [
     modality: "",
     description:
       "É uma aula de tonificação, resistência e fortalecimento muscular com foco principal nos membros inferiores e glúteos. Vem experimentar e vais ver que vais gostar !",
-    image: "https://i.imgur.com/Itn3oL0.jpg",
+    image: "https://i.imgur.com/pqT8kXv.jpg",
     schedule: [
       {
         day: "Qua",
