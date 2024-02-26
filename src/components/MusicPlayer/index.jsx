@@ -28,7 +28,6 @@ export const MusicPlayer = () => {
         loop
       >
         <source src={music} type="audio/mpeg" />
-        Your browser does not support the audio element.
       </audio>
       <button className="musicIcon" onClick={toggleMute}>
         {muted ? (
