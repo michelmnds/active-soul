@@ -39,13 +39,7 @@ export const MusicPlayer = () => {
           toggleMute();
           togglePlayback();
         }}
-      >
-        {muted ? (
-          <img src={soundOff} alt="sound off icon" />
-        ) : (
-          <img src={soundOn} alt="sound on icon " />
-        )}
-      </button>
+      ></button>
     </>
   );
 };
