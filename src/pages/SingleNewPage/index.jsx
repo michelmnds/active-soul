@@ -33,9 +33,7 @@ export const SingleNewPage = ({ menu }) => {
         />
 
         <div className="singleNewInfos">
-          <h2 className="singleNewName">{currentNew.name}</h2>
-
-          <span className="singleNewDesc">Publicado em: {currentNew.date}</span>
+          <h2 className="singleNewName">{currentNew.title}</h2>
 
           <span
             className="singleNewDesc"

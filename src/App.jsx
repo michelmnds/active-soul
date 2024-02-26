@@ -17,6 +17,7 @@ import { ClassPage } from "./pages/ClassPage";
 import { MantineProvider } from "@mantine/core";
 import { ServicePage } from "./pages/ServicePage";
 import { SingleServicePage } from "./pages/SingleServicePage";
+import { MusicPlayer } from "./components/MusicPlayer";
 
 function App() {
   const [menu, setMenu] = useState(false);
@@ -24,6 +25,7 @@ function App() {
   return (
     <MantineProvider>
       <Header menu={menu} setMenu={setMenu} />
+      <MusicPlayer />
       <SideBar menu={menu} setMenu={setMenu} />
       <Routes>
         <Route

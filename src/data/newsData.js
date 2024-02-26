@@ -1,7 +1,8 @@
 export const newsData = [
   {
-    id: 25,
+    id: 26,
     name: "Espetáculo Final de Ano Letivo 2023/2024",
+    title: "Espetáculo Final de Ano Letivo 2023/2024",
     date: "14/02/2024",
     schedule: [
       {
@@ -16,8 +17,32 @@ export const newsData = [
     linkType: "IG",
   },
   {
+    id: 25,
+    name: "",
+    title: "Dia Internacional da Mulher",
+    date: "26/02/2024",
+    schedule: [
+      {
+        day: "08/03/2024",
+        time: "19:00",
+        location: "Jardim de Infância Dr. Alfredo Mota",
+      },
+      {
+        day: "11/03/2024",
+        time: "18:00",
+        location: "Local a Anunciar",
+      },
+    ],
+    description:
+      "Gostaria de presentear as suas colaboradoras com uma aula de dança bem divertida ou até com uma das nossas modalidades de bem estar? Entre em contacto conosco e faremos um dia diferente!",
+    image: "https://i.imgur.com/mWPImQ6.jpg",
+    link: "",
+    linkType: "IG",
+  },
+  {
     id: 24,
     name: "Juntos pelo Arthur",
+    title: "Juntos pelo Arthur",
     date: "12/02/2024",
     schedule: [
       {
@@ -28,13 +53,14 @@ export const newsData = [
     ],
     description:
       "O Rotaract Club de Castelo Branco, com apoio da Beira Eventos, realiza, dia 23 de fevereiro, a partir das 21 horas, no Cine-Teatro Avenida, em Castelo Branco, o espetáculo solidário Juntos Pelo Arthur. A Iniciativa tem por objetivo angariar fundos para as necessidades do jovem Arthur que, no ano passado sofreu um acidente na Piscina de Castelo Branco, tendo ficado com sequelas para a vida. Contamos com a vossa ajuda!",
-    image: "https://i.imgur.com/wFqjORa.jpg",
+    image: "https://i.imgur.com/XVrKWcL.jpg",
     link: "",
     linkType: "IG",
   },
   {
     id: 23,
     name: "Workshop de Kizomba",
+    title: "Workshop de Kizomba",
     date: "01/02/2024",
     schedule: [
       {
@@ -52,6 +78,7 @@ export const newsData = [
   {
     id: 22,
     name: "Baile de Carnaval",
+    title: "Baile de Carnaval",
     date: "14/02/2024",
     schedule: [
       {
@@ -79,6 +106,7 @@ export const newsData = [
   {
     id: 21,
     name: "Circo dos Sonhos",
+    title: "Circo dos Sonhos",
     date: "10/01/2024",
     schedule: [
       {
@@ -96,6 +124,7 @@ export const newsData = [
   {
     id: 20,
     name: "ATL Natal",
+    title: "ATL Natal",
     date: "10/12/2023",
     schedule: [
       {
@@ -113,6 +142,7 @@ export const newsData = [
   {
     id: 19,
     name: "Dia Nacional do Pijama",
+    title: "Dia Nacional do Pijama",
     date: "18/11/2023",
     schedule: [
       {
@@ -130,6 +160,7 @@ export const newsData = [
   {
     id: 18,
     name: "Mostra o que Vales 5",
+    title: "Mostra o que Vales 5",
     date: "07/11/2023",
     schedule: [
       {
@@ -147,6 +178,7 @@ export const newsData = [
   {
     id: 17,
     name: "Halloween",
+    title: "Halloween",
     date: "31/10/2023",
     schedule: [
       {
@@ -164,6 +196,7 @@ export const newsData = [
   {
     id: 16,
     name: "Semana da Juventude",
+    title: "Semana da Juventude",
     date: "17/09/2023",
     schedule: [
       {
@@ -181,6 +214,7 @@ export const newsData = [
   {
     id: 15,
     name: "Festival +Solidário",
+    title: "Festival +Solidário",
     date: "13/08/2023",
     schedule: [
       {
@@ -198,6 +232,7 @@ export const newsData = [
   {
     id: 14,
     name: "DJ Giga",
+    title: "DJ Giga",
     date: "01/08/2023",
     schedule: [
       {
@@ -215,6 +250,7 @@ export const newsData = [
   {
     id: 13,
     name: "Aula ao Ar Livre",
+    title: "Aula ao Ar Livre",
     date: "10/07/2023",
     schedule: [
       {
@@ -236,7 +272,8 @@ export const newsData = [
   },
   {
     id: 12,
-    name: "Contadora de Histórias ",
+    name: "Contadora de Histórias",
+    title: "Contadora de Histórias",
     date: "18/06/2023",
     schedule: [
       {
@@ -254,6 +291,7 @@ export const newsData = [
   {
     id: 11,
     name: "Dia da Criança | Teatro Tramédia + Active Soul",
+    title: "Dia da Criança | Teatro Tramédia + Active Soul",
     date: "02/06/2023",
     schedule: [
       {
@@ -271,6 +309,7 @@ export const newsData = [
   {
     id: 10,
     name: "Dia Mundial da Dança",
+    title: "Dia Mundial da Dança",
     date: "30/04/2023",
     schedule: [
       {
@@ -288,6 +327,7 @@ export const newsData = [
   {
     id: 9,
     name: "ATL Páscoa",
+    title: "ATL Páscoa",
     date: "07/04/2023",
     schedule: [
       {
@@ -305,6 +345,7 @@ export const newsData = [
   {
     id: 8,
     name: "Dia Mundial da Atividade Física com a Apef Castelo Branco",
+    title: "Dia Mundial da Atividade Física com a Apef Castelo Branco",
     date: "08/04/2023",
     schedule: [
       {
@@ -322,6 +363,7 @@ export const newsData = [
   {
     id: 7,
     name: "Alice no País das Maravilhas",
+    title: "Alice no País das Maravilhas",
     date: "07/04/2023",
     schedule: [
       {
@@ -344,6 +386,7 @@ export const newsData = [
   {
     id: 6,
     name: "Matiné Dançante",
+    title: "Matiné Dançante",
     date: "18/03/2023",
     schedule: [
       {
@@ -361,6 +404,7 @@ export const newsData = [
   {
     id: 5,
     name: "Dia Internacional da Mulher",
+    title: "Dia Internacional da Mulher",
     date: "11/03/2023",
     schedule: [
       {
@@ -378,6 +422,7 @@ export const newsData = [
   {
     id: 4,
     name: "Carnaval com A Praça",
+    title: "Carnaval com A Praça",
     date: "20/02/2023",
     schedule: [
       {
@@ -395,6 +440,7 @@ export const newsData = [
   {
     id: 3,
     name: "Pipoto Maroto",
+    title: "Pipoto Maroto",
     date: "17/12/2022",
     schedule: [
       {
@@ -412,6 +458,7 @@ export const newsData = [
   {
     id: 2,
     name: "Workshop “As minhas emoções”",
+    title: "Workshop “As minhas emoções”",
     date: "20/11/2022",
     schedule: [
       {
@@ -429,6 +476,7 @@ export const newsData = [
   {
     id: 1,
     name: "Workshop Dance Hall",
+    title: "Workshop Dance Hall",
     date: "30/09/2022",
     schedule: [
       {

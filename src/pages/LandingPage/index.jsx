@@ -5,6 +5,9 @@ import { LandingCard } from "../../components/LandingCard";
 import { Infos } from "../../components/Infos";
 import { useState } from "react";
 import { Modal } from "../../components/Modal";
+import SpotifyPlayer from "react-spotify-web-playback";
+import { useEffect } from "react";
+import SpotifyWebApi from "spotify-web-api-js";
 
 // eslint-disable-next-line react/prop-types
 export const LandingPage = ({ menu }) => {

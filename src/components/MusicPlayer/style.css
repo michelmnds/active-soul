@@ -1,0 +1,25 @@
+.musicIcon{
+    border: none;
+    outline: none;
+
+    position: fixed;
+
+    right: 10px;
+    bottom: 10px;
+
+    background-color: transparent;
+
+    z-index: 5;
+}
+.musicIcon > img{
+    width: 50px;
+
+    cursor: pointer;
+}
+
+@media(width >= 1440px){
+    .musicIcon{
+        right: 20px;
+        bottom: 20px
+    }
+}

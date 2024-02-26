@@ -2,7 +2,7 @@ export const teamData = [
   {
     id: 1,
     image: "https://i.imgur.com/Tjtpt4L.jpg",
-    name: "Patricia Lourenço",
+    name: "Patrícia Lourenço",
     modality:
       "Diretora Active Soul, Professora de Contemporâneo, Ballet e Personal Trainer",
   },

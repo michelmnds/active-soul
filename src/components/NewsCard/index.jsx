@@ -27,7 +27,7 @@ export const NewsCard = ({ id, img, name, coming, month }) => {
         style={{ backgroundImage: `url(${img})` }}
         className="newsCard"
       >
-        <span className="newsCardName">{name}</span>
+        {name ? <span className="newsCardName"> {name} </span> : null}
 
         <section className="monthContainer">
           <span className="monthTxt">{monthNames[month]}</span>

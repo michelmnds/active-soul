@@ -1,6 +1,21 @@
 export const classData = [
   {
     id: 1,
+    name: "Bumbum",
+    modality: "",
+    description:
+      "É uma aula de tonificação, resistência e fortalecimento muscular com foco principal nos membros inferiores e glúteos. Vem experimentar e vais ver que vais gostar !",
+    image: "https://i.imgur.com/Itn3oL0.jpg",
+    schedule: [
+      {
+        day: "Qua",
+        time: "18:45 - 19:30",
+        teacher: "Inês Melro",
+      },
+    ],
+  },
+  {
+    id: 2,
     name: "Circuito",
     modality: "Aulas a partir dos 14 anos",
     description:
@@ -15,7 +30,7 @@ export const classData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "GAP",
     modality: "Aulas a partir dos 14 anos",
     description:
@@ -30,7 +45,7 @@ export const classData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "Personal Trainer",
     modality: " Aulas a partir dos 8 anos",
     description:
@@ -45,7 +60,7 @@ export const classData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "Pilates",
     description:
       "O método Pilates tem como objetivo atingir a saúde através da conexão entre corpo e mente nas aulas. Para isso, os exercícios são baseados em 6 princípios: Centralização, Respiração, Fluidez, Controlo, Precisão e Concentração.",
@@ -64,9 +79,8 @@ export const classData = [
       },
     ],
   },
-
   {
-    id: 5,
+    id: 6,
     name: "Meditação",
     modality: "Aulas a partir dos 16 anos",
     description:
@@ -77,6 +91,21 @@ export const classData = [
         day: "Seg",
         time: "18:45 - 19:30",
         teacher: "Andreia Gabriel",
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: "Preparação Física para Bailarinos",
+    modality: "",
+    description:
+      "Treino capaz de desenvolver capacidades físicas como força, flexibilidade e agilidade. Podendo ser trabalhado a individualidade de cada bailarino segundo orientação do professor da sua modalidade. Vem experimentar e vais ver que vais gostar !",
+    image: "https://i.imgur.com/rFKTgv6.jpg",
+    schedule: [
+      {
+        day: "Qua",
+        time: "18:00 - 18:30",
+        teacher: "Sandra Vicente",
       },
     ],
   },
