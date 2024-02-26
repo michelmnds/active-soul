@@ -43,7 +43,7 @@ export const MusicPlayer = () => {
         {muted ? (
           <img src={soundOff} alt="sound off icon" />
         ) : (
-          <img src={soundOn} alt="sound on icon" />
+          <img src={soundOn} alt="sound on icon " />
         )}
       </button>
     </>
