@@ -7,11 +7,21 @@ import soundOff from "../../assets/icon/mute-icon.png";
 
 export const MusicPlayer = () => {
   const audioRef = useRef(null);
-  const [muted, setMuted] = useState(false);
+  const [muted, setMuted] = useState(true);
+  const [playing, setPlaying] = useState(false);
 
   const toggleMute = () => {
     audioRef.current.muted = !muted;
     setMuted(!muted);
+  };
+
+  const togglePlayback = () => {
+    if (!playing) {
+      audioRef.current.play();
+    } else {
+      audioRef.current.pause();
+    }
+    setPlaying(!playing);
   };
 
   useEffect(() => {
@@ -20,16 +30,16 @@ export const MusicPlayer = () => {
 
   return (
     <>
-      <audio
-        id="musicPlayer"
-        ref={audioRef}
-        className="musicPlayer"
-        autoPlay
-        loop
-      >
+      <audio id="musicPlayer" ref={audioRef} className="musicPlayer" loop>
         <source src={music} type="audio/mpeg" />
       </audio>
-      <button className="musicIcon" onClick={toggleMute}>
+      <button
+        className="musicIcon"
+        onClick={() => {
+          toggleMute();
+          togglePlayback();
+        }}
+      >
         {muted ? (
           <img src={soundOff} alt="sound off icon" />
         ) : (
