@@ -1,6 +1,6 @@
 export const newsData = [
   {
-    id: 26,
+    id: 27,
     name: "Espetáculo Final de Ano Letivo 2023/2024",
     title: "Espetáculo Final de Ano Letivo 2023/2024",
     date: "14/02/2024",
@@ -17,6 +17,24 @@ export const newsData = [
     linkType: "IG",
   },
   {
+    id: 26,
+    name: "Teatro Musical - Alice no País das Maravilhas",
+    title: "Teatro Musical - Alice no País das Maravilhas",
+    date: "27/02/2024",
+    schedule: [
+      {
+        day: "05/04/2024",
+        time: "21:00",
+        location: "Fábrica da Criatividade",
+      },
+    ],
+    description:
+      "Os Alunos da turma de Teatro Musical do nosso Estúdio vão apresentar dia 5 de abril pelas 21h00 na Fábrica da Criatividade. Uma performance de teatro musical inspirado na obra icónica de Lewis Carroll, “Alice no País das Maravilhas”, adaptado para uma performance cheia de encanto, magia e emoção, num cenário fantástico que irá captar a atenção do público.",
+    image: "https://i.imgur.com/bgratM7.jpg",
+    link: "",
+    linkType: "IG",
+  },
+  {
     id: 25,
     name: "",
     title: "Dia Internacional da Mulher",
@@ -25,7 +43,7 @@ export const newsData = [
       {
         day: "08/03/2024",
         time: "19:00",
-        location: "Jardim de Infância Dr. Alfredo Mota",
+        location: "Local a Anunciar",
       },
       {
         day: "11/03/2024",

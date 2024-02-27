@@ -1,10 +1,10 @@
 import "@mantine/carousel/styles.css";
 import "@mantine/core/styles.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { LandingPage } from "./pages/LandingPage";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { DancePage } from "./pages/DancePage";
 import { NewsPage } from "./pages/NewsPage";
 import { AboutPage } from "./pages/AboutPage";
@@ -19,7 +19,17 @@ import { ServicePage } from "./pages/ServicePage";
 import { SingleServicePage } from "./pages/SingleServicePage";
 import { MusicPlayer } from "./components/MusicPlayer";
 
-function App() {
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
+export const App = () => {
   const [menu, setMenu] = useState(false);
 
   return (
@@ -63,9 +73,10 @@ function App() {
 
         <Route path="*" element={<LandingPage />} />
       </Routes>
+      <ScrollToTop />
       <Footer />
     </MantineProvider>
   );
-}
+};
 
 export default App;
