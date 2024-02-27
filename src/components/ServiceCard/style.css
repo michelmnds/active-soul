@@ -25,14 +25,21 @@
     transform: scale(0.98);
 }
 .serviceCardName{
-    font-weight: bolder;
+    color: var(--secondary-green);
+
     font-size: 24px;
+    font-weight: bolder;
 
-    color: var(--primary-color);
+    padding: 5px 20px;
 
-    text-shadow: 0px 2.5px rgba(0, 0, 0, 0.9);
+    width: 100%;
 
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: var(--primary-color);
 }
 
 @media(width >= 768px){
@@ -60,6 +67,9 @@
 @media(width >= 1024px){
     .serviceCard{
         max-width: 800px;
+    }
+    .serviceCardName{
+        font-size: 28px;
     }
 }
 @media(width >= 1440px) {
