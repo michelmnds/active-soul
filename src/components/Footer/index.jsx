@@ -35,6 +35,16 @@ export const Footer = () => {
           target="_blank"
           rel="noreferrer"
         />
+        <a
+          style={{
+            backgroundImage: "url(https://i.imgur.com/QG4rfWz.png)",
+          }}
+          href="https://api.whatsapp.com/message/P62IN6OYSZ5YN1?autoload=1&app_absent=0"
+          className="icon"
+          alt="youtube icon"
+          target="_blank"
+          rel="noreferrer"
+        />
       </div>
     </div>
   );

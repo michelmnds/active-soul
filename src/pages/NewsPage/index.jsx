@@ -16,6 +16,7 @@ export const NewsPage = ({ menu }) => {
   });
 
   const upcomingEventIds = upcomingEvents.map((event) => event.id);
+
   return (
     <div className={`newsPageContainer ${menu ? "move" : ""}`}>
       <div className="newsBackground">

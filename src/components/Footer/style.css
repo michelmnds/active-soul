@@ -24,12 +24,12 @@
 }
 .footerIconContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     align-items: flex-start;
     justify-content: center;
 
-    gap: 5px;
+    gap: 10px;
 }
 .icon{
     width: 25px;

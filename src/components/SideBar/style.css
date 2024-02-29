@@ -22,7 +22,7 @@
 .sideBarContainer.open{ 
     display: flex;
 
-    z-index: 0;
+    z-index: 2;
 }
 .navLink{
     display: flex;
@@ -51,9 +51,9 @@
 
 @media(width >= 768px){
     .sideBarContainer{
-        top: 100px;
+        top: 60px;
 
-        font-size: 24px;
+        padding-top: 30px;
 
         width: 200px;
     }   

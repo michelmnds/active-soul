@@ -74,7 +74,6 @@
     
     border-radius: 0 0 100% 0;
 }
-
 .newsSpan {
     color: var(--secondary-green);
 
@@ -84,6 +83,7 @@
 }
 
 @media(width >= 768px){
+
     .newsPageContainer{
         align-items: center;
     }

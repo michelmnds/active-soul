@@ -29,7 +29,7 @@ export const newsData = [
       },
     ],
     description:
-      "Os Alunos da turma de Teatro Musical do nosso Estúdio vão apresentar dia 5 de abril pelas 21h00 na Fábrica da Criatividade. Uma performance de teatro musical inspirado na obra icónica de Lewis Carroll, “Alice no País das Maravilhas”, adaptado para uma performance cheia de encanto, magia e emoção, num cenário fantástico que irá captar a atenção do público.",
+      "Os Alunos da turma de Teatro Musical do nosso Estúdio vão apresentar dia 5 de abril pelas 21h00 na Fábrica da Criatividade. Uma performance de teatro musical inspirado na obra icónica de Lewis Carroll, “Alice no País das Maravilhas”, adaptado para uma performance cheia de encanto, magia e emoção, num cenário fantástico que irá captar a atenção do público. Bilhetes brevemente disponíveis no nosso estúdio.",
     image: "https://i.imgur.com/bgratM7.jpg",
     link: "",
     linkType: "IG",
