@@ -27,11 +27,13 @@ export const SingleServicePage = ({ menu }) => {
   }, []);
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setCarouselReady(true);
-    }, 100);
+    if (currentServiceId == 3) {
+      const timeout = setTimeout(() => {
+        setCarouselReady(true);
+      }, 100);
 
-    return () => clearTimeout(timeout);
+      return () => clearTimeout(timeout);
+    }
   }, []);
 
   useEffect(() => {
