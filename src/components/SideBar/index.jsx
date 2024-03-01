@@ -47,7 +47,7 @@ export const SideBar = ({ menu, setMenu }) => {
           to="/dancas"
           onClick={handleNavClick}
         >
-          DANÇAS
+          DANÇA
         </Link>
 
         <Link
