@@ -16,14 +16,29 @@ import classes from "./Demo.module.css";
 // eslint-disable-next-line react/prop-types
 export const SingleServicePage = ({ menu }) => {
   const autoplay = useRef(Autoplay({ delay: 3500 }));
-
   const { currentServiceId } = useParams();
   const [currentClass, setCurrentClass] = useState({});
+  const [carouselReady, setCarouselReady] = useState(false);
+
   useEffect(() => {
     setCurrentClass(
       servicesData.find((currentClass) => currentClass.id == currentServiceId)
     );
   }, []);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setCarouselReady(true);
+    }, 100);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
+  useEffect(() => {
+    if (carouselReady) {
+      autoplay.current.play();
+    }
+  }, [carouselReady]);
 
   const imageUrls = [
     "https://i.imgur.com/dZ338Yd.png",
@@ -40,7 +55,7 @@ export const SingleServicePage = ({ menu }) => {
     "https://i.imgur.com/zfDQQTr.png",
   ];
 
-  function Demo() {
+  function CarouselComponent() {
     const slides = imageUrls.map((image) => (
       <Carousel.Slide key={image}>
         <Image style={{ height: `${100}%` }} src={image} />
@@ -149,7 +164,7 @@ export const SingleServicePage = ({ menu }) => {
               dangerouslySetInnerHTML={{ __html: formattedDescription }}
             ></span>
 
-            <Demo />
+            <CarouselComponent />
             <a
               href="https://wa.me/message/P62IN6OYSZ5YN1"
               className="singleServiceBtn"
