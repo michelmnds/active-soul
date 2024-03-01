@@ -117,7 +117,7 @@ export const danceData = [
         type: "Jazz I (6 aos 12 anos) ",
       },
       {
-        day: "Qui",
+        day: "Qua",
         time: "19:30 - 20:15",
         teacher: "Sofia Ferreira",
         type: "Jazz II (Adultos)",
