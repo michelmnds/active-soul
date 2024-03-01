@@ -284,7 +284,7 @@ export const newsData = [
     ],
     description:
       "Decidimos juntar o exercício com água, música, trabalho em equipa e boa energia. Eis o resultado: MEGA AULA! Todos saíram com um MEGA sorriso, com as energias renovadas, cansados é certo e molhados também mas com este calor, não há nada que melhor do que isso! Fazer exercício, treinar, pode ser divertido, basta imaginação e isso, não nos falta.",
-    image: "https://i.imgur.com/YTxiURb.png",
+    image: "https://i.imgur.com/ZTB58qW.png",
     link: "",
     linkType: "FBDesktop",
   },
@@ -486,7 +486,7 @@ export const newsData = [
       },
     ],
     description:
-      "💃🏻A dança ajuda a desacelerar o ritmo nas crianças agitadas, fazendo com que se sintam mais tranquilas. Por outro lado, como há regras que devem cumprir, permite-lhes aprender a controlar a ansiedade e a impulsividade. 🕴🏻 Sabias que a prática de exercício físico permite potenciar o crescimento celular no cérebro e de neurotransmissores associados ao humor? Que ela pode reduzir o stress e aliviar a tensão muscular, melhorar a qualidade de sono e, consequentemente, contribuir para uma sensação generalizada de bem-estar⁉️ Ana Isabel Marques praticou dança na sua infância/adolescência e quer poder partilhar a sua experiência com crianças e jovens utilizando ferramentas adquiridas no seu percurso pessoal, académico e na sua carreira como Psicóloga. Neste workshop as crianças vão aprender algumas técnicas e como controlar as suas emoções.",
+      "A dança ajuda a desacelerar o ritmo nas crianças agitadas, fazendo com que se sintam mais tranquilas. Por outro lado, como há regras que devem cumprir, permite-lhes aprender a controlar a ansiedade e a impulsividade. 🕴🏻 Sabias que a prática de exercício físico permite potenciar o crescimento celular no cérebro e de neurotransmissores associados ao humor? Que ela pode reduzir o stress e aliviar a tensão muscular, melhorar a qualidade de sono e, consequentemente, contribuir para uma sensação generalizada de bem-estar⁉️ Ana Isabel Marques praticou dança na sua infância/adolescência e quer poder partilhar a sua experiência com crianças e jovens utilizando ferramentas adquiridas no seu percurso pessoal, académico e na sua carreira como Psicóloga. Neste workshop as crianças vão aprender algumas técnicas e como controlar as suas emoções.",
     image: "https://i.imgur.com/u81VQEO.png",
     link: "",
     linkType: "none",

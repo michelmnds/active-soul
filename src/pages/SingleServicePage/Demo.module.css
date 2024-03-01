@@ -7,8 +7,3 @@
     }
 }
 
-@media(width >= 1440px){
-    .container{
-        height: 500px;
-    }
-}

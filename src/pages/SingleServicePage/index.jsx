@@ -13,8 +13,6 @@ import Autoplay from "embla-carousel-autoplay";
 import { IconArrowRight, IconArrowLeft } from "@tabler/icons-react";
 import classes from "./Demo.module.css";
 
-import { newsData } from "../../data/newsData";
-
 // eslint-disable-next-line react/prop-types
 export const SingleServicePage = ({ menu }) => {
   const autoplay = useRef(Autoplay({ delay: 3500 }));
@@ -27,10 +25,25 @@ export const SingleServicePage = ({ menu }) => {
     );
   }, []);
 
+  const imageUrls = [
+    "https://i.imgur.com/dZ338Yd.png",
+    "https://i.imgur.com/w80OYQW.png",
+    "https://i.imgur.com/yu5gQC1.png",
+    "https://i.imgur.com/yjGtCu3.png",
+    "https://i.imgur.com/ljXNRdd.png",
+    "https://i.imgur.com/ZfVhXE5.png",
+    "https://i.imgur.com/4N8ptqd.png",
+    "https://i.imgur.com/ZTB58qW.png",
+    "https://i.imgur.com/JQ08WQa.png",
+    "https://i.imgur.com/uogwojR.png",
+    "https://i.imgur.com/sZ1mtlm.png",
+    "https://i.imgur.com/zfDQQTr.png",
+  ];
+
   function Demo() {
-    const slides = newsData.map((currentNew) => (
-      <Carousel.Slide key={currentNew.image}>
-        <Image style={{ height: `${100}%` }} src={currentNew.image} />
+    const slides = imageUrls.map((image) => (
+      <Carousel.Slide key={image}>
+        <Image style={{ height: `${100}%` }} src={image} />
       </Carousel.Slide>
     ));
     return (
