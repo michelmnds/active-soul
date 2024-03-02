@@ -34,7 +34,7 @@ export const classData = [
     name: "GAP",
     modality: "Aulas a partir dos 14 anos",
     description:
-      "Desenvolve o corpo de uma forma eficaz. Utiliza pesos, caneleiras, halteres e barras para fortalecer todos os grupos musculares.",
+      "Desenvolve o corpo de uma forma eficaz. Utiliza pesos, caneleiras, halteres e barras para fortalecer principalmente os glúteos, abdominais e pernas.",
     image: "https://i.imgur.com/uStDRbY.jpg",
     schedule: [
       {
