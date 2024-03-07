@@ -15,12 +15,18 @@ export const SingleNewPage = ({ menu }) => {
   if (currentNew.id) {
     const formattedDescription = currentNew.description.replace(
       // eslint-disable-next-line no-useless-escape
-      /[\.\!]/g,
+      /[\.\!\*\$\|]/g,
       (match) => {
         if (match === ".") {
           return ".<br />";
         } else if (match === "!") {
           return "!<br />";
+        } else if (match === "*") {
+          return ".";
+        } else if (match === "$") {
+          return "<br />";
+        } else if (match === "|") {
+          return "!";
         }
       }
     );
