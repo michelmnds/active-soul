@@ -1,20 +1,5 @@
 export const classData = [
   {
-    id: 1,
-    name: "Bumbum",
-    modality: "",
-    description:
-      "É uma aula de tonificação, resistência e fortalecimento muscular com foco principal nos membros inferiores e glúteos. Vem experimentar e vais ver que vais gostar !",
-    image: "https://i.imgur.com/pqT8kXv.jpg",
-    schedule: [
-      {
-        day: "Qua",
-        time: "18:45 - 19:30",
-        teacher: "Inês Melro",
-      },
-    ],
-  },
-  {
     id: 2,
     name: "Circuito",
     modality: "Aulas a partir dos 14 anos",

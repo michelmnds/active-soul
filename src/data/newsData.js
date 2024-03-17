@@ -1,6 +1,6 @@
 export const newsData = [
   {
-    id: 28,
+    id: 31,
     name: "Espetáculo Final de Ano Letivo 2023/2024",
     title: "Espetáculo Final de Ano Letivo 2023/2024",
     date: "14/02/2024",
@@ -13,6 +13,58 @@ export const newsData = [
     ],
     description: "Informações brevemente",
     image: "https://i.imgur.com/v6AIE49.jpg",
+    link: "",
+    linkType: "IG",
+  },
+  // {
+  //   id: 30,
+  //   name: "Demonstração de Dança",
+  //   title: "Demonstração de Dança",
+  //   date: "15/03/2024",
+  //   schedule: [
+  //     {
+  //       day: "04/06/2024",
+  //       time: "17:00",
+  //       location: "Cine Teatro Avenida de Castelo Branco",
+  //     },
+  //   ],
+  //   description: "Informações brevemente",
+  //   image: "https://i.imgur.com/v6AIE49.jpg",
+  //   link: "",
+  //   linkType: "IG",
+  // },
+  // {
+  //   id: 29,
+  //   name: "Comemoração “Dia Mundial da Dança”",
+  //   title: "Comemoração “Dia Mundial da Dança”",
+  //   date: "14/02/2024",
+  //   schedule: [
+  //     {
+  //       day: "29/05/2024",
+  //       time: "17:00",
+  //       location: "Cine Teatro Avenida de Castelo Branco",
+  //     },
+  //   ],
+  //   description: "Informações brevemente",
+  //   image: "https://i.imgur.com/v6AIE49.jpg",
+  //   link: "",
+  //   linkType: "IG",
+  // },
+  {
+    id: 28,
+    name: "Dia Mundial Da Atividade Física",
+    title: "Dia Mundial Da Atividade Física",
+    date: "15/03/2024",
+    schedule: [
+      {
+        day: "06/04/2024",
+        time: "09:30 - 11:00",
+        location: "Edifício da Lagoa",
+      },
+    ],
+    description:
+      "No dia 6 de abril, em parceria com a APEF de Castelo Branco, mais uma vez não deixamos que a data passe despercebida.A partir das 09:30, na Zona de Lazer de Castelo Branco, no Edifício da Lagoa, temos demonstrações de dança seguida de uma caminhada mais ou menos de 5 km. As atividades decorrem até às 11:00, são gratuitas e abertas à comunidade.Marque na sua agenda e seja ativo, esperamos por si!",
+    image: "https://i.imgur.com/9Ygh3nU.jpg",
     link: "",
     linkType: "IG",
   },
@@ -36,7 +88,7 @@ export const newsData = [
   },
   {
     id: 26,
-    name: "",
+    name: "Workshop de Contemporâneo",
     title: "Workshop de Contemporâneo",
     date: "07/03/2024",
     schedule: [
@@ -53,30 +105,30 @@ export const newsData = [
     ],
     description:
       "Este ano segue com mais novidades. Vamos receber no nosso estúdio a incrível bailarina Catarina Casqueiro, vai estar no Active Soul para 2 workshops de contemporâneo.• A Catarina formou-se na Escola de Dança do Conservatório Nacional e iniciou a sua carreira com um estágio profissional na Kibbutz Contemporary Dance Company, com bolsa da Fundação Gulbenkian.• Trabalhou na Companhia Vórtice e mais tarde, tornando-se freelancer, participou em várias criações de coreógrafos independentes, nacional e internacional.• Coreografou para a Quorum Academy e este ano é coreógrafa convidada da Kayzer Ballet.• Em parceria com Tiago Coelho, desenvolveu um projecto de dueto já rodado em vários festivais, nacionais e internacionais, tendo já ganho alguns prémios.Não percas a oportunidade para poderes aprender mais e dançar! Podes inscrever-te por mensagem privada, pelo 962817248 e pelo email activesoul*studio@gmail*com$ Esperamos por ti| As vagas são limitadas!",
-    image: "https://i.imgur.com/092iJBT.jpg",
+    image: "https://i.imgur.com/aQVdGCR.jpg",
     link: "",
     linkType: "IG",
   },
   {
     id: 25,
-    name: "",
+    name: "Dia Internacional da Mulher",
     title: "Dia Internacional da Mulher",
     date: "26/02/2024",
     schedule: [
       {
         day: "08/03/2024",
-        time: "19:00",
-        location: "Local a Anunciar",
+        time: "16:00 - 20:00",
+        location: "Estúdio Active Soul",
       },
       {
         day: "11/03/2024",
-        time: "18:00",
-        location: "Local a Anunciar",
+        time: "16:00 - 20:00",
+        location: "Estúdio Active Soul",
       },
     ],
     description:
       "Gostaria de presentear as suas colaboradoras com uma aula de dança bem divertida ou até com uma das nossas modalidades de bem estar? Entre em contacto conosco e faremos um dia diferente!",
-    image: "https://i.imgur.com/mWPImQ6.jpg",
+    image: "https://i.imgur.com/78E3RaZ.jpg",
     link: "",
     linkType: "IG",
   },

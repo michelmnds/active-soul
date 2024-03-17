@@ -34,7 +34,7 @@ export const teamData = [
     id: 6,
     image: "https://i.imgur.com/tQzETjZ.png",
     name: "Fábio Sscola",
-    modality: "Professor de Afro Latinas",
+    modality: "Professor de Afro Latinas e Ritmos",
   },
   {
     id: 7,
