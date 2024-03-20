@@ -1,0 +1,9 @@
+.container{
+    height: 300px;
+}
+@media(width >= 768px){
+    .container{
+        height: 500px;
+    }
+}
+
