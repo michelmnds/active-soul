@@ -176,7 +176,7 @@ export const SingleNewPage = ({ menu }) => {
             })}
           </section>
 
-          <CarouselComponent />
+          {currentNewId == 25 ? <CarouselComponent /> : null}
 
           <a
             href="https://wa.me/message/P62IN6OYSZ5YN1"
