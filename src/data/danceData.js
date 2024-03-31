@@ -124,9 +124,25 @@ export const danceData = [
       },
     ],
   },
-
+  // {
+  //   id: 6,
+  //   name: "Ritmos",
+  //   modality:
+  //     "Kizomba, Semba, Salsa, Bachata, Urban Kiz, Chachacha, Samba, Rumba e Jive.",
+  //   description:
+  //     "É uma aula a solo, dividida em 2 partes. Primeira parte abordamos os passos básicos de cada estilo de dança, na segunda parte da aula elaboramos uma coreografia. É uma aula com muita diversão.",
+  //   image: "https://i.imgur.com/0Ig658y.jpg",
+  //   schedule: [
+  //     {
+  //       day: "Qua",
+  //       time: "18:45 - 19:30",
+  //       teacher: "Fábio Sscola",
+  //       type: "Ritmos (Adultos)",
+  //     },
+  //   ],
+  // },
   {
-    id: 6,
+    id: 7,
     name: "Teatro Musical",
     modality: "Aulas a partir dos 6 anos",
     description:

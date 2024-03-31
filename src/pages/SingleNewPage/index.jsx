@@ -22,7 +22,7 @@ export const SingleNewPage = ({ menu }) => {
   }, []);
 
   useEffect(() => {
-    if (currentNewId == 25) {
+    if (currentNewId == 25 || currentNewId == 26) {
       const timeout = setTimeout(() => {
         setCarouselReady(true);
       }, 100);
@@ -37,20 +37,37 @@ export const SingleNewPage = ({ menu }) => {
     }
   }, [carouselReady]);
 
-  const imageUrls = [
+  const imageUrls1 = [
     "https://i.imgur.com/HFKxFRt.jpg",
     "https://i.imgur.com/YqCGKBH.jpg",
     "https://i.imgur.com/4JYgjO1.jpg",
     "https://i.imgur.com/9VQfTf1.jpg",
     "https://i.imgur.com/MH8ogmf.jpg",
   ];
+  const imageUrls2 = [
+    "https://i.imgur.com/jgoM30V.jpg",
+    "https://i.imgur.com/y2nlrRA.jpg",
+    "https://i.imgur.com/3j6otcM.jpg",
+    "https://i.imgur.com/3XeTnwi.jpg",
+    "https://i.imgur.com/wYA4u30.jpg",
+    "https://i.imgur.com/Yqi8aet.jpg",
+    "https://i.imgur.com/w183qy0.jpg",
+    "https://i.imgur.com/XlHuXK8.jpg",
+  ];
 
   function CarouselComponent() {
-    const slides = imageUrls.map((image) => (
-      <Carousel.Slide key={image}>
-        <Image style={{ height: `${100}%` }} src={image} />
-      </Carousel.Slide>
-    ));
+    const slides =
+      currentNewId == 25
+        ? imageUrls1.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ))
+        : imageUrls2.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ));
     return (
       <Carousel
         classNames={classes}
@@ -176,7 +193,9 @@ export const SingleNewPage = ({ menu }) => {
             })}
           </section>
 
-          {currentNewId == 25 ? <CarouselComponent /> : null}
+          {currentNewId == 25 || currentNewId == 26 ? (
+            <CarouselComponent />
+          ) : null}
 
           <a
             href="https://wa.me/message/P62IN6OYSZ5YN1"

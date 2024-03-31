@@ -1,6 +1,6 @@
 export const newsData = [
   {
-    id: 31,
+    id: 32,
     name: "Espetáculo Final de Ano Letivo 2023/2024",
     title: "Espetáculo Final de Ano Letivo 2023/2024",
     date: "14/02/2024",
@@ -16,8 +16,9 @@ export const newsData = [
     link: "",
     linkType: "IG",
   },
+
   // {
-  //   id: 30,
+  //   id: 31,
   //   name: "Demonstração de Dança",
   //   title: "Demonstração de Dança",
   //   date: "15/03/2024",
@@ -34,7 +35,7 @@ export const newsData = [
   //   linkType: "IG",
   // },
   // {
-  //   id: 29,
+  //   id: 30,
   //   name: "Comemoração “Dia Mundial da Dança”",
   //   title: "Comemoração “Dia Mundial da Dança”",
   //   date: "14/02/2024",
@@ -51,7 +52,7 @@ export const newsData = [
   //   linkType: "IG",
   // },
   {
-    id: 28,
+    id: 29,
     name: "Dia Mundial Da Atividade Física",
     title: "Dia Mundial Da Atividade Física",
     date: "15/03/2024",
@@ -69,7 +70,7 @@ export const newsData = [
     linkType: "IG",
   },
   {
-    id: 27,
+    id: 28,
     name: "Teatro Musical - Alice no País das Maravilhas",
     title: "Teatro Musical - Alice no País das Maravilhas",
     date: "27/02/2024",
@@ -87,7 +88,7 @@ export const newsData = [
     linkType: "IG",
   },
   {
-    id: 26,
+    id: 27,
     name: "Workshop de Contemporâneo",
     title: "Workshop de Contemporâneo",
     date: "07/03/2024",
@@ -105,7 +106,25 @@ export const newsData = [
     ],
     description:
       "Este ano segue com mais novidades. Vamos receber no nosso estúdio a incrível bailarina Catarina Casqueiro, vai estar no Active Soul para 2 workshops de contemporâneo.• A Catarina formou-se na Escola de Dança do Conservatório Nacional e iniciou a sua carreira com um estágio profissional na Kibbutz Contemporary Dance Company, com bolsa da Fundação Gulbenkian.• Trabalhou na Companhia Vórtice e mais tarde, tornando-se freelancer, participou em várias criações de coreógrafos independentes, nacional e internacional.• Coreografou para a Quorum Academy e este ano é coreógrafa convidada da Kayzer Ballet.• Em parceria com Tiago Coelho, desenvolveu um projecto de dueto já rodado em vários festivais, nacionais e internacionais, tendo já ganho alguns prémios.Não percas a oportunidade para poderes aprender mais e dançar! Podes inscrever-te por mensagem privada, pelo 962817248 e pelo email activesoul*studio@gmail*com$ Esperamos por ti| As vagas são limitadas!",
-    image: "https://i.imgur.com/aQVdGCR.jpg",
+    image: "https://i.imgur.com/dsp3qJ5.jpg",
+    link: "",
+    linkType: "IG",
+  },
+  {
+    id: 26,
+    name: "Estágio Páscoa - Albigym",
+    title: "Estágio Páscoa - Albigym",
+    date: "28/03/2024",
+    schedule: [
+      {
+        day: "27/03/2024",
+        time: "15:00 - 17:30",
+        location: "Albigym",
+      },
+    ],
+    description:
+      "A Albigym proporcionou aos seus ginásticas no Estágio da Páscoa Vários Workshops, Correção Postural, Contemporâneo e Jazz. Foi uma tarde cheia de aprendizagens e aperfeiçoamentos. Agradecemos desde já o convite por parte da Magda (Albigym) e toda a disponibilidade e profissionalismo da nossa Professora Sofia Ferreira.",
+    image: "https://i.imgur.com/Mnb9eOF.jpg",
     link: "",
     linkType: "IG",
   },
