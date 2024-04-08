@@ -66,8 +66,8 @@ export const newsData = [
     description:
       "No dia 6 de abril, em parceria com a APEF de Castelo Branco, mais uma vez não deixamos que a data passe despercebida.A partir das 09:30, na Zona de Lazer de Castelo Branco, no Edifício da Lagoa, temos demonstrações de dança seguida de uma caminhada mais ou menos de 5 km. As atividades decorrem até às 11:00, são gratuitas e abertas à comunidade.Marque na sua agenda e seja ativo, esperamos por si!",
     image: "https://i.imgur.com/9Ygh3nU.jpg",
-    link: "",
-    linkType: "IG",
+    link: "NABCsnkw0w0",
+    linkType: "YT",
   },
   {
     id: 28,
@@ -84,8 +84,8 @@ export const newsData = [
     description:
       "Os Alunos da turma de Teatro Musical do nosso Estúdio vão apresentar dia 5 de abril pelas 21h00 na Fábrica da Criatividade. Uma performance de teatro musical inspirado na obra icónica de Lewis Carroll, “Alice no País das Maravilhas”, adaptado para uma performance cheia de encanto, magia e emoção, num cenário fantástico que irá captar a atenção do público. Bilhetes brevemente disponíveis no nosso estúdio.",
     image: "https://i.imgur.com/bgratM7.jpg",
-    link: "",
-    linkType: "IG",
+    link: "EthaWg22-WI",
+    linkType: "YT",
   },
   {
     id: 27,
