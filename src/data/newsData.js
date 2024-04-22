@@ -82,7 +82,7 @@ export const newsData = [
       },
     ],
     description:
-      "A tarde de 21 de abril das classes AcroSweet e AcroCreative foram de formação. Agradecemos desde já a confiança nos nossos professores.",
+      "A tarde de 21 de abril foi de formação para as classes AcroSweet e AcroCreative. Agradecemos desde já a confiança nos nossos professores.",
     image: "https://i.imgur.com/pfwIebt.jpg",
     link: "",
     linkType: "YT",
