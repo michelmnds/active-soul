@@ -52,6 +52,42 @@ export const newsData = [
   //   linkType: "IG",
   // },
   {
+    id: 31,
+    name: "",
+    title: "Granja Park em Família",
+    date: "22/04/2024",
+    schedule: [
+      {
+        day: "27/04/2024",
+        time: "14:00",
+        location: "Granja Park",
+      },
+    ],
+    description:
+      "É já dia 27 de Abril! O dia é para a família e ninguém ficará de fora! Petiscos e atividades para todos ao longo do dia! Vamos ter uma demonstração às 14h00 e uma aula de dança para toda a família.",
+    image: "https://i.imgur.com/uGtlWXq.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 30,
+    name: "Workshop Expressão Corporal e Dança Contemporânea",
+    title: "Workshop Expressão Corporal e Dança Contemporânea",
+    date: "22/04/2024",
+    schedule: [
+      {
+        day: "21/04/2024",
+        time: "15:00 - 16:30",
+        location: "Albigym",
+      },
+    ],
+    description:
+      "A tarde de 21 de abril das classes AcroSweet e AcroCreative foram de formação. Agradecemos desde já a confiança nos nossos professores.",
+    image: "https://i.imgur.com/pfwIebt.jpg",
+    link: "",
+    linkType: "YT",
+  },
+  {
     id: 29,
     name: "Dia Mundial Da Atividade Física",
     title: "Dia Mundial Da Atividade Física",

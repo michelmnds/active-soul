@@ -22,7 +22,7 @@ export const SingleNewPage = ({ menu }) => {
   }, []);
 
   useEffect(() => {
-    if (currentNewId == 25 || currentNewId == 26) {
+    if (currentNewId == 25 || currentNewId == 26 || currentNewId == 30) {
       const timeout = setTimeout(() => {
         setCarouselReady(true);
       }, 100);
@@ -54,6 +54,13 @@ export const SingleNewPage = ({ menu }) => {
     "https://i.imgur.com/w183qy0.jpg",
     "https://i.imgur.com/XlHuXK8.jpg",
   ];
+  const imageUrls3 = [
+    "https://i.imgur.com/xFwGF67.jpg",
+    "https://i.imgur.com/pfwIebt.jpg",
+    "https://i.imgur.com/7QJyLC0.jpg",
+    "https://i.imgur.com/q1bumCd.jpg",
+    "https://i.imgur.com/oOQKjkz.jpg",
+  ];
 
   function CarouselComponent() {
     const slides =
@@ -63,11 +70,14 @@ export const SingleNewPage = ({ menu }) => {
               <Image style={{ height: `${100}%` }} src={image} />
             </Carousel.Slide>
           ))
-        : imageUrls2.map((image) => (
+        : currentNewId == 26 ? imageUrls2.map((image) => (
             <Carousel.Slide key={image}>
               <Image style={{ height: `${100}%` }} src={image} />
             </Carousel.Slide>
-          ));
+          )) : imageUrls3.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>));
     return (
       <Carousel
         classNames={classes}
@@ -137,6 +147,10 @@ export const SingleNewPage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
+         {currentNew.id === 31 &&  <span className="singleNewDesc">Faça a sua inscrição <a target="_blank" 
+         href="https://docs.google.com/forms/d/e/1FAIpQLSeNEipOHE97kcnXdYoegAOV9P1z0b9Q6dQR3ECR2l4TjQ-gRw/viewform?fbclid=IwZXh0bgNhZW0CMTAAAR0fXaDKvTcZgqGUOHb7HXoHwYNcikRJXLU_QR0-gPWdkEvaYslN5taTo30_aem_AUIchQRoMc3AfHjDbyZfYZq_7dcirWvlU3BZitZWy4YH03NrnqvISIBFv8yOliHv2dqOVKhREeKEBT8OV3BvqBKA" 
+         rel="noreferrer">aqui</a>!</span>}
+
           {currentNew.link ? (
             currentNew.linkType == "YT" ? (
               <iframe
@@ -193,7 +207,7 @@ export const SingleNewPage = ({ menu }) => {
             })}
           </section>
 
-          {currentNewId == 25 || currentNewId == 26 ? (
+          {currentNewId == 25 || currentNewId == 26 || currentNewId == 30 ? (
             <CarouselComponent />
           ) : null}
 
