@@ -61,6 +61,12 @@ export const SingleNewPage = ({ menu }) => {
     "https://i.imgur.com/q1bumCd.jpg",
     "https://i.imgur.com/oOQKjkz.jpg",
   ];
+  const imageUrls4 = [
+    "https://i.imgur.com/YGeorqW.jpg",
+    "https://i.imgur.com/dTW5fPd.jpg",
+    "https://i.imgur.com/T4IZ92I.jpg",
+    "https://i.imgur.com/03CiPAW.jpg",
+  ];
 
   function CarouselComponent() {
     const slides =
@@ -70,14 +76,23 @@ export const SingleNewPage = ({ menu }) => {
               <Image style={{ height: `${100}%` }} src={image} />
             </Carousel.Slide>
           ))
-        : currentNewId == 26 ? imageUrls2.map((image) => (
+        : currentNewId == 26
+        ? imageUrls2.map((image) => (
             <Carousel.Slide key={image}>
               <Image style={{ height: `${100}%` }} src={image} />
             </Carousel.Slide>
-          )) : imageUrls3.map((image) => (
+          ))
+        : currentNewId == 35
+        ? imageUrls4.map((image) => (
             <Carousel.Slide key={image}>
               <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>));
+            </Carousel.Slide>
+          ))
+        : imageUrls3.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ));
     return (
       <Carousel
         classNames={classes}
@@ -147,9 +162,19 @@ export const SingleNewPage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
-         {currentNew.id === 31 &&  <span className="singleNewDesc">Faça a sua inscrição <a target="_blank" 
-         href="https://docs.google.com/forms/d/e/1FAIpQLSeNEipOHE97kcnXdYoegAOV9P1z0b9Q6dQR3ECR2l4TjQ-gRw/viewform?fbclid=IwZXh0bgNhZW0CMTAAAR0fXaDKvTcZgqGUOHb7HXoHwYNcikRJXLU_QR0-gPWdkEvaYslN5taTo30_aem_AUIchQRoMc3AfHjDbyZfYZq_7dcirWvlU3BZitZWy4YH03NrnqvISIBFv8yOliHv2dqOVKhREeKEBT8OV3BvqBKA" 
-         rel="noreferrer">aqui</a>!</span>}
+          {currentNew.id === 31 && (
+            <span className="singleNewDesc">
+              Faça a sua inscrição{" "}
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeNEipOHE97kcnXdYoegAOV9P1z0b9Q6dQR3ECR2l4TjQ-gRw/viewform?fbclid=IwZXh0bgNhZW0CMTAAAR0fXaDKvTcZgqGUOHb7HXoHwYNcikRJXLU_QR0-gPWdkEvaYslN5taTo30_aem_AUIchQRoMc3AfHjDbyZfYZq_7dcirWvlU3BZitZWy4YH03NrnqvISIBFv8yOliHv2dqOVKhREeKEBT8OV3BvqBKA"
+                rel="noreferrer"
+              >
+                aqui
+              </a>
+              !
+            </span>
+          )}
 
           {currentNew.link ? (
             currentNew.linkType == "YT" ? (
@@ -207,7 +232,10 @@ export const SingleNewPage = ({ menu }) => {
             })}
           </section>
 
-          {currentNewId == 25 || currentNewId == 26 || currentNewId == 30 ? (
+          {currentNewId == 25 ||
+          currentNewId == 26 ||
+          currentNewId == 30 ||
+          currentNewId == 35 ? (
             <CarouselComponent />
           ) : null}
 

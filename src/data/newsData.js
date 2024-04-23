@@ -1,6 +1,6 @@
 export const newsData = [
   {
-    id: 32,
+    id: 34,
     name: "Espetáculo Final de Ano Letivo 2023/2024",
     title: "Espetáculo Final de Ano Letivo 2023/2024",
     date: "14/02/2024",
@@ -51,6 +51,24 @@ export const newsData = [
   //   link: "",
   //   linkType: "IG",
   // },
+  {
+    id: 33,
+    name: "Performance",
+    title: "Performance",
+    date: "23/04/2024",
+    schedule: [
+      {
+        day: "04/05/2024",
+        time: "11:00",
+        location: "Serviço de Cuidados Continuados de Castelo Branco",
+      },
+    ],
+    description:
+      "A turma de Contemporâneo I e Jazz II irá estar dia 4 de maio no Serviço de Cuidados Continuados de Castelo Branco para fazer duas demonstrações .",
+    image: "https://i.imgur.com/GFZEUTw.jpg",
+    link: "",
+    linkType: "",
+  },
   {
     id: 31,
     name: "",
@@ -163,6 +181,29 @@ export const newsData = [
     image: "https://i.imgur.com/Mnb9eOF.jpg",
     link: "",
     linkType: "IG",
+  },
+  {
+    id: 35,
+    name: "Dia do Pai",
+    title: "Dia do Pai",
+    date: "23/04/2024",
+    schedule: [
+      {
+        day: "19/03/2024",
+        time: "",
+        location: "Estúdio Active Soul",
+      },
+      {
+        day: "22/03/2024",
+        time: "",
+        location: "Estúdio Active Soul",
+      },
+    ],
+    description:
+      "Durante toda a semana as aulas dos mais novos foram celebradas juntamente com a sua figura paterna. Fiquem com estes momentos registados.",
+    image: "https://i.imgur.com/dTW5fPd.jpg",
+    link: "",
+    linkType: "",
   },
   {
     id: 25,
