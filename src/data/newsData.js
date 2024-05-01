@@ -42,9 +42,8 @@ export const newsData = [
     schedule: [
       {
         day: "29/04/2024",
-        time: "17:00",
-        location:
-          "Escola Cidade de Castelo Branco, EB1 de Alcains e EB Afonso de Paiva",
+        time: "19:00",
+        location: "Devesa",
       },
     ],
     description:
