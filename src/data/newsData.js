@@ -34,23 +34,66 @@ export const newsData = [
   //   link: "",
   //   linkType: "IG",
   // },
-  // {
-  //   id: 30,
-  //   name: "Comemoração “Dia Mundial da Dança”",
-  //   title: "Comemoração “Dia Mundial da Dança”",
-  //   date: "14/02/2024",
-  //   schedule: [
-  //     {
-  //       day: "29/05/2024",
-  //       time: "17:00",
-  //       location: "Cine Teatro Avenida de Castelo Branco",
-  //     },
-  //   ],
-  //   description: "Informações brevemente",
-  //   image: "https://i.imgur.com/v6AIE49.jpg",
-  //   link: "",
-  //   linkType: "IG",
-  // },
+  {
+    id: 37,
+    name: "Comemoração “Dia Mundial da Dança”",
+    title: "Comemoração “Dia Mundial da Dança”",
+    date: "14/02/2024",
+    schedule: [
+      {
+        day: "29/04/2024",
+        time: "17:00",
+        location:
+          "Escola Cidade de Castelo Branco, EB1 de Alcains e EB Afonso de Paiva",
+      },
+    ],
+    description:
+      "O Dia Mundial da Dança foi celebrado a 29 de abril, na Escola Cidade de Castelo, Branco, na EB1 de Alcains e na EB Afonso de Paiva, numa iniciativa que contou com centenas de alunos, com organização dos Serviços Educativos da Câmara Municipal de Castelo Branco e com a colaboração das duas escolas de dança, Active Soul e Academia de Dança. No final, toda a comunidade se pode juntar na devesa para celebrar este dia em que “A Dança foi para Todos”.",
+    image: "https://i.imgur.com/HO8gXWz.jpg",
+    link: "",
+    linkType: "IG",
+  },
+  {
+    id: 31,
+    name: "",
+    title: "Granja Park em Família",
+    date: "22/04/2024",
+    schedule: [
+      {
+        day: "18/05/2024",
+        time: "14:00",
+        location: "Granja Park",
+      },
+    ],
+    description:
+      "É já dia 18 de Maio! O dia é para a família e ninguém ficará de fora! Petiscos e atividades para todos ao longo do dia! Vamos ter uma demonstração às 14h00 e uma aula de dança para toda a família.",
+    image: "https://i.imgur.com/uGtlWXq.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 36,
+    name: "",
+    title: "Workshop de Hip Hop",
+    date: "01/05/2024",
+    schedule: [
+      {
+        day: "18/05/2024",
+        time: "10:00 - Hip Hop",
+        location: "Estúdio Active Soul",
+      },
+      {
+        day: "18/05/2024",
+        time: "11:30 - Fusion",
+        location: "Estúdio Active Soul",
+      },
+    ],
+    description:
+      "O HIP HOP chega ao nosso estúdio e não podíamos começar de melhor forma! Vamos receber no nosso estúdio a incrível bailarina e professora Beatriz Matos , para 2 workshops, um para os amantes de Hip Hop e outro para os amantes de Fusion, por isso se és aluno/apaixonado por contemporâneo este workshop também é indicado para ti . • A Beatriz dança hip hop desde os 6 anos e foi ginasta de Aeróbica de alta competição, inclusive fez parte da Seleção Nacional e obteve vários prémios nacionais e internacionais. • Participou em diversas competições de Danças Urbanas tanto a nível nacional como internacional, com o grupo MGBOOS, com equipas coreografadas por Bárbara Matos.• Destaca do seu percurso a participação no projeto Loop Gate Fest - Vortexxx com direção criativa e artística de Rita Spider. • Atualmente dá aulas de Hip-Hop, Choreography, Flexibilidade, Barra de Chão e Acrobacias.Não percas a oportunidade para poderes aprender mais e dançar! Podes inscrever-te por mensagem privada, pelo 962817248 e pelo email activesoul.studio@gmail*com. Esperamos por ti, as vagas são limitadas!",
+    image: "https://i.imgur.com/hWY3u7M.jpg",
+    link: "",
+    linkType: "",
+  },
   {
     id: 33,
     name: "Performance",
@@ -66,24 +109,6 @@ export const newsData = [
     description:
       "A turma de Contemporâneo I e Jazz II irá estar dia 4 de maio no Serviço de Cuidados Continuados de Castelo Branco para fazer duas demonstrações .",
     image: "https://i.imgur.com/GFZEUTw.jpg",
-    link: "",
-    linkType: "",
-  },
-  {
-    id: 31,
-    name: "",
-    title: "Granja Park em Família",
-    date: "22/04/2024",
-    schedule: [
-      {
-        day: "27/04/2024",
-        time: "14:00",
-        location: "Granja Park",
-      },
-    ],
-    description:
-      "É já dia 27 de Abril! O dia é para a família e ninguém ficará de fora! Petiscos e atividades para todos ao longo do dia! Vamos ter uma demonstração às 14h00 e uma aula de dança para toda a família.",
-    image: "https://i.imgur.com/uGtlWXq.jpg",
     link: "",
     linkType: "",
   },
