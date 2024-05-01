@@ -22,7 +22,13 @@ export const SingleNewPage = ({ menu }) => {
   }, []);
 
   useEffect(() => {
-    if (currentNewId == 25 || currentNewId == 26 || currentNewId == 30) {
+    if (
+      currentNewId == 25 ||
+      currentNewId == 26 ||
+      currentNewId == 30 ||
+      currentNewId == 35 ||
+      currentNewId == 37
+    ) {
       const timeout = setTimeout(() => {
         setCarouselReady(true);
       }, 100);
