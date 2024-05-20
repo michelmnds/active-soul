@@ -72,7 +72,7 @@ export const newsData = [
   },
   {
     id: 36,
-    name: "",
+    name: "Workshop de Hip Hop",
     title: "Workshop de Hip Hop",
     date: "01/05/2024",
     schedule: [
@@ -88,8 +88,8 @@ export const newsData = [
       },
     ],
     description:
-      "O HIP HOP chega ao nosso estúdio e não podíamos começar de melhor forma! Vamos receber no nosso estúdio a incrível bailarina e professora Beatriz Matos , para 2 workshops, um para os amantes de Hip Hop e outro para os amantes de Fusion, por isso se és aluno/apaixonado por contemporâneo este workshop também é indicado para ti . • A Beatriz dança hip hop desde os 6 anos e foi ginasta de Aeróbica de alta competição, inclusive fez parte da Seleção Nacional e obteve vários prémios nacionais e internacionais. • Participou em diversas competições de Danças Urbanas tanto a nível nacional como internacional, com o grupo MGBOOS, com equipas coreografadas por Bárbara Matos.• Destaca do seu percurso a participação no projeto Loop Gate Fest - Vortexxx com direção criativa e artística de Rita Spider. • Atualmente dá aulas de Hip-Hop, Choreography, Flexibilidade, Barra de Chão e Acrobacias.Não percas a oportunidade para poderes aprender mais e dançar! Podes inscrever-te por mensagem privada, pelo 962817248 e pelo email activesoul.studio@gmail*com. Esperamos por ti, as vagas são limitadas!",
-    image: "https://i.imgur.com/hWY3u7M.jpg",
+      "O HIP HOP chega ao nosso estúdio e não podíamos começar de melhor forma! Vamos receber no nosso estúdio a incrível bailarina e professora Beatriz Matos , para 2 workshops, um para os amantes de Hip Hop e outro para os amantes de Fusion, por isso se és aluno/apaixonado por contemporâneo este workshop também é indicado para ti . • A Beatriz dança hip hop desde os 6 anos e foi ginasta de Aeróbica de alta competição, inclusive fez parte da Seleção Nacional e obteve vários prémios nacionais e internacionais. • Participou em diversas competições de Danças Urbanas tanto a nível nacional como internacional, com o grupo MGBOOS, com equipas coreografadas por Bárbara Matos.• Destaca do seu percurso a participação no projeto Loop Gate Fest - Vortexxx com direção criativa e artística de Rita Spider. • Atualmente dá aulas de Hip-Hop, Choreography, Flexibilidade, Barra de Chão e Acrobacias.Não percas a oportunidade para poderes aprender mais e dançar!",
+    image: "https://i.imgur.com/5ubP3f8.jpg",
     link: "",
     linkType: "",
   },

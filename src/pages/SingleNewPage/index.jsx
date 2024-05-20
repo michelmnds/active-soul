@@ -91,6 +91,8 @@ export const SingleNewPage = ({ menu }) => {
     "https://i.imgur.com/uhFydvZ.jpg",
   ];
   const imageUrls6 = ["https://i.imgur.com/gbCwsMY.jpg"];
+  const imageUrls7 = ["https://i.imgur.com/rN3CFXp.jpg"];
+  const imageUrls8 = ["https://i.imgur.com/a1hudPx.jpg"];
 
   function CarouselComponent() {
     const slides =
@@ -124,6 +126,18 @@ export const SingleNewPage = ({ menu }) => {
               <Image style={{ height: `${100}%` }} src={image} />
             </Carousel.Slide>
           ))
+        : currentNewId == 36
+        ? imageUrls7.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ))
+        : currentNewId == 31
+        ? imageUrls8.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ))
         : imageUrls3.map((image) => (
             <Carousel.Slide key={image}>
               <Image style={{ height: `${100}%` }} src={image} />
@@ -133,30 +147,37 @@ export const SingleNewPage = ({ menu }) => {
       <Carousel
         classNames={classes}
         className={`${menu ? "move" : ""}`}
-        withIndicators
         loop
         plugins={[autoplay.current]}
         onMouseEnter={autoplay.current.stop}
         onMouseLeave={autoplay.current.reset}
         nextControlIcon={
-          <IconArrowRight
-            style={{
-              width: `rem(${16})`,
-              height: `rem(${16})`,
-              backgroundColor: "white",
-              borderRadius: 12,
-            }}
-          />
+          currentNewId == 36 ||
+          currentNewId == 31 ||
+          currentNewId == 33 ? null : (
+            <IconArrowRight
+              style={{
+                width: `rem(${16})`,
+                height: `rem(${16})`,
+                backgroundColor: "white",
+                borderRadius: 12,
+              }}
+            />
+          )
         }
         previousControlIcon={
-          <IconArrowLeft
-            style={{
-              width: `rem(${16})`,
-              height: `rem(${16})`,
-              backgroundColor: "white",
-              borderRadius: 12,
-            }}
-          />
+          currentNewId == 36 ||
+          currentNewId == 31 ||
+          currentNewId == 33 ? null : (
+            <IconArrowLeft
+              style={{
+                width: `rem(${16})`,
+                height: `rem(${16})`,
+                backgroundColor: "white",
+                borderRadius: 12,
+              }}
+            />
+          )
         }
       >
         {slides}
@@ -273,7 +294,9 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 30 ||
           currentNewId == 35 ||
           currentNewId == 33 ||
-          currentNewId == 37 ? (
+          currentNewId == 36 ||
+          currentNewId == 37 ||
+          currentNewId == 31 ? (
             <CarouselComponent />
           ) : null}
 
