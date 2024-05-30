@@ -1,5 +1,23 @@
 export const newsData = [
   {
+    id: 39,
+    name: "Atuação Alegro",
+    title: "Atuação Alegro",
+    date: "30/05/2024",
+    schedule: [
+      {
+        day: "28/06/2024",
+        time: "16:00",
+        location: "Alegro",
+      },
+    ],
+    description:
+      "Vamos estar às 16h00 na loja do Festival + Solidário para uma pequena apresentação de dança! Ao adquirir os bilhetes para o evento, aproveitas:$ • 15% de desconto para ti$ • 10% para o Active Soul$ Para usufruir destes descontos, basta inserires o código correspondente durante a compra dos bilhetes. Segue abaixo os código de desconto:$ Código: +SACTIVESOUL24$ Esperamos por vocês!",
+    image: "https://i.imgur.com/l2IguOK.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 34,
     name: "Espetáculo Final de Ano Letivo 2023/2024",
     title: "Espetáculo Final de Ano Letivo 2023/2024",
@@ -16,41 +34,23 @@ export const newsData = [
     link: "",
     linkType: "IG",
   },
-
-  // {
-  //   id: 31,
-  //   name: "Demonstração de Dança",
-  //   title: "Demonstração de Dança",
-  //   date: "15/03/2024",
-  //   schedule: [
-  //     {
-  //       day: "04/06/2024",
-  //       time: "17:00",
-  //       location: "Cine Teatro Avenida de Castelo Branco",
-  //     },
-  //   ],
-  //   description: "Informações brevemente",
-  //   image: "https://i.imgur.com/v6AIE49.jpg",
-  //   link: "",
-  //   linkType: "IG",
-  // },
   {
-    id: 37,
-    name: "Comemoração “Dia Mundial da Dança”",
-    title: "Comemoração “Dia Mundial da Dança”",
-    date: "14/02/2024",
+    id: 38,
+    name: "Aula de Dança Decathlon ",
+    title: "Aula de Dança Decathlon ",
+    date: "30/05/2024",
     schedule: [
       {
-        day: "29/04/2024",
-        time: "19:00",
-        location: "Devesa",
+        day: "08/06/2024",
+        time: "18:00",
+        location: "Decathlon",
       },
     ],
     description:
-      "O Dia Mundial da Dança foi celebrado a 29 de abril, na Escola Cidade de Castelo, Branco, na EB1 de Alcains e na EB Afonso de Paiva, numa iniciativa que contou com centenas de alunos, com organização dos Serviços Educativos da Câmara Municipal de Castelo Branco e com a colaboração das duas escolas de dança, Active Soul e Academia de Dança. No final, toda a comunidade se pode juntar na devesa para celebrar este dia em que “A Dança foi para Todos”.",
-    image: "https://i.imgur.com/HO8gXWz.jpg",
+      "Vem passar uma manhã divertida e com muita dança conosco* Não é necessário inscrição basta aparecer* É para todas as idades| Esperamos por vocês!",
+    image: "https://i.imgur.com/TNPRH0Y.jpg",
     link: "",
-    linkType: "IG",
+    linkType: "",
   },
   {
     id: 31,
@@ -110,6 +110,24 @@ export const newsData = [
     image: "https://i.imgur.com/GFZEUTw.jpg",
     link: "",
     linkType: "",
+  },
+  {
+    id: 37,
+    name: "Comemoração “Dia Mundial da Dança”",
+    title: "Comemoração “Dia Mundial da Dança”",
+    date: "14/02/2024",
+    schedule: [
+      {
+        day: "29/04/2024",
+        time: "19:00",
+        location: "Devesa",
+      },
+    ],
+    description:
+      "O Dia Mundial da Dança foi celebrado a 29 de abril, na Escola Cidade de Castelo, Branco, na EB1 de Alcains e na EB Afonso de Paiva, numa iniciativa que contou com centenas de alunos, com organização dos Serviços Educativos da Câmara Municipal de Castelo Branco e com a colaboração das duas escolas de dança, Active Soul e Academia de Dança. No final, toda a comunidade se pode juntar na devesa para celebrar este dia em que “A Dança foi para Todos”.",
+    image: "https://i.imgur.com/HO8gXWz.jpg",
+    link: "",
+    linkType: "IG",
   },
   {
     id: 30,
