@@ -42,7 +42,7 @@ export const newsData = [
     schedule: [
       {
         day: "08/06/2024",
-        time: "18:00",
+        time: "10:00",
         location: "Decathlon",
       },
     ],
