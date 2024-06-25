@@ -232,6 +232,19 @@ export const SingleNewPage = ({ menu }) => {
               !
             </span>
           )}
+          {currentNew.id === 34 && (
+            <span className="singleNewDesc">
+              Veja as fotos{" "}
+              <a
+                target="_blank"
+                href="https://mega.nz/folder/1u1QQACD#4FvfQITQ2U-xgyXuMtcfdQ"
+                rel="noreferrer"
+              >
+                aqui
+              </a>
+              !
+            </span>
+          )}
 
           {currentNew.link ? (
             currentNew.linkType == "YT" ? (

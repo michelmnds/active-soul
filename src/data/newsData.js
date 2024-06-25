@@ -11,8 +11,9 @@ export const newsData = [
         location: "Cine Teatro Avenida de Castelo Branco",
       },
     ],
-    description: "Informações brevemente",
-    image: "https://i.imgur.com/v6AIE49.jpg",
+    description:
+      "O espetáculo “Raízes” faz-nos regressar à nossa essência* Relembra-nos que é importante de vez em quando olharmos para trás e vermos o caminho bonito que temos percorrido* Em palco presenteamos o público mais uma vez com muita música e dança, nesta que se espera ser uma hora cheia de recordações, conexão e muitas emoções* Venham assistir a mais um espetáculo com texto original, coreografias vibrantes e com o envolvimento que a Active Soul sempre privilegia, ficamos à vossa espera!",
+    image: "https://i.imgur.com/zv0G6GW.jpg",
     link: "",
     linkType: "IG",
   },
