@@ -152,7 +152,7 @@
     display: flex;
     flex-direction: column;
 
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 
     padding: 20px;
@@ -165,8 +165,15 @@
 }
 .tableTxt{
     font-size: 20px;
-
+    width: 100%;
     color: var(--secondary-green);
+}
+.tableTxtSoon{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-green);
+    position: absolute;
+    z-index: 1;
 }
 .table{
     background-size: cover;
@@ -182,6 +189,8 @@
     transition: 0.3s ease-in-out;
 
     position: relative;
+
+    filter: blur(2px);
 }
 .table:hover{
     transform: scale(1.01);
@@ -229,6 +238,9 @@
         justify-content: center;
 
         font-size: 20px;
+    }
+    .tableTxtSoon{
+        font-size: 36px;
     }
 }
 @media(width >= 1024px){

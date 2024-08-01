@@ -18,6 +18,7 @@
 }
 .headerLinkLeft, .headerLinkRight{
     display: none;
+    cursor: pointer;
 }
 
 @media(width >= 768px){
@@ -42,24 +43,25 @@
     }
     .headerLinkLeft, .headerLinkRight{
         display: flex;
-        gap: 40px;
+        gap: 20px;
 
         position: absolute;
 
         top: 0;
         bottom: 0;
+        font-size: 14px;
     }
     .headerLinkLeft{
         align-items: center;
         justify-content: center;
 
-        left: calc(50% - 450px);
+        left: calc(50% - 440px);
     }
     .headerLinkRight{
         align-items: center;
         justify-content: center;
 
-        right: calc(50% - 430px);
+        right: calc(50% - 335px);
     }
     .headerLink{
         text-decoration: none;
@@ -75,4 +77,22 @@
         
         transition: 0.2s;
     }
+@media(width >= 1440px){
+    .headerLinkLeft, .headerLinkRight{
+        font-size: 16px;
+        gap: 40px;
+    }
+    .headerLinkLeft{
+        align-items: center;
+        justify-content: center;
+
+        left: calc(50% - 550px);
+    }
+    .headerLinkRight{
+        align-items: center;
+        justify-content: center;
+
+        right: calc(50% - 430px);
+    }
+}
 }

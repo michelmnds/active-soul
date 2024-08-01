@@ -1,5 +1,23 @@
 export const newsData = [
   {
+    id: 38,
+    name: "Aula de Dança Decathlon ",
+    title: "Aula de Dança Decathlon ",
+    date: "30/05/2024",
+    schedule: [
+      {
+        day: "03/08/2024",
+        time: "10:00",
+        location: "Decathlon",
+      },
+    ],
+    description:
+      "Vem passar uma manhã divertida e com muita dança conosco* Não é necessário inscrição basta aparecer* É para todas as idades| Esperamos por vocês!",
+    image: "https://i.imgur.com/TNPRH0Y.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 39,
     name: "Atuação Alegro",
     title: "Atuação Alegro",
@@ -13,7 +31,7 @@ export const newsData = [
     ],
     description:
       "Vamos estar às 16h00 na loja do Festival + Solidário para uma pequena apresentação de dança! Ao adquirir os bilhetes para o evento, aproveitas:$ • 15% de desconto para ti$ • 10% para o Active Soul$ Para usufruir destes descontos, basta inserires o código correspondente durante a compra dos bilhetes. Segue abaixo os código de desconto:$ Código: +SACTIVESOUL24$ Esperamos por vocês!",
-    image: "https://i.imgur.com/l2IguOK.jpg",
+    image: "https://i.imgur.com/0D10BQR.jpg",
     link: "",
     linkType: "",
   },
@@ -32,26 +50,8 @@ export const newsData = [
     description:
       "O espetáculo “Raízes” faz-nos regressar à nossa essência* Relembra-nos que é importante de vez em quando olharmos para trás e vermos o caminho bonito que temos percorrido* Em palco presenteamos o público mais uma vez com muita música e dança, nesta que se espera ser uma hora cheia de recordações, conexão e muitas emoções* Venham assistir a mais um espetáculo com texto original, coreografias vibrantes e com o envolvimento que a Active Soul sempre privilegia, ficamos à vossa espera!",
     image: "https://i.imgur.com/zv0G6GW.jpg",
-    link: "",
-    linkType: "IG",
-  },
-  {
-    id: 38,
-    name: "Aula de Dança Decathlon ",
-    title: "Aula de Dança Decathlon ",
-    date: "30/05/2024",
-    schedule: [
-      {
-        day: "08/06/2024",
-        time: "10:00",
-        location: "Decathlon",
-      },
-    ],
-    description:
-      "Vem passar uma manhã divertida e com muita dança conosco* Não é necessário inscrição basta aparecer* É para todas as idades| Esperamos por vocês!",
-    image: "https://i.imgur.com/TNPRH0Y.jpg",
-    link: "",
-    linkType: "",
+    link: "xf_giDs0YNQ",
+    linkType: "YT",
   },
   {
     id: 31,
