@@ -28,6 +28,7 @@ export const SingleNewPage = ({ menu }) => {
       currentNewId == 30 ||
       currentNewId == 35 ||
       currentNewId == 37 ||
+      currentNewId == 38 ||
       currentNewId == 33
     ) {
       const timeout = setTimeout(() => {
@@ -93,6 +94,7 @@ export const SingleNewPage = ({ menu }) => {
   const imageUrls6 = ["https://i.imgur.com/gbCwsMY.jpg"];
   const imageUrls7 = ["https://i.imgur.com/rN3CFXp.jpg"];
   const imageUrls8 = ["https://i.imgur.com/a1hudPx.jpg"];
+  const imageUrls9 = ["https://i.imgur.com/t4lO6oZ.jpg"];
 
   function CarouselComponent() {
     const slides =
@@ -138,6 +140,12 @@ export const SingleNewPage = ({ menu }) => {
               <Image style={{ height: `${100}%` }} src={image} />
             </Carousel.Slide>
           ))
+        : currentNewId == 38
+        ? imageUrls9.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ))
         : imageUrls3.map((image) => (
             <Carousel.Slide key={image}>
               <Image style={{ height: `${100}%` }} src={image} />
@@ -154,6 +162,7 @@ export const SingleNewPage = ({ menu }) => {
         nextControlIcon={
           currentNewId == 36 ||
           currentNewId == 31 ||
+          currentNewId == 38 ||
           currentNewId == 33 ? null : (
             <IconArrowRight
               style={{
@@ -168,6 +177,7 @@ export const SingleNewPage = ({ menu }) => {
         previousControlIcon={
           currentNewId == 36 ||
           currentNewId == 31 ||
+          currentNewId == 38 ||
           currentNewId == 33 ? null : (
             <IconArrowLeft
               style={{
@@ -309,6 +319,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 33 ||
           currentNewId == 36 ||
           currentNewId == 37 ||
+          currentNewId == 38 ||
           currentNewId == 31 ? (
             <CarouselComponent />
           ) : null}

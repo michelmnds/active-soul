@@ -13,7 +13,7 @@ export const newsData = [
     ],
     description:
       "Vem passar uma manhã divertida e com muita dança conosco* Não é necessário inscrição basta aparecer* É para todas as idades| Esperamos por vocês!",
-    image: "https://i.imgur.com/TNPRH0Y.jpg",
+    image: "https://i.imgur.com/f03agbg.jpg",
     link: "",
     linkType: "",
   },
