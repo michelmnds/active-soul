@@ -39,7 +39,6 @@
 }
 .inscricaoTextContainer{
     padding: 12px;
-    height: 50%; /* TIRAR DEPOIS QUANDO ADCICIONAR OUTRO BTN */
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -52,8 +51,7 @@
 .inscricaoBtn, .inscricaoWhiteBtn{
     border: 1px solid var(--secondary-green);
     border-radius: 8px;
-    height: 48px;
-    /* height: 28px; */
+    height: 28px;
     outline: none;
     display: flex;
     align-items: center;
@@ -78,7 +76,6 @@
 @media(min-width: 768px){
     .inscricaoModal{
        flex-direction: row;
-       height: 300px; /*  REMOVER QUANDO ADICIONAR OUTRO BTN */
     }
     .insricaoImage{
         height: 100%;

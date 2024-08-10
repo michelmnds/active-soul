@@ -74,9 +74,7 @@ export const LandingPage = ({ menu }) => {
 
       <div className="tableContainer">
         <span className="tableTxt">Horário 2024/2025:</span>
-        <span className="tableTxtSoon">EM BREVE</span>
-
-        <div className="table" />
+        <div className="table" onClick={handleModalOpening} />
       </div>
     </>
   );

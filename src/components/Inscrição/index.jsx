@@ -18,20 +18,20 @@ export const Inscricao = ({ setInscricao }) => {
             o melhor aos seus alunos.
           </h1>
 
-          {/* <a
-            href="https://docs.google.com/forms/d/1qFnl41DsiXtQivAinNQM7OoC4ixqrpUF5nQMGZqzuTs/viewform?edit_requested=true"
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe4mR2czkugcnQ1o1EMQFJQjMaD5eFYMyAtK0uBgRPLXH5VLg/viewform"
             className="inscricaoBtn"
             target="_blank"
           >
             Faz a tua pré-inscrição!
           </a>
-          <span className="inscricaoSpan">Ou</span> */}
+          <span className="inscricaoSpan">Ou</span>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd3rwVbykKhuEzgTdjFIIalCfD5HtnsXXnN2PjsKOarOfzzDg/viewform"
-            className="inscricaoBtn"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfEClMI7nUgjAmpD6KhC7c1GLOMQgeX72aMG7K3QHBtcYRMSw/viewform"
+            className="inscricaoWhiteBtn"
             target="_blank"
           >
-            Renova a tua inscrição!
+            Faz a tua inscrição!
           </a>
         </div>
       </div>
