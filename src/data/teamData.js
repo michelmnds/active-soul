@@ -33,7 +33,7 @@ export const teamData = [
   },
   {
     id: 6,
-    image: "https://i.imgur.com/tQzETjZ.png",
+    image: "https://i.imgur.com/esTvQ2X.png",
     name: "Fábio Sscola",
     modality: "Professor de Afro Latinas e Ritmos",
   },
@@ -43,10 +43,10 @@ export const teamData = [
     name: "Catarina Reino",
     modality: "Professora de Teatro Musical",
   },
-  // {
-  //   id: 8,
-  //   image: "https://i.imgur.com/tQzETjZ.png",
-  //   name: "Ana Mota",
-  //   modality: "Professora de Teatro Musical",
-  // },
+  {
+    id: 8,
+    image: "https://i.imgur.com/7L32SAr.png",
+    name: "Ana Mota",
+    modality: "Professora de Teatro Musical",
+  },
 ];
