@@ -14,21 +14,22 @@ export const teamData = [
   },
   {
     id: 3,
-    image: "https://i.imgur.com/uj5jRWN.png",
+    image: "https://i.imgur.com/quw2nQw.png",
     name: "Sandra Vicente",
-    modality: "Professora de Pilates, GAP, Circuito e Personal Trainer",
+    modality:
+      "Professora de Pilates, GAP, Circuito, Preparação Física para Bailarinos e Personal Trainer",
   },
   {
     id: 4,
-    image: "https://i.imgur.com/kuODAQ7.png",
+    image: "https://i.imgur.com/YbcPDNL.png",
     name: "Sofia Ferreira",
-    modality: "Professora de Jazz",
+    modality: "Professora de Ballet e Jazz",
   },
   {
     id: 5,
-    image: "https://i.imgur.com/LmgrPA7.png",
+    image: "https://i.imgur.com/dA8e9Aw.png",
     name: "Leonor Farias",
-    modality: "Professora de Dance Kids",
+    modality: "Professora de Dance Kids e Pop Dance",
   },
   {
     id: 6,
@@ -38,8 +39,14 @@ export const teamData = [
   },
   {
     id: 7,
-    image: "https://i.imgur.com/dSpoceg.png",
-    name: "Andreia Gabriel",
-    modality: "Professora de Meditação",
+    image: "https://i.imgur.com/xPuYIZr.png",
+    name: "Catarina Reino",
+    modality: "Professora de Teatro Musical",
   },
+  // {
+  //   id: 8,
+  //   image: "https://i.imgur.com/tQzETjZ.png",
+  //   name: "Ana Mota",
+  //   modality: "Professora de Teatro Musical",
+  // },
 ];

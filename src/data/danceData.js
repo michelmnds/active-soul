@@ -9,7 +9,7 @@ export const danceData = [
     schedule: [
       {
         day: "Sex",
-        time: "19:00 - 20:30",
+        time: "19:30 - 20:30",
         teacher: "Fábio Sscola e Patrícia Lourenço",
         type: "Afro Latinas (Adultos)",
       },
@@ -124,25 +124,40 @@ export const danceData = [
       },
     ],
   },
+  {
+    id: 6,
+    name: "Ritmos",
+    modality: "Aula a partir dos 16 anos ",
+    description:
+      "É uma aula a solo, dividida em 2 partes. Primeira parte abordamos os passos básicos de cada estilo de dança, na segunda parte da aula elaboramos uma coreografia. É uma aula com muita diversão.",
+    image: "https://i.imgur.com/OktDLoG.jpg",
+    schedule: [
+      {
+        day: "Qua",
+        time: "19:00 - 19:45",
+        teacher: "Fábio Sscola",
+        type: "Ritmos (Adultos)",
+      },
+    ],
+  },
   // {
-  //   id: 6,
-  //   name: "Ritmos",
-  //   modality:
-  //     "Kizomba, Semba, Salsa, Bachata, Urban Kiz, Chachacha, Samba, Rumba e Jive.",
+  //   id: 7,
+  //   name: "Pop Dance",
+  //   modality: "Aulas a partir dos 10 anos",
   //   description:
-  //     "É uma aula a solo, dividida em 2 partes. Primeira parte abordamos os passos básicos de cada estilo de dança, na segunda parte da aula elaboramos uma coreografia. É uma aula com muita diversão.",
+  //     "Aula coreográfica que usa como base musical a música pop, comercial entre outras. Funde estilos como o Hip Hop, House, sendo muito enérgica, divertida e simples.",
   //   image: "https://i.imgur.com/0Ig658y.jpg",
   //   schedule: [
   //     {
-  //       day: "Qua",
-  //       time: "18:45 - 19:30",
-  //       teacher: "Fábio Sscola",
-  //       type: "Ritmos (Adultos)",
+  //       day: "Sex",
+  //       time: "19:30 - 20:15",
+  //       teacher: "Leonor Farias",
+  //       type: "+10 anos",
   //     },
   //   ],
   // },
   {
-    id: 7,
+    id: 8,
     name: "Teatro Musical",
     modality: "Aulas a partir dos 6 anos",
     description:
@@ -150,8 +165,8 @@ export const danceData = [
     image: "https://i.imgur.com/0Ig658y.jpg",
     schedule: [
       {
-        day: "Sex",
-        time: "19:30 - 20:30",
+        day: "Seg",
+        time: "18:45 - 19:15",
         teacher: "Patrícia Lourenço, Ana Mota e Catarina Reino",
         type: "Teatro Musical (6 aos 12 anos)",
       },

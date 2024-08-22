@@ -53,7 +53,7 @@ export const classData = [
     schedule: [
       {
         day: "Ter",
-        time: "18:45 - 19:30 & 19:30 - 20:15",
+        time: "19:00 - 19:45 & 19:45 - 20:30",
         teacher: "Sandra Vicente",
       },
 
@@ -64,21 +64,21 @@ export const classData = [
       },
     ],
   },
-  {
-    id: 6,
-    name: "Meditação",
-    modality: "Aulas a partir dos 16 anos",
-    description:
-      "Cada vez mais as pessoas estão perturbadas psicoemocionalmente e a meditação é um meio de relaxamento. Trabalhar o que está no inconsciente e de certa forma passá-lo para o consciente. Não só o corpo precisa de ser treinado, também é fundamental trabalhar a mente.",
-    image: "https://i.imgur.com/GPmyhkx.jpg",
-    schedule: [
-      {
-        day: "Seg",
-        time: "18:45 - 19:30",
-        teacher: "Andreia Gabriel",
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   name: "Meditação",
+  //   modality: "Aulas a partir dos 16 anos",
+  //   description:
+  //     "Cada vez mais as pessoas estão perturbadas psicoemocionalmente e a meditação é um meio de relaxamento. Trabalhar o que está no inconsciente e de certa forma passá-lo para o consciente. Não só o corpo precisa de ser treinado, também é fundamental trabalhar a mente.",
+  //   image: "https://i.imgur.com/GPmyhkx.jpg",
+  //   schedule: [
+  //     {
+  //       day: "Seg",
+  //       time: "18:45 - 19:30",
+  //       teacher: "Andreia Gabriel",
+  //     },
+  //   ],
+  // },
   {
     id: 7,
     name: "Preparação Física para Bailarinos",
