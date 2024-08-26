@@ -1,14 +1,14 @@
 export const teamData = [
   {
     id: 1,
-    image: "https://i.imgur.com/Tjtpt4L.jpg",
+    image: "https://i.imgur.com/EVAYTmR.png",
     name: "Patrícia Lourenço",
     modality:
       "Diretora Active Soul, Professora de Contemporâneo, Ballet e Personal Trainer",
   },
   {
     id: 2,
-    image: "https://i.imgur.com/JastfiI.png",
+    image: "https://i.imgur.com/83mDn3v.png",
     name: "Andreia Lemos",
     modality: "Diretora Artística, Project Manager & Wedding Planner",
   },
