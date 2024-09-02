@@ -21,13 +21,13 @@ export const danceData = [
     modality: "Aulas a partir dos 3 anos",
     description:
       "Aula que pretende desenvolver a musicalidade, a flexibilidade, a coordenação de movimentos, a memória, a concentração e a técnica necessária para a dança clássica. Permite que exista uma melhor perceção corporal e amplia as noções de espaço. Procura-se que cada bailarino(a) se divirta a dançar enquanto adquire competências técnicas, próprias da dança clássica. São desenvolvidas pequenas coreografias para fantásticas apresentações e espetáculos. O trabalho de grupo e a socialização também estão presentes.",
-    image: "https://i.imgur.com/VaxMdt0.jpg",
+    image: "https://i.imgur.com/pRkKDJb.jpg",
     schedule: [
       {
         day: "Seg",
         time: "19:30 - 20:15",
-        teacher: "Patrícia Lourenço",
-        type: "Ballet II (+ 12 anos)",
+        teacher: "Sofia Ferreira",
+        type: "Ballet II (+10 anos)",
       },
       {
         day: "Ter",
@@ -39,13 +39,13 @@ export const danceData = [
         day: "Ter",
         time: "19:00 - 19:45",
         teacher: "Patrícia Lourenço",
-        type: "Ballet I (6 aos 12 anos)",
+        type: "Ballet I (6 aos 10 anos)",
       },
       {
         day: "Qui",
         time: "18:45 - 19:30",
         teacher: "Patrícia Lourenço",
-        type: "Ballet I (6 aos 12 anos)",
+        type: "Ballet I (6 aos 10 anos)",
       },
     ],
   },
@@ -57,25 +57,25 @@ export const danceData = [
       É um estilo que concede espaço à individualidade do intérprete, valorizando a transmissão de sentimentos, ideias e conceitos. 
       Na dança é reforçada constantemente a importância da experimentação coreográfica, onde os alunos recebem estímulos para desenvolverem interpretações de movimento que os conduzem à criação final.`,
 
-    image: "https://i.imgur.com/GtrHOu1.jpg",
+    image: "https://i.imgur.com/6gyDQpv.jpg",
     schedule: [
       {
         day: "Ter",
         time: "19:45 - 20:30",
         teacher: "Patrícia Lourenço",
-        type: "Contemporâneo II (+12 anos)",
+        type: "Contemporâneo II (+10 anos)",
       },
       {
         day: "Qui",
         time: "18:00 - 18:45",
         teacher: "Patrícia Lourenço",
-        type: "Contemporâneo I (6 aos 12 anos) ",
+        type: "Contemporâneo I (6 aos 10 anos) ",
       },
       {
         day: "Qui",
         time: "19:30 - 20:15",
         teacher: "Patrícia Lourenço",
-        type: "Contemporâneo II (+12 anos)",
+        type: "Contemporâneo II (+10 anos)",
       },
     ],
   },
@@ -97,7 +97,7 @@ export const danceData = [
         day: "Sex",
         time: "18:45 - 19:15",
         teacher: "Leonor Farias",
-        type: "Dance kids I (6 aos 12 anos)",
+        type: "Dance kids I (6 aos 10 anos)",
       },
     ],
   },
@@ -140,22 +140,22 @@ export const danceData = [
       },
     ],
   },
-  // {
-  //   id: 7,
-  //   name: "Pop Dance",
-  //   modality: "Aulas a partir dos 10 anos",
-  //   description:
-  //     "Aula coreográfica que usa como base musical a música pop, comercial entre outras. Funde estilos como o Hip Hop, House, sendo muito enérgica, divertida e simples.",
-  //   image: "https://i.imgur.com/0Ig658y.jpg",
-  //   schedule: [
-  //     {
-  //       day: "Sex",
-  //       time: "19:30 - 20:15",
-  //       teacher: "Leonor Farias",
-  //       type: "+10 anos",
-  //     },
-  //   ],
-  // },
+  {
+    id: 7,
+    name: "Pop Dance",
+    modality: "Aulas a partir dos 10 anos",
+    description:
+      "Aula coreográfica que usa como base musical o electronic dance music, a música pop e comercial. Funde estilos como o Hip Hop, Street Jazz e R&B. House, sendo muito enérgica, divertida e simples. Desenvolve a consciência corporal, a coordenação, o equilíbrio e a memória, melhorando a confiança e a auto-estima.",
+    image: "https://i.imgur.com/wRsigou.jpg",
+    schedule: [
+      {
+        day: "Sex",
+        time: "19:30 - 20:15",
+        teacher: "Leonor Farias",
+        type: "Pop Dance (+10 anos)",
+      },
+    ],
+  },
   {
     id: 8,
     name: "Teatro Musical",
@@ -166,9 +166,9 @@ export const danceData = [
     schedule: [
       {
         day: "Seg",
-        time: "18:45 - 19:15",
+        time: "18:45 - 19:30",
         teacher: "Patrícia Lourenço, Ana Mota e Catarina Reino",
-        type: "Teatro Musical (6 aos 12 anos)",
+        type: "Teatro Musical (+6 anos)",
       },
     ],
   },
