@@ -145,7 +145,7 @@ export const danceData = [
     name: "Pop Dance",
     modality: "Aulas a partir dos 10 anos",
     description:
-      "Aula coreográfica que usa como base musical o electronic dance music, a música pop e comercial. Funde estilos como o Hip Hop, Street Jazz e R&B. House, sendo muito enérgica, divertida e simples. Desenvolve a consciência corporal, a coordenação, o equilíbrio e a memória, melhorando a confiança e a auto-estima.",
+      "Aula coreográfica que usa como base musical o electronic dance music, a música pop e comercial. Funde estilos como o Hip Hop, Street Jazz, House, sendo muito enérgica, divertida e simples. Desenvolve a consciência corporal, a coordenação, o equilíbrio e a memória, melhorando a confiança e a auto-estima.",
     image: "https://i.imgur.com/wRsigou.jpg",
     schedule: [
       {
