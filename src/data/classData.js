@@ -88,8 +88,8 @@ export const classData = [
     image: "https://i.imgur.com/rFKTgv6.jpg",
     schedule: [
       {
-        day: "Qua",
-        time: "18:00 - 18:30",
+        day: "Seg",
+        time: "19:00 - 19:30",
         teacher: "Sandra Vicente",
       },
     ],
