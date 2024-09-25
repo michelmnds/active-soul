@@ -1,8 +1,80 @@
 export const newsData = [
   {
+    id: 43,
+    name: "APTIVE",
+    title: "APTIVE",
+    date: "25/09/2024",
+    schedule: [
+      {
+        day: "28/09/2024",
+        time: "09:00",
+        location: "Cede APTIVE",
+      },
+    ],
+    description:
+      "Queres também que façamos parte do teu evento? Entra em contacto connosco e fazemos o SEU evento ser único, diferente e cheio de energia! ",
+    image: "https://i.imgur.com/vNqC7ga.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 42,
+    name: "“RAÍZES” na Semana Municipal da Juventude",
+    title: "“RAÍZES” na Semana Municipal da Juventude",
+    date: "25/09/2024",
+    schedule: [
+      {
+        day: "28/09/2024",
+        time: "18:30",
+        location: "Parque Urbano Cruz do Montalvão",
+      },
+    ],
+    description:
+      "Espetáculo inserido na Semana Municipal da Juventude pelas 18h30 no Parque Urbano Cruz do Montalvão* Excerto do espetáculo “RAÍZES”. Venham assistir a mais um espetáculo com texto original, coreografias vibrantes e com o envolvimento que a Active Soul sempre privilegia, ficamos à vossa espera!",
+    image: "https://i.imgur.com/gwhJYnG.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 41,
+    name: "Teatro Musical Semana Municipal da Juventude",
+    title: "Teatro Musical Semana Municipal da Juventude",
+    date: "25/09/2024",
+    schedule: [
+      {
+        day: "25/09/2024",
+        time: "19:30",
+        location: "Parque Urbano Cruz do Montalvão",
+      },
+    ],
+    description:
+      "Espetáculo inserido na Semana Municipal da Juventude pelas 19h30 no Parque Urbano Cruz do Montalvão. Turma do Teatro Musical em Parceria com o Teatro Tramédia.",
+    image: "https://i.imgur.com/NYeDyWr.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 40,
+    name: "VitalSport em Castelo Branco",
+    title: "VitalSport em Castelo Branco",
+    date: "30/05/2024",
+    schedule: [
+      {
+        day: "14/09/2024",
+        time: "08:00",
+        location: "Decathlon",
+      },
+    ],
+    description:
+      "Hoje participámos na Primeira Edição do evento VitalSport em Castelo Branco na Decathlon da nossa cidade.Estivemos presentes com um dueto de contemporâneo, alguns alunos de Pop dance e terminámos todos em cima de palco (e fora dele) a dançar, porque QUEM DANÇA É MAIS FELIZ, certo ?\nSeguido das demonstrações tivemos também uma aula pilates com a Prof* Sandra Vicente 🤍\nOnde nos queres ver a seguir ?\nLança-nos o desafio 👌🏻\nAté já 👋",
+    image: "https://i.imgur.com/Eyj2zOJ.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 38,
-    name: "Aula de Dança Decathlon ",
-    title: "Aula de Dança Decathlon ",
+    name: "Aula de Dança Decathlon",
+    title: "Aula de Dança Decathlon",
     date: "30/05/2024",
     schedule: [
       {
