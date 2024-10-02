@@ -8,7 +8,7 @@ export const newsData = [
       {
         day: "28/09/2024",
         time: "09:00",
-        location: "Sede ",
+        location: "Sede APTIV",
       },
     ],
     description:
