@@ -1,19 +1,19 @@
 export const newsData = [
   {
     id: 43,
-    name: "APTIVE",
-    title: "APTIVE",
+    name: "APTIV",
+    title: "APTIV",
     date: "25/09/2024",
     schedule: [
       {
         day: "28/09/2024",
         time: "09:00",
-        location: "Sede APTIVE",
+        location: "Sede ",
       },
     ],
     description:
       "Queres também que façamos parte do teu evento? Entra em contacto connosco e fazemos o SEU evento ser único, diferente e cheio de energia! ",
-    image: "https://i.imgur.com/vNqC7ga.jpg",
+    image: "https://i.imgur.com/FVQuaeI.jpg",
     link: "",
     linkType: "",
   },
@@ -31,7 +31,7 @@ export const newsData = [
     ],
     description:
       "Espetáculo inserido na Semana Municipal da Juventude pelas 18h30 no Parque Urbano Cruz do Montalvão* Excerto do espetáculo “RAÍZES”. Venham assistir a mais um espetáculo com texto original, coreografias vibrantes e com o envolvimento que a Active Soul sempre privilegia, ficamos à vossa espera!",
-    image: "https://i.imgur.com/gwhJYnG.jpg",
+    image: "https://i.imgur.com/wbBGJJ9.jpg",
     link: "",
     linkType: "",
   },

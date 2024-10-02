@@ -102,6 +102,18 @@ export const SingleNewPage = ({ menu }) => {
     "https://i.imgur.com/mkEvJJN.jpg",
     "https://i.imgur.com/P8ACu9f.jpg",
   ];
+  const imageUrls11 = [
+    "https://i.imgur.com/5rgDJmw.jpg",
+    "https://i.imgur.com/yqqVEfM.jpg",
+    "https://i.imgur.com/sBNsvqL.jpg",
+  ];
+  const imageUrls12 = ["https://i.imgur.com/ulv5sAG.jpg"];
+  const imageUrls13 = [
+    "https://i.imgur.com/2blaGoG.jpg",
+    "https://i.imgur.com/Xe5JZFA.jpg",
+    "https://i.imgur.com/m8TXCGC.jpg",
+    "https://i.imgur.com/qmf5mmk.jpg",
+  ];
 
   function CarouselComponent() {
     const slides =
@@ -159,6 +171,24 @@ export const SingleNewPage = ({ menu }) => {
               <Image style={{ height: `${100}%` }} src={image} />
             </Carousel.Slide>
           ))
+        : currentNewId == 41
+        ? imageUrls11.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ))
+        : currentNewId == 42
+        ? imageUrls12.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ))
+        : currentNewId == 43
+        ? imageUrls13.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ))
         : imageUrls3.map((image) => (
             <Carousel.Slide key={image}>
               <Image style={{ height: `${100}%` }} src={image} />
@@ -176,6 +206,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 36 ||
           currentNewId == 31 ||
           currentNewId == 38 ||
+          currentNewId == 42 ||
           currentNewId == 33 ? null : (
             <IconArrowRight
               style={{
@@ -191,6 +222,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 36 ||
           currentNewId == 31 ||
           currentNewId == 38 ||
+          currentNewId == 42 ||
           currentNewId == 33 ? null : (
             <IconArrowLeft
               style={{
@@ -334,6 +366,9 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 37 ||
           currentNewId == 38 ||
           currentNewId == 40 ||
+          currentNewId == 41 ||
+          currentNewId == 42 ||
+          currentNewId == 43 ||
           currentNewId == 31 ? (
             <CarouselComponent />
           ) : null}
