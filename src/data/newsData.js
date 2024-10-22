@@ -1,5 +1,41 @@
 export const newsData = [
   {
+    id: 44,
+    name: "Caminhada \"Pequenos Passos, Grandes Gestos\"",
+    title: "Caminhada \"Pequenos Passos, Grandes Gestos\"",
+    date: "22/10/2024",
+    schedule: [
+      {
+        day: "19/10/2024",
+        time: "15:00",
+        location: "Castelo Branco",
+      },
+    ],
+    description:
+      "Dia 19 de outubro, a nossa Professora Leonor Farias espalhou a magia da dança até às docas, em Castelo Branco, na Caminhada \"Pequenos Passos, Grandes Gestos\".",
+    image: "https://i.imgur.com/DytDNGc.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 44,
+    name: "Caminhada Ecológica",
+    title: "Caminhada Ecológica",
+    date: "22/10/2024",
+    schedule: [
+      {
+        day: "19/10/2024",
+        time: "14:00",
+        location: "Maxiais",
+      },
+    ],
+    description:
+      "Dia 19 de outubro, a nossa Professora Leonor Farias começou a sua tarde levando a dançar até à  \"Caminhada Ecológica\" realizada pelo Centro Social de Maxiais.",
+    image: "https://i.imgur.com/7Qh8jWR.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 43,
     name: "APTIV",
     title: "APTIV",
@@ -12,7 +48,7 @@ export const newsData = [
       },
     ],
     description:
-      "Queres também que façamos parte do teu evento? Entra em contacto connosco e fazemos o SEU evento ser único, diferente e cheio de energia! ",
+      "Queres também que façamos parte do teu evento? Entra em contacto connosco e fazemos o SEU evento ser único, diferente e cheio de energia!",
     image: "https://i.imgur.com/FVQuaeI.jpg",
     link: "",
     linkType: "",
