@@ -1,8 +1,8 @@
 export const newsData = [
   {
-    id: 44,
-    name: "Caminhada \"Pequenos Passos, Grandes Gestos\"",
-    title: "Caminhada \"Pequenos Passos, Grandes Gestos\"",
+    id: 45,
+    name: 'Caminhada "Pequenos Passos, Grandes Gestos"',
+    title: 'Caminhada "Pequenos Passos, Grandes Gestos"',
     date: "22/10/2024",
     schedule: [
       {
@@ -12,7 +12,7 @@ export const newsData = [
       },
     ],
     description:
-      "Dia 19 de outubro, a nossa Professora Leonor Farias espalhou a magia da dança até às docas, em Castelo Branco, na Caminhada \"Pequenos Passos, Grandes Gestos\".",
+      'Dia 19 de outubro, a nossa Professora Leonor Farias espalhou a magia da dança até às docas, em Castelo Branco, na Caminhada "Pequenos Passos, Grandes Gestos".',
     image: "https://i.imgur.com/DytDNGc.jpg",
     link: "",
     linkType: "",
@@ -30,7 +30,7 @@ export const newsData = [
       },
     ],
     description:
-      "Dia 19 de outubro, a nossa Professora Leonor Farias começou a sua tarde levando a dançar até à  \"Caminhada Ecológica\" realizada pelo Centro Social de Maxiais.",
+      'Dia 19 de outubro, a nossa Professora Leonor Farias começou a sua tarde levando a dançar até à  "Caminhada Ecológica" realizada pelo Centro Social de Maxiais.',
     image: "https://i.imgur.com/7Qh8jWR.jpg",
     link: "",
     linkType: "",
