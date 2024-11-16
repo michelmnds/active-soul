@@ -1,5 +1,23 @@
 export const newsData = [
   {
+    id: 46,
+    name: "2º Interior TeamGym - Castelo Branco",
+    title: "2º Interior TeamGym - Castelo Branco",
+    date: "16/11/2024",
+    schedule: [
+      {
+        day: "16/11/2024",
+        time: "14:00",
+        location: "Escola Afonso de Paiva",
+      },
+    ],
+    description:
+      "É com grande entusiasmo que anunciamos o 2º Interior TeamGym Castelo Branco, uma competição a nível nacional que teve lugar no dia 16 de novembro de 2024, no pavilhão da Escola Afonso de Paiva, em Castelo Branco e alguns alunos da turma de Contemporâneo II participaram na abertura do mesmo.\nAgradecemos desde já o convite por parte da ZakiGym e desejamos todo o sucesso no seu percurso.",
+    image: "https://i.imgur.com/Me4py5c.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 45,
     name: 'Caminhada "Pequenos Passos, Grandes Gestos"',
     title: 'Caminhada "Pequenos Passos, Grandes Gestos"',
