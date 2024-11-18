@@ -1,5 +1,23 @@
 export const newsData = [
   {
+    id: 47,
+    name: "Dia nacional do pijama",
+    title: "Dia nacional do pijama",
+    date: "18/11/2024",
+    schedule: [
+      {
+        day: "22/11/2024",
+        time: "21:00",
+        location: "Estúdio Active Soul",
+      },
+    ],
+    description:
+      "Dia 20 de novembro celebra-se o Dia Nacional do Pijama e este ano não será diferente dos outros e vamos celebrá-lo juntos.\nTerá apenas de tirar uma fotografia com o pijama mais original que tiver (a fotografia pode ser em família) e postar nas redes sociais identificando o estúdio Active Soul e colocar na descrição da fotografia uma frase original sobre o dia comemorativo.\n\nA fotografia e frase mais original ganhará um artigo do Estúdio Active Soul.\n\nConcurso válido para alunos do estúdio e para a comunidade em geral.\n\nAs candidaturas são até dia 22 às 21h00, após essa data não será contabilizado. O vencedor será anunciado dia 23 de novembro às 10h00.\n\nConcurso válido apenas no instagram e facebook do nosso estúdio.",
+    image: "https://i.imgur.com/YDOO75E.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 46,
     name: "2º Interior TeamGym - Castelo Branco",
     title: "2º Interior TeamGym - Castelo Branco",
