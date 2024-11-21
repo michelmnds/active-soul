@@ -1,5 +1,23 @@
 export const newsData = [
   {
+    id: 48,
+    name: "ACTIVE KIDS NATAL || ACTIVE SOUL ",
+    title: "ACTIVE KIDS NATAL || ACTIVE SOUL ",
+    date: "21/11/2024",
+    schedule: [
+      {
+        day: "15/12/2024",
+        time: "21:00",
+        location: "Fecho das Inscrições",
+      },
+    ],
+    description:
+      "Depois do sucesso do Active Kids, o ATL mais artístico da cidade está de volta, desta vez para preencher a época natalícia dos mais novos nestes ÚNICOS 3 dias! Aqui podes divertir-te, aprender, desenvolver a tua criatividade e PARTICIPAR NUM VÍDEO DE DANÇA💙\n\nVamos ter atividades como:\nExpressão corporal, atividades físicas, atividades psicomotoras e muita DIVERSÃO!\n\nNão percas esta oportunidade 🎭",
+    image: "https://i.imgur.com/CFJkHNz.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 47,
     name: "Dia nacional do pijama",
     title: "Dia nacional do pijama",

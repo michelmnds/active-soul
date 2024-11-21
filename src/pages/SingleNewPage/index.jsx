@@ -120,6 +120,7 @@ export const SingleNewPage = ({ menu }) => {
     "https://i.imgur.com/MybaEes.jpg",
     "https://i.imgur.com/8aDinS2.jpg",
   ];
+  const imageUrls15 = ["https://i.imgur.com/lnAr64Q.jpg"];
 
   function CarouselComponent() {
     const slides =
@@ -201,6 +202,12 @@ export const SingleNewPage = ({ menu }) => {
               <Image style={{ height: `${100}%` }} src={image} />
             </Carousel.Slide>
           ))
+        : currentNewId == 48
+        ? imageUrls15.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ))
         : imageUrls3.map((image) => (
             <Carousel.Slide key={image}>
               <Image style={{ height: `${100}%` }} src={image} />
@@ -219,6 +226,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 31 ||
           currentNewId == 38 ||
           currentNewId == 42 ||
+          currentNewId == 48 ||
           currentNewId == 33 ? null : (
             <IconArrowRight
               style={{
@@ -235,6 +243,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 31 ||
           currentNewId == 38 ||
           currentNewId == 42 ||
+          currentNewId == 48 ||
           currentNewId == 33 ? null : (
             <IconArrowLeft
               style={{
@@ -286,6 +295,19 @@ export const SingleNewPage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
+          {currentNew.id === 48 && (
+            <span className="singleNewDesc">
+              Faça a sua inscrição{" "}
+              <a
+                target="_blank"
+                href="https://forms.gle/y6RNg1hgaZvAuLrMA"
+                rel="noreferrer"
+              >
+                aqui
+              </a>
+              !
+            </span>
+          )}
           {currentNew.id === 31 && (
             <span className="singleNewDesc">
               Faça a sua inscrição{" "}
@@ -382,6 +404,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 42 ||
           currentNewId == 43 ||
           currentNewId == 46 ||
+          currentNewId == 48 ||
           currentNewId == 31 ? (
             <CarouselComponent />
           ) : null}
