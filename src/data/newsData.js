@@ -12,7 +12,7 @@ export const newsData = [
       },
     ],
     description:
-      "Depois do sucesso do Active Kids, o ATL mais artístico da cidade está de volta, desta vez para preencher a época natalícia dos mais novos nestes ÚNICOS 3 dias! Aqui podes divertir-te, aprender, desenvolver a tua criatividade e PARTICIPAR NUM VÍDEO DE DANÇA💙\n\nVamos ter atividades como:\nExpressão corporal, atividades físicas, atividades psicomotoras e muita DIVERSÃO!\n\nNão percas esta oportunidade 🎭",
+      "Depois do sucesso do Active Kids, o ATL mais artístico da cidade está de volta, desta vez para preencher a época natalícia dos mais novos nestes ÚNICOS 3 dias! Aqui podes divertir-te, aprender, desenvolver a tua criatividade e PARTICIPAR NUM VÍDEO DE DANÇA💙\n\nVamos ter atividades como:\nExpressão corporal, atividades físicas, atividades psicomotoras e muita DIVERSÃO!\nNão percas esta oportunidade 🎭",
     image: "https://i.imgur.com/CFJkHNz.jpg",
     link: "",
     linkType: "",
