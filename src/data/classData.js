@@ -94,24 +94,4 @@ export const classData = [
       },
     ],
   },
-  {
-    id: 8,
-    name: "Yôga",
-    modality: "",
-    description:
-      "O yôga é uma prática centrada no desenvolvimento da consciência e do autoconhecimento, que integra mente e corpo de forma harmoniosa. Ao expandir a sua percepção interna, irá aprender a escutar o seu corpo, compreendendo melhor as suas necessidades e limites. Esta maior conexão consigo mesmo permite melhorar a qualidade de vida, trazendo equilíbrio e clareza para as suas escolhas e ações no dia a dia.",
-    image: "https://i.imgur.com/mAuvS3A.jpg",
-    schedule: [
-      {
-        day: "Ter",
-        time: "10:00 - 11:00",
-        teacher: "Raquel Correia",
-      },
-      {
-        day: "Qua",
-        time: "19:30 - 20:30",
-        teacher: "Raquel Correia",
-      },
-    ],
-  },
 ];

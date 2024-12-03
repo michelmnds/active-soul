@@ -73,7 +73,7 @@ export const AboutPage = ({ menu }) => {
 
         <div className="aboutTextContainer">
           <span className="aboutPageText">
-            O Active Soul surge em Castelo Branco há 2 anos, um espaço onde se
+            O Active Soul surge em Castelo Branco em 2022, um espaço onde se
             pretende potenciar a cultura e o exercício. Um espaço repleto de
             musicalidade e ritmo que complementa o bem estar físico,
             performances / espetáculos e a organização de eventos. Destacando-se

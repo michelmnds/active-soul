@@ -9,7 +9,7 @@ export const danceData = [
     schedule: [
       {
         day: "Sex",
-        time: "19:30 - 20:30",
+        time: "19:00 - 20:00",
         teacher: "Fábio Sscola e Patrícia Lourenço",
         type: "Afro Latinas (Adultos)",
       },

@@ -49,10 +49,4 @@ export const teamData = [
     name: "Ana Mota",
     modality: "Professora de Teatro Musical",
   },
-  {
-    id: 9,
-    image: "https://i.imgur.com/kSLMB6f.png",
-    name: "Raquel Correia",
-    modality: "Professora de Yôga",
-  },
 ];
