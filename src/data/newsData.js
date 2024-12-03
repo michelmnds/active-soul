@@ -1,8 +1,54 @@
 export const newsData = [
   {
+    id: 50,
+    name: "Mercadinho de Natal 2024",
+    title: "Mercadinho de Natal 2024",
+    date: "03/12/2024",
+    schedule: [
+      {
+        day: "08/12/2024",
+        time: "18:00",
+        location: "Mercadinho de Natal",
+      },
+      {
+        day: "13/12/2024",
+        time: "18:00",
+        location: "Mercadinho de Natal",
+      },
+      {
+        day: "21/12/2024",
+        time: "16:00",
+        location: "Mercadinho de Natal",
+      },
+    ],
+    description:
+      "Dia 8 de dezembro pelas 18h00 no Mercadinho de Natal o Active Soul irá realizar um espetáculo de luzes com asas luminosas sincronizadas ao ritmo de canções natalícias e interação com as pessoas.\nDia 13 de dezembro pelas 18h00 no Mercadinho de Natal o Active Soul irá realizar um desfile de natal com artistas de rua disfarçados das mais diversas personagens natalícias, sempre com música e dança à mistura. \nDia 21 de dezembro pelas 16h00  haverá um Flash Mob, onde o Mercadinho de Natal será invadido por personagens natalícias a dançar com muita animação. \nNão perca estas performances, esperamos por si no Mercadinho de Natal em Castelo Branco",
+    image: "https://i.imgur.com/kQ6woaN.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 49,
+    name: "Aniversário Decathlon",
+    title: "Aniversário Decathlon",
+    date: "03/12/2024",
+    schedule: [
+      {
+        day: "23/11/2024",
+        time: "10:30",
+        location: "Decathlon",
+      },
+    ],
+    description:
+      "Foi uma manhã memorável com muita dança e energia positiva! Começámos com uma apresentação de contemporâneo com as alunas da Professora Patrícia Lourenço, passando para uma atuação de jazz com as alunas da Professora Sofia Ferreira e terminámos com uma apresentação da turma de Pop Dance com os alunos da Professora Leonor Farias.\nAgradecemos especialmente à Decathlon pelo convite e pela oportunidade de levar a dança até à loja de Castelo Branco. Que venham muitos outros aniversários e momentos de parceria como este!",
+    image: "https://i.imgur.com/1XHbNnm.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 48,
-    name: "ACTIVE KIDS NATAL || ACTIVE SOUL ",
-    title: "ACTIVE KIDS NATAL || ACTIVE SOUL ",
+    name: "ACTIVE KIDS NATAL || ACTIVE SOUL",
+    title: "ACTIVE KIDS NATAL || ACTIVE SOUL",
     date: "21/11/2024",
     schedule: [
       {
