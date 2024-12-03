@@ -22,7 +22,7 @@ export const newsData = [
       },
     ],
     description:
-      "Dia 8 de dezembro pelas 18h00 no Mercadinho de Natal o Active Soul irá realizar um espetáculo de luzes com asas luminosas sincronizadas ao ritmo de canções natalícias e interação com as pessoas.\nDia 13 de dezembro pelas 18h00 no Mercadinho de Natal o Active Soul irá realizar um desfile de natal com artistas de rua disfarçados das mais diversas personagens natalícias, sempre com música e dança à mistura. \nDia 21 de dezembro pelas 16h00  haverá um Flash Mob, onde o Mercadinho de Natal será invadido por personagens natalícias a dançar com muita animação. \nNão perca estas performances, esperamos por si no Mercadinho de Natal em Castelo Branco",
+      "Dia 8 de dezembro pelas 18h00 no Mercadinho de Natal o Active Soul irá realizar um espetáculo de luzes com asas luminosas sincronizadas ao ritmo de canções natalícias e interação com as pessoas.\nDia 13 de dezembro pelas 18h00 no Mercadinho de Natal o Active Soul irá realizar um desfile de natal com artistas de rua disfarçados das mais diversas personagens natalícias, sempre com música e dança à mistura.\nDia 21 de dezembro pelas 16h00  haverá um Flash Mob, onde o Mercadinho de Natal será invadido por personagens natalícias a dançar com muita animação.\nNão perca estas performances, esperamos por si no Mercadinho de Natal em Castelo Branco.",
     image: "https://i.imgur.com/kQ6woaN.jpg",
     link: "",
     linkType: "",
