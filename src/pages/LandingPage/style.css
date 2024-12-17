@@ -11,6 +11,15 @@
 
     transition: 0.3s ease-in-out;
 }
+.landingVideoContainer{
+    padding: 50px 0px;
+
+    max-width: 280px;
+
+    margin: 0 auto;
+
+    transition: 0.3s ease-in-out;
+}
 .landingTitle{
     font-size: 36px;
     font-weight: 400;
@@ -196,6 +205,9 @@
     transition: 0.3s ease-in-out;
 }
 @media(width >= 768px){
+    .landingVideoContainer{
+        max-width: 735px;
+    }
     .tableTxt{
         font-size: 24px;
     }
@@ -296,6 +308,9 @@
     }
 }
 @media(width >= 1440px){
+    .landingVideoContainer{
+        max-width: 768px;
+    }
     .danceContainer, .newsContainer, .classContainer, .serviceContainer{
         width: 100%
     }

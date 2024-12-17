@@ -36,6 +36,19 @@ export const LandingPage = ({ menu }) => {
         </div>
       </div>
 
+      <div className={`landingVideoContainer ${menu ? "move" : ""}`}>
+        <div className="landingMain">
+          <iframe
+            className="videoPlayer"
+            src={`https://www.youtube.com/embed/70_mQYFayY8`}
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </div>
+
       <div className={`landingContainer ${menu ? "move" : ""}`}>
         <main className="landingMain">
           <div className="danceContainer">
