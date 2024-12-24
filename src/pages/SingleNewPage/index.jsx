@@ -120,7 +120,16 @@ export const SingleNewPage = ({ menu }) => {
     "https://i.imgur.com/MybaEes.jpg",
     "https://i.imgur.com/8aDinS2.jpg",
   ];
-  const imageUrls15 = ["https://i.imgur.com/lnAr64Q.jpg"];
+  const imageUrls15 = [
+    "https://i.imgur.com/prqny8j.jpg",
+    "https://i.imgur.com/TCA1qXU.jpg",
+    "https://i.imgur.com/ileYkZY.jpg",
+    "https://i.imgur.com/tSywxxj.jpg",
+    "https://i.imgur.com/YpzO3wO.jpg",
+    "https://i.imgur.com/m55Z4Hw.jpg",
+    "https://i.imgur.com/y8QONBA.jpg",
+    "https://i.imgur.com/hZvCRxb.jpg",
+  ];
 
   function CarouselComponent() {
     const slides =
@@ -202,7 +211,7 @@ export const SingleNewPage = ({ menu }) => {
               <Image style={{ height: `${100}%` }} src={image} />
             </Carousel.Slide>
           ))
-        : currentNewId == 48
+        : currentNewId == 50
         ? imageUrls15.map((image) => (
             <Carousel.Slide key={image}>
               <Image style={{ height: `${100}%` }} src={image} />
@@ -404,7 +413,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 42 ||
           currentNewId == 43 ||
           currentNewId == 46 ||
-          currentNewId == 48 ||
+          currentNewId == 50 ||
           currentNewId == 31 ? (
             <CarouselComponent />
           ) : null}

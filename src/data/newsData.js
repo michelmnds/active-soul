@@ -27,6 +27,25 @@ export const newsData = [
     link: "",
     linkType: "",
   },
+
+  {
+    id: 48,
+    name: "Active Kids - Natal",
+    title: "Active Kids - Natal",
+    date: "21/11/2024",
+    schedule: [
+      {
+        day: "15/12/2024",
+        time: "21:00",
+        location: "Fecho das Inscrições",
+      },
+    ],
+    description:
+      "Depois do sucesso do Active Kids, o ATL mais artístico da cidade está de volta, desta vez para preencher a época natalícia dos mais novos nestes ÚNICOS 3 dias! Aqui podes divertir-te, aprender, desenvolver a tua criatividade e PARTICIPAR NUM VÍDEO DE DANÇA💙\n\nVamos ter atividades como:\nExpressão corporal, atividades físicas, atividades psicomotoras e muita DIVERSÃO!\nNão percas esta oportunidade 🎭",
+    image: "https://i.imgur.com/CFJkHNz.jpg",
+    link: "L8OhO7vUnEg",
+    linkType: "YT",
+  },
   {
     id: 49,
     name: "Aniversário Decathlon",
@@ -42,24 +61,6 @@ export const newsData = [
     description:
       "Foi uma manhã memorável com muita dança e energia positiva! Começámos com uma apresentação de contemporâneo com as alunas da Professora Patrícia Lourenço, passando para uma atuação de jazz com as alunas da Professora Sofia Ferreira e terminámos com uma apresentação da turma de Pop Dance com os alunos da Professora Leonor Farias.\nAgradecemos especialmente à Decathlon pelo convite e pela oportunidade de levar a dança até à loja de Castelo Branco. Que venham muitos outros aniversários e momentos de parceria como este!",
     image: "https://i.imgur.com/1XHbNnm.jpg",
-    link: "",
-    linkType: "",
-  },
-  {
-    id: 48,
-    name: "ACTIVE KIDS NATAL || ACTIVE SOUL",
-    title: "ACTIVE KIDS NATAL || ACTIVE SOUL",
-    date: "21/11/2024",
-    schedule: [
-      {
-        day: "15/12/2024",
-        time: "21:00",
-        location: "Fecho das Inscrições",
-      },
-    ],
-    description:
-      "Depois do sucesso do Active Kids, o ATL mais artístico da cidade está de volta, desta vez para preencher a época natalícia dos mais novos nestes ÚNICOS 3 dias! Aqui podes divertir-te, aprender, desenvolver a tua criatividade e PARTICIPAR NUM VÍDEO DE DANÇA💙\n\nVamos ter atividades como:\nExpressão corporal, atividades físicas, atividades psicomotoras e muita DIVERSÃO!\nNão percas esta oportunidade 🎭",
-    image: "https://i.imgur.com/CFJkHNz.jpg",
     link: "",
     linkType: "",
   },
