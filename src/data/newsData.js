@@ -1,5 +1,23 @@
 export const newsData = [
   {
+    id: 51,
+    name: "",
+    title: "Era uma vez...",
+    date: "03/12/2024",
+    schedule: [
+      {
+        day: "26/01/2025",
+        time: "17:00",
+        location: "Cine Teatro Avenida de Castelo Branco",
+      },
+    ],
+    description:
+      "No Espetáculo “Era uma Vez…”, o público é convidado a embarcar numa aventura mágica onde o nosso explorador está à procura do seu talento. Ao longo do caminho, ele encontra várias fadas que o ajudam a descobrir o poder da imaginação e da natureza.\nCom danças encantadoras, músicas envolventes e magia interativa, o espetáculo celebra a importância de acreditar em si mesmo e no potencial escondido em cada um de nós.\nOs bilhetes vão estar disponíveis no nosso Estúdio a partir do dia 6 de janeiro de 2025 pelas 17h00.\nVenham mais uma vez fazer parte desta aventura\nUma experiência mágica para todas as idades!",
+    image: "https://i.imgur.com/3o6ocuG.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 50,
     name: "Mercadinho de Natal 2024",
     title: "Mercadinho de Natal 2024",
@@ -27,7 +45,6 @@ export const newsData = [
     link: "",
     linkType: "",
   },
-
   {
     id: 48,
     name: "Active Kids - Natal",
