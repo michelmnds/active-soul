@@ -5,7 +5,7 @@ export const danceData = [
     modality: "Aulas a partir dos 16 anos",
     description:
       "As afro latinas (dança social) é dançada a par e tem como objetivo explorar os conceitos como a conexão, fluxos de energia, peso e contrapeso, foco, musicalidade e interpretação. Os estilos abordados são: Kizomba, Semba, Salsa, Bachata e Urban kiz.",
-    image: "https://i.imgur.com/Ig0mbAD.jpg",
+    image: "https://i.imgur.com/K42jHW7.jpg",
     schedule: [
       {
         day: "Sex",
@@ -21,7 +21,7 @@ export const danceData = [
     modality: "Aulas a partir dos 3 anos",
     description:
       "Aula que pretende desenvolver a musicalidade, a flexibilidade, a coordenação de movimentos, a memória, a concentração e a técnica necessária para a dança clássica. Permite que exista uma melhor perceção corporal e amplia as noções de espaço. Procura-se que cada bailarino(a) se divirta a dançar enquanto adquire competências técnicas, próprias da dança clássica. São desenvolvidas pequenas coreografias para fantásticas apresentações e espetáculos. O trabalho de grupo e a socialização também estão presentes.",
-    image: "https://i.imgur.com/pRkKDJb.jpg",
+    image: "https://i.imgur.com/Fym7cEN.jpg",
     schedule: [
       {
         day: "Seg",
@@ -85,7 +85,7 @@ export const danceData = [
     modality: "Aulas a partir dos 3 anos",
     description:
       "Aula que contempla a realização de jogos com música, exercícios e coreografias adaptadas às diferentes faixas etárias. Usando diferentes estilos musicais, deseja-se que as crianças se divirtam e interajam umas com as outras enquanto dançam. Desenvolve a consciência corporal, a coordenação, o equilíbrio e a memória, melhorando a confiança e a auto-estima.",
-    image: "https://i.imgur.com/N63U62D.jpg",
+    image: "https://i.imgur.com/pkn6q38.jpg",
     schedule: [
       {
         day: "Sex",
@@ -108,7 +108,7 @@ export const danceData = [
     modality: "Aulas a partir dos 6 anos",
     description:
       "A Dança Jazz tem raízes essencialmente populares e desenvolveu-se no seio da cultura negra em paralelo com a música Jazz, nos Estados Unidos da América. Recebeu inúmeras influências, tendo actualmente como pilar a técnica da dança clássica e do contemporâneo aplicada ao Teatro Musical e à música Pop e moderna.",
-    image: "https://i.imgur.com/gItWVKg.jpg",
+    image: "https://i.imgur.com/1uN8rLm.jpg",
     schedule: [
       {
         day: "Qua",
@@ -130,7 +130,7 @@ export const danceData = [
     modality: "Aula a partir dos 16 anos ",
     description:
       "É uma aula a solo, dividida em 2 partes. Primeira parte abordamos os passos básicos de cada estilo de dança, na segunda parte da aula elaboramos uma coreografia. É uma aula com muita diversão.",
-    image: "https://i.imgur.com/OktDLoG.jpg",
+    image: "https://i.imgur.com/SUTNilI.jpg",
     schedule: [
       {
         day: "Qua",
@@ -146,7 +146,7 @@ export const danceData = [
     modality: "Aulas a partir dos 10 anos",
     description:
       "Aula coreográfica que usa como base musical o electronic dance music, a música pop e comercial. Funde estilos como o Hip Hop, Street Jazz, House, sendo muito enérgica, divertida e simples. Desenvolve a consciência corporal, a coordenação, o equilíbrio e a memória, melhorando a confiança e a auto-estima.",
-    image: "https://i.imgur.com/wRsigou.jpg",
+    image: "https://i.imgur.com/I7JmZ4d.jpg",
     schedule: [
       {
         day: "Sex",
@@ -162,7 +162,7 @@ export const danceData = [
     modality: "Aulas a partir dos 6 anos",
     description:
       "O Teatro trabalha: A consciência corporal; Explora a socialização, intuição, criação e comunicação; Desenvolve a criatividade, capacidade de improviso, memorização e outras aptidões expressivas corporais. Participe na criação e execução de espetáculos de teatro musical.",
-    image: "https://i.imgur.com/0Ig658y.jpg",
+    image: "https://i.imgur.com/6bdn2GL.jpg",
     schedule: [
       {
         day: "Seg",

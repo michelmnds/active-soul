@@ -1,7 +1,7 @@
 export const newsData = [
   {
     id: 51,
-    name: "",
+    name: "Era uma vez...",
     title: "Era uma vez...",
     date: "03/12/2024",
     schedule: [
@@ -17,8 +17,8 @@ export const newsData = [
       },
     ],
     description:
-      "No Espetáculo “Era uma Vez…”, o público é convidado a embarcar numa aventura mágica onde o nosso explorador está à procura do seu talento. Ao longo do caminho, ele encontra várias fadas que o ajudam a descobrir o poder da imaginação e da natureza.\nCom danças encantadoras, músicas envolventes e magia interativa, o espetáculo celebra a importância de acreditar em si mesmo e no potencial escondido em cada um de nós.\nOs bilhetes já estão disponíveis no nosso Estúdio! A sessão das 17h00 está quase ESGOTADA, no entanto a das 15h00 ainda tens lugar*\nVem mais uma vez fazer parte desta aventura*\nUma experiência mágica para todas as idades!",
-    image: "https://i.imgur.com/SgMRXia.jpg",
+      "No Espetáculo “Era uma Vez…”, o público é convidado a embarcar numa aventura mágica onde o nosso explorador está à procura do seu talento. Ao longo do caminho, ele encontra várias fadas que o ajudam a descobrir o poder da imaginação e da natureza.\nCom danças encantadoras, músicas envolventes e magia interativa, o espetáculo celebra a importância de acreditar em si mesmo e no potencial escondido em cada um de nós.\nUma experiência mágica para todas as idades!",
+    image: "https://i.imgur.com/Zx7eG99.jpg",
     link: "",
     linkType: "",
   },

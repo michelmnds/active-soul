@@ -330,12 +330,16 @@ export const SingleNewPage = ({ menu }) => {
               !
             </span>
           )}
-          {currentNew.id === 34 && (
+          {(currentNew.id === 34 || currentNew.id === 51) && (
             <span className="singleNewDesc">
               Veja as fotos{" "}
               <a
                 target="_blank"
-                href="https://mega.nz/folder/1u1QQACD#4FvfQITQ2U-xgyXuMtcfdQ"
+                href={
+                  currentNew.id === 34
+                    ? "https://mega.nz/folder/1u1QQACD#4FvfQITQ2U-xgyXuMtcfdQ"
+                    : "https://mega.nz/folder/gn8AXJbT#btq0tig8jZKjBg-gU-LmBg"
+                }
                 rel="noreferrer"
               >
                 aqui
