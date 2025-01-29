@@ -19,8 +19,8 @@ export const newsData = [
     description:
       "No Espetáculo “Era uma Vez…”, o público é convidado a embarcar numa aventura mágica onde o nosso explorador está à procura do seu talento. Ao longo do caminho, ele encontra várias fadas que o ajudam a descobrir o poder da imaginação e da natureza.\nCom danças encantadoras, músicas envolventes e magia interativa, o espetáculo celebra a importância de acreditar em si mesmo e no potencial escondido em cada um de nós.\nUma experiência mágica para todas as idades!",
     image: "https://i.imgur.com/Zx7eG99.jpg",
-    link: "",
-    linkType: "",
+    link: "HmtcWSUkCeI",
+    linkType: "YT",
   },
   {
     id: 50,
