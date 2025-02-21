@@ -47,6 +47,25 @@ export const NewsPage = ({ menu }) => {
           )}
         </section>
 
+        <h3 className="newsPageYear">2025</h3>
+        <section className="newsPageSection">
+          {newsData.map((currentNew) => {
+            if (
+              currentNew.date.split("/")[2] === "2025" &&
+              !upcomingEventIds.includes(currentNew.id)
+            ) {
+              return (
+                <NewsCard
+                  key={currentNew.id}
+                  id={currentNew.id}
+                  img={currentNew.image}
+                  name={currentNew.name}
+                  description={currentNew.description}
+                />
+              );
+            }
+          })}
+        </section>
         <h3 className="newsPageYear">2024</h3>
         <section className="newsPageSection">
           {newsData.map((currentNew) => {

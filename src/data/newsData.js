@@ -1,9 +1,98 @@
 export const newsData = [
   {
+    id: 54,
+    name: "Workshop de Dança",
+    title: "Workshop de Dança",
+    date: "22/03/2025",
+    schedule: [
+      {
+        day: "22/03/2025",
+        time: "14:30/16:00",
+        location: "Centro Social de Maxiais",
+      },
+      {
+        day: "05/04/2025",
+        time: "14:30/16:00",
+        location: "Centro Social de Maxiais",
+      },
+      {
+        day: "19/04/2025",
+        time: "14:30/16:00",
+        location: "Centro Social de Maxiais",
+      },
+      {
+        day: "03/05/2025",
+        time: "14:30/16:00",
+        location: "Centro Social de Maxiais",
+      },
+      {
+        day: "17/05/2025",
+        time: "14:30/16:00",
+        location: "Centro Social de Maxiais",
+      },
+      {
+        day: "24/05/2025",
+        time: "14:30/16:00",
+        location: "Centro Social de Maxiais",
+      },
+      {
+        day: "07/06/2025",
+        time: "14:30/16:00",
+        location: "Centro Social de Maxiais",
+      },
+      {
+        day: "21/06/2025",
+        time: "14:30/16:00",
+        location: "Centro Social de Maxiais",
+      },
+    ],
+    description:
+      "No CENTRO SOCIAL DE MAXIAIS, querem que todos sejam felizes a dançar.\nATREVE-TE e INSCREVE-TE, no nosso WorKshop de Afro Latinas, que decorrerá em 8 aulas, com o Professor Fábio Scoola e Patrícia Lourenço. Podes inscrever-te através do email: centrosocialmaxiais@gmail*com\n\nPúblico-Alvo:\nAlunos adultos, com par (podendo ser homem com homem e mulher com mulher) sem necessidade de experiência prévia em dança, sendo acessível tanto para iniciantes como para aqueles que já possuem algum conhecimento.",
+    image: "https://i.imgur.com/gMBSlw3.png",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 53,
+    name: "Workshop de Dança Contemporânea",
+    title: "Workshop de Dança Contemporânea",
+    date: "20/02/2025",
+    schedule: [
+      {
+        day: "20/02/2025",
+        time: "19:00",
+        location: "Academia de Dança MariaFrancisca",
+      },
+    ],
+    description:
+      'Hoje fomos à Academia de Dança MariaFrancisca, polo de Castelo Branco, para um Workshop de Dança Contemporânea, com direito a frase coreográfica do espetáculo "Lowlands" da Companhia Instável - Centro Coreógrafo* A companhia irá estar no Cine Teatro Avenida, este sábado dia 22 de fevereiro pelas 21h30. Não percam este grande espetáculo.\nObrigada por proporcionarem estes momentos de aprendizagem e partilha aos nossos alunos. ',
+    image: "https://i.imgur.com/pvr0byy.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 52,
+    name: "Aula Temática - Afro Latinas",
+    title: "Aula Temática - Afro Latinas",
+    date: "20/02/2025",
+    schedule: [
+      {
+        day: "14/02/2025",
+        time: "19:00",
+        location: "Estúdio Active Soul",
+      },
+    ],
+    description:
+      "14 de fevereiro - Dia onde celebramos o amor ❤️\n\nUma aula dedicada ao Ritmo KIZOMBA, onde poderás surpreender quem quiseres!\nPara mais informações, manda email: activesoul.studio@gmail.com.\nVem celebrar o amor a DANÇAR 😀",
+    image: "https://i.imgur.com/E5pRaM6.png",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 51,
     name: "Era uma vez...",
     title: "Era uma vez...",
-    date: "03/12/2024",
+    date: "26/01/2025",
     schedule: [
       {
         day: "26/01/2025",
