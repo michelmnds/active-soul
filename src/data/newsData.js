@@ -48,7 +48,7 @@ export const newsData = [
     ],
     description:
       "No CENTRO SOCIAL DE MAXIAIS, querem que todos sejam felizes a dançar.\nATREVE-TE e INSCREVE-TE, no nosso WorKshop de Afro Latinas, que decorrerá em 8 aulas, com o Professor Fábio Scoola e Patrícia Lourenço. Podes inscrever-te através do email: centrosocialmaxiais@gmail*com\n\nPúblico-Alvo:\nAlunos adultos, com par (podendo ser homem com homem e mulher com mulher) sem necessidade de experiência prévia em dança, sendo acessível tanto para iniciantes como para aqueles que já possuem algum conhecimento.",
-    image: "https://i.imgur.com/gMBSlw3.png",
+    image: "https://i.imgur.com/N7ztQeJ.jpg",
     link: "",
     linkType: "",
   },
