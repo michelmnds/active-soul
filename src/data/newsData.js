@@ -1,8 +1,8 @@
 export const newsData = [
   {
     id: 55,
-    name: "Workshop de Dança",
-    title: "Workshop de Dança",
+    name: "Era uma vez - Alegro Castelo Branco",
+    title: "Era uma vez - Alegro Castelo Branco",
     date: "05/04/2025",
     schedule: [
       {
