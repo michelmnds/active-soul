@@ -1,5 +1,23 @@
 export const newsData = [
   {
+    id: 55,
+    name: "Workshop de Dança",
+    title: "Workshop de Dança",
+    date: "05/04/2025",
+    schedule: [
+      {
+        day: "05/04/2025",
+        time: "16:00",
+        location: "Alegro Castelo Branco",
+      },
+    ],
+    description:
+      'O Espetáculo "Era uma vez" vai voltar a sair do estúdio para o público, desta vez no Alegro Castelo Branco dia 5 de abril pelas 16h00.\nPara este espetáculo ser um sucesso basta entrares conosco nesta magia, no mundo encantado onde tudo é possível.\nNão é necessário bilhete*',
+    image: "https://i.imgur.com/VL7XEbx.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 54,
     name: "Workshop de Dança",
     title: "Workshop de Dança",
