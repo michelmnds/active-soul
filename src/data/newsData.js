@@ -1,6 +1,23 @@
 export const newsData = [
   {
-    id: 55,
+    id: 57,
+    name: "Bem me quero",
+    title: "Bem me quero",
+    date: "28/06/2025",
+    schedule: [
+      {
+        day: "28/06/2025",
+        time: "",
+        location: "",
+      },
+    ],
+    description: "",
+    image: "https://i.imgur.com/ObHitr4.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 56,
     name: "Era uma vez - Alegro Castelo Branco",
     title: "Era uma vez - Alegro Castelo Branco",
     date: "05/04/2025",
@@ -18,7 +35,7 @@ export const newsData = [
     linkType: "",
   },
   {
-    id: 54,
+    id: 55,
     name: "Workshop de Dança",
     title: "Workshop de Dança",
     date: "22/03/2025",
@@ -67,6 +84,24 @@ export const newsData = [
     description:
       "No CENTRO SOCIAL DE MAXIAIS, querem que todos sejam felizes a dançar.\nATREVE-TE e INSCREVE-TE, no nosso WorKshop de Afro Latinas, que decorrerá em 8 aulas, com o Professor Fábio Scoola e Patrícia Lourenço. Podes inscrever-te através do email: centrosocialmaxiais@gmail*com\n\nPúblico-Alvo:\nAlunos adultos, com par (podendo ser homem com homem e mulher com mulher) sem necessidade de experiência prévia em dança, sendo acessível tanto para iniciantes como para aqueles que já possuem algum conhecimento.",
     image: "https://i.imgur.com/N7ztQeJ.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 54,
+    name: 'Celebração "Dia da Mulher"',
+    title: 'Celebração "Dia da Mulher"',
+    date: "08/03/2025",
+    schedule: [
+      {
+        day: "08/03/2025",
+        time: "16:00",
+        location: "Alegro de Castelo Branco",
+      },
+    ],
+    description:
+      "Vamos estar a celebrar o dia da mulher no Alegro Castelo Branco a partir das 16h00.\n Aparece| Vai haver muitas surpresas",
+    image: "https://i.imgur.com/vohf573.jpg",
     link: "",
     linkType: "",
   },

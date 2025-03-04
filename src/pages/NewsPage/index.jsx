@@ -7,13 +7,29 @@ import { NewsCard } from "../../components/NewsCard";
 export const NewsPage = ({ menu }) => {
   const today = new Date();
 
-  const upcomingEvents = newsData.filter((event) => {
-    const formatedDate = `${event.schedule[0].day.split("/")[2]}-${
-      event.schedule[0].day.split("/")[1]
-    }-${event.schedule[0].day.split("/")[0]}`;
+  const upcomingEvents = newsData
+    .filter((event) => {
+      const formatedDate = `${event.schedule[0].day.split("/")[2]}-${
+        event.schedule[0].day.split("/")[1]
+      }-${event.schedule[0].day.split("/")[0]}`;
 
-    return new Date(formatedDate) > today;
-  });
+      return new Date(formatedDate) > today;
+    })
+    .sort((a, b) => {
+      const dateA = new Date(
+        `${a.schedule[0].day.split("/")[2]}-${
+          a.schedule[0].day.split("/")[1]
+        }-${a.schedule[0].day.split("/")[0]}`
+      );
+
+      const dateB = new Date(
+        `${b.schedule[0].day.split("/")[2]}-${
+          b.schedule[0].day.split("/")[1]
+        }-${b.schedule[0].day.split("/")[0]}`
+      );
+
+      return dateA - dateB;
+    });
 
   const upcomingEventIds = upcomingEvents.map((event) => event.id);
 
@@ -39,6 +55,7 @@ export const NewsPage = ({ menu }) => {
                   description={currentNew.description}
                   month={currentNew.schedule[0].day.split("/")[1]}
                   coming={true}
+                  clickable={currentNew.name !== "Bem me quero"}
                 />
               );
             })
@@ -61,6 +78,7 @@ export const NewsPage = ({ menu }) => {
                   img={currentNew.image}
                   name={currentNew.name}
                   description={currentNew.description}
+                  clickable={currentNew.name !== "Bem me quero"}
                 />
               );
             }
