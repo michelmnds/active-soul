@@ -55,7 +55,7 @@ export const NewsPage = ({ menu }) => {
                   description={currentNew.description}
                   month={currentNew.schedule[0].day.split("/")[1]}
                   coming={true}
-                  clickable={currentNew.name !== "Bem me quero"}
+                  clickable={currentNew.name !== "Bem me quero - 28 de junho"}
                 />
               );
             })
@@ -78,7 +78,7 @@ export const NewsPage = ({ menu }) => {
                   img={currentNew.image}
                   name={currentNew.name}
                   description={currentNew.description}
-                  clickable={currentNew.name !== "Bem me quero"}
+                  clickable={currentNew.name !== "Bem me quero - 28 de junho"}
                 />
               );
             }

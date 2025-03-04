@@ -1,8 +1,8 @@
 export const newsData = [
   {
     id: 57,
-    name: "Bem me quero",
-    title: "Bem me quero",
+    name: "Bem me quero - 28 de junho",
+    title: "Bem me quero - 28 de junho",
     date: "28/06/2025",
     schedule: [
       {
