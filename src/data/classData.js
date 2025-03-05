@@ -52,12 +52,6 @@ export const classData = [
     image: "https://i.imgur.com/mlQyZX8.jpg",
     schedule: [
       {
-        day: "Ter",
-        time: "19:00 - 19:45 & 19:45 - 20:30",
-        teacher: "Sandra Vicente",
-      },
-
-      {
         day: "Qui",
         time: "19:30 - 20:15",
         teacher: "Sandra Vicente",

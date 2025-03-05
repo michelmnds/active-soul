@@ -89,7 +89,7 @@ export const danceData = [
     schedule: [
       {
         day: "Sex",
-        time: "18:00 - 18:30",
+        time: "17:30 - 18:00",
         teacher: "Leonor Farias",
         type: "Dance Kids (3 aos 5 anos)",
       },
@@ -150,9 +150,15 @@ export const danceData = [
     schedule: [
       {
         day: "Sex",
+        time: "18:45 - 19:30",
+        teacher: "Leonor Farias",
+        type: "Pop Dance I",
+      },
+      {
+        day: "Sex",
         time: "19:30 - 20:15",
         teacher: "Leonor Farias",
-        type: "Pop Dance (+10 anos)",
+        type: "Pop Dance II",
       },
     ],
   },

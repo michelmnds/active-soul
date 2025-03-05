@@ -31,7 +31,7 @@ export const LandingPage = ({ menu }) => {
         <div className={`landingImage ${menu ? "move" : ""}`} />
         <div className={`titleBackground ${menu ? "move" : ""}`}>
           <div className="titleContainer">
-            <h1 className="landingTitle">Bem-vindo à Active Soul!</h1>
+            <h1 className="landingTitle">Bem-vindo ao Active Soul!</h1>
           </div>
         </div>
       </div>
@@ -46,6 +46,26 @@ export const LandingPage = ({ menu }) => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              width: "100%",
+              alignItems: "flex-start",
+              justifyContent: "flex-start",
+              gap: 10,
+            }}
+          >
+            <h1 className="videoTitle">Marca já a tua aula experimental!</h1>
+            <a
+              href="https://wa.me/message/P62IN6OYSZ5YN1"
+              className="landingBtn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Marcar aula
+            </a>
+          </div>
         </div>
       </div>
 
@@ -86,7 +106,7 @@ export const LandingPage = ({ menu }) => {
       </div>
 
       <div className="tableContainer">
-        <span className="tableTxt">Horário 2024/2025:</span>
+        <span className="tableTxt">Horário 2025:</span>
         <div className="table" onClick={handleModalOpening} />
       </div>
     </>
