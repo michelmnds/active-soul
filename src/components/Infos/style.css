@@ -1,95 +1,95 @@
-.moreInfosContainer{
-    width: 100%;
-    max-width: 680px;
-    height: 580px;
+.moreInfosContainer {
+  width: 100%;
+  max-width: 680px;
+  height: 580px;
 
-    padding: 20px;
+  padding: 20px;
 
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-.moreInfosMainTxt{
-    font-size: 20px;
-    font-weight: 450;
+.moreInfosMainTxt {
+  font-size: 20px;
+  font-weight: 450;
 
-    color: var(--secondary-green);
+  color: var(--secondary-green);
 }
-.moreInfosContainer > .topSection  hr{
-   width: 50%;
+.moreInfosContainer > .topSection hr {
+  width: 50%;
 
-   margin: 20px 0;
+  margin: 20px 0;
 
-   border: 1px solid var(--secondary-green);
+  border: 1px solid var(--secondary-green);
 }
-.moreInfosTime{
-    display: flex;
-    flex-direction: column;
+.moreInfosTime {
+  display: flex;
+  flex-direction: column;
 
-    align-items: flex-start;
-    justify-content: center;
+  align-items: flex-start;
+  justify-content: center;
 
-    gap: 10px;
+  gap: 10px;
 
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-.moreInfosTimeTxt{
-    font-size: 18px;
-    color: var(--secondary-green);
+.moreInfosTimeTxt {
+  font-size: 18px;
+  color: var(--secondary-green);
 
-    font-weight: 450;
+  font-weight: 450;
 }
-.moreInfosDay{
-    font-size: 14px;
+.moreInfosDay {
+  font-size: 14px;
 
-    color: var(--secondary-green);
+  color: var(--secondary-green);
 }
-.mapContainer{
-    margin-top: 10px;
+.mapContainer {
+  margin-top: 10px;
 
-    width: 100%;
-    max-width: 385px;
-    height: 360px;
+  width: 100%;
+  max-width: 385px;
+  height: 360px;
 
-    border: 1px solid var(--secondary-green);
-    border-radius: 12px;
+  border: 1px solid var(--secondary-green);
+  border-radius: 12px;
 
-    background-image: url('../../assets/background.png');
-    background-size: cover;
+  background-image: url("../../assets/background.png");
+  background-size: cover;
 
-    background-position: center;
+  background-position: center;
 
-    position: relative;
+  position: relative;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.mapContainerMarker{
-    display: flex;
-    flex-direction: column;
+.mapContainerMarker {
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 
-    padding: 8px;
-    gap: 6px;
+  padding: 8px;
+  gap: 6px;
 
-    background-color: white;
+  background-color: white;
 
-    width: 100px;
+  width: 100px;
 
-    border-radius: 8px;
+  border-radius: 8px;
 
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 .mapContainerMarker > span {
-    font-size: 14px;
+  font-size: 14px;
 }
 .mapContainerMarker > a {
-    font-size: 12px;
+  font-size: 12px;
 }
 
-@media(width >= 1440px){
-    .moreInfosContainer{
-        max-width: 1080px;
-    }
+@media (width >= 1440px) {
+  .moreInfosContainer {
+    max-width: 1080px;
+  }
 }

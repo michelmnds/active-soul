@@ -3,8 +3,42 @@
 import "./style.css";
 import { Tabs, rem } from "@mantine/core";
 import { IconPhoto, IconHome } from "@tabler/icons-react";
-
 import { Infos } from "../../components/Infos";
+import { OpinionCard } from "./components/OpinionCard";
+const isMobile = window.innerWidth < 768;
+
+const opinions = [
+  {
+    rating: 5,
+    name: "Inês Pitacas",
+    text: "Equipa de profissionais de excelência. Flexibilidade de horários de treino com PT, de manhã até ao final do dia. 💪🍀💪💪Muito sucesso, sempre!",
+  },
+  {
+    rating: 5,
+    name: "Isabel Carreira",
+    text: "Não podia ter escolhido melhor sítio para voltar ao exercício físico. Pelo profissionalismo e simpatia de todos, já lá vão três anos a sentir-me em casa 💪🙌",
+  },
+  {
+    rating: 5,
+    name: "Selma Esteves",
+    text: "Gosto muito de treinar na active soul, tem professoras fantasticas, dedicadas, divertidas sempre com boa disposição que nos motivam durante as aulas.",
+  },
+  {
+    rating: 5,
+    name: "Leonor Miguel Farias",
+    text: "Um estúdio único e cheio de energia! Um local muito acolhedor e muito bom para praticar vários estilos de dança! Recomendo🫶🏼",
+  },
+  {
+    rating: 5,
+    name: "Patricia Marques",
+    text: "Conseguimos juntar teatro músical à dança e os resultados estão a ser incríveis. Profissionalismo e simpatia.",
+  },
+  {
+    rating: 5,
+    name: "Julia Senna",
+    text: "Um ótimo lugar, super familiar, todos lá nos recebem com muita simpatia!",
+  },
+];
 
 export const AboutPage = ({ menu }) => {
   const iconStyle = { width: rem(12), height: rem(12) };
@@ -86,6 +120,18 @@ export const AboutPage = ({ menu }) => {
         </div>
       </main>
 
+      <div className="opinionsContainer">
+        <h1 className="moreInfosMainTxt">Opiniões:</h1>
+        <div className="opinionsCardContainer">
+          {isMobile
+            ? opinions
+                .slice(0, 3)
+                .map((opinion, key) => <OpinionCard {...opinion} key={key} />)
+            : opinions.map((opinion, key) => (
+                <OpinionCard {...opinion} key={key} />
+              ))}
+        </div>
+      </div>
       <Infos />
     </div>
   );

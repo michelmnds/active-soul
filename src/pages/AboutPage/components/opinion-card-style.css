@@ -1,0 +1,36 @@
+.opinionCard {
+  width: 100%;
+  padding: 24px 12px;
+  border-radius: 16px;
+  border: 1px solid var(--secondary-green);
+  background-color: var(--primary-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: justify;
+  color: var(--secondary-green);
+}
+.opinionTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--secondary-green);
+}
+.opinionCardRatings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+@media (min-width: 768px) {
+  .opinionCard {
+    min-height: 184px;
+  }
+  @media (min-width: 1440px) {
+    .opinionCard {
+      min-height: auto;
+    }
+  }
+}

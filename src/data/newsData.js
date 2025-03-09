@@ -101,7 +101,7 @@ export const newsData = [
     ],
     description:
       "Vamos estar a celebrar o dia da mulher no Alegro Castelo Branco a partir das 16h00.\n Aparece| Vai haver muitas surpresas",
-    image: "https://i.imgur.com/vohf573.jpg",
+    image: "https://i.imgur.com/u816p8B.jpg",
     link: "",
     linkType: "",
   },

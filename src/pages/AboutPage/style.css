@@ -1,162 +1,196 @@
-.aboutPageContainer{
-    display: flex;
-    flex-direction: column;
+.aboutPageContainer {
+  display: flex;
+  flex-direction: column;
 
-    align-items: flex-start;
-    justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
 
-    min-height: 100vh;
+  min-height: 100vh;
 
-    gap: 10px;
+  gap: 10px;
 
-    transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
-.aboutPageTitle{
-    font-size: 42px;
+.opinionsContainer {
+  width: 100%;
+
+  padding: 20px;
+
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.opinionsCardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.aboutPageTitle {
+  font-size: 42px;
+  font-weight: 400;
+
+  width: 260px;
+
+  color: var(--primary-white);
+}
+.aboutPageMain {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  gap: 30px;
+}
+.aboutBackground {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  background-color: var(--secondary-green);
+
+  padding: 20px;
+
+  height: 150px;
+  width: 100%;
+
+  border-radius: 0 0 100% 0;
+}
+.aboutPageMainBackground {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 300px;
+  width: 100%;
+
+  border-radius: 12px 12px 0 0;
+}
+.tabsContainer {
+  width: 100%;
+}
+.aboutPageNav {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+.aboutNavLink {
+  font-size: 8px;
+}
+.aboutTextContainer {
+  text-align: justify;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  gap: 30px;
+}
+.aboutPageText {
+  font-size: 16px;
+  font-weight: 400;
+
+  text-align: justify;
+
+  color: var(--secondary-green);
+
+  line-height: 1.5;
+}
+@media (width >= 375px) {
+  .aboutNavLink {
+    font-size: 12px;
+  }
+}
+@media (width >= 375px) {
+  .aboutNavLink {
+    font-size: 16px;
+  }
+}
+@media (width >= 768px) {
+  .aboutPageMain {
+    display: flex;
+  }
+  .opinionsCardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .opinionsContainer {
+    max-width: 680px;
+  }
+  .aboutPageContainer {
+    align-items: center;
+
+    margin-bottom: 100px;
+  }
+  .aboutPageTitle {
+    font-size: 60px;
     font-weight: 400;
 
-    width: 260px;
+    width: 400px;
 
     color: var(--primary-white);
-}
-.aboutPageMain{
-    display: flex;
-    flex-direction: column;
+  }
+  .aboutBackground {
+    height: 200px;
+    width: 100%;
+  }
+  .aboutPageMainBackground {
+    height: 500px;
+  }
+  .aboutTextContainer {
+    width: 640px;
 
     align-items: center;
+  }
+  .aboutPageText {
+    font-size: 18px;
+  }
+}
+@media (width >= 1024px) {
+  .aboutBackground {
+    width: 100%;
+    padding: 20px 0;
     justify-content: center;
-    
-    padding: 20px;
+  }
 
-    gap: 30px;
+  .aboutTitleContainer {
+    width: 640px;
+  }
 }
-.aboutBackground{
-    display: flex;
+@media (width >= 1440px) {
+  .aboutPageNav {
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+  }
+  .opinionsContainer {
+    max-width: 1080px;
+  }
+  .aboutTitleContainer {
+    width: 1040px;
+  }
+  .aboutPageMainBackground {
+    width: 1040px;
+  }
+  .aboutPageText {
+    width: 1040px;
 
-    background-color: var(--secondary-green);
-
-    padding: 20px;
-
-    height: 150px;
-    width: 100%;
-
-    border-radius: 0 0 100% 0;
-}
-.aboutPageMainBackground{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    height: 300px;
-    width: 100%;
-
-    border-radius: 12px 12px 0 0;
-}
-.tabsContainer{
-    width: 100%;
-}
-.aboutPageNav{
-    display: flex;
-    flex-direction: row;
-
-    align-items: center;
-    justify-content: space-between;
-
-    margin-bottom: 20px;
-}
-.aboutNavLink{
-    font-size: 8px;
-}
-.aboutTextContainer{
-    text-align: justify;
-
-    display: flex;
-    flex-direction: column;
-
-    align-items: flex-start;
-    justify-content: flex-start;
-
-    gap: 30px;
-}
-.aboutPageText{
-    font-size: 16px;
-    font-weight: 400;
-
-    text-align: justify;
-
-    color: var(--secondary-green);
-
-    line-height: 1.5;
-}
-@media(width >= 375px){
-    .aboutNavLink{
-        font-size: 12px
-    }
-}
-@media(width >= 375px){
-    .aboutNavLink{
-        font-size: 16px
-    }
-}
-@media(width >= 768px){
-    .aboutPageMain{
-        display: flex;
-    }
-    .aboutPageContainer{
-        align-items: center;
-
-        margin-bottom: 100px;
-    }
-    .aboutPageTitle{
-        font-size: 60px;
-        font-weight: 400;
-    
-        width: 400px;
-    
-        color: var(--primary-white);
-    }
-    .aboutBackground{
-        height: 200px;
-        width: 100%;
-    }
-    .aboutPageMainBackground{
-        height: 500px;
-    }
-    .aboutTextContainer{
-        width: 640px;
-
-        align-items: center;
-    }
-    .aboutPageText{
-        font-size: 18px;
-    }
-}
-@media(width >= 1024px){
-    .aboutBackground{
-        width: 100%;
-        padding: 20px 0;
-        justify-content: center;
-    }
-    .aboutTitleContainer{
-        width: 640px;
-    }
-}
-@media(width >= 1440px){
-    .aboutPageNav{
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .aboutTitleContainer{
-        width: 1040px;
-    }
-    .aboutPageMainBackground{
-        width: 1040px;
-    }
-    .aboutPageText{
-        width: 1040px;
-
-        font-size: 20px;
-    }
+    font-size: 20px;
+  }
 }
