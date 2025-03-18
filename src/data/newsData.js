@@ -88,6 +88,24 @@ export const newsData = [
     linkType: "",
   },
   {
+    id: 58,
+    name: 'Encerramento da Atividade "Movimenta+"',
+    title: 'Encerramento da Atividade "Movimenta+"',
+    date: "16/03/2025",
+    schedule: [
+      {
+        day: "16/03/2025",
+        time: "12:00",
+        location: "Largo da Devesa",
+      },
+    ],
+    description:
+      'Dia 16 de Março, realizou-se a 1ª atividade do Projeto "Movimenta+" da Unidade Local de Saúde Castelo Branco, no Largo da Devesa* Este projeto visa promover a saúde, prevenir doenças na comunidade local e esta primeira edição vai ter como tema "Fatores de Risco Cardiocerebrovasculares"*\nForam realizados diferentes rastreios e sessões de educação para a saúde, sobre riscos como tabagismo, obesidade, dislipidemia, hipertensão, diabetes e inatividade física* A sessão "Movimenta a Tua Saúde" terminou com a colaboração do nosso estúdio para ajudar a promover momentos mais ativos.',
+    image: "https://i.imgur.com/1SPa0DP.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 54,
     name: 'Celebração "Dia da Mulher"',
     title: 'Celebração "Dia da Mulher"',
