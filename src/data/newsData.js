@@ -1,6 +1,6 @@
 export const newsData = [
   {
-    id: 57,
+    id: 58,
     name: "Bem me quero - 28 de junho",
     title: "Bem me quero - 28 de junho",
     date: "28/06/2025",
@@ -13,6 +13,29 @@ export const newsData = [
     ],
     description: "",
     image: "https://i.imgur.com/ObHitr4.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 57,
+    name: "Era uma vez",
+    title: "Era uma vez",
+    date: "26/06/2025",
+    schedule: [
+      {
+        day: "26/06/2025",
+        time: "11:00",
+        location: "Cine Teatro Avenida de Castelo Branco",
+      },
+      {
+        day: "26/06/2025",
+        time: "14:30",
+        location: "Cine Teatro Avenida de Castelo Branco",
+      },
+    ],
+    description:
+      "Dia 2 de junho o espetáculo “Era uma vez” vai voltar a subir a palco!\nApenas para público escolar, inscrições obrigatórias.\nLink de inscrição poderá ser solicitado por e-mail: <u>activesoul*studio@gmail*com</u>\nHaverá duas sessões, estas estando divididas por Agrupamentos, 1ª às 11h00 e 2ª às 14h30.\nEsperamos por vocês",
+    image: "https://imgur.com/lVEargS.jpg",
     link: "",
     linkType: "",
   },
