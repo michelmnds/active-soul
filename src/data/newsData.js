@@ -117,7 +117,7 @@ export const newsData = [
     linkType: "",
   },
   {
-    id: 58,
+    id: 59,
     name: 'Encerramento da Atividade "Movimenta+"',
     title: 'Encerramento da Atividade "Movimenta+"',
     date: "16/03/2025",
