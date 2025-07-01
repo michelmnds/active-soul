@@ -4,14 +4,7 @@ import "./style.css";
 
 // eslint-disable-next-line no-unused-vars
 
-export const NewsCard = ({
-  id,
-  img,
-  name,
-  coming,
-  month,
-  clickable = true,
-}) => {
+export const NewsCard = ({ id, img, name, coming, month }) => {
   const monthNames = {
     "01": "Janeiro",
     "02": "Fevereiro",
@@ -28,23 +21,8 @@ export const NewsCard = ({
   };
 
   if (coming) {
-    if (clickable) {
-      return (
-        <Link
-          to={`/evento/${id}`}
-          style={{ backgroundImage: `url(${img})` }}
-          className="newsCard"
-        >
-          {name && <span className="newsCardName"> {name} </span>}
-
-          <section className="monthContainer">
-            <span className="monthTxt">{monthNames[month]}</span>
-          </section>
-        </Link>
-      );
-    }
     return (
-      <div
+      <Link
         to={`/evento/${id}`}
         style={{ backgroundImage: `url(${img})` }}
         className="newsCard"
@@ -54,28 +32,17 @@ export const NewsCard = ({
         <section className="monthContainer">
           <span className="monthTxt">{monthNames[month]}</span>
         </section>
-      </div>
+      </Link>
     );
   } else {
-    if (clickable) {
-      return (
-        <Link
-          to={`/evento/${id}`}
-          style={{ backgroundImage: `url(${img})` }}
-          className="newsCard"
-        >
-          {name && <span className="newsCardName"> {name} </span>}
-        </Link>
-      );
-    }
     return (
-      <div
+      <Link
         to={`/evento/${id}`}
         style={{ backgroundImage: `url(${img})` }}
         className="newsCard"
       >
         {name && <span className="newsCardName"> {name} </span>}
-      </div>
+      </Link>
     );
   }
 };

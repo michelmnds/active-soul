@@ -330,7 +330,9 @@ export const SingleNewPage = ({ menu }) => {
               !
             </span>
           )}
-          {(currentNew.id === 34 || currentNew.id === 51) && (
+          {(currentNew.id === 34 ||
+            currentNew.id === 51 ||
+            currentNew.id === 58) && (
             <span className="singleNewDesc">
               Veja as fotos{" "}
               <a
@@ -338,7 +340,11 @@ export const SingleNewPage = ({ menu }) => {
                 href={
                   currentNew.id === 34
                     ? "https://mega.nz/folder/1u1QQACD#4FvfQITQ2U-xgyXuMtcfdQ"
-                    : "https://mega.nz/folder/gn8AXJbT#btq0tig8jZKjBg-gU-LmBg"
+                    : currentNew.id === 51
+                    ? "https://mega.nz/folder/gn8AXJbT#btq0tig8jZKjBg-gU-LmBg"
+                    : currentNew.id === 58
+                    ? "https://mega.nz/folder/Vn8jjRTC#pXEYLsniZJu2JbicF-Kp5w/folder/E6tlzKIL"
+                    : null
                 }
                 rel="noreferrer"
               >

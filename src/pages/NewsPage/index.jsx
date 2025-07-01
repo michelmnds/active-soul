@@ -55,7 +55,6 @@ export const NewsPage = ({ menu }) => {
                   description={currentNew.description}
                   month={currentNew.schedule[0].day.split("/")[1]}
                   coming={true}
-                  clickable={currentNew.name !== "Bem me quero - 28 de junho"}
                 />
               );
             })

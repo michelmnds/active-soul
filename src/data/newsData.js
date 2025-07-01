@@ -1,18 +1,24 @@
 export const newsData = [
   {
     id: 58,
-    name: "Bem me quero - 28 de junho",
-    title: "Bem me quero - 28 de junho",
+    name: "Bem me quero",
+    title: "Bem me quero",
     date: "28/06/2025",
     schedule: [
       {
         day: "28/06/2025",
-        time: "",
-        location: "",
+        time: "14:30",
+        location: "Cine Teatro Avenida de Castelo Branco",
+      },
+      {
+        day: "28/06/2025",
+        time: "16:30",
+        location: "Cine Teatro Avenida de Castelo Branco",
       },
     ],
-    description: "",
-    image: "https://i.imgur.com/ObHitr4.jpg",
+    description:
+      "No Espetáculo “Bem me quero”, o público é convidado a embarcar numa preparação de espetáculo, onde o nosso cliente Active Soul é o principal interveniente.\nCom danças encantadoras e música ao vivo, o espetáculo celebra a importância também do bem estar físico e psicológico.",
+    image: "https://imgur.com/SDK8VUj.jpg",
     link: "",
     linkType: "",
   },
