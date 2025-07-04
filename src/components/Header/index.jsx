@@ -5,7 +5,7 @@ import menuIcon from "../../assets/menu.png";
 import x from "../../assets/x.png";
 import { Link } from "react-router-dom";
 
-export const Header = ({ menu, setMenu, setInscricao }) => {
+export const Header = ({ menu, setMenu }) => {
   const handleClick = () => {
     !menu ? setMenu(true) : setMenu(false);
   };
@@ -13,14 +13,6 @@ export const Header = ({ menu, setMenu, setInscricao }) => {
   return (
     <div className="headerContainer">
       <div className="headerLinkLeft">
-        <span
-          className="headerLink"
-          to="/dancas"
-          onClick={() => setInscricao(true)}
-        >
-          INSCRIÇÃO
-        </span>
-
         <Link className="headerLink" to="/dancas">
           DANÇA
         </Link>
