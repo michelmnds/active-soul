@@ -44,17 +44,12 @@ export const SingleServicePage = ({ menu }) => {
 
   const imageUrls = [
     "https://i.imgur.com/dZ338Yd.png",
-    "https://i.imgur.com/w80OYQW.png",
-    "https://i.imgur.com/yu5gQC1.png",
-    "https://i.imgur.com/yjGtCu3.png",
-    "https://i.imgur.com/ljXNRdd.png",
-    "https://i.imgur.com/ZfVhXE5.png",
-    "https://i.imgur.com/4N8ptqd.png",
-    "https://i.imgur.com/ZTB58qW.png",
-    "https://i.imgur.com/JQ08WQa.png",
-    "https://i.imgur.com/uogwojR.png",
-    "https://i.imgur.com/sZ1mtlm.png",
-    "https://i.imgur.com/zfDQQTr.png",
+    "https://imgur.com/ECK0oXE.png",
+    "https://imgur.com/hYIHdMs.png",
+    "https://imgur.com/jw3GFps.png",
+    "https://imgur.com/QSqI55O.png",
+    "https://imgur.com/50s74Ok.png",
+    "https://imgur.com/FcrpgXs.png",
   ];
 
   function CarouselComponent() {

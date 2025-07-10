@@ -1,71 +1,73 @@
-.teamCardContainer{
-    display: flex;
-    flex-direction: row;
+.teamCardContainer {
+  display: flex;
+  flex-direction: row;
 
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
 
-    width: 90%;
-    max-width: 380px;
+  width: 90%;
+  max-width: 380px;
 
-    border: 2px solid var(--secondary-green);
-    border-radius: 8px;
+  border: 2px solid var(--secondary-green);
+  border-radius: 8px;
 
-    background-color: var(--primary-white);
+  background-color: var(--primary-white);
 
-    box-shadow: 8px 16px var(--secondary-green);
+  box-shadow: 8px 16px var(--secondary-green);
 
-    padding: 10px;
+  padding: 10px;
 }
 
-.teamCardImage{
-    width: 104px;
-    height: 104px;
+.teamCardImage {
+  width: 104px;
+  height: 104px;
 
-    background-size: cover;
-    background-position: top;
+  background-size: cover;
+  background-position: top;
 
-    border: 2px solid var(--secondary-green);
-    border-radius: 100%;
+  border: 2px solid var(--secondary-green);
+  border-radius: 100%;
 }
-.teamCardInfos{
-    display: flex;
-    flex-direction: column;
+.teamCardInfos {
+  display: flex;
+  flex-direction: column;
 
-    align-items: flex-start;
-    justify-content: center;
+  align-items: flex-start;
+  justify-content: center;
 
-    gap: 10px;
-    width: 50%;
+  gap: 10px;
+  width: 50%;
 }
-.teamCardName{
-    font-weight: bolder;
-    font-size: 18px;
+.teamCardName {
+  font-weight: bolder;
+  font-size: 18px;
 
-    color: var(--secondary-green);
-}
-
-.teamCardModality{
-    color: var(--secondary-green);
-
-    font-size: 12px;
+  color: var(--secondary-green);
 }
 
-@media(width >= 1024px){
-    .teamCardContainer{
-        width: 640px;
+.teamCardModality {
+  white-space: pre-line;
 
-        gap: 40px;
-    }
+  color: var(--secondary-green);
+
+  font-size: 12px;
 }
-@media(width >= 1440px){
-    .teamCardContainer{
-        max-width: 478px;
 
-        gap: 40px;
-    }
-    .teamCardModality{
-        font-size: 14px;
-    }
-} 
+@media (width >= 1024px) {
+  .teamCardContainer {
+    width: 640px;
+
+    gap: 40px;
+  }
+}
+@media (width >= 1440px) {
+  .teamCardContainer {
+    max-width: 478px;
+
+    gap: 40px;
+  }
+  .teamCardModality {
+    font-size: 14px;
+  }
+}

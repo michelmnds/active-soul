@@ -18,6 +18,8 @@ import { MantineProvider } from "@mantine/core";
 import { ServicePage } from "./pages/ServicePage";
 import { SingleServicePage } from "./pages/SingleServicePage";
 import { MusicPlayer } from "./components/MusicPlayer";
+import { ArtPage } from "./pages/ArtPage";
+import { SingleArtPage } from "./pages/SingleArtPage";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -63,6 +65,9 @@ export const App = () => {
         <Route path="/sobre" element={<AboutPage menu={menu} />} />
 
         <Route path="/equipa" element={<TeamPage menu={menu} />} />
+
+        <Route path="/artes" element={<ArtPage menu={menu} />} />
+        <Route path="/arte/:artId" element={<SingleArtPage menu={menu} />} />
 
         <Route path="/servicos" element={<ServicePage menu={menu} />} />
         <Route

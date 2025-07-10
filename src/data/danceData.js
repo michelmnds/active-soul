@@ -57,7 +57,7 @@ export const danceData = [
       É um estilo que concede espaço à individualidade do intérprete, valorizando a transmissão de sentimentos, ideias e conceitos. 
       Na dança é reforçada constantemente a importância da experimentação coreográfica, onde os alunos recebem estímulos para desenvolverem interpretações de movimento que os conduzem à criação final.`,
 
-    image: "https://i.imgur.com/6gyDQpv.jpg",
+    image: "https://imgur.com/cqXkO2k.jpg",
     schedule: [
       {
         day: "Ter",
@@ -98,29 +98,6 @@ export const danceData = [
         time: "18:45 - 19:15",
         teacher: "Leonor Farias",
         type: "Dance kids I (6 aos 10 anos)",
-      },
-    ],
-  },
-
-  {
-    id: 5,
-    name: "Jazz",
-    modality: "Aulas a partir dos 6 anos",
-    description:
-      "A Dança Jazz tem raízes essencialmente populares e desenvolveu-se no seio da cultura negra em paralelo com a música Jazz, nos Estados Unidos da América. Recebeu inúmeras influências, tendo actualmente como pilar a técnica da dança clássica e do contemporâneo aplicada ao Teatro Musical e à música Pop e moderna.",
-    image: "https://i.imgur.com/1uN8rLm.jpg",
-    schedule: [
-      {
-        day: "Qua",
-        time: "18:45 - 19:30",
-        teacher: "Sofia Ferreira",
-        type: "Jazz I (6 aos 12 anos) ",
-      },
-      {
-        day: "Qua",
-        time: "19:30 - 20:15",
-        teacher: "Sofia Ferreira",
-        type: "Jazz II (Adultos)",
       },
     ],
   },

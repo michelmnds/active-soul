@@ -1,81 +1,82 @@
-.classPageContainer{
-    display: flex;
-    flex-direction: column;
+.classPageContainer {
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
-    justify-content: flex-start;
+  align-items: center;
+  justify-content: flex-start;
 
-    min-height: 100vh;
+  min-height: 100vh;
 
-    gap: 10px;
+  gap: 10px;
 
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 
-    transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
-.classPageTitle{
-    font-size: 42px;
+.classPageTitle {
+  font-size: 42px;
+  font-weight: 400;
+
+  width: auto;
+  max-width: 320px;
+
+  color: var(--primary-white);
+}
+.classPageMain {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+  width: 90%;
+
+  gap: 30px;
+}
+.classBackground {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  background-color: var(--secondary-green);
+
+  padding: 20px;
+
+  height: 150px;
+  width: 100%;
+
+  border-radius: 0 0 100% 0;
+}
+
+@media (width >= 768px) {
+  .classPageContainer {
+    align-items: center;
+  }
+  .classPageTitle {
+    font-size: 60px;
     font-weight: 400;
 
-    width: 330px;
+    width: 400px;
 
     color: var(--primary-white);
+  }
+  .classBackground {
+    height: 200px;
+  }
 }
-.classPageMain{
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
-    
-    padding: 20px;
-    width: 90%;
-
-    gap: 30px;
-}
-.classBackground{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-    background-color: var(--secondary-green);
-
-    padding: 20px;
-
-    height: 150px;
+@media (width >= 1024px) {
+  .classBackground {
     width: 100%;
-
-    border-radius: 0 0 100% 0;
+    padding: 20px 0;
+    justify-content: center;
+  }
+  .classTitleContainer {
+    width: 640px;
+  }
 }
-
-@media(width >= 768px){
-    .classPageContainer{
-        align-items: center;
-    }
-    .classPageTitle{
-        font-size: 60px;
-        font-weight: 400;
-    
-        width: 400px;
-    
-        color: var(--primary-white);
-    }
-    .classBackground{
-        height: 200px;
-    }
-}
-@media(width >= 1024px){
-    .classBackground{
-        width: 100%;
-        padding: 20px 0;
-        justify-content: center;
-    }
-    .classTitleContainer{
-        width: 640px;
-    }
-}
-@media(width >= 1440px){
-    .classTitleContainer{
-        width: 1040px;
-    }
+@media (width >= 1440px) {
+  .classTitleContainer {
+    width: 1040px;
+  }
 }

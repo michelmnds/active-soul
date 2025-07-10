@@ -30,21 +30,6 @@ export const classData = [
     ],
   },
   {
-    id: 4,
-    name: "Personal Trainer",
-    modality: " Aulas a partir dos 8 anos",
-    description:
-      "Com o método de treino personalizado o Personal Trainer garante que a execução dos exercícios respeita sempre os limites articulares, monitorizando o esforço, corrigindo a técnica e controlando todas as variáveis do treino, como o número de repetições, carga, as progressões e regressões dos exercícios, etc. Orientado para as características específicas de cada uma, através do treino personalizado será mais fácil e rápido alcançar os objetivos pré-estabelecidos. O conhecimento de um Personal Trainer permitirá potencializar o treino, através de estímulos e metodologias de trabalho diferentes, no caso de pessoas que já treinem há algum tempo e não conseguem obter resultados. Para principiantes, será uma aprendizagem acompanhada do plano de treino específico.",
-    image: "https://i.imgur.com/udGOmHK.jpg",
-    schedule: [
-      {
-        day: "Seg à Sex",
-        time: "Por marcação",
-        teacher: "Equipa Active Soul",
-      },
-    ],
-  },
-  {
     id: 5,
     name: "Pilates",
     description:

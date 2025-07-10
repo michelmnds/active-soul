@@ -21,6 +21,10 @@ export const Header = ({ menu, setMenu }) => {
           BEM ESTAR
         </Link>
 
+        <Link className="headerLink" to="/artes">
+          ARTES
+        </Link>
+
         <Link className="headerLink" to="/equipa">
           EQUIPA
         </Link>

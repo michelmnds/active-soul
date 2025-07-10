@@ -44,13 +44,6 @@ export const SideBar = ({ menu, setMenu, setInscricao }) => {
   return (
     <>
       <div className={`sideBarContainer ${menu ? "open" : ""}`}>
-        <span
-          className={`navLink ${menu ? "" : "white"}`}
-          onClick={(event) => handleNavClick(event.target.innerHTML)}
-        >
-          INSCRIÇÃO
-        </span>
-
         <Link
           className={`navLink ${menu ? "" : "white"}`}
           to="/dancas"
@@ -65,6 +58,14 @@ export const SideBar = ({ menu, setMenu, setInscricao }) => {
           onClick={handleNavClick}
         >
           BEM ESTAR
+        </Link>
+
+        <Link
+          className={`navLink ${menu ? "" : "white"}`}
+          to="/artes"
+          onClick={handleNavClick}
+        >
+          ARTES
         </Link>
 
         <Link
