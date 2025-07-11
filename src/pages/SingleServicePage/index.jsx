@@ -43,13 +43,10 @@ export const SingleServicePage = ({ menu }) => {
   }, [carouselReady]);
 
   const imageUrls = [
-    "https://i.imgur.com/dZ338Yd.png",
-    "https://imgur.com/ECK0oXE.png",
     "https://imgur.com/hYIHdMs.png",
     "https://imgur.com/jw3GFps.png",
     "https://imgur.com/QSqI55O.png",
     "https://imgur.com/50s74Ok.png",
-    "https://imgur.com/FcrpgXs.png",
   ];
 
   function CarouselComponent() {
