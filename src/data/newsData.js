@@ -1,5 +1,41 @@
 export const newsData = [
   {
+    id: 60,
+    name: "Performance",
+    title: "Performance",
+    date: "02/08/2025",
+    schedule: [
+      {
+        day: "02/08/2025",
+        time: "18:00",
+        location: "São Vicente da Beira",
+      },
+    ],
+    description:
+      'Vamos estar na Festa em São Vicente da Beira pelas 18h00 com uma pequena apresentação de dança do nosso espetáculo "Bem me quero".\nEsperamos por vocês',
+    image: "https://imgur.com/EukfBJW.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 59,
+    name: "Festival +Solidário",
+    title: "Festival +Solidário",
+    date: "01/08/2025",
+    schedule: [
+      {
+        day: "01/08/2025",
+        time: "19:30",
+        location: "Campos da Nercab",
+      },
+    ],
+    description:
+      "Vamos estar às 19h30 no Festival + Solidário para uma pequena apresentação de dança!\nAo adquirir os bilhetes para o evento, aproveitas:\n- 15% de desconto para ti\n- 10% para o Active Soul\nPara usufruir destes descontos, basta inserires o código correspondente durante a compra dos bilhetes.\nSegue abaixo os código de desconto:\nCódigo: +SACTIVESOUL25\n\nEsperamos por vocês!",
+    image: "https://imgur.com/CiGlHDa.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 58,
     name: "Bem me quero",
     title: "Bem me quero",

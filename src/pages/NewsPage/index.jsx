@@ -17,15 +17,15 @@ export const NewsPage = ({ menu }) => {
     })
     .sort((a, b) => {
       const dateA = new Date(
-        `${a.schedule[0].day.split("/")[2]}-${
-          a.schedule[0].day.split("/")[1]
-        }-${a.schedule[0].day.split("/")[0]}`
-      );
-
-      const dateB = new Date(
         `${b.schedule[0].day.split("/")[2]}-${
           b.schedule[0].day.split("/")[1]
         }-${b.schedule[0].day.split("/")[0]}`
+      );
+
+      const dateB = new Date(
+        `${a.schedule[0].day.split("/")[2]}-${
+          a.schedule[0].day.split("/")[1]
+        }-${a.schedule[0].day.split("/")[0]}`
       );
 
       return dateA - dateB;
