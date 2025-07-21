@@ -1,5 +1,41 @@
 export const newsData = [
   {
+    id: 62,
+    name: "VitalSport em Castelo Branco",
+    title: "VitalSport em Castelo Branco",
+    date: "06/09/2025",
+    schedule: [
+      {
+        day: "06/09/2025",
+        time: "11:00",
+        location: "VitalSport em Castelo Branco",
+      },
+    ],
+    description:
+      "Vamos participar na 2º Edição do VitalSport em Castelo Branco na Decathlon da nossa cidade. Vem assistir às nossas performances e vamos ter um stand das 9h00 ao 12h00 onde poderás ver um pouco do nosso percurso.\nEsperamos por vocês",
+    image: "https://imgur.com/ceBXoWf.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 61,
+    name: "Performance",
+    title: "Performance",
+    date: "30/08/2025",
+    schedule: [
+      {
+        day: "30/08/2025",
+        time: "19:30",
+        location: "Festival do Crato",
+      },
+    ],
+    description:
+      'Vamos estar no Festival do Crato pelas 19h30 com uma pequena apresentação de dança do nosso espetáculo "Bem me quero".\nEsperamos por vocês.',
+    image: "https://imgur.com/9kPidFg.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 60,
     name: "Performance",
     title: "Performance",

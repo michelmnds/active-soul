@@ -1,11 +1,26 @@
 export const classData = [
   {
+    id: 1,
+    name: "Active Move",
+    modality: "Aulas a partir dos 14 anos",
+    description:
+      "A aula Active Move é uma experiência cheia de energia pensada especialmente para crianças! Inspirada no treino funcional, ela combina atividades variadas como circuitos com obstáculos,  jogos de equilíbrio e desafios em grupo.\nCada aula é diferente, garantindo movimento constante, desenvolvimento da coordenação motora, força e agilidade – tudo de forma lúdica e segura.",
+    image: "https://imgur.com/OMXYdE2.jpg",
+    schedule: [
+      {
+        day: "Qui",
+        time: "18:00 - 18:45",
+        teacher: "Sandra Vicente",
+      },
+    ],
+  },
+  {
     id: 2,
     name: "Circuito",
     modality: "Aulas a partir dos 14 anos",
     description:
       "O treino em circuito assume-se como um tipo de treino muito interessante quando o objetivo é treinar o corpo todo numa só sessão de treino, poupando tempo e acarreta ainda um elevando dispêndio energético quando se mobilizam grandes grupos musculares com tempos de pausa reduzidos.",
-    image: "https://i.imgur.com/Itn3oL0.jpg",
+    image: "https://imgur.com/rvjQd6o.jpg",
     schedule: [
       {
         day: "Seg",
@@ -34,7 +49,7 @@ export const classData = [
     name: "Pilates",
     description:
       "O método Pilates tem como objetivo atingir a saúde através da conexão entre corpo e mente nas aulas. Para isso, os exercícios são baseados em 6 princípios: Centralização, Respiração, Fluidez, Controlo, Precisão e Concentração.",
-    image: "https://i.imgur.com/mlQyZX8.jpg",
+    image: "https://imgur.com/uRUf4oa.jpg",
     schedule: [
       {
         day: "Qui",
