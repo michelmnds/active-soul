@@ -36,6 +36,7 @@
   color: var(--secondary-green);
 }
 .singleArtDesc {
+  text-align: justify;
   max-width: 500px;
   color: var(--secondary-green);
 }

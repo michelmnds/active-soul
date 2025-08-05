@@ -16,7 +16,7 @@ export const SingleArtPage = ({ menu }) => {
   if (art.id) {
     const formattedDescription = art.description.replace(
       // eslint-disable-next-line no-useless-escape
-      /[\.\;\:]/g,
+      /[\.\;\:\*]/g,
       (match) => {
         if (match === ".") {
           return ".<br />";
@@ -24,6 +24,8 @@ export const SingleArtPage = ({ menu }) => {
           return ";<br />";
         } else if (match === ":") {
           return ":<br />";
+        } else if (match === "*") {
+          return ".";
         }
       }
     );
@@ -44,10 +46,10 @@ export const SingleArtPage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
-          <span className="singleArtText">Horário: </span>
+          {art.schedule && <span className="singleArtText">Horário: </span>}
 
           <section className="schedule">
-            {art.schedule.map((day) => {
+            {art.schedule?.map((day) => {
               return (
                 <div key={day.day} className="dayContainer">
                   <span className="dayDay">{day.day}</span>

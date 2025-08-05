@@ -44,29 +44,6 @@ export const SingleDancePage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
-          <span className="singleDanceText">Horário: </span>
-
-          <section className="schedule">
-            {dance.schedule.map((day) => {
-              return (
-                <div key={day.day} className="dayContainer">
-                  <span className="dayDay">{day.day}</span>
-                  <div className="dayInfosContainer">
-                    <span className="dayTime">
-                      <strong>Horário</strong>: {day.time}
-                    </span>
-                    <span className="dayTeacher">
-                      <strong>Professor</strong>: {day.teacher}
-                    </span>
-                    <span className="dayTeacher">
-                      <strong>Modalidade</strong>: {day.type}
-                    </span>
-                  </div>
-                </div>
-              );
-            })}
-          </section>
-
           <a
             href="https://wa.me/message/P62IN6OYSZ5YN1"
             className="singleDanceBtn"

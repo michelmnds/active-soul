@@ -1,32 +1,11 @@
 /* eslint-disable no-unused-vars */
 import "./style.css";
-
 import { LandingCard } from "../../components/LandingCard";
-import { Infos } from "../../components/Infos";
-import { useState } from "react";
-import { Modal } from "../../components/Modal";
-import SpotifyPlayer from "react-spotify-web-playback";
-import { useEffect } from "react";
-import SpotifyWebApi from "spotify-web-api-js";
 
 // eslint-disable-next-line react/prop-types
 export const LandingPage = ({ menu }) => {
-  const [tableModal, setTableModal] = useState(false);
-
-  const handleModalOpening = () => {
-    setTableModal(true);
-  };
-
   return (
     <>
-      {tableModal && (
-        <Modal
-          from={"table"}
-          setTableModal={setTableModal}
-          tableModal={tableModal}
-        />
-      )}
-
       <div className="landingTopContainer">
         <div className={`landingImage ${menu ? "move" : ""}`} />
         <div className={`titleBackground ${menu ? "move" : ""}`}>
@@ -73,7 +52,7 @@ export const LandingPage = ({ menu }) => {
         <main className="landingMain">
           <div className="danceContainer">
             <LandingCard
-              image={"https://i.imgur.com/6gyDQpv.jpg"}
+              image={"https://i.imgur.com/I7JmZ4d.jpg"}
               link={"/dancas"}
               title={"Dança"}
             ></LandingCard>
@@ -81,7 +60,7 @@ export const LandingPage = ({ menu }) => {
 
           <div className="classContainer">
             <LandingCard
-              image={"https://i.imgur.com/mlQyZX8.jpg"}
+              image={"https://imgur.com/rvjQd6o.jpg"}
               link={"/aulas"}
               title={"Bem Estar"}
             ></LandingCard>
@@ -103,11 +82,6 @@ export const LandingPage = ({ menu }) => {
             ></LandingCard>
           </div>
         </main>
-      </div>
-
-      <div className="tableContainer">
-        <span className="tableTxt">Horário 2025:</span>
-        <div className="table" onClick={handleModalOpening} />
       </div>
     </>
   );

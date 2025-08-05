@@ -29,30 +29,12 @@ export const SingleClassPage = ({ menu }) => {
         <div className="singleDanceInfos">
           <h2 className="singleDanceName">{currentClass.name}</h2>
 
+          <h3 className="singleDanceModality">{currentClass.modality}</h3>
+
           <span
             className="singleDanceDesc"
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
-
-          <span className="singleDanceText">Horário: </span>
-
-          <section className="schedule">
-            {currentClass.schedule.map((day) => {
-              return (
-                <div key={day.day} className="dayContainer">
-                  <span className="dayDay">{day.day}</span>
-                  <div className="dayInfosContainer">
-                    <span className="dayTime">
-                      <strong>Horário</strong>: {day.time}
-                    </span>
-                    <span className="dayTeacher">
-                      <strong>Professor</strong>: {day.teacher}
-                    </span>
-                  </div>
-                </div>
-              );
-            })}
-          </section>
 
           <a
             href="https://wa.me/message/P62IN6OYSZ5YN1"
