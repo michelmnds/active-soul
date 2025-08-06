@@ -60,6 +60,16 @@
 
     gap: 40px;
   }
+  .teamCardInfos {
+    align-items: center;
+  }
+  .teamCardModality {
+    white-space: pre-line;
+    text-align: center;
+    color: var(--secondary-green);
+
+    font-size: 12px;
+  }
 }
 @media (width >= 1440px) {
   .teamCardContainer {
