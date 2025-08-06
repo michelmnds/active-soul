@@ -31,7 +31,7 @@ export const newsData = [
     ],
     description:
       'Vamos estar no Festival do Crato pelas 19h30 com uma pequena apresentação de dança do nosso espetáculo "Bem me quero".\nEsperamos por vocês.',
-    image: "https://imgur.com/T1vr2lF.jpg",
+    image: "https://imgur.com/9kPidFg.jpg",
     link: "",
     linkType: "",
   },
@@ -49,7 +49,7 @@ export const newsData = [
     ],
     description:
       'Vamos estar na Festa em São Vicente da Beira pelas 18h00 com uma pequena apresentação de dança do nosso espetáculo "Bem me quero".\nEsperamos por vocês',
-    image: "https://imgur.com/EukfBJW.jpg",
+    image: "https://imgur.com/T1vr2lF.jpg",
     link: "",
     linkType: "",
   },
