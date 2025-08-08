@@ -44,7 +44,7 @@ export const teamData = [
   },
   {
     id: 6,
-    image: "https://i.imgur.com/Pwp2Ehz.png",
+    image: "https://imgur.com/A4uJU0d.png",
     name: "Fábio Sscola",
     modality: "Ritmos e Afro-Latinas",
   },
