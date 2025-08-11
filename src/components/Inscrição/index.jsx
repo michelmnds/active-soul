@@ -1,5 +1,6 @@
 import "./style.css";
 
+// eslint-disable-next-line react/prop-types
 export const Inscricao = ({ setInscricao }) => {
   const handleClick = () => {
     setInscricao(false);
@@ -18,9 +19,10 @@ export const Inscricao = ({ setInscricao }) => {
           </h1>
 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfEClMI7nUgjAmpD6KhC7c1GLOMQgeX72aMG7K3QHBtcYRMSw/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeAlij_icBFuMyuUIyHROt5KUl5uYKhjYxMN1ZXqzgPlfAYtw/viewform?usp=dialog"
             className="inscricaoBtn"
             target="_blank"
+            rel="noreferrer"
           >
             Faz a tua inscrição!
           </a>

@@ -141,7 +141,7 @@
     align-items: center;
     justify-content: center;
 
-    right: calc(50% - 335px);
+    right: calc(50% - 430px);
   }
   .headerLink {
     text-decoration: none;
@@ -173,7 +173,7 @@
       align-items: center;
       justify-content: center;
 
-      right: calc(50% - 430px);
+      right: calc(50% - 530px);
     }
   }
 }

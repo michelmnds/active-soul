@@ -32,10 +32,6 @@ export const Header = ({ menu, setMenu, setInscricao }) => {
         <Link className="headerLink" to="/artes">
           ARTES
         </Link>
-
-        <Link className="headerLink" to="/equipa">
-          EQUIPA
-        </Link>
       </div>
 
       <Link to="/">
@@ -49,6 +45,10 @@ export const Header = ({ menu, setMenu, setInscricao }) => {
 
         <Link className="headerLink" to="/servicos">
           SERVIÇOS
+        </Link>
+
+        <Link className="headerLink" to="/equipa">
+          EQUIPA
         </Link>
 
         <Link className="headerLink" to="/sobre">
