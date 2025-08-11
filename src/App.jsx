@@ -20,6 +20,7 @@ import { SingleServicePage } from "./pages/SingleServicePage";
 import { MusicPlayer } from "./components/MusicPlayer";
 import { ArtPage } from "./pages/ArtPage";
 import { SingleArtPage } from "./pages/SingleArtPage";
+import { Inscricao } from "./components/Inscrição";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -31,13 +32,19 @@ function ScrollToTop() {
 }
 
 export const App = () => {
+  useEffect(() => {
+    setTimeout(() => setInscricao(true), 3000);
+  }, []);
+
   const [menu, setMenu] = useState(false);
+  const [inscricao, setInscricao] = useState(false);
 
   return (
     <MantineProvider>
-      <Header menu={menu} setMenu={setMenu} />
+      {inscricao && <Inscricao setInscricao={setInscricao} />}
+      <Header menu={menu} setMenu={setMenu} setInscricao={setInscricao} />
       <MusicPlayer />
-      <SideBar menu={menu} setMenu={setMenu} />
+      <SideBar menu={menu} setMenu={setMenu} setInscricao={setInscricao} />
       <Routes>
         <Route
           path="/"

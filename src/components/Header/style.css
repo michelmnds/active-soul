@@ -99,3 +99,81 @@
     }
   }
 }
+
+@media (width >= 768px) {
+  .headerContainer {
+    height: 60px;
+  }
+  .logoHeader {
+    width: 200px;
+  }
+  .headerIcon {
+    height: 20px;
+  }
+}
+@media (width >= 1024px) {
+  .headerContainer {
+    justify-content: center;
+
+    position: relative;
+  }
+  .headerIcon {
+    display: none;
+  }
+  .headerLinkLeft,
+  .headerLinkRight {
+    display: flex;
+    gap: 20px;
+
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    font-size: 14px;
+  }
+  .headerLinkLeft {
+    align-items: center;
+    justify-content: center;
+
+    left: calc(50% - 440px);
+  }
+  .headerLinkRight {
+    align-items: center;
+    justify-content: center;
+
+    right: calc(50% - 335px);
+  }
+  .headerLink {
+    text-decoration: none;
+
+    color: var(--primary-black);
+
+    transition: 0.2s;
+  }
+  .headerLink:hover {
+    color: var(--secondary-green);
+
+    transform: scale(0.95);
+
+    transition: 0.2s;
+  }
+  @media (width >= 1440px) {
+    .headerLinkLeft,
+    .headerLinkRight {
+      font-size: 16px;
+      gap: 40px;
+    }
+    .headerLinkLeft {
+      align-items: center;
+      justify-content: center;
+
+      left: calc(50% - 550px);
+    }
+    .headerLinkRight {
+      align-items: center;
+      justify-content: center;
+
+      right: calc(50% - 430px);
+    }
+  }
+}
