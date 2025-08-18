@@ -1,176 +1,222 @@
-.singleServiceContainer{
-    min-height: 100vh;
-    
-    margin-bottom: 50px;
+.singleServiceContainer {
+  min-height: 100vh;
 
-    transition: 0.2s ease-in-out;
+  margin-bottom: 50px;
+
+  transition: 0.2s ease-in-out;
 }
-.singleServiceImg{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.singleServiceImg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
-    width: 100%;
+  width: 100%;
 
-    height: 300px;
+  height: 300px;
 }
-.singleServiceInfos{
-    padding: 100px 20px;
+.singleServiceInfos {
+  padding: 100px 20px;
 }
-.singleServiceInfos{
-    display: flex;
-    flex-direction: column;
+.singleServiceInfos {
+  display: flex;
+  flex-direction: column;
 
-    align-items: flex-start;
-    justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
 
-    gap: 20px;
+  gap: 20px;
 }
-.singleServiceName{
-    font-size: 24px;
-    font-weight: 600;
+.singleServiceName {
+  font-size: 24px;
+  font-weight: 600;
 
-    color: var(--secondary-green);
+  color: var(--secondary-green);
 }
-.singleServiceModality{
-    color: var(--secondary-green);
+.singleServiceModality {
+  color: var(--secondary-green);
 }
-.singleServiceDesc{
-    max-width: 500px;
-    color: var(--secondary-green);
-
-    line-height: 1.5;
-
-    text-align: justify;
+.list {
+  list-style: disc outside; /* marcador fora do box */
+  padding-left: 1.25rem; /* espaço para o marcador */
 }
-.singleServiceText{
-    margin-top: 50px;
-    margin-bottom: 10px;
+.packSelect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 
-    color: var(--secondary-green);
+  cursor: pointer;
+  width: 100%;
+  color: var(--secondary-green);
+  outline: none;
+  padding: 10px 44px 10px 14px;
+  border: 1.5px solid #e5e7eb; /* light gray border */
+  border-radius: 12px; /* matches your rounded UI */
+  background: #fff
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'><path d='M6 8l4 4 4-4' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>")
+    no-repeat right 12px center; /* custom arrow */
+  background-size: 16px 16px;
+
+  font: inherit; /* keep site typography */
+  line-height: 1.3;
+
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04); /* subtle depth */
+  transition: border-color 0.15s ease, box-shadow 0.15s ease,
+    transform 0.05s ease;
 }
-.singleServiceBtn{
-    border: 2px solid var(--secondary-green);
-    border-radius: 36px;
 
-    padding: 10px;
-    width: 200px;
-
-    text-decoration: none;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: var(--secondary-green);
-
-    margin: 0 auto;
-
-    transition: 0.3s;
+/* Hover: slightly stronger border */
+.packSelect:hover {
+  border-color: #d1d5db;
 }
-.schedule{
-    width: 100%;
-    height: auto;
 
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: space-evenly;
-
-    gap: 50px;
+/* Disabled state */
+.packSelect:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
-.dayContainer{
-    width: 100%;
 
-    display: flex;
-    flex-direction: column;
-    
-    align-items: flex-start;
-    justify-content: flex-start;
-
-    gap: 20px;
-
-
-    border-bottom: 2px solid var(--secondary-green);
+/* High-contrast/dark backgrounds if you use a dark section */
+.dark .packSelect {
+  background-color: #0b0f19;
+  color: #e5e7eb;
+  border-color: #2a2f3a;
+  box-shadow: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'><path d='M6 8l4 4 4-4' stroke='%23cbd5e1' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
-.dayInfosContainer{
-    display: flex;
-    flex-direction: column;
+.singleServiceDesc {
+  max-width: 500px;
+  color: var(--secondary-green);
 
-    align-items: flex-start;
-    justify-content: center;
+  line-height: 1.5;
 
-    gap: 10px;
-
-    margin-bottom: 10px;
+  text-align: justify;
 }
-.dayInfosContainer > span{
-    display: flex;
-    font-size: 12px;
+.singleServiceText {
+  margin-top: 50px;
+  margin-bottom: 10px;
 
-    color: var(--secondary-green);
+  color: var(--secondary-green);
 }
-.dayInfosContainer > span > strong{
+.singleServiceBtn {
+  border: 2px solid var(--secondary-green);
+  border-radius: 36px;
+
+  padding: 10px;
+  width: 200px;
+
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--secondary-green);
+
+  margin: 0 auto;
+
+  transition: 0.3s;
+}
+.schedule {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-evenly;
+
+  gap: 50px;
+}
+.dayContainer {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  gap: 20px;
+
+  border-bottom: 2px solid var(--secondary-green);
+}
+.dayInfosContainer {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 10px;
+
+  margin-bottom: 10px;
+}
+.dayInfosContainer > span {
+  display: flex;
+  font-size: 12px;
+
+  color: var(--secondary-green);
+}
+.dayInfosContainer > span > strong {
   font-weight: 550;
 }
 .dayContainer > span {
+  color: var(--secondary-green);
+  font-weight: 500;
+}
+
+@media (width >= 768px) {
+  .schedule {
+    align-items: flex-start;
+  }
+  .singleServiceImg {
+    height: 400px;
+  }
+  .dayContainer > span {
+    font-size: 24px;
+  }
+  .dayInfosContainer > span {
+    display: flex;
+    font-size: 16px;
+
     color: var(--secondary-green);
-    font-weight: 500;
+  }
+  .singleServiceName {
+    font-size: 36px;
+    font-weight: 600;
+
+    color: var(--secondary-green);
+  }
 }
+@media (width >= 1024px) {
+  .singleServiceName {
+    font-size: 36px;
+  }
+  .singleServiceText {
+    width: 100%;
+    font-size: 20px;
+  }
+  .singleServiceDesc {
+    font-size: 18px;
+    max-width: 1024px;
+  }
+  .singleServiceInfos {
+    padding-left: 105px;
+    padding-right: 105px;
+    max-width: 1024px;
 
-@media(width >= 768px){
-    .schedule{
-        align-items: flex-start;
-    }
-    .singleServiceImg{
-        height: 400px;
-    }
-    .dayContainer > span {
-        font-size: 24px;
-    }
-    .dayInfosContainer > span{
-        display: flex;
-        font-size: 16px;
-    
-        color: var(--secondary-green);
-    }
-    .singleServiceName{
-        font-size: 36px;
-        font-weight: 600;
-    
-        color: var(--secondary-green);
-    }
-}
-@media(width >= 1024px){
-    .singleServiceName{
-        font-size: 36px;
-    }
-    .singleServiceText{
-        width: 100%;
-        font-size: 20px;
-    }
-    .singleServiceDesc{
-        font-size: 18px;
-        max-width: 1024px;
+    margin: 0 auto;
+  }
+  .singleServiceBtn:hover {
+    background-color: var(--secondary-green);
+    color: var(--primary-white);
 
-        }
-    .singleServiceInfos{
-        padding-left: 105px ;
-        padding-right: 105px ;
-        max-width: 1024px;
-
-        margin: 0 auto;
+    transition: 0.3s;
+  }
+  @media (width >= 1440px) {
+    .singleServiceImg {
+      height: 600px;
     }
-    .singleServiceBtn:hover{
-        background-color: var(--secondary-green);
-        color: var(--primary-white);
-
-        transition: 0.3s;
-    }
-    @media(width >= 1440px){
-        .singleServiceImg{
-            height: 600px;
-        }
-    }
+  }
 }

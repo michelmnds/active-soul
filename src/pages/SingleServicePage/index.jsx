@@ -19,6 +19,11 @@ export const SingleServicePage = ({ menu }) => {
   const { currentServiceId } = useParams();
   const [currentClass, setCurrentClass] = useState({});
   const [carouselReady, setCarouselReady] = useState(false);
+  const [selectedPackId, setSelectedPackId] = useState(null);
+
+  const selectedPack = currentClass?.packs?.find(
+    (p) => p.id === selectedPackId
+  );
 
   useEffect(() => {
     setCurrentClass(
@@ -90,8 +95,14 @@ export const SingleServicePage = ({ menu }) => {
     );
   }
 
+  useEffect(() => {
+    if (currentClass?.packs?.length) {
+      setSelectedPackId(currentClass.packs[0].id);
+    }
+  }, [currentClass]);
+
   if (currentClass.id && currentServiceId != 3) {
-    const formattedDescription = currentClass.description.replace(
+    const formattedDescription = currentClass?.description?.replace(
       // eslint-disable-next-line no-useless-escape
       /[\.\*]/g,
       (match) => {
@@ -113,10 +124,41 @@ export const SingleServicePage = ({ menu }) => {
         <div className="singleServiceInfos">
           <h2 className="singleServiceName">{currentClass.title}</h2>
 
-          <span
-            className="singleServiceDesc"
-            dangerouslySetInnerHTML={{ __html: formattedDescription }}
-          ></span>
+          {!currentClass.title.includes("Festa de Aniversário") && (
+            <span
+              className="singleServiceDesc"
+              dangerouslySetInnerHTML={{ __html: formattedDescription }}
+            ></span>
+          )}
+
+          {currentClass.title.includes("Festa de Aniversário") && (
+            <>
+              <select
+                id="packSelect"
+                className="packSelect"
+                value={selectedPackId ?? ""}
+                onChange={(e) => setSelectedPackId(Number(e.target.value))}
+                style={{ marginBottom: 12 }}
+              >
+                {currentClass.packs.map((p) => (
+                  <option key={p.id} value={p.id} style={{ cursor: "pointer" }}>
+                    {p.name}
+                  </option>
+                ))}
+              </select>
+
+              <ul className="list singleServiceDesc">
+                {(selectedPack?.includes ?? []).map((item, idx) => (
+                  <li style={{ marginBottom: 8 }} key={idx}>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              {selectedPack?.extra && (
+                <p className="singleServiceDesc">{selectedPack.extra}</p>
+              )}
+            </>
+          )}
 
           <a
             href="https://wa.me/message/P62IN6OYSZ5YN1"
