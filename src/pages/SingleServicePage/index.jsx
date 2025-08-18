@@ -133,6 +133,7 @@ export const SingleServicePage = ({ menu }) => {
 
           {currentClass.title.includes("Festa de Aniversário") && (
             <>
+              <span className="singleServiceDesc">Valores sob Consulta</span>
               <select
                 id="packSelect"
                 className="packSelect"
@@ -157,6 +158,83 @@ export const SingleServicePage = ({ menu }) => {
               {selectedPack?.extra && (
                 <p className="singleServiceDesc">{selectedPack.extra}</p>
               )}
+
+              <div className="singleServiceDesc" style={{ marginTop: 16 }}>
+                <p style={{ marginBottom: 8, marginTop: 16 }}>
+                  Opção para todos os packs c/pagamento Extra:
+                </p>
+                <ul className="list">
+                  <li>
+                    O lanche proporcionado por nós:
+                    <ul className="list" style={{ marginTop: 6 }}>
+                      <li style={{ marginBottom: 8 }}>
+                        Sandes mistas, só com queijo e só com fiambre;
+                      </li>
+                      <li style={{ marginBottom: 8 }}>Batata frita;</li>
+                      <li style={{ marginBottom: 8 }}>Pipocas;</li>
+                      <li style={{ marginBottom: 8 }}>
+                        Espetadas de fruta da época;
+                      </li>
+                      <li style={{ marginBottom: 8 }}>
+                        Bebidas: sumos e água;
+                      </li>
+                      <li style={{ marginBottom: 8 }}>
+                        Gelatina em copos individuais.
+                      </li>
+                    </ul>
+                  </li>
+                  <li style={{ marginBottom: 8 }}>
+                    Máquina de bolhas e luzes para um mini &quot;clube noturno
+                    kids&quot;
+                  </li>
+                  <li style={{ marginBottom: 8 }}>
+                    Mascotes, duração 30 minutos
+                  </li>
+                  <li style={{ marginBottom: 8 }}>
+                    Oficina de adereços (para depois usarem na dança)
+                  </li>
+                  <li style={{ marginBottom: 8 }}>Pinturas faciais</li>
+                  <li style={{ marginBottom: 8 }}>
+                    Circuito Psicomotor – Apenas Pack Baby
+                  </li>
+                  <li style={{ marginBottom: 8 }}>
+                    Organização de toda a decoração da festa
+                  </li>
+                </ul>
+
+                <p style={{ marginTop: 16, marginBottom: 8 }}>
+                  <strong>Normas para todos os Packs:</strong>
+                </p>
+                <ul className="list">
+                  <li style={{ marginBottom: 8 }}>
+                    Podem trazer alimentação, o Active Soul disponibiliza
+                    GRATUITAMENTE a loiça e também local para o bolo de
+                    aniversário.
+                  </li>
+                  <li style={{ marginBottom: 8 }}>
+                    A decoração de sala fica ao critério dos pais, no entanto
+                    disponibilizamos 2 torres de balões e máquina para os
+                    encher.
+                  </li>
+                  <li style={{ marginBottom: 8 }}>
+                    Não é permitido a utilização de confetis.
+                  </li>
+                  <li style={{ marginBottom: 8 }}>
+                    Marcação mediante confirmação de disponibilidade e reserva
+                    prévia.
+                  </li>
+                  <li style={{ marginBottom: 8 }}>
+                    O pagamento da festa terá de ser feito 50% no dia da
+                    marcação e os restantes 50% até ao dia antes da festa de
+                    aniversário.
+                  </li>
+                  <li style={{ marginBottom: 8 }}>
+                    Só aceitamos cancelamentos até 15 dias de antecedência do
+                    dia da festa, será descontado 15€ para taxas de
+                    cancelamento.
+                  </li>
+                </ul>
+              </div>
             </>
           )}
 

@@ -39,6 +39,11 @@
   list-style: disc outside; /* marcador fora do box */
   padding-left: 1.25rem; /* espaço para o marcador */
 }
+.list .list {
+  list-style-type: circle; /* smaller bullets for sub-items */
+  margin-left: 1.25rem; /* indent nested list */
+  margin-top: 0.25rem;
+}
 .packSelect {
   -webkit-appearance: none;
   -moz-appearance: none;
