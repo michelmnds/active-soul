@@ -202,7 +202,13 @@ export const SingleServicePage = ({ menu }) => {
                   </li>
                 </ul>
 
-                <p style={{ marginTop: 16, marginBottom: 8 }}>
+                <p
+                  style={{
+                    marginTop: 16,
+                    marginBottom: 8,
+                    textDecoration: "underline",
+                  }}
+                >
                   <strong>Normas para todos os Packs:</strong>
                 </p>
                 <ul className="list">
