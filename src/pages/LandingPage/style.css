@@ -182,10 +182,10 @@
   background-size: cover;
   background-position: center;
 
-  background-image: url("https://i.imgur.com/Hy3kyOG.jpg");
+  background-image: url("https://imgur.com/XvEvC4F.jpg");
 
   width: 100%;
-  max-width: 370px;
+  max-width: 300px;
   height: 300px;
 
   cursor: pointer;
@@ -241,7 +241,7 @@
     font-size: 24px;
   }
   .table {
-    max-width: 768px;
+    max-width: 600px;
     height: 600px;
   }
   .danceContainer,

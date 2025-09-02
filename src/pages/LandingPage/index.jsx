@@ -1,11 +1,27 @@
 /* eslint-disable no-unused-vars */
 import "./style.css";
 import { LandingCard } from "../../components/LandingCard";
+import { useState } from "react";
+import { Modal } from "../../components/Modal";
 
 // eslint-disable-next-line react/prop-types
 export const LandingPage = ({ menu }) => {
+  const [tableModal, setTableModal] = useState(false);
+
+  const handleModalOpening = () => {
+    setTableModal(true);
+  };
+
   return (
     <>
+      {tableModal && (
+        <Modal
+          from={"table"}
+          setTableModal={setTableModal}
+          tableModal={tableModal}
+        />
+      )}
+
       <div className="landingTopContainer">
         <div className={`landingImage ${menu ? "move" : ""}`} />
         <div className={`titleBackground ${menu ? "move" : ""}`}>
@@ -82,6 +98,10 @@ export const LandingPage = ({ menu }) => {
             ></LandingCard>
           </div>
         </main>
+      </div>
+      <div className="tableContainer">
+        <span className="tableTxt">Horário 2025:</span>
+        <div className="table" onClick={handleModalOpening} />
       </div>
     </>
   );
