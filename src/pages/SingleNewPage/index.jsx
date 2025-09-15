@@ -130,6 +130,18 @@ export const SingleNewPage = ({ menu }) => {
     "https://i.imgur.com/y8QONBA.jpg",
     "https://i.imgur.com/hZvCRxb.jpg",
   ];
+  const imageUrls16 = [
+    "https://imgur.com/5T4Nwap.jpg",
+    "https://imgur.com/TBuZ5Bi.jpg",
+    "https://imgur.com/nyJ8oEF.jpg",
+    "https://imgur.com/9ZfZQOS.jpg",
+    "https://imgur.com/vVHpIQ7.jpg",
+    "https://imgur.com/EeRLtx2.jpg",
+    "https://imgur.com/9xkZr8P.jpg",
+    "https://imgur.com/V4G4ig8.jpg",
+    "https://imgur.com/gOabIEd.jpg",
+    "https://imgur.com/mIp1Vuh.jpg",
+  ];
 
   function CarouselComponent() {
     const slides =
@@ -213,6 +225,12 @@ export const SingleNewPage = ({ menu }) => {
           ))
         : currentNewId == 50
         ? imageUrls15.map((image) => (
+            <Carousel.Slide key={image}>
+              <Image style={{ height: `${100}%` }} src={image} />
+            </Carousel.Slide>
+          ))
+        : currentNewId == 63
+        ? imageUrls16.map((image) => (
             <Carousel.Slide key={image}>
               <Image style={{ height: `${100}%` }} src={image} />
             </Carousel.Slide>
@@ -330,6 +348,19 @@ export const SingleNewPage = ({ menu }) => {
               !
             </span>
           )}
+          {currentNew.id === 64 && (
+            <span className="singleNewDesc">
+              Faça a sua inscrição{" "}
+              <a
+                target="_blank"
+                href="https://www.clustersenses.com/complexo-dos-sentidos-no-k/"
+                rel="noreferrer"
+              >
+                aqui
+              </a>
+              !
+            </span>
+          )}
           {(currentNew.id === 34 ||
             currentNew.id === 51 ||
             currentNew.id === 58) && (
@@ -424,6 +455,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 43 ||
           currentNewId == 46 ||
           currentNewId == 50 ||
+          currentNewId == 63 ||
           currentNewId == 31 ? (
             <CarouselComponent />
           ) : null}

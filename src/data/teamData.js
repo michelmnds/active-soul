@@ -66,4 +66,10 @@ export const teamData = [
     name: "Joana Bicho",
     modality: "Mimo Musical",
   },
+  {
+    id: 13,
+    image: "https://imgur.com/8GhDTyO.png",
+    name: "Nelson Ribeiro",
+    modality: "Teatro Musical",
+  },
 ];

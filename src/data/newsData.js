@@ -1,5 +1,41 @@
 export const newsData = [
   {
+    id: 64,
+    name: "Complexo dos Sentidos",
+    title: "Complexo dos Sentidos",
+    date: "27/09/2025",
+    schedule: [
+      {
+        day: "27/09/2025",
+        time: "19:00",
+        location: "Komplexo Social Clubo",
+      },
+    ],
+    description:
+      "A iniciativa propõe um jantar buffet volante marcado por degustações gastronómicas criativas, cocktails de autor e performances artísticas ao vivo* Mais do que um simples jantar, o evento pretende oferecer ao público uma verdadeira viagem sensorial, num espaço e ambiente pensado para ser uma galeria viva onde cada intervenção artística cria novos cenários* As vagas são limitadas e requerem inscrição prévia.",
+    image: "https://imgur.com/JoKUdQr.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 63,
+    name: '"Bem me quero" na SMJ',
+    title: '"Bem me quero" na SMJ',
+    date: "14/09/2025",
+    schedule: [
+      {
+        day: "14/09/2025",
+        time: "19:00",
+        location: "Parque Urbano Cruz do Montalvão",
+      },
+    ],
+    description:
+      'Espetáculo inserido na Semana Municipal da Juventude pelas 19h00 no Parque Urbano Cruz do Montalvão* Excerto do espetáculo “Bem me quero".\nVenham assistir a mais um espetáculo com texto original, coreografias vibrantes e com o envolvimento que a Active Soul sempre privilegia, ficamos à vossa espera!',
+    image: "https://imgur.com/kMlyFim.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 62,
     name: "VitalSport em Castelo Branco",
     title: "VitalSport em Castelo Branco",
@@ -13,7 +49,7 @@ export const newsData = [
     ],
     description:
       "Vamos participar na 2º Edição do VitalSport em Castelo Branco na Decathlon da nossa cidade. Vem assistir às nossas performances e vamos ter um stand das 9h00 ao 12h00 onde poderás ver um pouco do nosso percurso.\nEsperamos por vocês",
-    image: "https://imgur.com/ceBXoWf.jpg",
+    image: "https://imgur.com/KO13BNw.jpg",
     link: "",
     linkType: "",
   },
