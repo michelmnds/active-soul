@@ -30,7 +30,7 @@ export const newsData = [
       },
     ],
     description:
-      'Espetáculo inserido na Semana Municipal da Juventude pelas 19h00 no Parque Urbano Cruz do Montalvão* Excerto do espetáculo “Bem me quero".\nVenham assistir a mais um espetáculo com texto original, coreografias vibrantes e com o envolvimento que a Active Soul sempre privilegia, ficamos à vossa espera!',
+      'Um excerto do espetáculo "Bem me quero" foi inserido na Semana Municipal da Juventude no Parque Urbano Cruz do Montalvão.\nUm espetáculo com texto original, coreografias vibrantes e com o envolvimento que a Active Soul sempre privilegia.',
     image: "https://imgur.com/kMlyFim.jpg",
     link: "",
     linkType: "",
