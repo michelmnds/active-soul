@@ -7,7 +7,7 @@ export const teamData = [
   },
   {
     id: 2,
-    image: "https://i.imgur.com/sChHPMn.png",
+    image: "https://imgur.com/CpBzEFb.png",
     name: "Andreia Lemos",
     modality: "Diretora Artística",
   },
@@ -22,7 +22,7 @@ export const teamData = [
     id: 5,
     image: "https://imgur.com/QSrWz2q.png",
     name: "Leonor Farias",
-    modality: "Pop Dance",
+    modality: "Dance Kids e Pop Dance",
   },
   {
     id: 9,

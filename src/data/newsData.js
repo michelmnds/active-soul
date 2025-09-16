@@ -8,7 +8,7 @@ export const newsData = [
       {
         day: "27/09/2025",
         time: "19:00",
-        location: "Komplexo Social Clubo",
+        location: "Komplexo Social Club",
       },
     ],
     description:
