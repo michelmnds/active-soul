@@ -81,16 +81,16 @@
   width: 100%;
 }
 .aboutPageNav {
-  display: flex;
-  flex-direction: row;
-
-  align-items: center;
-  justify-content: space-between;
-
-  margin-bottom: 20px;
+  border: 0;
+  gap: 12px;
+  margin-bottom: 8px;
+  flex-direction: column;
 }
 .aboutNavLink {
-  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
 }
 .aboutTextContainer {
   text-align: justify;
@@ -113,6 +113,72 @@
 
   line-height: 1.5;
 }
+.servicesSection {
+  background: #f3f4f4; /* light neutral background */
+  padding: 48px 20px;
+  width: 100%;
+}
+
+.servicesTitle {
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin: 0 0 28px;
+  color: #111; /* heading color */
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.serviceItem {
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 14px;
+  padding: 22px 18px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.serviceItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.serviceIconWrap {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 12px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(94, 148, 135, 0.1); /* #5e9487 @ 10% */
+}
+
+.serviceIcon {
+  font-size: 26px;
+  color: #5e9487; /* brand green */
+}
+
+.serviceHeading {
+  font-weight: 800;
+  font-size: 14px;
+  margin: 8px 0 8px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.serviceDesc {
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #6b7280; /* neutral text */
+  max-width: 280px;
+}
 @media (width >= 375px) {
   .aboutNavLink {
     font-size: 12px;
@@ -124,6 +190,9 @@
   }
 }
 @media (width >= 768px) {
+  .aboutPageNav {
+    flex-direction: row;
+  }
   .aboutPageMain {
     display: flex;
   }
@@ -155,7 +224,7 @@
     height: 500px;
   }
   .aboutTextContainer {
-    width: 640px;
+    width: 727px;
 
     align-items: center;
   }
@@ -192,5 +261,26 @@
     width: 1040px;
 
     font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .servicesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media ((min-width: 768px) and (max-width: 1023px)) {
+  .serviceDesc {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .servicesGrid {
+    grid-template-columns: 1fr;
+  }
+  .servicesSection {
+    padding: 36px 16px;
   }
 }

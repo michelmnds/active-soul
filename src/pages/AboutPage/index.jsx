@@ -2,9 +2,18 @@
 /* eslint-disable react/prop-types */
 import "./style.css";
 import { Tabs, rem } from "@mantine/core";
-import { IconPhoto, IconHome } from "@tabler/icons-react";
+import { IconPhoto } from "@tabler/icons-react";
+import {
+  FaTheaterMasks,
+  FaHome,
+  FaCalendarAlt,
+  FaUsers,
+  FaChalkboardTeacher,
+} from "react-icons/fa";
+import { TbMoodKid } from "react-icons/tb";
 import { Infos } from "../../components/Infos";
 import { OpinionCard } from "./components/OpinionCard";
+
 const isMobile = window.innerWidth < 768;
 
 const opinions = [
@@ -52,22 +61,14 @@ export const AboutPage = ({ menu }) => {
       </div>
 
       <main className="aboutPageMain">
-        <Tabs className="tabsContainer" color="#5e9487" defaultValue="entrada">
+        <Tabs
+          className="tabsContainer"
+          color="#5e9487"
+          defaultValue="est2"
+          variant="pills"
+          radius="md"
+        >
           <Tabs.List className="aboutPageNav">
-            <Tabs.Tab
-              className="aboutNavLink"
-              value="entrada"
-              leftSection={<IconHome style={iconStyle} />}
-            >
-              Entrada
-            </Tabs.Tab>
-            <Tabs.Tab
-              className="aboutNavLink"
-              value="est1"
-              leftSection={<IconPhoto style={iconStyle} />}
-            >
-              Estúdio 1
-            </Tabs.Tab>
             <Tabs.Tab
               className="aboutNavLink"
               value="est2"
@@ -75,32 +76,54 @@ export const AboutPage = ({ menu }) => {
             >
               Estúdio 2
             </Tabs.Tab>
+            <Tabs.Tab
+              className="aboutNavLink"
+              value="est3"
+              leftSection={<IconPhoto style={iconStyle} />}
+            >
+              Estúdio 3
+            </Tabs.Tab>
+            <Tabs.Tab
+              className="aboutNavLink"
+              value="salaPolivalente"
+              leftSection={<FaTheaterMasks style={iconStyle} />}
+            >
+              Sala Polivalente
+            </Tabs.Tab>
+            <Tabs.Tab
+              className="aboutNavLink"
+              value="salaBrincadeiras"
+              leftSection={<TbMoodKid style={iconStyle} />}
+            >
+              Sala das Brincadeiras
+            </Tabs.Tab>
           </Tabs.List>
-
-          <Tabs.Panel value="est1">
-            <div
-              className="aboutPageMainBackground"
-              style={{
-                backgroundImage: `url(https://i.imgur.com/fRsT2aI.jpg)`,
-              }}
-            />
-          </Tabs.Panel>
 
           <Tabs.Panel value="est2">
             <div
               className="aboutPageMainBackground"
-              style={{
-                backgroundImage: `url(https://i.imgur.com/4WG5oJN.jpg)`,
-              }}
+              style={{ backgroundImage: `url(https://imgur.com/wRObaTQ.jpg)` }}
             />
           </Tabs.Panel>
 
-          <Tabs.Panel value="entrada">
+          <Tabs.Panel value="est3">
             <div
               className="aboutPageMainBackground"
-              style={{
-                backgroundImage: `url(https://i.imgur.com/DM2kTop.jpg)`,
-              }}
+              style={{ backgroundImage: `url(https://imgur.com/Hrv1wXI.jpg)` }}
+            />
+          </Tabs.Panel>
+
+          <Tabs.Panel value="salaPolivalente">
+            <div
+              className="aboutPageMainBackground"
+              style={{ backgroundImage: `url(https://imgur.com/dsmtorp.jpg)` }}
+            />
+          </Tabs.Panel>
+
+          <Tabs.Panel value="salaBrincadeiras">
+            <div
+              className="aboutPageMainBackground"
+              style={{ backgroundImage: `url(https://imgur.com/3zh9r0V.jpg)` }}
             />
           </Tabs.Panel>
         </Tabs>
@@ -120,18 +143,54 @@ export const AboutPage = ({ menu }) => {
         </div>
       </main>
 
+      {/* ---------------------- Serviços ---------------------- */}
+      <section className="servicesSection">
+        <h2 className="servicesTitle">SERVIÇOS</h2>
+
+        <div className="servicesGrid">
+          <article className="serviceItem">
+            <div className="serviceIconWrap">
+              <FaHome className="serviceIcon" aria-hidden />
+            </div>
+            <h3 className="serviceHeading">ALUGUER DE ESPAÇO</h3>
+            <p className="serviceDesc">
+              Aluguer de espaço para aulas privadas, aulas de grupo, ensaios
+              privados e de grupo, para trabalhos comerciais.
+            </p>
+          </article>
+
+          <article className="serviceItem">
+            <div className="serviceIconWrap">
+              <FaCalendarAlt className="serviceIcon" aria-hidden />
+            </div>
+            <h3 className="serviceHeading">EVENTOS</h3>
+            <p className="serviceDesc">
+              Alugue o espaço para festas de aniversário e workshops.
+            </p>
+          </article>
+
+          <article className="serviceItem">
+            <div className="serviceIconWrap">
+              <FaUsers className="serviceIcon" aria-hidden />
+            </div>
+            <h3 className="serviceHeading">FORMAÇÕES</h3>
+            <p className="serviceDesc">
+              Team buildings, formações corporativas, etc.
+            </p>
+          </article>
+        </div>
+      </section>
+      {/* -------------------- /Serviços ----------------------- */}
+
       <div className="opinionsContainer">
         <h1 className="moreInfosMainTxt">Opiniões:</h1>
         <div className="opinionsCardContainer">
-          {isMobile
-            ? opinions
-                .slice(0, 3)
-                .map((opinion, key) => <OpinionCard {...opinion} key={key} />)
-            : opinions.map((opinion, key) => (
-                <OpinionCard {...opinion} key={key} />
-              ))}
+          {(isMobile ? opinions.slice(0, 3) : opinions).map((opinion, key) => (
+            <OpinionCard {...opinion} key={key} />
+          ))}
         </div>
       </div>
+
       <Infos />
     </div>
   );
