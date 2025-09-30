@@ -116,14 +116,14 @@ export const AboutPage = ({ menu }) => {
           <Tabs.Panel value="salaPolivalente">
             <div
               className="aboutPageMainBackground"
-              style={{ backgroundImage: `url(https://imgur.com/dsmtorp.jpg)` }}
+              style={{ backgroundImage: `url(https://imgur.com/3zh9r0V.jpg)` }}
             />
           </Tabs.Panel>
 
           <Tabs.Panel value="salaBrincadeiras">
             <div
               className="aboutPageMainBackground"
-              style={{ backgroundImage: `url(https://imgur.com/3zh9r0V.jpg)` }}
+              style={{ backgroundImage: `url(https://imgur.com/dsmtorp.jpg)` }}
             />
           </Tabs.Panel>
         </Tabs>
