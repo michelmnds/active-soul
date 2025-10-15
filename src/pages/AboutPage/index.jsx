@@ -64,11 +64,18 @@ export const AboutPage = ({ menu }) => {
         <Tabs
           className="tabsContainer"
           color="#5e9487"
-          defaultValue="est2"
+          defaultValue="est1"
           variant="pills"
           radius="md"
         >
           <Tabs.List className="aboutPageNav">
+            <Tabs.Tab
+              className="aboutNavLink"
+              value="est1"
+              leftSection={<IconPhoto style={iconStyle} />}
+            >
+              Estúdio 1
+            </Tabs.Tab>
             <Tabs.Tab
               className="aboutNavLink"
               value="est2"
@@ -98,6 +105,13 @@ export const AboutPage = ({ menu }) => {
               Sala das Brincadeiras
             </Tabs.Tab>
           </Tabs.List>
+
+          <Tabs.Panel value="est1">
+            <div
+              className="aboutPageMainBackground"
+              style={{ backgroundImage: `url(https://imgur.com/vYcZVjI.jpg)` }}
+            />
+          </Tabs.Panel>
 
           <Tabs.Panel value="est2">
             <div
