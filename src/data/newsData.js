@@ -13,7 +13,7 @@ export const newsData = [
     ],
     description:
       "Inspirado no filme “Charlie e a Fábrica de Chocolate” a Active Soul tem o gosto de apresentar o seu novo espetáculo - BILHETE DOURADO* Uma aventura doce e mágica que destaca o verdadeiro valor das atitudes* Entre cores, música e movimentos, descobrimos que a felicidade está em partilhar, cuidar e amar* Uma história encantadora sobre família, amizade e bondade.\nBilhetes disponíveis no nosso estúdio a partir do dia 8 de outubro.",
-    image: "https://imgur.com/0Ln138T.jpg",
+    image: "https://imgur.com/jz0e8nY.jpg",
     link: "",
     linkType: "",
   },
