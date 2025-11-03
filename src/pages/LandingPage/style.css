@@ -182,11 +182,11 @@
   background-size: cover;
   background-position: center;
 
-  background-image: url("https://imgur.com/NlYUJB2.jpg");
+  background-image: url("https://imgur.com/pvyLIZs.jpg");
 
   width: 100%;
   max-width: 330px;
-  height: 300px;
+  height: 330px;
 
   cursor: pointer;
   transition: 0.3s ease-in-out;
@@ -242,7 +242,7 @@
   }
   .table {
     max-width: 630px;
-    height: 600px;
+    height: 630px;
   }
   .danceContainer,
   .newsContainer,

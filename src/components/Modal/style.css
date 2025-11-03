@@ -26,13 +26,13 @@
   cursor: pointer;
 }
 .tableModal {
-  background-image: url("https://imgur.com/NlYUJB2.jpg");
+  background-image: url("https://imgur.com/pvyLIZs.jpg");
   background-position: center;
   background-size: cover;
 
   width: 100%;
   max-width: 320px;
-  height: 300px;
+  height: 320px;
 
   position: relative;
 }
@@ -40,7 +40,7 @@
 @media (width >= 768px) {
   .tableModal {
     max-width: 630px;
-    height: 600px;
+    height: 630px;
   }
 }
 @media (width >= 1440px) {

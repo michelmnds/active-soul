@@ -1,5 +1,41 @@
 export const newsData = [
   {
+    id: 67,
+    name: "Espetáculo - Bilhete Dourado",
+    title: "Espetáculo - Bilhete Dourado",
+    date: "23/11/2025",
+    schedule: [
+      {
+        day: "23/11/2025",
+        time: "16:30",
+        location: "Cine Teatro Avenida",
+      },
+    ],
+    description:
+      "O espetáculo da Companhia Active Soul irá voltar a subir aos palcos já dia 23 de novembro pelas 16h30 no Cine Teatro Avenida.\nOs bilhetes vão estar disponíveis a partir do dia 10 de novembro no nosso Estúdio Active Soul.\nEsperamos por vocês.\n",
+    image: "https://imgur.com/KRz8RoF.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 66,
+    name: "Noite de Halloween",
+    title: "Noite de Halloween",
+    date: "31/10/2025",
+    schedule: [
+      {
+        day: "31/10/2025",
+        time: "23:30",
+        location: "Estúdio Active Soul",
+      },
+    ],
+    description:
+      'No passado dia 31 de outubro o Active Soul abriu portas até às 23h30 para receber estes incríveis "monstrinhos"* Houve muita dança, diversão, jantámos e terminámos o dia com um filme e muitas pipocas!',
+    image: "https://imgur.com/tMrTkCH.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 65,
     name: "Bilhete Dourado",
     title: "Bilhete Dourado",
