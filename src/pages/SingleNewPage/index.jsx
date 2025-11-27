@@ -335,6 +335,19 @@ export const SingleNewPage = ({ menu }) => {
               !
             </span>
           )}
+          {currentNew.id === 69 && (
+            <span className="singleNewDesc">
+              Faça a sua inscrição{" "}
+              <a
+                target="_blank"
+                href="https://forms.gle/Vk4Hp8ukXMYVeftt6"
+                rel="noreferrer"
+              >
+                aqui
+              </a>
+              !
+            </span>
+          )}
           {currentNew.id === 31 && (
             <span className="singleNewDesc">
               Faça a sua inscrição{" "}

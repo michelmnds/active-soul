@@ -1,5 +1,76 @@
 export const newsData = [
   {
+    id: 69,
+    name: "Active Kids - Natal",
+    title: "Active Kids - Natal",
+    date: "20/12/2025",
+    schedule: [
+      {
+        day: "17/12/2025",
+        time: "8:30 - 18:00",
+        location: "Estúdio Active Soul",
+      },
+      {
+        day: "18/12/2025",
+        time: "8:30 - 18:00",
+        location: "Estúdio Active Soul",
+      },
+      {
+        day: "19/12/2025",
+        time: "8:30 - 18:00",
+        location: "Estúdio Active Soul",
+      },
+      {
+        day: "22/12/2025",
+        time: "8:30 - 18:00",
+        location: "Estúdio Active Soul",
+      },
+      {
+        day: "23/12/2025",
+        time: "8:30 - 18:00",
+        location: "Estúdio Active Soul",
+      },
+    ],
+    description:
+      "Vem aí uma semana mágica de atividades!\nDe 17 a 23 de dezembro, os nossos alunos vão viver dias cheios de diversão, criatividade e espírito natalício!\nTeremos apresentações, visitas especiais, ateliers de culinária e dança, atividades desportivas, sessões de cinema, e até assistir ao espetáculo da Companhia de Teatro Musical Active Soul|\nTudo pensado com muito carinho para proporcionar momentos inesquecíveis nas férias de Natal.\nSerá uma semana cheia de alegria, movimento e magia natalícia! Não percam! ",
+    image: "https://imgur.com/3hxfbvh.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 68,
+    name: "Fábrica do Cacau Encantado",
+    title: "Fábrica do Cacau Encantado",
+    date: "20/12/2025",
+    schedule: [
+      {
+        day: "20/12/2025",
+        time: "15:00",
+        location: "Casas do Povo - Malpica do Tejo",
+      },
+      {
+        day: "22/12/2025",
+        time: "10:30",
+        location: "Fábrica da Criatividade",
+      },
+      {
+        day: "22/12/2025",
+        time: "15:30",
+        location: "Fábrica da Criatividade",
+      },
+      {
+        day: "22/12/2025",
+        time: "17:30",
+        location: "Fábrica da Criatividade",
+      },
+    ],
+    description:
+      "Vem assistir à nova peça de Teatro Musical do Estúdio Active Soul, A Fábrica do Cacau Encantado. Prometemos muita energia e diversão. ",
+    image: "https://imgur.com/TAjX9ni.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 67,
     name: "Espetáculo - Bilhete Dourado",
     title: "Espetáculo - Bilhete Dourado",
@@ -13,7 +84,7 @@ export const newsData = [
     ],
     description:
       "O espetáculo da Companhia Active Soul irá voltar a subir aos palcos já dia 23 de novembro pelas 16h30 no Cine Teatro Avenida.\nOs bilhetes vão estar disponíveis a partir do dia 10 de novembro no nosso Estúdio Active Soul.\nEsperamos por vocês.\n",
-    image: "https://imgur.com/KRz8RoF.jpg",
+    image: "https://imgur.com/2uuLgV5.jpg",
     link: "",
     linkType: "",
   },
