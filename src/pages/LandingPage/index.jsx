@@ -76,7 +76,7 @@ export const LandingPage = ({ menu }) => {
 
           <div className="classContainer">
             <LandingCard
-              image={"https://imgur.com/rvjQd6o.jpg"}
+              image={"https://imgur.com/5CNXN7S.jpg"}
               link={"/aulas"}
               title={"Bem Estar"}
             ></LandingCard>

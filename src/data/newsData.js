@@ -46,7 +46,7 @@ export const newsData = [
       {
         day: "20/12/2025",
         time: "15:00",
-        location: "Casas do Povo - Malpica do Tejo",
+        location: "Casa do Povo - Malpica do Tejo",
       },
       {
         day: "22/12/2025",
@@ -58,15 +58,10 @@ export const newsData = [
         time: "15:30",
         location: "Fábrica da Criatividade",
       },
-      {
-        day: "22/12/2025",
-        time: "17:30",
-        location: "Fábrica da Criatividade",
-      },
     ],
     description:
       "Vem assistir à nova peça de Teatro Musical do Estúdio Active Soul, A Fábrica do Cacau Encantado. Prometemos muita energia e diversão. ",
-    image: "https://imgur.com/TAjX9ni.jpg",
+    image: "https://imgur.com/Vb8Sd0N.jpg",
     link: "",
     linkType: "",
   },
