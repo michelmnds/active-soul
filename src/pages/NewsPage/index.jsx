@@ -19,13 +19,13 @@ export const NewsPage = ({ menu }) => {
       const dateA = new Date(
         `${b.schedule[0].day.split("/")[2]}-${
           b.schedule[0].day.split("/")[1]
-        }-${b.schedule[0].day.split("/")[0]}`
+        }-${b.schedule[0].day.split("/")[0]}`,
       );
 
       const dateB = new Date(
         `${a.schedule[0].day.split("/")[2]}-${
           a.schedule[0].day.split("/")[1]
-        }-${a.schedule[0].day.split("/")[0]}`
+        }-${a.schedule[0].day.split("/")[0]}`,
       );
 
       return dateA - dateB;
@@ -63,6 +63,26 @@ export const NewsPage = ({ menu }) => {
           )}
         </section>
 
+        <h3 className="newsPageYear">2026</h3>
+        <section className="newsPageSection">
+          {newsData.map((currentNew) => {
+            if (
+              currentNew.date.split("/")[2] === "2026" &&
+              !upcomingEventIds.includes(currentNew.id)
+            ) {
+              return (
+                <NewsCard
+                  key={currentNew.id}
+                  id={currentNew.id}
+                  img={currentNew.image}
+                  name={currentNew.name}
+                  description={currentNew.description}
+                  clickable={currentNew.name !== "Bem me quero - 28 de junho"}
+                />
+              );
+            }
+          })}
+        </section>
         <h3 className="newsPageYear">2025</h3>
         <section className="newsPageSection">
           {newsData.map((currentNew) => {

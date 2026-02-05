@@ -152,94 +152,118 @@ export const SingleNewPage = ({ menu }) => {
             </Carousel.Slide>
           ))
         : currentNewId == 26
-        ? imageUrls2.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 35
-        ? imageUrls4.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 37
-        ? imageUrls5.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 33
-        ? imageUrls6.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 36
-        ? imageUrls7.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 31
-        ? imageUrls8.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 38
-        ? imageUrls9.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 40
-        ? imageUrls10.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 41
-        ? imageUrls11.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 42
-        ? imageUrls12.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 43
-        ? imageUrls13.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 46
-        ? imageUrls14.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 50
-        ? imageUrls15.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : currentNewId == 63
-        ? imageUrls16.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ))
-        : imageUrls3.map((image) => (
-            <Carousel.Slide key={image}>
-              <Image style={{ height: `${100}%` }} src={image} />
-            </Carousel.Slide>
-          ));
+          ? imageUrls2.map((image) => (
+              <Carousel.Slide key={image}>
+                <Image style={{ height: `${100}%` }} src={image} />
+              </Carousel.Slide>
+            ))
+          : currentNewId == 35
+            ? imageUrls4.map((image) => (
+                <Carousel.Slide key={image}>
+                  <Image style={{ height: `${100}%` }} src={image} />
+                </Carousel.Slide>
+              ))
+            : currentNewId == 37
+              ? imageUrls5.map((image) => (
+                  <Carousel.Slide key={image}>
+                    <Image style={{ height: `${100}%` }} src={image} />
+                  </Carousel.Slide>
+                ))
+              : currentNewId == 33
+                ? imageUrls6.map((image) => (
+                    <Carousel.Slide key={image}>
+                      <Image style={{ height: `${100}%` }} src={image} />
+                    </Carousel.Slide>
+                  ))
+                : currentNewId == 36
+                  ? imageUrls7.map((image) => (
+                      <Carousel.Slide key={image}>
+                        <Image style={{ height: `${100}%` }} src={image} />
+                      </Carousel.Slide>
+                    ))
+                  : currentNewId == 31
+                    ? imageUrls8.map((image) => (
+                        <Carousel.Slide key={image}>
+                          <Image style={{ height: `${100}%` }} src={image} />
+                        </Carousel.Slide>
+                      ))
+                    : currentNewId == 38
+                      ? imageUrls9.map((image) => (
+                          <Carousel.Slide key={image}>
+                            <Image style={{ height: `${100}%` }} src={image} />
+                          </Carousel.Slide>
+                        ))
+                      : currentNewId == 40
+                        ? imageUrls10.map((image) => (
+                            <Carousel.Slide key={image}>
+                              <Image
+                                style={{ height: `${100}%` }}
+                                src={image}
+                              />
+                            </Carousel.Slide>
+                          ))
+                        : currentNewId == 41
+                          ? imageUrls11.map((image) => (
+                              <Carousel.Slide key={image}>
+                                <Image
+                                  style={{ height: `${100}%` }}
+                                  src={image}
+                                />
+                              </Carousel.Slide>
+                            ))
+                          : currentNewId == 42
+                            ? imageUrls12.map((image) => (
+                                <Carousel.Slide key={image}>
+                                  <Image
+                                    style={{ height: `${100}%` }}
+                                    src={image}
+                                  />
+                                </Carousel.Slide>
+                              ))
+                            : currentNewId == 43
+                              ? imageUrls13.map((image) => (
+                                  <Carousel.Slide key={image}>
+                                    <Image
+                                      style={{ height: `${100}%` }}
+                                      src={image}
+                                    />
+                                  </Carousel.Slide>
+                                ))
+                              : currentNewId == 46
+                                ? imageUrls14.map((image) => (
+                                    <Carousel.Slide key={image}>
+                                      <Image
+                                        style={{ height: `${100}%` }}
+                                        src={image}
+                                      />
+                                    </Carousel.Slide>
+                                  ))
+                                : currentNewId == 50
+                                  ? imageUrls15.map((image) => (
+                                      <Carousel.Slide key={image}>
+                                        <Image
+                                          style={{ height: `${100}%` }}
+                                          src={image}
+                                        />
+                                      </Carousel.Slide>
+                                    ))
+                                  : currentNewId == 63
+                                    ? imageUrls16.map((image) => (
+                                        <Carousel.Slide key={image}>
+                                          <Image
+                                            style={{ height: `${100}%` }}
+                                            src={image}
+                                          />
+                                        </Carousel.Slide>
+                                      ))
+                                    : imageUrls3.map((image) => (
+                                        <Carousel.Slide key={image}>
+                                          <Image
+                                            style={{ height: `${100}%` }}
+                                            src={image}
+                                          />
+                                        </Carousel.Slide>
+                                      ));
     return (
       <Carousel
         classNames={classes}
@@ -304,7 +328,7 @@ export const SingleNewPage = ({ menu }) => {
         } else if (match === "|") {
           return "!";
         }
-      }
+      },
     );
 
     return (
@@ -375,6 +399,7 @@ export const SingleNewPage = ({ menu }) => {
             </span>
           )}
           {(currentNew.id === 34 ||
+            currentNew.id === 70 ||
             currentNew.id === 51 ||
             currentNew.id === 58) && (
             <span className="singleNewDesc">
@@ -385,10 +410,12 @@ export const SingleNewPage = ({ menu }) => {
                   currentNew.id === 34
                     ? "https://mega.nz/folder/1u1QQACD#4FvfQITQ2U-xgyXuMtcfdQ"
                     : currentNew.id === 51
-                    ? "https://mega.nz/folder/gn8AXJbT#btq0tig8jZKjBg-gU-LmBg"
-                    : currentNew.id === 58
-                    ? "https://mega.nz/folder/Vn8jjRTC#pXEYLsniZJu2JbicF-Kp5w/folder/E6tlzKIL"
-                    : null
+                      ? "https://mega.nz/folder/gn8AXJbT#btq0tig8jZKjBg-gU-LmBg"
+                      : currentNew.id === 70
+                        ? "https://throughrubenseyes.pixieset.com/brisamar/"
+                        : currentNew.id === 58
+                          ? "https://mega.nz/folder/Vn8jjRTC#pXEYLsniZJu2JbicF-Kp5w/folder/E6tlzKIL"
+                          : null
                 }
                 rel="noreferrer"
               >
