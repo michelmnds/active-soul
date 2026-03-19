@@ -43,12 +43,12 @@ export const newsData = [
     schedule: [
       {
         day: "14/03/2026",
-        time: "18:20",
+        time: "10:30",
         location: "Estúdio Active Soul",
       },
       {
         day: "14/03/2026",
-        time: "18:20",
+        time: "17:30",
         location: "Estúdio Active Soul",
       },
     ],
