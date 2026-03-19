@@ -142,6 +142,7 @@ export const SingleNewPage = ({ menu }) => {
     "https://imgur.com/gOabIEd.jpg",
     "https://imgur.com/mIp1Vuh.jpg",
   ];
+  const imageUrls17 = ["https://imgur.com/YBeZMbN.jpg"];
 
   function CarouselComponent() {
     const slides =
@@ -256,14 +257,23 @@ export const SingleNewPage = ({ menu }) => {
                                           />
                                         </Carousel.Slide>
                                       ))
-                                    : imageUrls3.map((image) => (
-                                        <Carousel.Slide key={image}>
-                                          <Image
-                                            style={{ height: `${100}%` }}
-                                            src={image}
-                                          />
-                                        </Carousel.Slide>
-                                      ));
+                                    : currentNewId == 71
+                                      ? imageUrls17.map((image) => (
+                                          <Carousel.Slide key={image}>
+                                            <Image
+                                              style={{ height: `${100}%` }}
+                                              src={image}
+                                            />
+                                          </Carousel.Slide>
+                                        ))
+                                      : imageUrls3.map((image) => (
+                                          <Carousel.Slide key={image}>
+                                            <Image
+                                              style={{ height: `${100}%` }}
+                                              src={image}
+                                            />
+                                          </Carousel.Slide>
+                                        ));
     return (
       <Carousel
         classNames={classes}
@@ -278,6 +288,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 38 ||
           currentNewId == 42 ||
           currentNewId == 48 ||
+          currentNewId == 71 ||
           currentNewId == 33 ? null : (
             <IconArrowRight
               style={{
@@ -295,6 +306,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 38 ||
           currentNewId == 42 ||
           currentNewId == 48 ||
+          currentNewId == 71 ||
           currentNewId == 33 ? null : (
             <IconArrowLeft
               style={{
@@ -346,6 +358,17 @@ export const SingleNewPage = ({ menu }) => {
             dangerouslySetInnerHTML={{ __html: formattedDescription }}
           ></span>
 
+          {currentNew.id === 72 && (
+            <span className="singleNewDesc">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/reels/DWBlsq4DNX_/"
+                rel="noreferrer"
+              >
+                Vê como foi!
+              </a>
+            </span>
+          )}
           {currentNew.id === 48 && (
             <span className="singleNewDesc">
               Faça a sua inscrição{" "}
@@ -496,6 +519,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 46 ||
           currentNewId == 50 ||
           currentNewId == 63 ||
+          currentNewId == 71 ||
           currentNewId == 31 ? (
             <CarouselComponent />
           ) : null}

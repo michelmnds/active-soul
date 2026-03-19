@@ -5,7 +5,7 @@ export const classData = [
     modality: "Adultos",
     description:
       "Desenvolve o corpo de uma forma eficaz. Utiliza pesos, caneleiras, halteres e barras para fortalecer principalmente os glúteos, abdominais e pernas.",
-    image: "https://imgur.com/vh6HFfL.jpg",
+    image: "https://imgur.com/tDhGlQa.jpg",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const classData = [
     modality: "Adultos",
     description:
       "O método Pilates tem como objetivo atingir a saúde através da conexão entre corpo e mente nas aulas. Para isso, os exercícios são baseados em 6 princípios: Centralização, Respiração, Fluidez, Controlo, Precisão e Concentração.",
-    image: "https://imgur.com/uRUf4oa.jpg",
+    image: "https://imgur.com/NcYH3Tp.jpg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const classData = [
     modality: "Adultos",
     description:
       "O treino em circuito assume-se como um tipo de treino muito interessante quando o objetivo é treinar o corpo todo numa só sessão de treino, poupando tempo e acarreta ainda um elevando dispêndio energético quando se mobilizam grandes grupos musculares com tempos de pausa reduzidos.",
-    image: "https://imgur.com/rvjQd6o.jpg",
+    image: "https://imgur.com/2Bptrkd.jpg",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ export const classData = [
     modality: "Aula dos 6 aos 12 anos",
     description:
       "A aula Active Move é uma experiência cheia de energia pensada especialmente para crianças! Inspirada no treino funcional, ela combina atividades variadas como circuitos com obstáculos, jogos de equilíbrio e desafios em grupo. Cada aula é diferente, garantindo movimento constante, desenvolvimento da coordenação motora, força e agilidade – tudo de forma lúdica e segura.",
-    image: "https://imgur.com/OMXYdE2.jpg",
+    image: "https://imgur.com/oqwsEV1.jpg",
   },
   {
     id: 7,

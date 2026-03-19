@@ -1,5 +1,64 @@
 export const newsData = [
   {
+    id: 73,
+    name: "",
+    title: "Dia Mundial da Atividade Física",
+    date: "06/04/2026",
+    schedule: [
+      {
+        day: "06/04/2026",
+        time: "18:20",
+        location: "Zona de Lazer de Castelo Branco",
+      },
+    ],
+    description:
+      "Vem celebrar o Dia Mundial da Atividade Física connosco!\nNo dia 6 de abril, junta-te a nós para um final de tarde cheio de energia, movimento e boa disposição.\nPreparamos uma caminhada e sessão de dança abertas a toda a comunidade — porque cuidar do corpo também é divertir-se!\nEdifício da Lagoa – Zona de Lazer de Castelo Branco às18h20. A atividade é gratuita.\nTraz a família, amigos e muita vontade de mexer! Vamos juntos promover uma vida mais saudável e equilibrada.",
+    image: "https://imgur.com/LZKW8lV.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 72,
+    name: "Projeto Cantar(a)Ler ",
+    title: "Projeto Cantar(a)Ler ",
+    date: "15/03/2026",
+    schedule: [
+      {
+        day: "15/03/2026",
+        time: "10:30",
+        location: "Estúdio Active Soul",
+      },
+    ],
+    description:
+      "No dia 15 de março, às 10h30, o projeto Cantar(a)Ler veio até Castelo Branco, numa sessão especial dinamizada pela educadora Catarina e pelo professor Tiago.\nJuntos, trouxeram histórias cantadas que unem a leitura à música, transformando cada narrativa numa experiência sonora e participativa.\nEntre palavras, melodias e pequenos gestos, as crianças são convidadas a escutar, cantar e entrar no ritmo das histórias, num momento envolvente e cheio de encanto.\nUma proposta que estimula a linguagem, a musicalidade, a imaginação e o vínculo entre adultos e crianças, celebrando o poder das histórias quando ganham voz e canção. ",
+    image: "https://imgur.com/KaDGYHB.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 71,
+    name: "Workshops de Contemporâneo e Hip Hop",
+    title: "Workshops de Contemporâneo e Hip Hop",
+    date: "14/03/2026",
+    schedule: [
+      {
+        day: "14/03/2026",
+        time: "18:20",
+        location: "Estúdio Active Soul",
+      },
+      {
+        day: "14/03/2026",
+        time: "18:20",
+        location: "Estúdio Active Soul",
+      },
+    ],
+    description:
+      "Dia 14 de Março foi um sábado cheio de dança, energia e partilha!\nComeçámos a manhã com um Workshop de Contemporâneo com a Professora Margarida Nogueira, onde os nossos alunos puderam explorar movimento, expressão e criatividade.\nTerminamos o dia da melhor forma, com muita atitude e ritmo no Workshop de Hip Hop com o Professor Pedro Teixeira.\nRestaurante Capelo’s, deixamos um sincero agradecimento pela receção e simpatia. Proporcionaram um almoço especial aos nossos Professores convidados.\nQueremos deixar um agradecimento especial aos professores pela partilha de conhecimento e inspiração, e a todos os alunos que participaram, pela dedicação, energia e entusiasmo ao longo do dia.\nFoi, sem dúvida, um dia cheio de aprendizagem, dança e bons momentos! Obrigado a todos por fazerem parte desta experiência.",
+    image: "https://imgur.com/900DTFe.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 70,
     name: "Brisamar",
     title: "Brisamar",
@@ -18,7 +77,7 @@ export const newsData = [
     ],
     description:
       "Brisamar é uma viagem sensível e encantadora ao coração do oceano. Através da dança, do teatro e da música, somos convidados a mergulhar num mar cheio de vida, histórias e emoções, onde cada onda nos lembra a beleza e a fragilidade do nosso planeta.\nGuiados pelo Pescador, pelo Tritão e por outras personagens do mar, descobrimos um oceano que fala, sente e pede ajuda.\nEntre corais, peixes, aves e tartarugas, o espetáculo aborda de forma lúdica e consciente temas como a poluição, a reciclagem, a proteção dos animais marinhos e a importância das pequenas ações de cada um de nós.\nMais do que um espetáculo, Brisamar é um convite à reflexão, à responsabilidade e à esperança* Uma celebração do mar como casa comum, fonte de vida e inspiração, lembrando-nos que cuidar do oceano é cuidar de nós próprios.\nPorque quando o mar sorri, o mundo inteiro respira melhor.",
-    image: "https://imgur.com/wxHNPte.jpg",
+    image: "https://imgur.com/LvmYXqG.jpg",
     link: "",
     linkType: "",
   },
