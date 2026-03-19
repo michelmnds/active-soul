@@ -48,7 +48,7 @@ export const newsData = [
       },
       {
         day: "14/03/2026",
-        time: "17:30",
+        time: "14:30",
         location: "Estúdio Active Soul",
       },
     ],
