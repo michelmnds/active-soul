@@ -77,7 +77,7 @@ export const newsData = [
     ],
     description:
       "Brisamar é uma viagem sensível e encantadora ao coração do oceano. Através da dança, do teatro e da música, somos convidados a mergulhar num mar cheio de vida, histórias e emoções, onde cada onda nos lembra a beleza e a fragilidade do nosso planeta.\nGuiados pelo Pescador, pelo Tritão e por outras personagens do mar, descobrimos um oceano que fala, sente e pede ajuda.\nEntre corais, peixes, aves e tartarugas, o espetáculo aborda de forma lúdica e consciente temas como a poluição, a reciclagem, a proteção dos animais marinhos e a importância das pequenas ações de cada um de nós.\nMais do que um espetáculo, Brisamar é um convite à reflexão, à responsabilidade e à esperança* Uma celebração do mar como casa comum, fonte de vida e inspiração, lembrando-nos que cuidar do oceano é cuidar de nós próprios.\nPorque quando o mar sorri, o mundo inteiro respira melhor.",
-    image: "https://imgur.com/LvmYXqG.jpg",
+    image: "https://imgur.com/wxHNPte.jpg",
     link: "",
     linkType: "",
   },

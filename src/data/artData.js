@@ -5,7 +5,7 @@ export const artData = [
     modality: "Aulas a partir dos 8 anos",
     description:
       "As aulas de canto pretendem desenvolver a técnica vocal, a afinação, a respiração, a projeção da voz e a expressividade musical* Através de exercícios específicos, trabalha-se também a concentração, a escuta ativa, a sensibilidade artística e a confiança pessoal* Além do aperfeiçoamento técnico e musical, estas aulas promovem o autoconhecimento e uma maior consciência corporal e vocal, contribuindo para uma comunicação mais clara, segura e eficaz. O canto é também uma poderosa ferramenta de expressão emocional, ajudando os alunos a libertarem-se, a expressarem sentimentos e a ganharem confiança em si mesmos* Procuramos que cada aluno(a) descubra e valorize a sua voz, enquanto se diverte, aprende e cresce através da música.",
-    image: "https://imgur.com/Kc8fq2n.jpg",
+    image: "https://imgur.com/LvmYXqG.jpg",
   },
   {
     id: 2,
