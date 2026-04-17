@@ -1,5 +1,23 @@
 export const newsData = [
   {
+    id: 74,
+    name: "Dia Mundial do Teatro",
+    title: "Dia Mundial do Teatro",
+    date: "10/04/2026",
+    schedule: [
+      {
+        day: "10/04/2026",
+        time: "14:30",
+        location: "Santa Casa da Misericórdia",
+      },
+    ],
+    description:
+      "A companhia Active Soul teve o privilégio de ser convidada a marcar presença na Santa Casa da Misericórdia de Castelo Branco, no âmbito das comemorações do Dia Mundial do Teatro, celebrado a 27 de março.\nGostaríamos de expressar o nosso sincero agradecimento pelo convite, pela recepção calorosa e pela oportunidade de partilhar este momento tão especial. Foi, sem dúvida, uma experiência enriquecedora que levaremos connosco com muito carinho.",
+    image: "https://imgur.com/mECl4hT.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 73,
     name: "",
     title: "Dia Mundial da Atividade Física",
