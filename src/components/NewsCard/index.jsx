@@ -4,7 +4,7 @@ import "./style.css";
 
 // eslint-disable-next-line no-unused-vars
 
-export const NewsCard = ({ id, img, name, coming, month }) => {
+export const NewsCard = ({ id, img, name, coming, month, openAgenda }) => {
   const monthNames = {
     "01": "Janeiro",
     "02": "Fevereiro",
@@ -29,9 +29,11 @@ export const NewsCard = ({ id, img, name, coming, month }) => {
       >
         {name && <span className="newsCardName"> {name} </span>}
 
-        <section className="monthContainer">
-          <span className="monthTxt">{monthNames[month]}</span>
-        </section>
+        {!openAgenda && (
+          <section className="monthContainer">
+            <span className="monthTxt">{monthNames[month]}</span>
+          </section>
+        )}
       </Link>
     );
   } else {

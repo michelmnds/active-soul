@@ -447,6 +447,20 @@ export const SingleNewPage = ({ menu }) => {
               !
             </span>
           )}
+          {currentNew.id === 78 && (
+            <span className="singleNewDesc">
+              Vagas limitadas Garante já o teu lugar, basta enviares mensagem
+              privada ou acederes ao{" "}
+              <a
+                target="_blank"
+                href={"https://forms.gle/cY92RAshZrkUkpHVA"}
+                rel="noreferrer"
+              >
+                link
+              </a>
+              .
+            </span>
+          )}
 
           {currentNew.link ? (
             currentNew.linkType == "YT" ? (
@@ -490,19 +504,22 @@ export const SingleNewPage = ({ menu }) => {
             )
           ) : null}
 
-          <span className="singleNewText">Agenda: </span>
-
-          <section className="newsSchedule">
-            {currentNew.schedule.map((currentNew) => {
-              return (
-                <div key={currentNew.day} className="newContainer">
-                  <span className="newDay">{currentNew.day}</span>
-                  <span className="newTime">{currentNew.time}</span>
-                  <span className="newLocation">{currentNew.location}</span>
-                </div>
-              );
-            })}
-          </section>
+          {currentNew.schedule.length > 0 && (
+            <>
+              <span className="singleNewText">Agenda: </span>
+              <section className="newsSchedule">
+                {currentNew.schedule.map((currentNew) => {
+                  return (
+                    <div key={currentNew.day} className="newContainer">
+                      <span className="newDay">{currentNew.day}</span>
+                      <span className="newTime">{currentNew.time}</span>
+                      <span className="newLocation">{currentNew.location}</span>
+                    </div>
+                  );
+                })}
+              </section>
+            </>
+          )}
 
           {currentNewId == 25 ||
           currentNewId == 26 ||

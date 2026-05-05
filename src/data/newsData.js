@@ -1,5 +1,76 @@
 export const newsData = [
   {
+    id: 78,
+    name: "",
+    title: "Happy Kids Festival",
+    date: "31/05/2026",
+    schedule: [
+      {
+        day: "31/05/2026",
+        time: "15:00",
+        location: "Estúdio Active Soul",
+      },
+    ],
+    description:
+      "O evento mais mágico para os mais pequenos está a chegar a Castelo Branco!\nNo dia 31 de maio, das 15h às 17h, o Happy Kids Festival vai transformar o Active Soul numa verdadeira aventura para crianças e famílias \n\n 💛Um evento onde as crianças podem brincar, imaginar, criar e viver momentos mágicos.",
+    image: "https://imgur.com/Y3P9xxZ.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 77,
+    name: "",
+    title: "Oficina de Música",
+    date: "30/05/2026",
+    schedule: [
+      {
+        day: "30/05/2026",
+        time: "10:00",
+        location: "Estúdio Active Soul",
+      },
+      {
+        day: "31/05/2026",
+        time: "10:00",
+        location: "Estúdio Active Soul",
+      },
+    ],
+    description:
+      "A Active Soul convida-te a entrar no mundo dos ritmos e da criação musical. Em dois dias, vais explorar, criar e fazer parte de uma experiência única, aberta a todos, com ou sem experiência, mesmo que não sejas aluno.\nUma vivência cheia de ritmo, criatividade e energia, que vai culminar numa apresentação final no dia 28 de junho, no Cineteatro Avenida, no nosso espetáculo final de ano letivo.\nVem criar, explorar e viver a música connosco!",
+    image: "https://imgur.com/O0LMQ91.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 76,
+    name: "MOV.ONIC@",
+    title: "MOV.ONIC@",
+    date: "02/05/2026",
+    schedule: [
+      {
+        day: "02/05/2026",
+        time: "11:00",
+        location: "Parque Urbano Cruz do Montalvão",
+      },
+    ],
+    description:
+      "Estivemos presente no MOV.ONIC@ - Dia Nacional do Movimento e Atividade Física para Pessoas com Doença Crónica, uma iniciativa da Sociedade Portuguesa de Literacia em Saúde e da DGS. Agradecemos o convite que nos foi endereçado em particular na pessoa da sua Vice-Presidente, Fisioterapeuta Mariana Fonseca.",
+    image: "https://imgur.com/n9eM4Nn.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
+    id: 75,
+    name: "Circo dos Sonhos",
+    title: "Circo dos Sonhos",
+    date: "20/04/2026",
+    schedule: [],
+    description:
+      "O Circo dos Sonhos está de regresso, desta vez uma versão mais curta mas com a mesma magia.\nCom muito brilho, os bailarinos e atores dão vida a esta história original e todos compõem uma sinfonia de ritmos. Este espetáculo mágico pode ir até ti.\nEntra em contacto pelas nossas redes sociais ou e-mail e pede mais informações.\nEspetáculo ideal para celebrar o Dia Mundial da Criança, festa final de ano letivo escolar ou até mesmo apresentações durante o período de férias\nEspetáculo para todas as idades.\nAGENDA ABERTA",
+    image: "https://imgur.com/SMr8hjm.jpg",
+    link: "",
+    linkType: "",
+  },
+  {
     id: 74,
     name: "Dia Mundial do Teatro",
     title: "Dia Mundial do Teatro",

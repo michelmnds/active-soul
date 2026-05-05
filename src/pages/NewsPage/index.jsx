@@ -9,6 +9,8 @@ export const NewsPage = ({ menu }) => {
 
   const upcomingEvents = newsData
     .filter((event) => {
+      if (event.schedule.length === 0) return true;
+
       const formatedDate = `${event.schedule[0].day.split("/")[2]}-${
         event.schedule[0].day.split("/")[1]
       }-${event.schedule[0].day.split("/")[0]}`;
@@ -16,6 +18,10 @@ export const NewsPage = ({ menu }) => {
       return new Date(formatedDate) > today;
     })
     .sort((a, b) => {
+      if (a.schedule.length === 0 && b.schedule.length === 0) return 0;
+      if (a.schedule.length === 0) return -1;
+      if (b.schedule.length === 0) return 1;
+
       const dateA = new Date(
         `${b.schedule[0].day.split("/")[2]}-${
           b.schedule[0].day.split("/")[1]
@@ -46,6 +52,8 @@ export const NewsPage = ({ menu }) => {
         <section className="newsPageSection">
           {upcomingEvents.length ? (
             upcomingEvents.map((currentNew) => {
+              const openAgenda = currentNew.schedule.length === 0;
+
               return (
                 <NewsCard
                   key={currentNew.id}
@@ -53,7 +61,10 @@ export const NewsPage = ({ menu }) => {
                   img={currentNew.image}
                   name={currentNew.name}
                   description={currentNew.description}
-                  month={currentNew.schedule[0].day.split("/")[1]}
+                  month={
+                    openAgenda ? null : currentNew.schedule[0].day.split("/")[1]
+                  }
+                  openAgenda={openAgenda}
                   coming={true}
                 />
               );
