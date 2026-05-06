@@ -36,7 +36,7 @@ export const newsData = [
     ],
     description:
       "A Active Soul convida-te a entrar no mundo dos ritmos e da criação musical. Em dois dias, vais explorar, criar e fazer parte de uma experiência única, aberta a todos, com ou sem experiência, mesmo que não sejas aluno.\nUma vivência cheia de ritmo, criatividade e energia, que vai culminar numa apresentação final no dia 28 de junho, no Cineteatro Avenida, no nosso espetáculo final de ano letivo.\nVem criar, explorar e viver a música connosco!",
-    image: "https://imgur.com/O0LMQ91.jpg",
+    image: "https://imgur.com/2XjsGn0.jpg",
     link: "",
     linkType: "",
   },
