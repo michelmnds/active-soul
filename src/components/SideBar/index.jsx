@@ -4,10 +4,8 @@ import "./style.css";
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-export const SideBar = ({ menu, setMenu, setInscricao }) => {
-  const handleNavClick = (event) => {
-    if (event === "INSCRIÇÃO") setInscricao(true);
-
+export const SideBar = ({ menu, setMenu }) => {
+  const handleNavClick = () => {
     setMenu(true);
 
     setTimeout(() => {
