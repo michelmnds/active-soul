@@ -1,0 +1,28 @@
+/* eslint-disable react/prop-types */
+import { LuArrowLeft, LuMessageCircle } from "react-icons/lu";
+import { site } from "@/content/site";
+import { Button, Section } from "@/ui/components";
+
+export function DetailLayout({ item, backTo, backLabel, category, children }) {
+  return (
+    <Section className="pt-10 sm:pt-14">
+      <Button to={backTo} variant="ghost" className="mb-8"><LuArrowLeft aria-hidden /> {backLabel}</Button>
+      <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,.9fr)_minmax(0,1.1fr)] lg:gap-16">
+        <div className="sticky top-28 overflow-hidden rounded-card bg-brand-100 shadow-card lg:aspect-[4/5]">
+          {/* eslint-disable-next-line react/no-unknown-property */}
+          <img src={item.image} alt={item.name ?? item.title} className="aspect-[4/5] h-full w-full object-cover" fetchPriority="high" />
+        </div>
+        <article className="py-2 lg:py-8">
+          <p className="text-eyebrow font-medium uppercase text-accent">{category}</p>
+          <h1 className="mt-4 text-display font-semibold text-brand-950">{item.name ?? item.title}</h1>
+          {item.modality && <p className="mt-3 text-lg font-medium text-brand-700">{item.modality}</p>}
+          <div className="mt-8 space-y-4 text-base leading-8 text-brand-800">
+            {item.description?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          </div>
+          {children}
+          <Button className="mt-9" href={site.socials.whatsapp} target="_blank" rel="noreferrer"><LuMessageCircle aria-hidden /> Contactar</Button>
+        </article>
+      </div>
+    </Section>
+  );
+}
