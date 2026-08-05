@@ -8,8 +8,8 @@ import { AboutPage } from "./pages/AboutPage";
 import { TeamPage } from "./pages/TeamPage";
 import { DancePage } from "@/ui/pages/danca";
 import { SingleNewPage } from "./pages/SingleNewPage";
-import { SingleClassPage } from "./pages/SingleClassPage";
-import { ClassPage } from "./pages/ClassPage";
+import { ClassPage } from "@/ui/pages/aula";
+import { ClassesPage } from "@/ui/pages/aulas";
 import { MantineProvider } from "@mantine/core";
 import { ServicePage } from "./pages/ServicePage";
 import { SingleServicePage } from "./pages/SingleServicePage";
@@ -28,8 +28,8 @@ export const App = () => {
           <Route path="/danca/:id" element={<DancePage />} />
           <Route path="/eventos" element={<NewsPage />} />
           <Route path="/evento/:currentNewId" element={<SingleNewPage />} />
-          <Route path="/aulas" element={<ClassPage />} />
-          <Route path="/aula/:currentClassId" element={<SingleClassPage />} />
+          <Route path="/aulas" element={<ClassesPage />} />
+          <Route path="/aula/:id" element={<ClassPage />} />
           <Route path="/sobre" element={<AboutPage />} />
           <Route path="/equipa" element={<TeamPage />} />
           <Route path="/artes" element={<ArtPage />} />
