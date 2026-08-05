@@ -1,7 +1,7 @@
 import "@mantine/carousel/styles.css";
 import "@mantine/core/styles.css";
 import { Routes, Route } from "react-router-dom";
-import { LandingPage } from "./pages/LandingPage";
+import { LandingPage } from "@/ui/pages/landing";
 import { DancesPage } from "@/ui/pages/dancas";
 import { NewsPage } from "./pages/NewsPage";
 import { AboutPage } from "./pages/AboutPage";
