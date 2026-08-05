@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import { LandingPage } from "@/ui/pages/landing";
 import { DancesPage } from "@/ui/pages/dancas";
 import { EventsPage } from "@/ui/pages/eventos";
-import { AboutPage } from "./pages/AboutPage";
+import { AboutPage } from "@/ui/pages/sobre";
 import { TeamPage } from "@/ui/pages/equipa";
 import { DancePage } from "@/ui/pages/danca";
 import { EventPage } from "@/ui/pages/evento";
