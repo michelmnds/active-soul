@@ -13,8 +13,8 @@ import { ClassesPage } from "@/ui/pages/aulas";
 import { MantineProvider } from "@mantine/core";
 import { ServicePage } from "./pages/ServicePage";
 import { SingleServicePage } from "./pages/SingleServicePage";
-import { ArtPage } from "./pages/ArtPage";
-import { SingleArtPage } from "./pages/SingleArtPage";
+import { ArtPage } from "@/ui/pages/arte";
+import { ArtsPage } from "@/ui/pages/artes";
 import { Layout } from "@/ui/layout";
 import { NotFoundPage } from "@/ui/pages/not-found";
 
@@ -32,8 +32,8 @@ export const App = () => {
           <Route path="/aula/:id" element={<ClassPage />} />
           <Route path="/sobre" element={<AboutPage />} />
           <Route path="/equipa" element={<TeamPage />} />
-          <Route path="/artes" element={<ArtPage />} />
-          <Route path="/arte/:artId" element={<SingleArtPage />} />
+          <Route path="/artes" element={<ArtsPage />} />
+          <Route path="/arte/:id" element={<ArtPage />} />
           <Route path="/servicos" element={<ServicePage />} />
           <Route path="/servico/:currentServiceId" element={<SingleServicePage />} />
           <Route path="*" element={<NotFoundPage />} />
