@@ -101,7 +101,16 @@ export const LandingPage = ({ menu }) => {
       </div>
       <div className="tableContainer">
         <span className="tableTxt">Horário 2025:</span>
-        <div className="table" onClick={handleModalOpening} />
+        <div className="registrationNotice">
+          <p>Renovações de inscrição até dia 10 de agosto.</p>
+          <p>Inscrição de novos alunos dia 14 de agosto.</p>
+        </div>
+        <button
+          aria-label="Ampliar horário 2025"
+          className="table"
+          onClick={handleModalOpening}
+          type="button"
+        />
       </div>
     </>
   );

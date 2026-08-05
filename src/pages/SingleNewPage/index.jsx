@@ -143,6 +143,7 @@ export const SingleNewPage = ({ menu }) => {
     "https://imgur.com/mIp1Vuh.jpg",
   ];
   const imageUrls17 = ["https://imgur.com/YBeZMbN.jpg"];
+  const imageUrls18 = ["https://i.imgur.com/LjXVzkV.jpg"];
 
   function CarouselComponent() {
     const slides =
@@ -257,8 +258,8 @@ export const SingleNewPage = ({ menu }) => {
                                           />
                                         </Carousel.Slide>
                                       ))
-                                    : currentNewId == 71
-                                      ? imageUrls17.map((image) => (
+                                    : currentNewId == 81
+                                      ? imageUrls18.map((image) => (
                                           <Carousel.Slide key={image}>
                                             <Image
                                               style={{ height: `${100}%` }}
@@ -266,14 +267,23 @@ export const SingleNewPage = ({ menu }) => {
                                             />
                                           </Carousel.Slide>
                                         ))
-                                      : imageUrls3.map((image) => (
-                                          <Carousel.Slide key={image}>
-                                            <Image
-                                              style={{ height: `${100}%` }}
-                                              src={image}
-                                            />
-                                          </Carousel.Slide>
-                                        ));
+                                      : currentNewId == 71
+                                        ? imageUrls17.map((image) => (
+                                            <Carousel.Slide key={image}>
+                                              <Image
+                                                style={{ height: `${100}%` }}
+                                                src={image}
+                                              />
+                                            </Carousel.Slide>
+                                          ))
+                                        : imageUrls3.map((image) => (
+                                            <Carousel.Slide key={image}>
+                                              <Image
+                                                style={{ height: `${100}%` }}
+                                                src={image}
+                                              />
+                                            </Carousel.Slide>
+                                          ));
     return (
       <Carousel
         classNames={classes}
@@ -289,6 +299,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 42 ||
           currentNewId == 48 ||
           currentNewId == 71 ||
+          currentNewId == 81 ||
           currentNewId == 33 ? null : (
             <IconArrowRight
               style={{
@@ -307,6 +318,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 42 ||
           currentNewId == 48 ||
           currentNewId == 71 ||
+          currentNewId == 81 ||
           currentNewId == 33 ? null : (
             <IconArrowLeft
               style={{
@@ -537,6 +549,7 @@ export const SingleNewPage = ({ menu }) => {
           currentNewId == 50 ||
           currentNewId == 63 ||
           currentNewId == 71 ||
+          currentNewId == 81 ||
           currentNewId == 31 ? (
             <CarouselComponent />
           ) : null}
