@@ -100,7 +100,7 @@ export const LandingPage = ({ menu }) => {
         </main>
       </div>
       <div className="tableContainer">
-        <span className="tableTxt">Horário 2025:</span>
+        <span className="tableTxt">Horário 2026/2027:</span>
         <div className="registrationNotice">
           <p>Renovações de inscrição até dia 10 de agosto.</p>
           <p>Inscrição de novos alunos dia 14 de agosto.</p>
