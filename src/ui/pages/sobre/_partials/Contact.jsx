@@ -1,5 +1,4 @@
 import { LuMapPin, LuPhone } from "react-icons/lu";
-import mapImage from "@/assets/background.png";
 import { site } from "@/content/site";
 import { Button, Section, SectionHeading } from "@/ui/components";
 
@@ -18,7 +17,7 @@ export function Contact() {
           </div>
         </div>
         <a href={site.mapsUrl} target="_blank" rel="noreferrer" className="group relative min-h-80 overflow-hidden rounded-card bg-brand-100 shadow-card" aria-label="Abrir localização no Google Maps">
-          <img src={mapImage} alt="Mapa da localização do Active Soul" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+          <img src="/background.png" alt="Mapa da localização do Active Soul" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
           <span className="absolute bottom-5 left-5 rounded-pill bg-white px-5 py-3 text-sm font-semibold text-brand-950 shadow-card">Active Soul · Ver no mapa</span>
         </a>
       </div>

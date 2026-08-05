@@ -6,8 +6,6 @@ import "@fontsource/poppins/600.css";
 import "@fontsource/poppins/700.css";
 import App from "@/App.jsx";
 import "@/index.css";
-import "./reset.css";
-import "./globalStyle.css";
 
 import { BrowserRouter } from "react-router-dom";
 

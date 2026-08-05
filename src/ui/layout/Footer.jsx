@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa6";
-import logo from "@/assets/logo-completa.png";
 import { site } from "@/content/site";
 
 const socialIcons = {
@@ -15,7 +14,7 @@ export function Footer() {
     <footer className="bg-brand-950 text-white">
       <div className="container grid gap-12 py-14 sm:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr] lg:py-20">
         <div>
-          <img src={logo} alt="Active Soul" className="h-20 w-auto brightness-0 invert" />
+          <img src="/logo-completa.png" alt="Active Soul" className="h-20 w-auto brightness-0 invert" />
           <p className="mt-5 max-w-sm text-sm leading-6 text-brand-200">Dança, bem-estar e artes em Castelo Branco. Um espaço para descobrir movimento, expressão e comunidade.</p>
           <div className="mt-6 flex gap-3">
             {Object.entries(site.socials).map(([name, href]) => {

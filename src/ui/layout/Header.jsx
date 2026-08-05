@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { LuMenu } from "react-icons/lu";
-import logo from "@/assets/logo-png.png";
 import { site } from "@/content/site";
 import { Button } from "@/ui/components";
 import { MobileDrawer } from "./MobileDrawer";
@@ -18,7 +17,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-brand-100 bg-white/90 backdrop-blur-md">
       <div className="container flex h-20 items-center gap-8">
         <Link to="/" className="shrink-0" aria-label="Active Soul, página inicial">
-          <img src={logo} alt="Active Soul" className="h-12 w-auto" />
+          <img src="/logo-png.png" alt="Active Soul" className="h-12 w-auto" />
         </Link>
         <nav className="hidden flex-1 items-center justify-center gap-5 xl:gap-7 lg:flex" aria-label="Navegação principal">
           {site.nav.map((item) => (

@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { LuVolume2, LuVolumeX } from "react-icons/lu";
-import music from "@/assets/music/dance_for_me_wallis.mp3";
+
+const music = "/music/dance_for_me_wallis.mp3";
 
 export function SoundToggle() {
   const audioRef = useRef(null);
