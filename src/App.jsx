@@ -5,7 +5,7 @@ import { LandingPage } from "./pages/LandingPage";
 import { DancesPage } from "@/ui/pages/dancas";
 import { NewsPage } from "./pages/NewsPage";
 import { AboutPage } from "./pages/AboutPage";
-import { TeamPage } from "./pages/TeamPage";
+import { TeamPage } from "@/ui/pages/equipa";
 import { DancePage } from "@/ui/pages/danca";
 import { SingleNewPage } from "./pages/SingleNewPage";
 import { ClassPage } from "@/ui/pages/aula";
