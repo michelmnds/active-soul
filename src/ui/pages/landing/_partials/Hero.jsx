@@ -17,8 +17,7 @@ export function Hero() {
         </div>
         <div className="relative min-h-[25rem] lg:min-h-[38rem]">
           <div className="absolute inset-0 overflow-hidden rounded-[2.5rem_2.5rem_8rem_2.5rem] shadow-card">
-            {/* eslint-disable-next-line react/no-unknown-property */}
-            <img src={landing.hero.image} alt="Aula de dança no Active Soul" className="h-full w-full object-cover" fetchPriority="high" />
+            <img {...{ fetchpriority: "high" }} src={landing.hero.image} alt="Aula de dança no Active Soul" className="h-full w-full object-cover" />
           </div>
           <div className="absolute -bottom-5 -left-5 rounded-card bg-white p-5 shadow-card sm:p-6">
             <p className="text-3xl font-semibold text-accent">Desde 2022</p>

@@ -128,8 +128,7 @@ export const news = [
       }
     ],
     "description": [
-      "Estivemos presente no MOV.",
-      "ONIC@ - Dia Nacional do Movimento e Atividade Física para Pessoas com Doença Crónica, uma iniciativa da Sociedade Portuguesa de Literacia em Saúde e da DGS.",
+      "Estivemos presente no MOV.ONIC@ - Dia Nacional do Movimento e Atividade Física para Pessoas com Doença Crónica, uma iniciativa da Sociedade Portuguesa de Literacia em Saúde e da DGS.",
       "Agradecemos o convite que nos foi endereçado em particular na pessoa da sua Vice-Presidente, Fisioterapeuta Mariana Fonseca."
     ],
     "image": "https://i.imgur.com/n9eM4Nn.jpg"
@@ -741,9 +740,7 @@ export const news = [
     "description": [
       "14 de fevereiro - Dia onde celebramos o amor ❤️",
       "Uma aula dedicada ao Ritmo KIZOMBA, onde poderás surpreender quem quiseres!",
-      "Para mais informações, manda email: activesoul.",
-      "studio@gmail.",
-      "com.",
+      "Para mais informações, manda email: activesoul.studio@gmail.com.",
       "Vem celebrar o amor a DANÇAR 😀"
     ],
     "image": "https://i.imgur.com/E5pRaM6.png"

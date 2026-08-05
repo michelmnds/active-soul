@@ -17,9 +17,9 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-brand-100 bg-white/90 backdrop-blur-md">
       <div className="container flex h-20 items-center gap-8">
         <Link to="/" className="shrink-0" aria-label="Active Soul, página inicial">
-          <img src="/logo-png.png" alt="Active Soul" className="h-12 w-auto" />
+          <img src="/logo-png.png" alt="Active Soul" className="h-auto w-36 sm:w-44" />
         </Link>
-        <nav className="hidden flex-1 items-center justify-center gap-5 xl:gap-7 lg:flex" aria-label="Navegação principal">
+        <nav className="hidden flex-1 items-center justify-center gap-5 xl:flex 2xl:gap-7" aria-label="Navegação principal">
           {site.nav.map((item) => (
             <NavLink
               key={item.href}
@@ -30,8 +30,8 @@ export function Header() {
             </NavLink>
           ))}
         </nav>
-        <Button className="ml-auto hidden lg:inline-flex" href={site.socials.whatsapp} target="_blank" rel="noreferrer">Marcar aula</Button>
-        <button className="ml-auto grid size-11 place-items-center rounded-full border border-brand-200 text-brand-950 lg:hidden" onClick={() => setDrawerOpen(true)} aria-label="Abrir menu" aria-expanded={drawerOpen} aria-controls="mobile-navigation" type="button">
+        <Button className="ml-auto hidden xl:inline-flex" href={site.socials.whatsapp} target="_blank" rel="noreferrer">Marcar aula</Button>
+        <button className="ml-auto grid size-11 place-items-center rounded-full border border-brand-200 text-brand-950 xl:hidden" onClick={() => setDrawerOpen(true)} aria-label="Abrir menu" aria-expanded={drawerOpen} aria-controls="mobile-navigation" type="button">
           <LuMenu className="text-2xl" aria-hidden />
         </button>
       </div>

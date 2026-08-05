@@ -10,8 +10,7 @@ export function PageHero({ eyebrow, title, description, image }) {
         </div>
         {image && (
           <div className="relative h-64 overflow-hidden rounded-card shadow-card sm:h-80 lg:h-[26rem]">
-            {/* eslint-disable-next-line react/no-unknown-property */}
-            <img src={image} alt="" className="h-full w-full object-cover" fetchPriority="high" />
+            <img {...{ fetchpriority: "high" }} src={image} alt="" className="h-full w-full object-cover" />
           </div>
         )}
       </div>

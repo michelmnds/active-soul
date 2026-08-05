@@ -47,7 +47,7 @@ export function MobileDrawer({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return createPortal(
-    <div className="fixed inset-0 z-[90] bg-brand-950/45 backdrop-blur-sm lg:hidden" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }} role="presentation">
+    <div className="fixed inset-0 z-[90] bg-brand-950/45 backdrop-blur-sm xl:hidden" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }} role="presentation">
       <aside id="mobile-navigation" ref={drawerRef} className="ml-auto flex h-full w-[min(88vw,24rem)] flex-col bg-white p-6 shadow-card" role="dialog" aria-modal="true" aria-label="Menu principal">
         <div className="flex items-center justify-between">
           <p className="font-semibold text-brand-950">Menu</p>

@@ -15,8 +15,7 @@ export function EventHero({ event }) {
             {event.schedule[0]?.location && <p className="mt-5 text-lg text-brand-700">{event.schedule[0].location}</p>}
           </div>
           <div className="overflow-hidden rounded-card bg-brand-200 shadow-card">
-            {/* eslint-disable-next-line react/no-unknown-property */}
-            <img src={event.image} alt={event.title} className="aspect-[4/3] h-full w-full object-cover" fetchPriority="high" />
+            <img {...{ fetchpriority: "high" }} src={event.image} alt={event.title} className="aspect-[4/3] h-full w-full object-cover" />
           </div>
         </div>
       </div>

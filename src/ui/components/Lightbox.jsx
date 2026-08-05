@@ -15,6 +15,10 @@ export function Lightbox({ isOpen, onClose, image, alt, width, height }) {
 
     const handleKeyDown = (event) => {
       if (event.key === "Escape") onClose();
+      if (event.key === "Tab") {
+        event.preventDefault();
+        closeRef.current?.focus();
+      }
     };
     document.addEventListener("keydown", handleKeyDown);
     return () => {
