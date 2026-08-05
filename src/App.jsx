@@ -3,11 +3,11 @@ import "@mantine/core/styles.css";
 import { Routes, Route } from "react-router-dom";
 import { LandingPage } from "@/ui/pages/landing";
 import { DancesPage } from "@/ui/pages/dancas";
-import { NewsPage } from "./pages/NewsPage";
+import { EventsPage } from "@/ui/pages/eventos";
 import { AboutPage } from "./pages/AboutPage";
 import { TeamPage } from "@/ui/pages/equipa";
 import { DancePage } from "@/ui/pages/danca";
-import { SingleNewPage } from "./pages/SingleNewPage";
+import { EventPage } from "@/ui/pages/evento";
 import { ClassPage } from "@/ui/pages/aula";
 import { ClassesPage } from "@/ui/pages/aulas";
 import { MantineProvider } from "@mantine/core";
@@ -26,8 +26,8 @@ export const App = () => {
           <Route path="/" element={<LandingPage />} />
           <Route path="/dancas" element={<DancesPage />} />
           <Route path="/danca/:id" element={<DancePage />} />
-          <Route path="/eventos" element={<NewsPage />} />
-          <Route path="/evento/:currentNewId" element={<SingleNewPage />} />
+          <Route path="/eventos" element={<EventsPage />} />
+          <Route path="/evento/:id" element={<EventPage />} />
           <Route path="/aulas" element={<ClassesPage />} />
           <Route path="/aula/:id" element={<ClassPage />} />
           <Route path="/sobre" element={<AboutPage />} />
