@@ -11,8 +11,8 @@ import { SingleNewPage } from "./pages/SingleNewPage";
 import { ClassPage } from "@/ui/pages/aula";
 import { ClassesPage } from "@/ui/pages/aulas";
 import { MantineProvider } from "@mantine/core";
-import { ServicePage } from "./pages/ServicePage";
-import { SingleServicePage } from "./pages/SingleServicePage";
+import { ServicePage } from "@/ui/pages/servico";
+import { ServicesPage } from "@/ui/pages/servicos";
 import { ArtPage } from "@/ui/pages/arte";
 import { ArtsPage } from "@/ui/pages/artes";
 import { Layout } from "@/ui/layout";
@@ -34,8 +34,8 @@ export const App = () => {
           <Route path="/equipa" element={<TeamPage />} />
           <Route path="/artes" element={<ArtsPage />} />
           <Route path="/arte/:id" element={<ArtPage />} />
-          <Route path="/servicos" element={<ServicePage />} />
-          <Route path="/servico/:currentServiceId" element={<SingleServicePage />} />
+          <Route path="/servicos" element={<ServicesPage />} />
+          <Route path="/servico/:id" element={<ServicePage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
