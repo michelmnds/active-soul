@@ -1,85 +1,40 @@
-import "@mantine/carousel/styles.css";
-import "@mantine/core/styles.css";
-import { Routes, Route, useLocation } from "react-router-dom";
-import { LandingPage } from "./pages/LandingPage";
-import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
-import { useState, useEffect } from "react";
-import { DancePage } from "./pages/DancePage";
-import { NewsPage } from "./pages/NewsPage";
-import { AboutPage } from "./pages/AboutPage";
-import { TeamPage } from "./pages/TeamPage";
-import { SideBar } from "./components/SideBar";
-import { SingleDancePage } from "./pages/SingelCardPage";
-import { SingleNewPage } from "./pages/SingleNewPage";
-import { SingleClassPage } from "./pages/SingleClassPage";
-import { ClassPage } from "./pages/ClassPage";
-import { MantineProvider } from "@mantine/core";
-import { ServicePage } from "./pages/ServicePage";
-import { SingleServicePage } from "./pages/SingleServicePage";
-import { MusicPlayer } from "./components/MusicPlayer";
-import { ArtPage } from "./pages/ArtPage";
-import { SingleArtPage } from "./pages/SingleArtPage";
-
-function ScrollToTop() {
-  const { pathname } = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return null;
-}
+import { Routes, Route } from "react-router-dom";
+import { LandingPage } from "@/ui/pages/landing";
+import { DancesPage } from "@/ui/pages/dancas";
+import { EventsPage } from "@/ui/pages/eventos";
+import { AboutPage } from "@/ui/pages/sobre";
+import { TeamPage } from "@/ui/pages/equipa";
+import { DancePage } from "@/ui/pages/danca";
+import { EventPage } from "@/ui/pages/evento";
+import { ClassPage } from "@/ui/pages/aula";
+import { ClassesPage } from "@/ui/pages/aulas";
+import { ServicePage } from "@/ui/pages/servico";
+import { ServicesPage } from "@/ui/pages/servicos";
+import { ArtPage } from "@/ui/pages/arte";
+import { ArtsPage } from "@/ui/pages/artes";
+import { Layout } from "@/ui/layout";
+import { NotFoundPage } from "@/ui/pages/not-found";
 
 export const App = () => {
-  const [menu, setMenu] = useState(false);
-
   return (
-    <MantineProvider>
-      <Header menu={menu} setMenu={setMenu} />
-      <MusicPlayer />
-      <SideBar menu={menu} setMenu={setMenu} />
-      <Routes>
-        <Route
-          path="/"
-          element={<LandingPage setMenu={setMenu} menu={menu} />}
-        />
-
-        <Route path="/dancas" element={<DancePage menu={menu} />} />
-        <Route
-          path="/danca/:danceId"
-          element={<SingleDancePage menu={menu} />}
-        />
-
-        <Route path="/eventos" element={<NewsPage menu={menu} />} />
-        <Route
-          path="/evento/:currentNewId"
-          element={<SingleNewPage menu={menu} />}
-        />
-
-        <Route path="/aulas" element={<ClassPage menu={menu} />} />
-        <Route
-          path="/aula/:currentClassId"
-          element={<SingleClassPage menu={menu} />}
-        />
-
-        <Route path="/sobre" element={<AboutPage menu={menu} />} />
-
-        <Route path="/equipa" element={<TeamPage menu={menu} />} />
-
-        <Route path="/artes" element={<ArtPage menu={menu} />} />
-        <Route path="/arte/:artId" element={<SingleArtPage menu={menu} />} />
-
-        <Route path="/servicos" element={<ServicePage menu={menu} />} />
-        <Route
-          path="/servico/:currentServiceId"
-          element={<SingleServicePage menu={menu} />}
-        />
-
-        <Route path="*" element={<LandingPage />} />
-      </Routes>
-      <ScrollToTop />
-      <Footer />
-    </MantineProvider>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/dancas" element={<DancesPage />} />
+        <Route path="/danca/:id" element={<DancePage />} />
+        <Route path="/eventos" element={<EventsPage />} />
+        <Route path="/evento/:id" element={<EventPage />} />
+        <Route path="/aulas" element={<ClassesPage />} />
+        <Route path="/aula/:id" element={<ClassPage />} />
+        <Route path="/sobre" element={<AboutPage />} />
+        <Route path="/equipa" element={<TeamPage />} />
+        <Route path="/artes" element={<ArtsPage />} />
+        <Route path="/arte/:id" element={<ArtPage />} />
+        <Route path="/servicos" element={<ServicesPage />} />
+        <Route path="/servico/:id" element={<ServicePage />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Route>
+    </Routes>
   );
 };
 
