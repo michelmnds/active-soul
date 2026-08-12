@@ -12,7 +12,7 @@ export function SectionHeading({ eyebrow, title, lede, align = "left", className
     >
       {eyebrow && <p className="text-eyebrow font-medium uppercase text-accent">{eyebrow}</p>}
       <h2 className="text-display font-semibold text-brand-950">{title}</h2>
-      {lede && <p className="max-w-2xl text-base leading-7 text-brand-700 sm:text-lg">{lede}</p>}
+      {lede && <p className="max-w-2xl text-justify text-base leading-7 text-brand-700 sm:text-lg">{lede}</p>}
     </div>
   );
 }

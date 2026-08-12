@@ -10,6 +10,7 @@ export function MediaCard({
   aspect = "portrait",
   dateLabel,
   priority = false,
+  justifySubtitle = false,
 }) {
   const aspectClass = aspect === "landscape" ? "aspect-[4/3]" : "aspect-[4/5]";
 
@@ -34,7 +35,7 @@ export function MediaCard({
       <div className="flex min-h-24 items-start justify-between gap-4 p-5">
         <div>
           <h3 className="text-lg font-semibold text-brand-950">{title}</h3>
-          {subtitle && <p className="mt-1 text-sm leading-6 text-brand-700">{subtitle}</p>}
+          {subtitle && <p className={`mt-1 text-sm leading-6 text-brand-700 ${justifySubtitle ? "text-justify" : ""}`}>{subtitle}</p>}
         </div>
         <LuArrowUpRight className="mt-1 shrink-0 text-xl text-accent transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden />
       </div>

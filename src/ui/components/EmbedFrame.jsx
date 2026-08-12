@@ -8,7 +8,7 @@ export function EmbedFrame({ embed, title }) {
   if (embed.type === "instagram") {
     return (
       <div className="rounded-card bg-brand-50 p-6 text-center">
-        <p className="mb-4 text-brand-700">Veja este momento no Instagram.</p>
+        <p className="mb-4 text-justify text-brand-700">Veja este momento no Instagram.</p>
         <Button href={embed.src} target="_blank" rel="noreferrer" variant="ghost">Abrir Instagram <LuExternalLink aria-hidden /></Button>
       </div>
     );

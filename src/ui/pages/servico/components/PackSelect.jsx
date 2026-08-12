@@ -16,20 +16,20 @@ export function PackSelect({ service }) {
       </div>
       <div className="rounded-card bg-brand-50 p-6">
         <h2 className="text-title font-semibold text-brand-950">{selectedPack.name}</h2>
-        <ul className="mt-5 space-y-3 text-sm leading-6 text-brand-800">
+        <ul className="mt-5 space-y-3 text-justify text-sm leading-6 text-brand-800">
           {selectedPack.includes.map((item) => <li key={item} className="flex gap-3 before:mt-2 before:size-1.5 before:shrink-0 before:rounded-full before:bg-accent">{item}</li>)}
         </ul>
-        {selectedPack.extra && <p className="mt-5 text-sm leading-6 text-brand-700">{selectedPack.extra}</p>}
+        {selectedPack.extra && <p className="mt-5 text-justify text-sm leading-6 text-brand-700">{selectedPack.extra}</p>}
       </div>
       <div>
         <h2 className="text-lg font-semibold text-brand-950">Opções extra</h2>
-        <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+        <ul className="mt-4 grid gap-3 text-justify sm:grid-cols-2">
           {service.paidExtras.map((item) => <li key={item} className="rounded-xl border border-brand-200 p-4 text-sm leading-6 text-brand-800">{item}</li>)}
         </ul>
       </div>
       <details className="rounded-card border border-brand-200 p-5">
         <summary className="cursor-pointer font-semibold text-brand-950">Normas para todos os packs</summary>
-        <ul className="mt-4 space-y-3 text-sm leading-6 text-brand-700">
+        <ul className="mt-4 space-y-3 text-justify text-sm leading-6 text-brand-700">
           {service.terms.map((term) => <li key={term}>{term}</li>)}
         </ul>
       </details>

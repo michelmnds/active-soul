@@ -15,7 +15,7 @@ export function EventsPage() {
 
   return (
     <>
-      <PageHero eyebrow="Em palco e pela cidade" title="Eventos Active Soul" description="Espetáculos, workshops e experiências que juntam movimento, criatividade e comunidade." image={news[0].image} />
+      <PageHero eyebrow="Em palco e pela cidade" title="Eventos Active Soul" description="Espetáculos, workshops e experiências para viver o movimento, despertar a criatividade e fortalecer a comunidade." image={news[0].image} />
       <UpcomingEvents events={upcomingEvents} />
       <EventsArchive events={archivedEvents} />
     </>

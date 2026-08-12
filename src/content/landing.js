@@ -1,7 +1,7 @@
 export const landing = {
   hero: {
     eyebrow: "Dança, bem-estar e artes",
-    title: "Ativa o corpo. Solta a alma.",
+    title: "Ativa o teu corpo.",
     description:
       "Um estúdio em Castelo Branco onde o movimento, a criatividade e a comunidade crescem juntos.",
     image: "https://i.imgur.com/I7JmZ4d.jpg",
@@ -12,6 +12,8 @@ export const landing = {
     src: "https://www.youtube.com/embed/70_mQYFayY8",
   },
   whatsapp: "https://wa.me/message/P62IN6OYSZ5YN1",
+  registrationForm:
+    "https://docs.google.com/forms/d/e/1FAIpQLSdbBxfQjoSskmuoqiQQldGLS11bUpsZLTB7H-YjQBx04N31vg/viewform",
   tiles: [
     {
       title: "Dança",

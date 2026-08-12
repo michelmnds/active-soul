@@ -2,11 +2,11 @@
 export function PageHero({ eyebrow, title, description, image }) {
   return (
     <section className="relative overflow-hidden bg-brand-100">
-      <div className={`container grid min-h-[22rem] items-center gap-10 py-16 sm:py-20 ${image ? "lg:grid-cols-[1fr_.85fr]" : ""}`}>
+      <div className={`container grid min-h-[22rem] items-center gap-10 py-16 sm:py-20 lg:gap-16 ${image ? "lg:grid-cols-[1fr_.85fr]" : ""}`}>
         <div className="relative z-10 max-w-3xl">
           {eyebrow && <p className="text-eyebrow font-medium uppercase text-accent">{eyebrow}</p>}
           <h1 className="mt-4 text-display-lg font-semibold text-brand-950">{title}</h1>
-          {description && <p className="mt-5 max-w-2xl text-lg leading-8 text-brand-700">{description}</p>}
+          {description && <p className="mt-5 max-w-2xl text-justify text-lg leading-8 text-brand-700">{description}</p>}
         </div>
         {image && (
           <div className="relative h-64 overflow-hidden rounded-card shadow-card sm:h-80 lg:h-[26rem]">

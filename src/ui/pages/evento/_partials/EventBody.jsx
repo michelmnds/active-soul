@@ -7,7 +7,7 @@ export function EventBody({ event }) {
   return (
     <Section>
       <div className="mx-auto max-w-4xl">
-        <div className="space-y-5 text-base leading-8 text-brand-800 sm:text-lg">
+        <div className="space-y-5 text-justify text-base leading-8 text-brand-800 sm:text-lg">
           {event.description.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </div>
 
@@ -39,7 +39,7 @@ export function EventBody({ event }) {
         <div className="mt-12 rounded-card bg-brand-950 p-7 text-white sm:flex sm:items-center sm:justify-between sm:gap-8">
           <div>
             <h2 className="text-title font-semibold">Quer saber mais?</h2>
-            <p className="mt-2 text-sm leading-6 text-brand-200">Fale connosco diretamente pelo WhatsApp.</p>
+            <p className="mt-2 text-justify text-sm leading-6 text-brand-200">Fale connosco diretamente pelo WhatsApp.</p>
           </div>
           <Button className="mt-5 shrink-0 sm:mt-0" href={site.socials.whatsapp} target="_blank" rel="noreferrer"><LuMessageCircle aria-hidden /> Contactar</Button>
         </div>

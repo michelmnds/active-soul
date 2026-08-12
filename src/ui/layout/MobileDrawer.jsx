@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 import { NavLink } from "react-router-dom";
 import { LuX } from "react-icons/lu";
+import { landing } from "@/content/landing";
 import { site } from "@/content/site";
 import { Button } from "@/ui/components";
 
@@ -67,7 +68,7 @@ export function MobileDrawer({ isOpen, onClose }) {
             </NavLink>
           ))}
         </nav>
-        <Button className="mt-auto" href={site.socials.whatsapp} target="_blank" rel="noreferrer">Marcar aula</Button>
+        <Button className="mt-auto" href={landing.registrationForm} target="_blank" rel="noreferrer">Inscrição</Button>
       </aside>
     </div>,
     document.body,

@@ -9,7 +9,7 @@ export function Hero() {
         <div className="relative z-10 max-w-2xl">
           <p className="text-eyebrow font-medium uppercase text-accent">{landing.hero.eyebrow}</p>
           <h1 className="mt-5 text-display-lg font-semibold text-brand-950">{landing.hero.title}</h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-brand-700">{landing.hero.description}</p>
+          <p className="mt-6 max-w-xl text-justify text-lg leading-8 text-brand-700">{landing.hero.description}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button href={landing.whatsapp} target="_blank" rel="noreferrer">Marcar aula <LuArrowRight aria-hidden /></Button>
             <Button to="/dancas" variant="ghost">Explorar modalidades</Button>
@@ -21,7 +21,7 @@ export function Hero() {
           </div>
           <div className="absolute -bottom-5 -left-5 rounded-card bg-white p-5 shadow-card sm:p-6">
             <p className="text-3xl font-semibold text-accent">Desde 2022</p>
-            <p className="mt-1 text-sm text-brand-700">a ativar Castelo Branco</p>
+            <p className="mt-1 text-sm text-brand-700">em Castelo Branco</p>
           </div>
         </div>
       </div>

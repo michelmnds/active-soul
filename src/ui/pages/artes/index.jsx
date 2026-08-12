@@ -6,7 +6,7 @@ export function ArtsPage() {
   useDocumentTitle("Artes");
   return (
     <>
-      <PageHero eyebrow="Expressão sem limites" title="Artes que ganham palco" description="Voz, interpretação e imaginação num espaço onde cada pessoa pode experimentar e criar." image={arts[2].image} />
+      <PageHero eyebrow="Expressão sem limites" title="Onde a arte ganha vida" description="Voz, interpretação e imaginação num espaço onde cada pessoa pode experimentar e criar." image={arts[2].image} />
       <CollectionGrid items={arts} route="arte" />
     </>
   );

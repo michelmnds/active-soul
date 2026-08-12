@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { LuMenu } from "react-icons/lu";
+import { landing } from "@/content/landing";
 import { site } from "@/content/site";
 import { Button } from "@/ui/components";
 import { MobileDrawer } from "./MobileDrawer";
@@ -30,7 +31,7 @@ export function Header() {
             </NavLink>
           ))}
         </nav>
-        <Button className="ml-auto hidden xl:inline-flex" href={site.socials.whatsapp} target="_blank" rel="noreferrer">Marcar aula</Button>
+        <Button className="ml-auto hidden xl:inline-flex" href={landing.registrationForm} target="_blank" rel="noreferrer">Inscrição</Button>
         <button className="ml-auto grid size-11 place-items-center rounded-full border border-brand-200 text-brand-950 xl:hidden" onClick={() => setDrawerOpen(true)} aria-label="Abrir menu" aria-expanded={drawerOpen} aria-controls="mobile-navigation" type="button">
           <LuMenu className="text-2xl" aria-hidden />
         </button>

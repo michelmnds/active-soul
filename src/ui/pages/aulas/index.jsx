@@ -6,7 +6,7 @@ export function ClassesPage() {
   useDocumentTitle("Bem-estar");
   return (
     <>
-      <PageHero eyebrow="Corpo e equilíbrio" title="Bem-estar em movimento" description="Aulas pensadas para fortalecer, cuidar e trazer mais energia ao teu dia." image={classes[2].image} />
+      <PageHero eyebrow="Corpo e equilíbrio" title="Bem-estar" description="Aulas pensadas para fortalecer, cuidar e trazer mais energia ao teu dia." image={classes[2].image} />
       <CollectionGrid items={classes} route="aula" />
     </>
   );

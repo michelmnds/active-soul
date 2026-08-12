@@ -6,7 +6,7 @@ export function ServicesPage() {
   useDocumentTitle("Serviços");
   return (
     <>
-      <PageHero eyebrow="Criamos consigo" title="Serviços com movimento" description="Do primeiro ensaio ao grande dia, desenhamos experiências memoráveis para pessoas, marcas e comunidades." image={services[1].image} />
+      <PageHero eyebrow="Criamos consigo" title="Serviços com movimento" description="Do palco aos eventos privados, das empresas às escolas, levamos a energia da dança, da música e da animação a qualquer ocasião, criando momentos autênticos e feitos à medida de cada evento." image={services[1].image} />
       <CollectionGrid items={services} route="servico" titleField="title" subtitleField="priceNote" aspect="landscape" />
     </>
   );
