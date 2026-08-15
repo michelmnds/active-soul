@@ -11,9 +11,9 @@ export function Timetable() {
       <div className="grid items-center gap-10 lg:grid-cols-[.75fr_1.25fr] lg:gap-16">
         <div>
           <SectionHeading
-            eyebrow="Planeie a semana"
+            eyebrow="Planeia a semana"
             title={landing.timetable.title}
-            lede="Consulte o horário completo e encontre a aula certa para si."
+            lede="Consulta o horário completo e encontra a aula certa para ti."
           />
           <div className="mt-7 rounded-card border border-brand-200 bg-brand-50 p-5">
             {landing.registrationNotice.map((notice) => (

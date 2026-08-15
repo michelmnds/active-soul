@@ -23,7 +23,7 @@ export const arts = [
     name: "Teatro Musical",
     modality: "Aulas a partir dos 6 anos",
     description: [
-      "Se gostam de cantar, dançar e representar, esta é a aula ideal para desenvolver todas estas áreas em um ambiente acolhedor, criativo e cheio de energia! As aulas combinam técnica vocal, interpretação e expressão corporal.",
+      "Se gostas de cantar, dançar e representar, esta é a aula ideal para desenvolver todas estas áreas num ambiente acolhedor, criativo e cheio de energia! As aulas combinam técnica vocal, interpretação e expressão corporal.",
     ],
     image: "/images/6bdn2GL.webp",
   },

@@ -164,7 +164,7 @@ export const news = [
     ],
     "description": [
       "A companhia Active Soul teve o privilégio de ser convidada a marcar presença na Santa Casa da Misericórdia de Castelo Branco, no âmbito das comemorações do Dia Mundial do Teatro, celebrado a 27 de março.",
-      "Gostaríamos de expressar o nosso sincero agradecimento pelo convite, pela recepção calorosa e pela oportunidade de partilhar este momento tão especial.",
+      "Gostaríamos de expressar o nosso sincero agradecimento pelo convite, pela receção calorosa e pela oportunidade de partilhar este momento tão especial.",
       "Foi, sem dúvida, uma experiência enriquecedora que levaremos connosco com muito carinho."
     ],
     "image": "/images/mECl4hT.webp"
@@ -184,8 +184,8 @@ export const news = [
     "description": [
       "Vem celebrar o Dia Mundial da Atividade Física connosco!",
       "No dia 6 de abril, junta-te a nós para um final de tarde cheio de energia, movimento e boa disposição.",
-      "Preparamos uma caminhada e sessão de dança abertas a toda a comunidade — porque cuidar do corpo também é divertir-se!",
-      "Edifício da Lagoa – Zona de Lazer de Castelo Branco às18h20.",
+      "Preparámos uma caminhada e sessão de dança abertas a toda a comunidade — porque cuidar do corpo também é divertir-se!",
+      "Edifício da Lagoa – Zona de Lazer de Castelo Branco às 18h20.",
       "A atividade é gratuita.",
       "Traz a família, amigos e muita vontade de mexer!",
       "Vamos juntos promover uma vida mais saudável e equilibrada."
@@ -212,7 +212,7 @@ export const news = [
     ],
     "image": "/images/KaDGYHB.webp",
     "cta": {
-      "text": "Veja como foi",
+      "text": "Vê como foi",
       "label": "Ver no Instagram",
       "href": "https://www.instagram.com/reels/DWBlsq4DNX_/"
     }
@@ -235,7 +235,7 @@ export const news = [
       }
     ],
     "description": [
-      "Dia 14 de Março foi um sábado cheio de dança, energia e partilha!",
+      "Dia 14 de março foi um sábado cheio de dança, energia e partilha!",
       "Começámos a manhã com um Workshop de Contemporâneo com a Professora Margarida Nogueira, onde os nossos alunos puderam explorar movimento, expressão e criatividade.",
       "Terminamos o dia da melhor forma, com muita atitude e ritmo no Workshop de Hip Hop com o Professor Pedro Teixeira.",
       "Restaurante Capelo’s, deixamos um sincero agradecimento pela receção e simpatia.",
@@ -276,7 +276,7 @@ export const news = [
     ],
     "image": "/images/wxHNPte.webp",
     "cta": {
-      "text": "Reviva este momento",
+      "text": "Revive este momento",
       "label": "Ver fotografias",
       "href": "https://throughrubenseyes.pixieset.com/brisamar/"
     }
@@ -323,7 +323,7 @@ export const news = [
     ],
     "image": "/images/3hxfbvh.webp",
     "cta": {
-      "text": "Faça a sua inscrição",
+      "text": "Faz a tua inscrição",
       "label": "Inscrever",
       "href": "https://forms.gle/Vk4Hp8ukXMYVeftt6"
     }
@@ -427,7 +427,7 @@ export const news = [
     ],
     "image": "/images/JoKUdQr.webp",
     "cta": {
-      "text": "Garanta o seu lugar",
+      "text": "Garante o teu lugar",
       "label": "Comprar bilhete",
       "href": "https://www.clustersenses.com/complexo-dos-sentidos-no-k/"
     }
@@ -475,8 +475,8 @@ export const news = [
       }
     ],
     "description": [
-      "Vamos participar na 2º Edição do VitalSport em Castelo Branco na Decathlon da nossa cidade.",
-      "Vem assistir às nossas performances e vamos ter um stand das 9h00 ao 12h00 onde poderás ver um pouco do nosso percurso.",
+      "Vamos participar na 2.ª Edição do VitalSport em Castelo Branco na Decathlon da nossa cidade.",
+      "Vem assistir às nossas performances e vamos ter um stand das 9h00 às 12h00 onde poderás ver um pouco do nosso percurso.",
       "Esperamos por vocês"
     ],
     "image": "/images/KO13BNw.webp"
@@ -532,12 +532,12 @@ export const news = [
     "description": [
       "Vamos estar às 19h30 no Festival + Solidário para uma pequena apresentação de dança!",
       "Ao adquirir os bilhetes para o evento, aproveitas:",
-      "- 15% de desconto para ti",
-      "- 10% para o Active Soul",
+      "• 15% de desconto para ti",
+      "• 10% para o Active Soul",
       "Para usufruir destes descontos, basta inserires o código correspondente durante a compra dos bilhetes.",
-      "Segue abaixo os código de desconto:",
+      "Seguem abaixo os códigos de desconto:",
       "Código: +SACTIVESOUL25",
-      "Esperamos por vocês!"
+      "Esperamos por ti!"
     ],
     "image": "/images/CiGlHDa.webp"
   },
@@ -560,11 +560,11 @@ export const news = [
     ],
     "description": [
       "No Espetáculo “Bem me quero”, o público é convidado a embarcar numa preparação de espetáculo, onde o nosso cliente Active Soul é o principal interveniente.",
-      "Com danças encantadoras e música ao vivo, o espetáculo celebra a importância também do bem estar físico e psicológico."
+      "Com danças encantadoras e música ao vivo, o espetáculo celebra a importância também do bem-estar físico e psicológico."
     ],
     "image": "/images/SDK8VUj.webp",
     "cta": {
-      "text": "Reviva este momento",
+      "text": "Revive este momento",
       "label": "Ver fotografias",
       "href": "https://mega.nz/folder/Vn8jjRTC#pXEYLsniZJu2JbicF-Kp5w/folder/E6tlzKIL"
     }
@@ -609,7 +609,7 @@ export const news = [
     ],
     "description": [
       "O Espetáculo \"Era uma vez\" vai voltar a sair do estúdio para o público, desta vez no Alegro Castelo Branco dia 5 de abril pelas 16h00.",
-      "Para este espetáculo ser um sucesso basta entrares conosco nesta magia, no mundo encantado onde tudo é possível.",
+      "Para este espetáculo ser um sucesso basta entrares connosco nesta magia, no mundo encantado onde tudo é possível.",
       "Não é necessário bilhete."
     ],
     "image": "/images/VL7XEbx.webp"
@@ -663,8 +663,8 @@ export const news = [
     ],
     "description": [
       "No CENTRO SOCIAL DE MAXIAIS, querem que todos sejam felizes a dançar.",
-      "ATREVE-TE e INSCREVE-TE, no nosso WorKshop de Afro Latinas, que decorrerá em 8 aulas, com o Professor Fábio Scoola e Patrícia Lourenço.",
-      "Podes inscrever-te através do email: centrosocialmaxiais@gmail.com",
+      "ATREVE-TE e INSCREVE-TE, no nosso Workshop de Afro Latinas, que decorrerá em 8 aulas, com o Professor Fábio Scoola e Patrícia Lourenço.",
+      "Podes inscrever-te através do e-mail: centrosocialmaxiais@gmail.com",
       "Público-Alvo:",
       "Alunos adultos, com par (podendo ser homem com homem e mulher com mulher) sem necessidade de experiência prévia em dança, sendo acessível tanto para iniciantes como para aqueles que já possuem algum conhecimento."
     ],
@@ -683,7 +683,7 @@ export const news = [
       }
     ],
     "description": [
-      "Dia 16 de Março, realizou-se a 1ª atividade do Projeto \"Movimenta+\" da Unidade Local de Saúde Castelo Branco, no Largo da Devesa. Este projeto visa promover a saúde, prevenir doenças na comunidade local e esta primeira edição vai ter como tema \"Fatores de Risco Cardiocerebrovasculares\".",
+      "Dia 16 de março, realizou-se a 1ª atividade do Projeto \"Movimenta+\" da Unidade Local de Saúde Castelo Branco, no Largo da Devesa. Este projeto visa promover a saúde, prevenir doenças na comunidade local e esta primeira edição vai ter como tema \"Fatores de Risco Cardiocerebrovasculares\".",
       "Foram realizados diferentes rastreios e sessões de educação para a saúde, sobre riscos como tabagismo, obesidade, dislipidemia, hipertensão, diabetes e inatividade física. A sessão \"Movimenta a Tua Saúde\" terminou com a colaboração do nosso estúdio para ajudar a promover momentos mais ativos."
     ],
     "image": "/images/1SPa0DP.webp"
@@ -740,7 +740,7 @@ export const news = [
     "description": [
       "14 de fevereiro - Dia onde celebramos o amor ❤️",
       "Uma aula dedicada ao Ritmo KIZOMBA, onde poderás surpreender quem quiseres!",
-      "Para mais informações, manda email: activesoul.studio@gmail.com.",
+      "Para mais informações, manda e-mail: activesoul.studio@gmail.com.",
       "Vem celebrar o amor a DANÇAR 😀"
     ],
     "image": "/images/E5pRaM6.webp"
@@ -770,7 +770,7 @@ export const news = [
     ],
     "image": "/images/Zx7eG99.webp",
     "cta": {
-      "text": "Reviva este momento",
+      "text": "Revive este momento",
       "label": "Ver fotografias",
       "href": "https://mega.nz/folder/gn8AXJbT#btq0tig8jZKjBg-gU-LmBg"
     },
@@ -804,8 +804,8 @@ export const news = [
     "description": [
       "Dia 8 de dezembro pelas 18h00 no Mercadinho de Natal o Active Soul irá realizar um espetáculo de luzes com asas luminosas sincronizadas ao ritmo de canções natalícias e interação com as pessoas.",
       "Dia 13 de dezembro pelas 18h00 no Mercadinho de Natal o Active Soul irá realizar um desfile de natal com artistas de rua disfarçados das mais diversas personagens natalícias, sempre com música e dança à mistura.",
-      "Dia 21 de dezembro pelas 16h00  haverá um Flash Mob, onde o Mercadinho de Natal será invadido por personagens natalícias a dançar com muita animação.",
-      "Não perca estas performances, esperamos por si no Mercadinho de Natal em Castelo Branco."
+      "Dia 21 de dezembro pelas 16h00 haverá um Flash Mob, onde o Mercadinho de Natal será invadido por personagens natalícias a dançar com muita animação.",
+      "Não percas estas performances, esperamos por ti no Mercadinho de Natal em Castelo Branco."
     ],
     "image": "/images/kQ6woaN.webp",
     "images": [
@@ -840,7 +840,7 @@ export const news = [
     ],
     "image": "/images/CFJkHNz.webp",
     "cta": {
-      "text": "Faça a sua inscrição",
+      "text": "Faz a tua inscrição",
       "label": "Inscrever",
       "href": "https://forms.gle/y6RNg1hgaZvAuLrMA"
     },
@@ -883,7 +883,7 @@ export const news = [
     ],
     "description": [
       "Dia 20 de novembro celebra-se o Dia Nacional do Pijama e este ano não será diferente dos outros e vamos celebrá-lo juntos.",
-      "Terá apenas de tirar uma fotografia com o pijama mais original que tiver (a fotografia pode ser em família) e postar nas redes sociais identificando o estúdio Active Soul e colocar na descrição da fotografia uma frase original sobre o dia comemorativo.",
+      "Terás apenas de tirar uma fotografia com o pijama mais original que tiveres (a fotografia pode ser em família) e publicá-la nas redes sociais, identificando o estúdio Active Soul e colocando na descrição da fotografia uma frase original sobre o dia comemorativo.",
       "A fotografia e frase mais original ganhará um artigo do Estúdio Active Soul.",
       "Concurso válido para alunos do estúdio e para a comunidade em geral.",
       "As candidaturas são até dia 22 às 21h00, após essa data não será contabilizado.",
@@ -946,7 +946,7 @@ export const news = [
       }
     ],
     "description": [
-      "Dia 19 de outubro, a nossa Professora Leonor Farias começou a sua tarde levando a dançar até à  \"Caminhada Ecológica\" realizada pelo Centro Social de Maxiais."
+      "Dia 19 de outubro, a nossa Professora Leonor Farias começou a sua tarde levando a dançar até à \"Caminhada Ecológica\" realizada pelo Centro Social de Maxiais."
     ],
     "image": "/images/7Qh8jWR.webp"
   },
@@ -963,7 +963,7 @@ export const news = [
       }
     ],
     "description": [
-      "Queres também que façamos parte do teu evento? Entra em contacto connosco e fazemos o SEU evento ser único, diferente e cheio de energia!"
+      "Queres também que façamos parte do teu evento? Entra em contacto connosco e fazemos o TEU evento ser único, diferente e cheio de energia!"
     ],
     "image": "/images/FVQuaeI.webp",
     "images": [
@@ -1031,9 +1031,9 @@ export const news = [
     ],
     "description": [
       "Hoje participámos na Primeira Edição do evento VitalSport em Castelo Branco na Decathlon da nossa cidade.",
-      "Estivemos presentes com um dueto de contemporâneo, alguns alunos de Pop dance e terminámos todos em cima de palco (e fora dele) a dançar, porque QUEM DANÇA É MAIS FELIZ, certo ?",
+      "Estivemos presentes com um dueto de contemporâneo, alguns alunos de Pop dance e terminámos todos em cima de palco (e fora dele) a dançar, porque QUEM DANÇA É MAIS FELIZ, certo?",
       "Seguido das demonstrações tivemos também uma aula pilates com a Prof. Sandra Vicente 🤍",
-      "Onde nos queres ver a seguir ?",
+      "Onde nos queres ver a seguir?",
       "Lança-nos o desafio 👌🏻",
       "Até já 👋"
     ],
@@ -1059,7 +1059,7 @@ export const news = [
       }
     ],
     "description": [
-      "Vem passar uma manhã divertida e com muita dança conosco. Não é necessário inscrição basta aparecer. É para todas as idades! Esperamos por vocês!"
+      "Vem passar uma manhã divertida e com muita dança connosco. Não é necessária inscrição, basta apareceres. É para todas as idades! Esperamos por ti!"
     ],
     "image": "/images/f03agbg.webp",
     "images": [
@@ -1084,9 +1084,9 @@ export const news = [
       "• 15% de desconto para ti",
       "• 10% para o Active Soul",
       "Para usufruir destes descontos, basta inserires o código correspondente durante a compra dos bilhetes.",
-      "Segue abaixo os código de desconto:",
+      "Seguem abaixo os códigos de desconto:",
       "Código: +SACTIVESOUL24",
-      "Esperamos por vocês!"
+      "Esperamos por ti!"
     ],
     "image": "/images/0D10BQR.webp"
   },
@@ -1107,7 +1107,7 @@ export const news = [
     ],
     "image": "/images/zv0G6GW.webp",
     "cta": {
-      "text": "Reviva este momento",
+      "text": "Revive este momento",
       "label": "Ver fotografias",
       "href": "https://mega.nz/folder/1u1QQACD#4FvfQITQ2U-xgyXuMtcfdQ"
     },
@@ -1129,7 +1129,7 @@ export const news = [
       }
     ],
     "description": [
-      "É já dia 18 de Maio!",
+      "É já dia 18 de maio!",
       "O dia é para a família e ninguém ficará de fora!",
       "Petiscos e atividades para todos ao longo do dia!",
       "Vamos ter uma demonstração às 14h00 e uma aula de dança para toda a família."
@@ -1139,7 +1139,7 @@ export const news = [
       "/images/a1hudPx.webp"
     ],
     "cta": {
-      "text": "Faça a sua inscrição",
+      "text": "Faz a tua inscrição",
       "label": "Inscrever",
       "href": "https://docs.google.com/forms/d/e/1FAIpQLSeNEipOHE97kcnXdYoegAOV9P1z0b9Q6dQR3ECR2l4TjQ-gRw/viewform?fbclid=IwZXh0bgNhZW0CMTAAAR0fXaDKvTcZgqGUOHb7HXoHwYNcikRJXLU_QR0-gPWdkEvaYslN5taTo30_aem_AUIchQRoMc3AfHjDbyZfYZq_7dcirWvlU3BZitZWy4YH03NrnqvISIBFv8yOliHv2dqOVKhREeKEBT8OV3BvqBKA"
     }
@@ -1163,7 +1163,7 @@ export const news = [
     ],
     "description": [
       "O HIP HOP chega ao nosso estúdio e não podíamos começar de melhor forma!",
-      "Vamos receber no nosso estúdio a incrível bailarina e professora Beatriz Matos , para 2 workshops, um para os amantes de Hip Hop e outro para os amantes de Fusion, por isso se és aluno/apaixonado por contemporâneo este workshop também é indicado para ti .",
+      "Vamos receber no nosso estúdio a incrível bailarina e professora Beatriz Matos, para 2 workshops, um para os amantes de Hip Hop e outro para os amantes de Fusion, por isso se és aluno/apaixonado por contemporâneo este workshop também é indicado para ti.",
       "• A Beatriz dança hip hop desde os 6 anos e foi ginasta de Aeróbica de alta competição, inclusive fez parte da Seleção Nacional e obteve vários prémios nacionais e internacionais.",
       "• Participou em diversas competições de Danças Urbanas tanto a nível nacional como internacional, com o grupo MGBOOS, com equipas coreografadas por Bárbara Matos.",
       "• Destaca do seu percurso a participação no projeto Loop Gate Fest - Vortexxx com direção criativa e artística de Rita Spider.",
@@ -1188,7 +1188,7 @@ export const news = [
       }
     ],
     "description": [
-      "A turma de Contemporâneo I e Jazz II irá estar dia 4 de maio no Serviço de Cuidados Continuados de Castelo Branco para fazer duas demonstrações ."
+      "A turma de Contemporâneo I e Jazz II irá estar dia 4 de maio no Serviço de Cuidados Continuados de Castelo Branco para fazer duas demonstrações."
     ],
     "image": "/images/GFZEUTw.webp",
     "images": [
@@ -1208,8 +1208,8 @@ export const news = [
       }
     ],
     "description": [
-      "O Dia Mundial da Dança foi celebrado a 29 de abril, na Escola Cidade de Castelo, Branco, na EB1 de Alcains e na EB Afonso de Paiva, numa iniciativa que contou com centenas de alunos, com organização dos Serviços Educativos da Câmara Municipal de Castelo Branco e com a colaboração das duas escolas de dança, Active Soul e Academia de Dança.",
-      "No final, toda a comunidade se pode juntar na devesa para celebrar este dia em que “A Dança foi para Todos”."
+      "O Dia Mundial da Dança foi celebrado a 29 de abril, na Escola Cidade de Castelo Branco, na EB1 de Alcains e na EB Afonso de Paiva, numa iniciativa que contou com centenas de alunos, com organização dos Serviços Educativos da Câmara Municipal de Castelo Branco e com a colaboração das duas escolas de dança, Active Soul e Academia de Dança.",
+      "No final, toda a comunidade se pode juntar na Devesa para celebrar este dia em que “A Dança foi para Todos”."
     ],
     "image": "/images/HO8gXWz.webp",
     "images": [
@@ -1270,7 +1270,7 @@ export const news = [
       "No dia 6 de abril, em parceria com a APEF de Castelo Branco, mais uma vez não deixamos que a data passe despercebida.",
       "A partir das 09:30, na Zona de Lazer de Castelo Branco, no Edifício da Lagoa, temos demonstrações de dança seguida de uma caminhada mais ou menos de 5 km.",
       "As atividades decorrem até às 11:00, são gratuitas e abertas à comunidade.",
-      "Marque na sua agenda e seja ativo, esperamos por si!"
+      "Marca na tua agenda e sê ativo, esperamos por ti!"
     ],
     "image": "/images/9Ygh3nU.webp",
     "embed": {
@@ -1324,9 +1324,9 @@ export const news = [
       "• A Catarina formou-se na Escola de Dança do Conservatório Nacional e iniciou a sua carreira com um estágio profissional na Kibbutz Contemporary Dance Company, com bolsa da Fundação Gulbenkian.",
       "• Trabalhou na Companhia Vórtice e mais tarde, tornando-se freelancer, participou em várias criações de coreógrafos independentes, nacional e internacional.",
       "• Coreografou para a Quorum Academy e este ano é coreógrafa convidada da Kayzer Ballet.",
-      "• Em parceria com Tiago Coelho, desenvolveu um projecto de dueto já rodado em vários festivais, nacionais e internacionais, tendo já ganho alguns prémios.",
+      "• Em parceria com Tiago Coelho, desenvolveu um projeto de dueto já rodado em vários festivais, nacionais e internacionais, tendo já ganho alguns prémios.",
       "Não percas a oportunidade para poderes aprender mais e dançar!",
-      "Podes inscrever-te por mensagem privada, pelo 962817248 e pelo email activesoul.studio@gmail.com",
+      "Podes inscrever-te por mensagem privada, pelo 962817248 e pelo e-mail activesoul.studio@gmail.com",
       "Esperamos por ti! As vagas são limitadas!"
     ],
     "image": "/images/dsp3qJ5.webp"
@@ -1344,7 +1344,7 @@ export const news = [
       }
     ],
     "description": [
-      "A Albigym proporcionou aos seus ginásticas no Estágio da Páscoa Vários Workshops, Correção Postural, Contemporâneo e Jazz.",
+      "A Albigym proporcionou aos seus ginastas, no Estágio da Páscoa, vários workshops de correção postural, contemporâneo e jazz.",
       "Foi uma tarde cheia de aprendizagens e aperfeiçoamentos.",
       "Agradecemos desde já o convite por parte da Magda (Albigym) e toda a disponibilidade e profissionalismo da nossa Professora Sofia Ferreira."
     ],
@@ -1407,7 +1407,7 @@ export const news = [
       }
     ],
     "description": [
-      "Gostaria de presentear as suas colaboradoras com uma aula de dança bem divertida ou até com uma das nossas modalidades de bem estar? Entre em contacto conosco e faremos um dia diferente!"
+      "Gostarias de presentear as tuas colaboradoras com uma aula de dança bem divertida ou até com uma das nossas modalidades de bem-estar? Entra em contacto connosco e faremos um dia diferente!"
     ],
     "image": "/images/78E3RaZ.webp",
     "images": [
@@ -1575,7 +1575,7 @@ export const news = [
     "description": [
       "“O sonho comanda a vida” já dizia Fernando Pessoa.",
       "E é sobre isso que falamos, sobre o sonho destas 2 meninas que temos o privilégio de ver crescer!",
-      "Mais uma vez o esforço, trabalho e dedicação deram frutos e na competição “Mostra o que vales 5”, na Guarda alcançaram uma belíssima qualificação"
+      "Mais uma vez o esforço, trabalho e dedicação deram frutos e na competição “Mostra o que vales 5”, na Guarda alcançaram uma belíssima qualificação."
     ],
     "image": "/images/83sY777.webp"
   },
@@ -1677,7 +1677,7 @@ export const news = [
     "description": [
       "Decidimos juntar o exercício com água, música, trabalho em equipa e boa energia.",
       "Eis o resultado: MEGA AULA!",
-      "Todos saíram com um MEGA sorriso, com as energias renovadas, cansados é certo e molhados também mas com este calor, não há nada que melhor do que isso!",
+      "Todos saíram com um MEGA sorriso, com as energias renovadas, cansados é certo e molhados também mas com este calor, não há nada melhor do que isso!",
       "Fazer exercício, treinar, pode ser divertido, basta imaginação e isso, não nos falta."
     ],
     "image": "/images/ZTB58qW.webp"
@@ -1695,7 +1695,7 @@ export const news = [
       }
     ],
     "description": [
-      "“Contadora de histórias” foi o 1° espetáculo de final de ano da Active Soul.",
+      "“Contadora de histórias” foi o 1.º espetáculo de final de ano da Active Soul.",
       "A dança e as palavras tomaram conta desta hora de espetáculo repleto de movimento, histórias e muita magia, acreditar que nada é impossível e que o tempo pode ser o nosso melhor aliado."
     ],
     "image": "/images/bSpqdSX.webp",
@@ -1779,7 +1779,7 @@ export const news = [
       }
     ],
     "description": [
-      "Celebramos o dia mundial da atividade física em colaboração com a Apef Castelo Branco"
+      "Celebrámos o dia mundial da atividade física em colaboração com a Apef Castelo Branco."
     ],
     "image": "/images/RmLtV2x.webp",
     "embed": {
@@ -1806,8 +1806,8 @@ export const news = [
     ],
     "description": [
       "Um espetáculo de dança envolvente inspirado na “Alice no País das Maravilhas”, os bailarinos ganham vida, transportando o público para o mundo mágico e surreal.",
-      "A coreografia dinâmica e os figurinos deslumbrantes dão vida às personagens icônicas.",
-      "A música encantadora guia os dançarinos através de cenários deslumbrantes, recriando momentos clássicos da história."
+      "A coreografia dinâmica e os figurinos deslumbrantes dão vida às personagens icónicas.",
+      "A música encantadora guia os bailarinos através de cenários deslumbrantes, recriando momentos clássicos da história."
     ],
     "image": "/images/W30dAsi.webp",
     "embed": {
@@ -1878,11 +1878,11 @@ export const news = [
       {
         "day": "17/12/2022",
         "time": "19:00",
-        "location": "Escola Superiror Agrária"
+        "location": "Escola Superior Agrária"
       }
     ],
     "description": [
-      "A Active Soul promete encantar a todos nesta temporada festiva com o espetáculo natalino 'Pipoto Maroto'.",
+      "A Active Soul promete encantar a todos nesta época festiva com o espetáculo natalício 'Pipoto Maroto'.",
       "Repleto de magia, música e personagens cativantes, o espetáculo promete ser um evento imperdível para toda a família.",
       "Com coreografias envolventes e figurinos deslumbrantes, 'Pipoto Maroto' transportará o público para um mundo encantado, onde a alegria do Natal se manifesta de maneiras únicas."
     ],
@@ -1907,7 +1907,7 @@ export const news = [
     "description": [
       "A dança ajuda a desacelerar o ritmo nas crianças agitadas, fazendo com que se sintam mais tranquilas.",
       "Por outro lado, como há regras que devem cumprir, permite-lhes aprender a controlar a ansiedade e a impulsividade.",
-      "🕴🏻 Sabias que a prática de exercício físico permite potenciar o crescimento celular no cérebro e de neurotransmissores associados ao humor? Que ela pode reduzir o stress e aliviar a tensão muscular, melhorar a qualidade de sono e, consequentemente, contribuir para uma sensação generalizada de bem-estar⁉️ Ana Isabel Marques praticou dança na sua infância/adolescência e quer poder partilhar a sua experiência com crianças e jovens utilizando ferramentas adquiridas no seu percurso pessoal, académico e na sua carreira como Psicóloga.",
+      "🕴🏻 Sabias que a prática de exercício físico permite potenciar o crescimento celular no cérebro e de neurotransmissores associados ao humor? Pode reduzir o stress e aliviar a tensão muscular, melhorar a qualidade de sono e, consequentemente, contribuir para uma sensação generalizada de bem-estar⁉️ Ana Isabel Marques praticou dança na sua infância/adolescência e quer poder partilhar a sua experiência com crianças e jovens utilizando ferramentas adquiridas no seu percurso pessoal, académico e na sua carreira como Psicóloga.",
       "Neste workshop as crianças vão aprender algumas técnicas e como controlar as suas emoções."
     ],
     "image": "/images/u81VQEO.webp"
@@ -1927,7 +1927,7 @@ export const news = [
     "description": [
       "A Active Soul anuncia um workshop imperdível para os amantes da dança: o Workshop Dancehall!",
       "Este evento envolvente oferecerá uma experiência única, explorando os ritmos vibrantes e a cultura do Dance Hall.",
-      "Dinamizado por uma professora de excelência, Andreia Lemos, o workshop promete aprimorar habilidades, proporcionar momentos de diversão e celebrar a energia contagiante do Dancehall."
+      "Dinamizado por uma professora de excelência, Andreia Lemos, o workshop promete desenvolver competências, proporcionar momentos de diversão e celebrar a energia contagiante do Dancehall."
     ],
     "image": "/images/zStKdyu.webp",
     "embed": {

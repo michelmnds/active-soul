@@ -17,7 +17,7 @@ export function TeamPage() {
       />
       <Section>
         <SectionHeading
-          eyebrow="Conheça-nos"
+          eyebrow="Conhece-nos"
           title="Quem dá vida ao estúdio"
           lede="Do palco ao treino, reunimos diferentes experiências em torno da mesma paixão."
         />

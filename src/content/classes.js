@@ -53,7 +53,7 @@ export const classes = [
     name: "Active Move",
     modality: "Aula dos 6 aos 12 anos",
     description: [
-      "A aula Active Move é uma experiência cheia de energia pensada especialmente para crianças! Inspirada no treino funcional, ela combina atividades variadas como circuitos com obstáculos, jogos de equilíbrio e desafios em grupo.",
+      "A aula Active Move é uma experiência cheia de energia pensada especialmente para crianças! Inspirada no treino funcional, combina atividades variadas como circuitos com obstáculos, jogos de equilíbrio e desafios em grupo.",
       "Cada aula é diferente, garantindo movimento constante, desenvolvimento da coordenação motora, força e agilidade – tudo de forma lúdica e segura.",
     ],
     image: "/images/oqwsEV1.webp",

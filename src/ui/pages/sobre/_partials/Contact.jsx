@@ -7,7 +7,7 @@ export function Contact() {
     <Section>
       <div className="grid items-stretch gap-8 lg:grid-cols-[.8fr_1.2fr]">
         <div className="rounded-card bg-brand-950 p-8 text-white lg:p-10">
-          <SectionHeading eyebrow="Visite-nos" title="Todos os caminhos vão dar ao Active Soul" lede={site.address} className="[&_h2]:text-white [&_p:last-child]:!text-left [&_p:last-child]:text-brand-200" />
+          <SectionHeading eyebrow="Visita-nos" title="Todos os caminhos vão dar ao Active Soul" lede={site.address} className="[&_h2]:text-white [&_p:last-child]:!text-left [&_p:last-child]:text-brand-200" />
           <div className="mt-8 space-y-3 text-sm text-brand-100">
             {site.hours.map((hours) => <p key={hours}>{hours}</p>)}
           </div>

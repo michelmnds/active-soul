@@ -7,7 +7,7 @@ const icons = { calendar: LuCalendarDays, home: LuHouse, users: LuUsers };
 export function ServicesTeaser() {
   return (
     <Section>
-      <SectionHeading eyebrow="Mais possibilidades" title="O estúdio adapta-se à sua ideia" align="center" />
+      <SectionHeading eyebrow="Mais possibilidades" title="O estúdio adapta-se à tua ideia" align="center" />
       <div className="mt-12 grid gap-6 md:grid-cols-3">
         {about.services.map((service) => {
           const Icon = icons[service.icon];

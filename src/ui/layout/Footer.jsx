@@ -9,6 +9,13 @@ const socialIcons = {
   youtube: FaYoutube,
 };
 
+const socialNames = {
+  facebook: "Facebook",
+  instagram: "Instagram",
+  whatsapp: "WhatsApp",
+  youtube: "YouTube",
+};
+
 export function Footer() {
   return (
     <footer className="bg-brand-950 text-white">
@@ -20,7 +27,7 @@ export function Footer() {
             {Object.entries(site.socials).map(([name, href]) => {
               const Icon = socialIcons[name];
               return (
-                <a key={name} href={href} target="_blank" rel="noreferrer" className="grid size-11 place-items-center rounded-full border border-brand-700 text-lg text-white transition hover:border-brand-300 hover:bg-brand-800" aria-label={name}>
+                <a key={name} href={href} target="_blank" rel="noreferrer" className="grid size-11 place-items-center rounded-full border border-brand-700 text-lg text-white transition hover:border-brand-300 hover:bg-brand-800" aria-label={`Active Soul no ${socialNames[name]}`}>
                   <Icon aria-hidden />
                 </a>
               );
@@ -34,7 +41,7 @@ export function Footer() {
           </nav>
         </div>
         <div>
-          <h2 className="text-sm font-semibold uppercase tracking-widest text-brand-300">Visite-nos</h2>
+          <h2 className="text-sm font-semibold uppercase tracking-widest text-brand-300">Visita-nos</h2>
           <address className="mt-5 space-y-3 text-sm not-italic leading-6 text-brand-100">
             <p>{site.address}</p>
             <p><a className="hover:text-white" href={site.phoneHref}>{site.phone}</a></p>

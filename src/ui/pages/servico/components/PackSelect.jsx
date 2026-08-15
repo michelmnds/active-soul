@@ -73,7 +73,7 @@ export function PackSelect({ service }) {
     <div className="mt-8 space-y-7">
       <div>
         <p className="mb-3 text-lg font-semibold text-brand-950">{service.priceNote}</p>
-        <p className="mb-2 text-sm font-medium text-brand-800" id="pack-select-label">Escolha um pack</p>
+        <p className="mb-2 text-sm font-medium text-brand-800" id="pack-select-label">Escolhe um pack</p>
         <div className="relative w-full sm:max-w-md" ref={selectRef}>
           <button
             ref={triggerRef}

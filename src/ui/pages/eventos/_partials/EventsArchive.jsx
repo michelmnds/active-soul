@@ -7,7 +7,7 @@ export function EventsArchive({ events }) {
 
   return (
     <Section tone="tint">
-      <SectionHeading eyebrow="Arquivo" title="Momentos que ficam" lede="Reveja espetáculos, workshops e encontros que fizeram parte da nossa história." />
+      <SectionHeading eyebrow="Arquivo" title="Momentos que ficam" lede="Revê espetáculos, workshops e encontros que fizeram parte da nossa história." />
       <div className="mt-12 space-y-16">
         {years.map((year) => (
           <section key={year} aria-labelledby={`year-${year}`}>

@@ -44,7 +44,7 @@ export const team = [
   {
     "id": 6,
     "image": "/images/A4uJU0d.webp",
-    "name": "Fábio Sscola",
+    "name": "Fábio Scoola",
     "modality": "Ritmos e Afro-Latinas"
   },
   {

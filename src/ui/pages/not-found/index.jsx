@@ -8,7 +8,7 @@ export function NotFoundPage() {
       <div className="max-w-xl">
         <p className="text-eyebrow font-medium uppercase text-accent">Erro 404</p>
         <h1 className="mt-4 text-display-lg font-semibold text-brand-950">Este passo não estava na coreografia.</h1>
-        <p className="mt-5 text-justify text-lg leading-8 text-brand-700">A página que procura não existe ou mudou de lugar.</p>
+        <p className="mt-5 text-justify text-lg leading-8 text-brand-700">A página que procuras não existe ou mudou de lugar.</p>
         <Button to="/" className="mt-8">Voltar ao início</Button>
       </div>
     </section>
