@@ -7,7 +7,7 @@ export const services = [
       "Quer tornar o seu evento/espetáculo único e inesquecível? Os nossos bailarinos fazem-no com qualidade, profissionalismo e dedicação.",
       "Para os bailarinos: Queres fazer parte desta equipa?"
     ],
-    "image": "https://i.imgur.com/KccM2ub.jpg",
+    "image": "/images/KccM2ub.webp",
     "imagePosition": "right"
   },
   {
@@ -19,7 +19,7 @@ export const services = [
       "Tudo é criado e planeado para oferecer uma experiência incrível.",
       "TORNA O TEU CASAMENTO ÚNICO E ESPECIAL!"
     ],
-    "image": "https://i.imgur.com/eMyRUEz.png"
+    "image": "/images/eMyRUEz.webp"
   },
   {
     "id": 3,
@@ -35,18 +35,18 @@ export const services = [
       "A nossa equipa é composta por criativos e fornecedores que fazem acontecer qualquer tipo de evento.",
       "Criamos eventos à medida de cada cliente, produzindo e dando o melhor da nossa equipa em cada projeto!"
     ],
-    "image": "https://i.imgur.com/JfVouRR.jpg",
+    "image": "/images/JfVouRR.webp",
     "images": [
-      "https://i.imgur.com/hYIHdMs.png",
-      "https://i.imgur.com/jw3GFps.png",
-      "https://i.imgur.com/QSqI55O.png",
-      "https://i.imgur.com/50s74Ok.png"
+      "/images/hYIHdMs.webp",
+      "/images/jw3GFps.webp",
+      "/images/QSqI55O.webp",
+      "/images/50s74Ok.webp"
     ]
   },
   {
     "id": 4,
     "title": "Festa de Aniversário",
-    "image": "https://i.imgur.com/l9VHn7o.jpg",
+    "image": "/images/l9VHn7o.webp",
     "packs": [
       {
         "id": 1,

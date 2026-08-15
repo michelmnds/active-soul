@@ -7,32 +7,32 @@ export const about = {
     {
       "id": "estudio-1",
       "label": "Estúdio 1",
-      "image": "https://i.imgur.com/vYcZVjI.jpg"
+      "image": "/images/vYcZVjI.webp"
     },
     {
       "id": "estudio-2",
       "label": "Estúdio 2",
-      "image": "https://i.imgur.com/wRObaTQ.jpg"
+      "image": "/images/wRObaTQ.webp"
     },
     {
       "id": "estudio-3",
       "label": "Estúdio 3",
-      "image": "https://i.imgur.com/Hrv1wXI.jpg"
+      "image": "/images/Hrv1wXI.webp"
     },
     {
       "id": "sala-1",
       "label": "Sala 1",
-      "image": "https://i.imgur.com/j1RIPvI.jpeg"
+      "image": "/images/j1RIPvI.webp"
     },
     {
       "id": "sala-polivalente",
       "label": "Sala Polivalente",
-      "image": "https://i.imgur.com/3zh9r0V.jpg"
+      "image": "/images/3zh9r0V.webp"
     },
     {
       "id": "sala-brincadeiras",
       "label": "Sala das Brincadeiras",
-      "image": "https://i.imgur.com/dsmtorp.jpg"
+      "image": "/images/dsmtorp.webp"
     }
   ],
   "services": [

@@ -3,7 +3,7 @@ import { useDocumentTitle } from "@/hooks";
 import { Section, SectionHeading } from "@/ui/components";
 import { PageHero } from "@/ui/pages/components";
 
-const BACKGROUND_IMAGE_URL = "https://imgur.com/y4pRzvQ.png";
+const BACKGROUND_IMAGE_URL = "/images/y4pRzvQ.webp";
 
 export function TeamPage() {
   useDocumentTitle("Equipa");

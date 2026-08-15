@@ -14,9 +14,9 @@ export const news = [
     "description": [
       "No dia 11 de julho, três bailarinas do nosso estúdio estiveram presentes na abertura do Desfile Lérias, a Arte das Linhas, na Póvoa da Atalaia, a convite da Professora Catedrática Alexandra Cruchinho, da Fashion Lusófona."
     ],
-    "image": "https://i.imgur.com/nRMjHYn.jpg",
+    "image": "/images/nRMjHYn.webp",
     "images": [
-      "https://i.imgur.com/LjXVzkV.jpg"
+      "/images/LjXVzkV.webp"
     ]
   },
   {
@@ -37,7 +37,7 @@ export const news = [
       "Agradecemos a todos os que participaram e contribuíram para tornar estes momentos tão especiais.",
       "Podemos levar este espetáculo até ti, entra em contacto por e-mail ou redes sociais."
     ],
-    "image": "https://i.imgur.com/h0wZgi8.jpg"
+    "image": "/images/h0wZgi8.webp"
   },
   {
     "id": 79,
@@ -64,7 +64,7 @@ export const news = [
       "\"Quando cada um tem coragem de mostrar quem é, o mundo inteiro fica mais bonito para florescer.\"",
       "Compra já o teu bilhete."
     ],
-    "image": "https://i.imgur.com/76K22As.jpg"
+    "image": "/images/76K22As.webp"
   },
   {
     "id": 78,
@@ -83,7 +83,7 @@ export const news = [
       "No dia 31 de maio, das 15h às 17h, o Happy Kids Festival vai transformar o Active Soul numa verdadeira aventura para crianças e famílias",
       "💛Um evento onde as crianças podem brincar, imaginar, criar e viver momentos mágicos."
     ],
-    "image": "https://i.imgur.com/Y3P9xxZ.jpg",
+    "image": "/images/Y3P9xxZ.webp",
     "cta": {
       "text": "Vagas limitadas",
       "label": "Garantir lugar",
@@ -113,7 +113,7 @@ export const news = [
       "Uma vivência cheia de ritmo, criatividade e energia, que vai culminar numa apresentação final no dia 28 de junho, no Cineteatro Avenida, no nosso espetáculo final de ano letivo.",
       "Vem criar, explorar e viver a música connosco!"
     ],
-    "image": "https://i.imgur.com/2XjsGn0.jpg"
+    "image": "/images/2XjsGn0.webp"
   },
   {
     "id": 76,
@@ -131,7 +131,7 @@ export const news = [
       "Estivemos presente no MOV.ONIC@ - Dia Nacional do Movimento e Atividade Física para Pessoas com Doença Crónica, uma iniciativa da Sociedade Portuguesa de Literacia em Saúde e da DGS.",
       "Agradecemos o convite que nos foi endereçado em particular na pessoa da sua Vice-Presidente, Fisioterapeuta Mariana Fonseca."
     ],
-    "image": "https://i.imgur.com/n9eM4Nn.jpg"
+    "image": "/images/n9eM4Nn.webp"
   },
   {
     "id": 75,
@@ -148,7 +148,7 @@ export const news = [
       "Espetáculo para todas as idades.",
       "AGENDA ABERTA"
     ],
-    "image": "https://i.imgur.com/SMr8hjm.jpg"
+    "image": "/images/SMr8hjm.webp"
   },
   {
     "id": 74,
@@ -167,7 +167,7 @@ export const news = [
       "Gostaríamos de expressar o nosso sincero agradecimento pelo convite, pela recepção calorosa e pela oportunidade de partilhar este momento tão especial.",
       "Foi, sem dúvida, uma experiência enriquecedora que levaremos connosco com muito carinho."
     ],
-    "image": "https://i.imgur.com/mECl4hT.jpg"
+    "image": "/images/mECl4hT.webp"
   },
   {
     "id": 73,
@@ -190,7 +190,7 @@ export const news = [
       "Traz a família, amigos e muita vontade de mexer!",
       "Vamos juntos promover uma vida mais saudável e equilibrada."
     ],
-    "image": "https://i.imgur.com/LZKW8lV.jpg"
+    "image": "/images/LZKW8lV.webp"
   },
   {
     "id": 72,
@@ -210,7 +210,7 @@ export const news = [
       "Entre palavras, melodias e pequenos gestos, as crianças são convidadas a escutar, cantar e entrar no ritmo das histórias, num momento envolvente e cheio de encanto.",
       "Uma proposta que estimula a linguagem, a musicalidade, a imaginação e o vínculo entre adultos e crianças, celebrando o poder das histórias quando ganham voz e canção."
     ],
-    "image": "https://i.imgur.com/KaDGYHB.jpg",
+    "image": "/images/KaDGYHB.webp",
     "cta": {
       "text": "Veja como foi",
       "label": "Ver no Instagram",
@@ -244,9 +244,9 @@ export const news = [
       "Foi, sem dúvida, um dia cheio de aprendizagem, dança e bons momentos!",
       "Obrigado a todos por fazerem parte desta experiência."
     ],
-    "image": "https://i.imgur.com/900DTFe.jpg",
+    "image": "/images/900DTFe.webp",
     "images": [
-      "https://i.imgur.com/YBeZMbN.jpg"
+      "/images/YBeZMbN.webp"
     ]
   },
   {
@@ -274,7 +274,7 @@ export const news = [
       "Mais do que um espetáculo, Brisamar é um convite à reflexão, à responsabilidade e à esperança. Uma celebração do mar como casa comum, fonte de vida e inspiração, lembrando-nos que cuidar do oceano é cuidar de nós próprios.",
       "Porque quando o mar sorri, o mundo inteiro respira melhor."
     ],
-    "image": "https://i.imgur.com/wxHNPte.jpg",
+    "image": "/images/wxHNPte.webp",
     "cta": {
       "text": "Reviva este momento",
       "label": "Ver fotografias",
@@ -321,7 +321,7 @@ export const news = [
       "Será uma semana cheia de alegria, movimento e magia natalícia!",
       "Não percam!"
     ],
-    "image": "https://i.imgur.com/3hxfbvh.jpg",
+    "image": "/images/3hxfbvh.webp",
     "cta": {
       "text": "Faça a sua inscrição",
       "label": "Inscrever",
@@ -354,7 +354,7 @@ export const news = [
       "Vem assistir à nova peça de Teatro Musical do Estúdio Active Soul, A Fábrica do Cacau Encantado.",
       "Prometemos muita energia e diversão."
     ],
-    "image": "https://i.imgur.com/Vb8Sd0N.jpg"
+    "image": "/images/Vb8Sd0N.webp"
   },
   {
     "id": 67,
@@ -373,7 +373,7 @@ export const news = [
       "Os bilhetes vão estar disponíveis a partir do dia 10 de novembro no nosso Estúdio Active Soul.",
       "Esperamos por vocês."
     ],
-    "image": "https://i.imgur.com/2uuLgV5.jpg"
+    "image": "/images/2uuLgV5.webp"
   },
   {
     "id": 66,
@@ -390,7 +390,7 @@ export const news = [
     "description": [
       "No passado dia 31 de outubro o Active Soul abriu portas até às 23h30 para receber estes incríveis \"monstrinhos\". Houve muita dança, diversão, jantámos e terminámos o dia com um filme e muitas pipocas!"
     ],
-    "image": "https://i.imgur.com/tMrTkCH.jpg"
+    "image": "/images/tMrTkCH.webp"
   },
   {
     "id": 65,
@@ -408,7 +408,7 @@ export const news = [
       "Inspirado no filme “Charlie e a Fábrica de Chocolate” a Active Soul tem o gosto de apresentar o seu novo espetáculo - BILHETE DOURADO. Uma aventura doce e mágica que destaca o verdadeiro valor das atitudes. Entre cores, música e movimentos, descobrimos que a felicidade está em partilhar, cuidar e amar. Uma história encantadora sobre família, amizade e bondade.",
       "Bilhetes disponíveis no nosso estúdio a partir do dia 8 de outubro."
     ],
-    "image": "https://i.imgur.com/jz0e8nY.jpg"
+    "image": "/images/jz0e8nY.webp"
   },
   {
     "id": 64,
@@ -425,7 +425,7 @@ export const news = [
     "description": [
       "A iniciativa propõe um jantar buffet volante marcado por degustações gastronómicas criativas, cocktails de autor e performances artísticas ao vivo. Mais do que um simples jantar, o evento pretende oferecer ao público uma verdadeira viagem sensorial, num espaço e ambiente pensado para ser uma galeria viva onde cada intervenção artística cria novos cenários. As vagas são limitadas e requerem inscrição prévia."
     ],
-    "image": "https://i.imgur.com/JoKUdQr.jpg",
+    "image": "/images/JoKUdQr.webp",
     "cta": {
       "text": "Garanta o seu lugar",
       "label": "Comprar bilhete",
@@ -448,18 +448,18 @@ export const news = [
       "Um excerto do espetáculo \"Bem me quero\" foi inserido na Semana Municipal da Juventude no Parque Urbano Cruz do Montalvão.",
       "Um espetáculo com texto original, coreografias vibrantes e com o envolvimento que a Active Soul sempre privilegia."
     ],
-    "image": "https://i.imgur.com/kMlyFim.jpg",
+    "image": "/images/kMlyFim.webp",
     "images": [
-      "https://i.imgur.com/5T4Nwap.jpg",
-      "https://i.imgur.com/TBuZ5Bi.jpg",
-      "https://i.imgur.com/nyJ8oEF.jpg",
-      "https://i.imgur.com/9ZfZQOS.jpg",
-      "https://i.imgur.com/vVHpIQ7.jpg",
-      "https://i.imgur.com/EeRLtx2.jpg",
-      "https://i.imgur.com/9xkZr8P.jpg",
-      "https://i.imgur.com/V4G4ig8.jpg",
-      "https://i.imgur.com/gOabIEd.jpg",
-      "https://i.imgur.com/mIp1Vuh.jpg"
+      "/images/5T4Nwap.webp",
+      "/images/TBuZ5Bi.webp",
+      "/images/nyJ8oEF.webp",
+      "/images/9ZfZQOS.webp",
+      "/images/vVHpIQ7.webp",
+      "/images/EeRLtx2.webp",
+      "/images/9xkZr8P.webp",
+      "/images/V4G4ig8.webp",
+      "/images/gOabIEd.webp",
+      "/images/mIp1Vuh.webp"
     ]
   },
   {
@@ -479,7 +479,7 @@ export const news = [
       "Vem assistir às nossas performances e vamos ter um stand das 9h00 ao 12h00 onde poderás ver um pouco do nosso percurso.",
       "Esperamos por vocês"
     ],
-    "image": "https://i.imgur.com/KO13BNw.jpg"
+    "image": "/images/KO13BNw.webp"
   },
   {
     "id": 61,
@@ -497,7 +497,7 @@ export const news = [
       "Vamos estar no Festival do Crato pelas 19h30 com uma pequena apresentação de dança do nosso espetáculo \"Bem me quero\".",
       "Esperamos por vocês."
     ],
-    "image": "https://i.imgur.com/akzF2CG.jpg"
+    "image": "/images/akzF2CG.webp"
   },
   {
     "id": 60,
@@ -515,7 +515,7 @@ export const news = [
       "Vamos estar na Festa em São Vicente da Beira pelas 18h00 com uma pequena apresentação de dança do nosso espetáculo \"Bem me quero\".",
       "Esperamos por vocês"
     ],
-    "image": "https://i.imgur.com/T1vr2lF.jpg"
+    "image": "/images/T1vr2lF.webp"
   },
   {
     "id": 59,
@@ -539,7 +539,7 @@ export const news = [
       "Código: +SACTIVESOUL25",
       "Esperamos por vocês!"
     ],
-    "image": "https://i.imgur.com/CiGlHDa.jpg"
+    "image": "/images/CiGlHDa.webp"
   },
   {
     "id": 58,
@@ -562,7 +562,7 @@ export const news = [
       "No Espetáculo “Bem me quero”, o público é convidado a embarcar numa preparação de espetáculo, onde o nosso cliente Active Soul é o principal interveniente.",
       "Com danças encantadoras e música ao vivo, o espetáculo celebra a importância também do bem estar físico e psicológico."
     ],
-    "image": "https://i.imgur.com/SDK8VUj.jpg",
+    "image": "/images/SDK8VUj.webp",
     "cta": {
       "text": "Reviva este momento",
       "label": "Ver fotografias",
@@ -593,7 +593,7 @@ export const news = [
       "Haverá duas sessões, estas estando divididas por Agrupamentos, 1ª às 11h00 e 2ª às 14h30.",
       "Esperamos por vocês"
     ],
-    "image": "https://i.imgur.com/pqpMS0N.jpg"
+    "image": "/images/pqpMS0N.webp"
   },
   {
     "id": 56,
@@ -612,7 +612,7 @@ export const news = [
       "Para este espetáculo ser um sucesso basta entrares conosco nesta magia, no mundo encantado onde tudo é possível.",
       "Não é necessário bilhete."
     ],
-    "image": "https://i.imgur.com/VL7XEbx.jpg"
+    "image": "/images/VL7XEbx.webp"
   },
   {
     "id": 55,
@@ -668,7 +668,7 @@ export const news = [
       "Público-Alvo:",
       "Alunos adultos, com par (podendo ser homem com homem e mulher com mulher) sem necessidade de experiência prévia em dança, sendo acessível tanto para iniciantes como para aqueles que já possuem algum conhecimento."
     ],
-    "image": "https://i.imgur.com/N7ztQeJ.jpg"
+    "image": "/images/N7ztQeJ.webp"
   },
   {
     "id": 82,
@@ -686,7 +686,7 @@ export const news = [
       "Dia 16 de Março, realizou-se a 1ª atividade do Projeto \"Movimenta+\" da Unidade Local de Saúde Castelo Branco, no Largo da Devesa. Este projeto visa promover a saúde, prevenir doenças na comunidade local e esta primeira edição vai ter como tema \"Fatores de Risco Cardiocerebrovasculares\".",
       "Foram realizados diferentes rastreios e sessões de educação para a saúde, sobre riscos como tabagismo, obesidade, dislipidemia, hipertensão, diabetes e inatividade física. A sessão \"Movimenta a Tua Saúde\" terminou com a colaboração do nosso estúdio para ajudar a promover momentos mais ativos."
     ],
-    "image": "https://i.imgur.com/1SPa0DP.jpg"
+    "image": "/images/1SPa0DP.webp"
   },
   {
     "id": 54,
@@ -704,7 +704,7 @@ export const news = [
       "Vamos estar a celebrar o dia da mulher no Alegro Castelo Branco a partir das 16h00.",
       "Aparece! Vai haver muitas surpresas"
     ],
-    "image": "https://i.imgur.com/u816p8B.jpg"
+    "image": "/images/u816p8B.webp"
   },
   {
     "id": 53,
@@ -723,7 +723,7 @@ export const news = [
       "Não percam este grande espetáculo.",
       "Obrigada por proporcionarem estes momentos de aprendizagem e partilha aos nossos alunos."
     ],
-    "image": "https://i.imgur.com/pvr0byy.jpg"
+    "image": "/images/pvr0byy.webp"
   },
   {
     "id": 52,
@@ -743,7 +743,7 @@ export const news = [
       "Para mais informações, manda email: activesoul.studio@gmail.com.",
       "Vem celebrar o amor a DANÇAR 😀"
     ],
-    "image": "https://i.imgur.com/E5pRaM6.png"
+    "image": "/images/E5pRaM6.webp"
   },
   {
     "id": 51,
@@ -768,7 +768,7 @@ export const news = [
       "Com danças encantadoras, músicas envolventes e magia interativa, o espetáculo celebra a importância de acreditar em si mesmo e no potencial escondido em cada um de nós.",
       "Uma experiência mágica para todas as idades!"
     ],
-    "image": "https://i.imgur.com/Zx7eG99.jpg",
+    "image": "/images/Zx7eG99.webp",
     "cta": {
       "text": "Reviva este momento",
       "label": "Ver fotografias",
@@ -807,16 +807,16 @@ export const news = [
       "Dia 21 de dezembro pelas 16h00  haverá um Flash Mob, onde o Mercadinho de Natal será invadido por personagens natalícias a dançar com muita animação.",
       "Não perca estas performances, esperamos por si no Mercadinho de Natal em Castelo Branco."
     ],
-    "image": "https://i.imgur.com/kQ6woaN.jpg",
+    "image": "/images/kQ6woaN.webp",
     "images": [
-      "https://i.imgur.com/prqny8j.jpg",
-      "https://i.imgur.com/TCA1qXU.jpg",
-      "https://i.imgur.com/ileYkZY.jpg",
-      "https://i.imgur.com/tSywxxj.jpg",
-      "https://i.imgur.com/YpzO3wO.jpg",
-      "https://i.imgur.com/m55Z4Hw.jpg",
-      "https://i.imgur.com/y8QONBA.jpg",
-      "https://i.imgur.com/hZvCRxb.jpg"
+      "/images/prqny8j.webp",
+      "/images/TCA1qXU.webp",
+      "/images/ileYkZY.webp",
+      "/images/tSywxxj.webp",
+      "/images/YpzO3wO.webp",
+      "/images/m55Z4Hw.webp",
+      "/images/y8QONBA.webp",
+      "/images/hZvCRxb.webp"
     ]
   },
   {
@@ -838,7 +838,7 @@ export const news = [
       "Expressão corporal, atividades físicas, atividades psicomotoras e muita DIVERSÃO!",
       "Não percas esta oportunidade 🎭"
     ],
-    "image": "https://i.imgur.com/CFJkHNz.jpg",
+    "image": "/images/CFJkHNz.webp",
     "cta": {
       "text": "Faça a sua inscrição",
       "label": "Inscrever",
@@ -867,7 +867,7 @@ export const news = [
       "Agradecemos especialmente à Decathlon pelo convite e pela oportunidade de levar a dança até à loja de Castelo Branco.",
       "Que venham muitos outros aniversários e momentos de parceria como este!"
     ],
-    "image": "https://i.imgur.com/1XHbNnm.jpg"
+    "image": "/images/1XHbNnm.webp"
   },
   {
     "id": 47,
@@ -890,7 +890,7 @@ export const news = [
       "O vencedor será anunciado dia 23 de novembro às 10h00.",
       "Concurso válido apenas no instagram e facebook do nosso estúdio."
     ],
-    "image": "https://i.imgur.com/YDOO75E.jpg"
+    "image": "/images/YDOO75E.webp"
   },
   {
     "id": 46,
@@ -908,12 +908,12 @@ export const news = [
       "É com grande entusiasmo que anunciamos o 2º Interior TeamGym Castelo Branco, uma competição a nível nacional que teve lugar no dia 16 de novembro de 2024, no pavilhão da Escola Afonso de Paiva, em Castelo Branco e alguns alunos da turma de Contemporâneo II participaram na abertura do mesmo.",
       "Agradecemos desde já o convite por parte da ZakiGym e desejamos todo o sucesso no seu percurso."
     ],
-    "image": "https://i.imgur.com/oGQ0nm0.jpg",
+    "image": "/images/oGQ0nm0.webp",
     "images": [
-      "https://i.imgur.com/6vSViPz.jpg",
-      "https://i.imgur.com/W8bipXb.jpg",
-      "https://i.imgur.com/MybaEes.jpg",
-      "https://i.imgur.com/8aDinS2.jpg"
+      "/images/6vSViPz.webp",
+      "/images/W8bipXb.webp",
+      "/images/MybaEes.webp",
+      "/images/8aDinS2.webp"
     ]
   },
   {
@@ -931,7 +931,7 @@ export const news = [
     "description": [
       "Dia 19 de outubro, a nossa Professora Leonor Farias espalhou a magia da dança até às docas, em Castelo Branco, na Caminhada \"Pequenos Passos, Grandes Gestos\"."
     ],
-    "image": "https://i.imgur.com/DytDNGc.jpg"
+    "image": "/images/DytDNGc.webp"
   },
   {
     "id": 44,
@@ -948,7 +948,7 @@ export const news = [
     "description": [
       "Dia 19 de outubro, a nossa Professora Leonor Farias começou a sua tarde levando a dançar até à  \"Caminhada Ecológica\" realizada pelo Centro Social de Maxiais."
     ],
-    "image": "https://i.imgur.com/7Qh8jWR.jpg"
+    "image": "/images/7Qh8jWR.webp"
   },
   {
     "id": 43,
@@ -965,12 +965,12 @@ export const news = [
     "description": [
       "Queres também que façamos parte do teu evento? Entra em contacto connosco e fazemos o SEU evento ser único, diferente e cheio de energia!"
     ],
-    "image": "https://i.imgur.com/FVQuaeI.jpg",
+    "image": "/images/FVQuaeI.webp",
     "images": [
-      "https://i.imgur.com/2blaGoG.jpg",
-      "https://i.imgur.com/Xe5JZFA.jpg",
-      "https://i.imgur.com/m8TXCGC.jpg",
-      "https://i.imgur.com/qmf5mmk.jpg"
+      "/images/2blaGoG.webp",
+      "/images/Xe5JZFA.webp",
+      "/images/m8TXCGC.webp",
+      "/images/qmf5mmk.webp"
     ]
   },
   {
@@ -989,9 +989,9 @@ export const news = [
       "Espetáculo inserido na Semana Municipal da Juventude pelas 18h30 no Parque Urbano Cruz do Montalvão. Excerto do espetáculo “RAÍZES”.",
       "Venham assistir a mais um espetáculo com texto original, coreografias vibrantes e com o envolvimento que a Active Soul sempre privilegia, ficamos à vossa espera!"
     ],
-    "image": "https://i.imgur.com/wbBGJJ9.jpg",
+    "image": "/images/wbBGJJ9.webp",
     "images": [
-      "https://i.imgur.com/ulv5sAG.jpg"
+      "/images/ulv5sAG.webp"
     ]
   },
   {
@@ -1010,11 +1010,11 @@ export const news = [
       "Espetáculo inserido na Semana Municipal da Juventude pelas 19h30 no Parque Urbano Cruz do Montalvão.",
       "Turma do Teatro Musical em Parceria com o Teatro Tramédia."
     ],
-    "image": "https://i.imgur.com/NYeDyWr.jpg",
+    "image": "/images/NYeDyWr.webp",
     "images": [
-      "https://i.imgur.com/5rgDJmw.jpg",
-      "https://i.imgur.com/yqqVEfM.jpg",
-      "https://i.imgur.com/sBNsvqL.jpg"
+      "/images/5rgDJmw.webp",
+      "/images/yqqVEfM.webp",
+      "/images/sBNsvqL.webp"
     ]
   },
   {
@@ -1037,13 +1037,13 @@ export const news = [
       "Lança-nos o desafio 👌🏻",
       "Até já 👋"
     ],
-    "image": "https://i.imgur.com/Eyj2zOJ.jpg",
+    "image": "/images/Eyj2zOJ.webp",
     "images": [
-      "https://i.imgur.com/SD8HlgT.jpg",
-      "https://i.imgur.com/ZcbcK5o.jpg",
-      "https://i.imgur.com/QHuAqMS.jpg",
-      "https://i.imgur.com/mkEvJJN.jpg",
-      "https://i.imgur.com/P8ACu9f.jpg"
+      "/images/SD8HlgT.webp",
+      "/images/ZcbcK5o.webp",
+      "/images/QHuAqMS.webp",
+      "/images/mkEvJJN.webp",
+      "/images/P8ACu9f.webp"
     ]
   },
   {
@@ -1061,9 +1061,9 @@ export const news = [
     "description": [
       "Vem passar uma manhã divertida e com muita dança conosco. Não é necessário inscrição basta aparecer. É para todas as idades! Esperamos por vocês!"
     ],
-    "image": "https://i.imgur.com/f03agbg.jpg",
+    "image": "/images/f03agbg.webp",
     "images": [
-      "https://i.imgur.com/t4lO6oZ.jpg"
+      "/images/t4lO6oZ.webp"
     ]
   },
   {
@@ -1088,7 +1088,7 @@ export const news = [
       "Código: +SACTIVESOUL24",
       "Esperamos por vocês!"
     ],
-    "image": "https://i.imgur.com/0D10BQR.jpg"
+    "image": "/images/0D10BQR.webp"
   },
   {
     "id": 34,
@@ -1105,7 +1105,7 @@ export const news = [
     "description": [
       "O espetáculo “Raízes” faz-nos regressar à nossa essência. Relembra-nos que é importante de vez em quando olharmos para trás e vermos o caminho bonito que temos percorrido. Em palco presenteamos o público mais uma vez com muita música e dança, nesta que se espera ser uma hora cheia de recordações, conexão e muitas emoções. Venham assistir a mais um espetáculo com texto original, coreografias vibrantes e com o envolvimento que a Active Soul sempre privilegia, ficamos à vossa espera!"
     ],
-    "image": "https://i.imgur.com/zv0G6GW.jpg",
+    "image": "/images/zv0G6GW.webp",
     "cta": {
       "text": "Reviva este momento",
       "label": "Ver fotografias",
@@ -1134,9 +1134,9 @@ export const news = [
       "Petiscos e atividades para todos ao longo do dia!",
       "Vamos ter uma demonstração às 14h00 e uma aula de dança para toda a família."
     ],
-    "image": "https://i.imgur.com/uGtlWXq.jpg",
+    "image": "/images/uGtlWXq.webp",
     "images": [
-      "https://i.imgur.com/a1hudPx.jpg"
+      "/images/a1hudPx.webp"
     ],
     "cta": {
       "text": "Faça a sua inscrição",
@@ -1170,9 +1170,9 @@ export const news = [
       "• Atualmente dá aulas de Hip-Hop, Choreography, Flexibilidade, Barra de Chão e Acrobacias.",
       "Não percas a oportunidade para poderes aprender mais e dançar!"
     ],
-    "image": "https://i.imgur.com/5ubP3f8.jpg",
+    "image": "/images/5ubP3f8.webp",
     "images": [
-      "https://i.imgur.com/rN3CFXp.jpg"
+      "/images/rN3CFXp.webp"
     ]
   },
   {
@@ -1190,9 +1190,9 @@ export const news = [
     "description": [
       "A turma de Contemporâneo I e Jazz II irá estar dia 4 de maio no Serviço de Cuidados Continuados de Castelo Branco para fazer duas demonstrações ."
     ],
-    "image": "https://i.imgur.com/GFZEUTw.jpg",
+    "image": "/images/GFZEUTw.webp",
     "images": [
-      "https://i.imgur.com/gbCwsMY.jpg"
+      "/images/gbCwsMY.webp"
     ]
   },
   {
@@ -1211,22 +1211,22 @@ export const news = [
       "O Dia Mundial da Dança foi celebrado a 29 de abril, na Escola Cidade de Castelo, Branco, na EB1 de Alcains e na EB Afonso de Paiva, numa iniciativa que contou com centenas de alunos, com organização dos Serviços Educativos da Câmara Municipal de Castelo Branco e com a colaboração das duas escolas de dança, Active Soul e Academia de Dança.",
       "No final, toda a comunidade se pode juntar na devesa para celebrar este dia em que “A Dança foi para Todos”."
     ],
-    "image": "https://i.imgur.com/HO8gXWz.jpg",
+    "image": "/images/HO8gXWz.webp",
     "images": [
-      "https://i.imgur.com/Ma6fzfU.jpg",
-      "https://i.imgur.com/6gp0x2h.jpg",
-      "https://i.imgur.com/ZHRDwhB.jpg",
-      "https://i.imgur.com/pEMXY2b.jpg",
-      "https://i.imgur.com/b05SfcX.jpg",
-      "https://i.imgur.com/NYK1lQa.jpg",
-      "https://i.imgur.com/CORL1Z1.jpg",
-      "https://i.imgur.com/Gzn41Wt.jpg",
-      "https://i.imgur.com/k0Fhp3S.jpg",
-      "https://i.imgur.com/PZq4hLl.jpg",
-      "https://i.imgur.com/HToxRC7.jpg",
-      "https://i.imgur.com/NQiHPIv.jpg",
-      "https://i.imgur.com/XXWafAP.jpg",
-      "https://i.imgur.com/uhFydvZ.jpg"
+      "/images/Ma6fzfU.webp",
+      "/images/6gp0x2h.webp",
+      "/images/ZHRDwhB.webp",
+      "/images/pEMXY2b.webp",
+      "/images/b05SfcX.webp",
+      "/images/NYK1lQa.webp",
+      "/images/CORL1Z1.webp",
+      "/images/Gzn41Wt.webp",
+      "/images/k0Fhp3S.webp",
+      "/images/PZq4hLl.webp",
+      "/images/HToxRC7.webp",
+      "/images/NQiHPIv.webp",
+      "/images/XXWafAP.webp",
+      "/images/uhFydvZ.webp"
     ]
   },
   {
@@ -1245,13 +1245,13 @@ export const news = [
       "A tarde de 21 de abril foi de formação para as classes AcroSweet e AcroCreative.",
       "Agradecemos desde já a confiança nos nossos professores."
     ],
-    "image": "https://i.imgur.com/pfwIebt.jpg",
+    "image": "/images/pfwIebt.webp",
     "images": [
-      "https://i.imgur.com/xFwGF67.jpg",
-      "https://i.imgur.com/pfwIebt.jpg",
-      "https://i.imgur.com/7QJyLC0.jpg",
-      "https://i.imgur.com/q1bumCd.jpg",
-      "https://i.imgur.com/oOQKjkz.jpg"
+      "/images/xFwGF67.webp",
+      "/images/pfwIebt.webp",
+      "/images/7QJyLC0.webp",
+      "/images/q1bumCd.webp",
+      "/images/oOQKjkz.webp"
     ]
   },
   {
@@ -1272,7 +1272,7 @@ export const news = [
       "As atividades decorrem até às 11:00, são gratuitas e abertas à comunidade.",
       "Marque na sua agenda e seja ativo, esperamos por si!"
     ],
-    "image": "https://i.imgur.com/9Ygh3nU.jpg",
+    "image": "/images/9Ygh3nU.webp",
     "embed": {
       "type": "youtube",
       "src": "https://www.youtube.com/embed/NABCsnkw0w0"
@@ -1295,7 +1295,7 @@ export const news = [
       "Uma performance de teatro musical inspirado na obra icónica de Lewis Carroll, “Alice no País das Maravilhas”, adaptado para uma performance cheia de encanto, magia e emoção, num cenário fantástico que irá captar a atenção do público.",
       "Bilhetes brevemente disponíveis no nosso estúdio."
     ],
-    "image": "https://i.imgur.com/bgratM7.jpg",
+    "image": "/images/bgratM7.webp",
     "embed": {
       "type": "youtube",
       "src": "https://www.youtube.com/embed/EthaWg22-WI"
@@ -1329,7 +1329,7 @@ export const news = [
       "Podes inscrever-te por mensagem privada, pelo 962817248 e pelo email activesoul.studio@gmail.com",
       "Esperamos por ti! As vagas são limitadas!"
     ],
-    "image": "https://i.imgur.com/dsp3qJ5.jpg"
+    "image": "/images/dsp3qJ5.webp"
   },
   {
     "id": 26,
@@ -1348,16 +1348,16 @@ export const news = [
       "Foi uma tarde cheia de aprendizagens e aperfeiçoamentos.",
       "Agradecemos desde já o convite por parte da Magda (Albigym) e toda a disponibilidade e profissionalismo da nossa Professora Sofia Ferreira."
     ],
-    "image": "https://i.imgur.com/Mnb9eOF.jpg",
+    "image": "/images/Mnb9eOF.webp",
     "images": [
-      "https://i.imgur.com/jgoM30V.jpg",
-      "https://i.imgur.com/y2nlrRA.jpg",
-      "https://i.imgur.com/3j6otcM.jpg",
-      "https://i.imgur.com/3XeTnwi.jpg",
-      "https://i.imgur.com/wYA4u30.jpg",
-      "https://i.imgur.com/Yqi8aet.jpg",
-      "https://i.imgur.com/w183qy0.jpg",
-      "https://i.imgur.com/XlHuXK8.jpg"
+      "/images/jgoM30V.webp",
+      "/images/y2nlrRA.webp",
+      "/images/3j6otcM.webp",
+      "/images/3XeTnwi.webp",
+      "/images/wYA4u30.webp",
+      "/images/Yqi8aet.webp",
+      "/images/w183qy0.webp",
+      "/images/XlHuXK8.webp"
     ]
   },
   {
@@ -1381,12 +1381,12 @@ export const news = [
       "Durante toda a semana as aulas dos mais novos foram celebradas juntamente com a sua figura paterna.",
       "Fiquem com estes momentos registados."
     ],
-    "image": "https://i.imgur.com/dTW5fPd.jpg",
+    "image": "/images/dTW5fPd.webp",
     "images": [
-      "https://i.imgur.com/YGeorqW.jpg",
-      "https://i.imgur.com/dTW5fPd.jpg",
-      "https://i.imgur.com/T4IZ92I.jpg",
-      "https://i.imgur.com/03CiPAW.jpg"
+      "/images/YGeorqW.webp",
+      "/images/dTW5fPd.webp",
+      "/images/T4IZ92I.webp",
+      "/images/03CiPAW.webp"
     ]
   },
   {
@@ -1409,13 +1409,13 @@ export const news = [
     "description": [
       "Gostaria de presentear as suas colaboradoras com uma aula de dança bem divertida ou até com uma das nossas modalidades de bem estar? Entre em contacto conosco e faremos um dia diferente!"
     ],
-    "image": "https://i.imgur.com/78E3RaZ.jpg",
+    "image": "/images/78E3RaZ.webp",
     "images": [
-      "https://i.imgur.com/HFKxFRt.jpg",
-      "https://i.imgur.com/YqCGKBH.jpg",
-      "https://i.imgur.com/4JYgjO1.jpg",
-      "https://i.imgur.com/9VQfTf1.jpg",
-      "https://i.imgur.com/MH8ogmf.jpg"
+      "/images/HFKxFRt.webp",
+      "/images/YqCGKBH.webp",
+      "/images/4JYgjO1.webp",
+      "/images/9VQfTf1.webp",
+      "/images/MH8ogmf.webp"
     ]
   },
   {
@@ -1435,7 +1435,7 @@ export const news = [
       "A Iniciativa tem por objetivo angariar fundos para as necessidades do jovem Arthur que, no ano passado sofreu um acidente na Piscina de Castelo Branco, tendo ficado com sequelas para a vida.",
       "Contamos com a vossa ajuda!"
     ],
-    "image": "https://i.imgur.com/XVrKWcL.jpg"
+    "image": "/images/XVrKWcL.webp"
   },
   {
     "id": 23,
@@ -1456,7 +1456,7 @@ export const news = [
       "Haverá surpresas por isso não vais querer ficar de fora!",
       "✏️Inscrições no nosso estúdio ou por mensagem privada."
     ],
-    "image": "https://i.imgur.com/UOQc1bA.jpg"
+    "image": "/images/UOQc1bA.webp"
   },
   {
     "id": 22,
@@ -1484,7 +1484,7 @@ export const news = [
       "Este foi o NOSSO CARNAVAL 🤡.",
       "Obrigada a quem esteve presente e fez parte deste final de tarde super divertido 🎉"
     ],
-    "image": "https://i.imgur.com/Imd3wy4.jpg",
+    "image": "/images/Imd3wy4.webp",
     "embed": {
       "type": "instagram",
       "src": "https://www.instagram.com/p/C3UkxlttBeY/?img_index=1"
@@ -1509,7 +1509,7 @@ export const news = [
       "Neste lugar mágico esperamos por ti, para que possas sentir as cores vibrantes deste espetáculo.",
       "Are you ready to activate your soul?"
     ],
-    "image": "https://i.imgur.com/iCriVFr.png",
+    "image": "/images/iCriVFr.webp",
     "embed": {
       "type": "youtube",
       "src": "https://www.youtube.com/embed/PuhmxZOjREU"
@@ -1531,7 +1531,7 @@ export const news = [
       "Depois do sucesso do Active Kids de Páscoa, o ATL mais artístico da cidade está de volta, desta vez para preencher a época natalícia dos mais novos!",
       "Mais uma vez, o Teatro Tramédia junta-se ao Active Soul com o ATL onde podes divertir-te, aprender, desenvolver a tua criatividade e PARTICIPAR NUM ESPETÁCULO"
     ],
-    "image": "https://i.imgur.com/O3UmBwd.png",
+    "image": "/images/O3UmBwd.webp",
     "embed": {
       "type": "youtube",
       "src": "https://www.youtube.com/embed/xZ7i5vrnuzI"
@@ -1554,7 +1554,7 @@ export const news = [
       "Este é o dia que marca a importância de lembrar, a todos que “uma criança tem direito a crescer numa família”.",
       "Celebraremos este dia junto dos nossos alunos!"
     ],
-    "image": "https://i.imgur.com/PzNcEn1.png",
+    "image": "/images/PzNcEn1.webp",
     "embed": {
       "type": "instagram",
       "src": "https://www.instagram.com/reel/Cz4KFWktQDu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
@@ -1577,7 +1577,7 @@ export const news = [
       "E é sobre isso que falamos, sobre o sonho destas 2 meninas que temos o privilégio de ver crescer!",
       "Mais uma vez o esforço, trabalho e dedicação deram frutos e na competição “Mostra o que vales 5”, na Guarda alcançaram uma belíssima qualificação"
     ],
-    "image": "https://i.imgur.com/83sY777.png"
+    "image": "/images/83sY777.webp"
   },
   {
     "id": 17,
@@ -1595,7 +1595,7 @@ export const news = [
       "O Estúdio Active Soul proporcionou aos seus alunos um final de tarde diferente.",
       "Obrigada a todos por terem participado em mais uma iniciativa."
     ],
-    "image": "https://i.imgur.com/LWJ7HMJ.png"
+    "image": "/images/LWJ7HMJ.webp"
   },
   {
     "id": 16,
@@ -1613,7 +1613,7 @@ export const news = [
       "Para quem não teve a oportunidade de ir ver o nosso espetáculo poderá ir assistir gratuitamente a um excerto da “Contadora de histórias”, para quem foi ver poderá ir rever alguns dos momentos.",
       "Esperamos por vocês."
     ],
-    "image": "https://i.imgur.com/N3ILSDR.png",
+    "image": "/images/N3ILSDR.webp",
     "embed": {
       "type": "youtube",
       "src": "https://www.youtube.com/embed/oGGn7ISFTlg"
@@ -1634,7 +1634,7 @@ export const news = [
     "description": [
       "Estivemos presentes Festival Mais Solidário com muita animação e dança."
     ],
-    "image": "https://i.imgur.com/eBqOsMj.png",
+    "image": "/images/eBqOsMj.webp",
     "embed": {
       "type": "youtube",
       "src": "https://www.youtube.com/embed/aTjJUz_NNoU"
@@ -1655,7 +1655,7 @@ export const news = [
     "description": [
       "Vamos partilhar o palco com o DJ Giga na Festa de Malpica do Tejo, esperamos por ti."
     ],
-    "image": "https://i.imgur.com/GzdEgLd.png"
+    "image": "/images/GzdEgLd.webp"
   },
   {
     "id": 13,
@@ -1680,7 +1680,7 @@ export const news = [
       "Todos saíram com um MEGA sorriso, com as energias renovadas, cansados é certo e molhados também mas com este calor, não há nada que melhor do que isso!",
       "Fazer exercício, treinar, pode ser divertido, basta imaginação e isso, não nos falta."
     ],
-    "image": "https://i.imgur.com/ZTB58qW.png"
+    "image": "/images/ZTB58qW.webp"
   },
   {
     "id": 12,
@@ -1698,7 +1698,7 @@ export const news = [
       "“Contadora de histórias” foi o 1° espetáculo de final de ano da Active Soul.",
       "A dança e as palavras tomaram conta desta hora de espetáculo repleto de movimento, histórias e muita magia, acreditar que nada é impossível e que o tempo pode ser o nosso melhor aliado."
     ],
-    "image": "https://i.imgur.com/bSpqdSX.png",
+    "image": "/images/bSpqdSX.webp",
     "embed": {
       "type": "instagram",
       "src": "https://www.instagram.com/reel/CtyfZpeO6xP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
@@ -1719,7 +1719,7 @@ export const news = [
     "description": [
       "Aqui fica um resumo da nossa tarde de ontem foi um dia da criança muito bem passado junto de meninos e meninas muito queridos e que se quiseram juntar ao “Active Kids” para terminar o seu dia da melhor forma."
     ],
-    "image": "https://i.imgur.com/byZS7Tx.png",
+    "image": "/images/byZS7Tx.webp",
     "embed": {
       "type": "facebook",
       "src": "https://www.facebook.com/teatrotramedia/videos/652959506675294/"
@@ -1742,7 +1742,7 @@ export const news = [
       "Todos aqui estiveram juntos pela paixão a esta grande arte que é a dança.",
       "Dancem, dancem muito… porque quem dança é mesmo mais feliz!"
     ],
-    "image": "https://i.imgur.com/Z60jJcx.jpg"
+    "image": "/images/Z60jJcx.webp"
   },
   {
     "id": 9,
@@ -1760,7 +1760,7 @@ export const news = [
       "O Teatro Tramédia e o Active Soul uniram-se para oferecer às crianças albicastrenses um ATL de Páscoa totalmente diferente daquilo a que estão habituados!",
       "Aqui vamos fazer teatro, vamos dançar e no final ainda vamos construir uma peça de Teatro Musical."
     ],
-    "image": "https://i.imgur.com/niEMQYv.jpg",
+    "image": "/images/niEMQYv.webp",
     "embed": {
       "type": "youtube",
       "src": "https://www.youtube.com/embed/tezTAfNg5a0"
@@ -1781,7 +1781,7 @@ export const news = [
     "description": [
       "Celebramos o dia mundial da atividade física em colaboração com a Apef Castelo Branco"
     ],
-    "image": "https://i.imgur.com/RmLtV2x.png",
+    "image": "/images/RmLtV2x.webp",
     "embed": {
       "type": "facebook",
       "src": "https://www.facebook.com/apef.castelobranco/videos/798096874506071/"
@@ -1809,7 +1809,7 @@ export const news = [
       "A coreografia dinâmica e os figurinos deslumbrantes dão vida às personagens icônicas.",
       "A música encantadora guia os dançarinos através de cenários deslumbrantes, recriando momentos clássicos da história."
     ],
-    "image": "https://i.imgur.com/W30dAsi.jpg",
+    "image": "/images/W30dAsi.webp",
     "embed": {
       "type": "youtube",
       "src": "https://www.youtube.com/embed/t5l2XtC97Ec"
@@ -1832,7 +1832,7 @@ export const news = [
       "Isto quer dizer que a última meia hora a música toca e vocês fazem a vossa coreografia.",
       "Podem praticar o que é ensinado durante os workshops ou mostrar os vossos melhores passos😍Não é espetacular?!"
     ],
-    "image": "https://i.imgur.com/QS2hIRO.jpg"
+    "image": "/images/QS2hIRO.webp"
   },
   {
     "id": 5,
@@ -1849,7 +1849,7 @@ export const news = [
     "description": [
       "No espírito de solidariedade e reconhecimento, a Active Soul reúne-se para celebrar o Dia Internacional da Mulher."
     ],
-    "image": "https://i.imgur.com/JItmDtK.jpg"
+    "image": "/images/JItmDtK.webp"
   },
   {
     "id": 4,
@@ -1867,7 +1867,7 @@ export const news = [
       "Em clima de festa e alegria, a Active Soul e a Praça juntam-se para celebrar o Carnaval com um empolgante final de tarde de dança.",
       "Sob o ritmo contagiante de músicas carnavalescas, pessoas de todas as idades juntam-se para uma festa animada e colorida."
     ],
-    "image": "https://i.imgur.com/0NeyoM0.jpg"
+    "image": "/images/0NeyoM0.webp"
   },
   {
     "id": 3,
@@ -1886,7 +1886,7 @@ export const news = [
       "Repleto de magia, música e personagens cativantes, o espetáculo promete ser um evento imperdível para toda a família.",
       "Com coreografias envolventes e figurinos deslumbrantes, 'Pipoto Maroto' transportará o público para um mundo encantado, onde a alegria do Natal se manifesta de maneiras únicas."
     ],
-    "image": "https://i.imgur.com/f8PNSa4.jpg",
+    "image": "/images/f8PNSa4.webp",
     "embed": {
       "type": "youtube",
       "src": "https://www.youtube.com/embed/ba7o7XYgBK4"
@@ -1910,7 +1910,7 @@ export const news = [
       "🕴🏻 Sabias que a prática de exercício físico permite potenciar o crescimento celular no cérebro e de neurotransmissores associados ao humor? Que ela pode reduzir o stress e aliviar a tensão muscular, melhorar a qualidade de sono e, consequentemente, contribuir para uma sensação generalizada de bem-estar⁉️ Ana Isabel Marques praticou dança na sua infância/adolescência e quer poder partilhar a sua experiência com crianças e jovens utilizando ferramentas adquiridas no seu percurso pessoal, académico e na sua carreira como Psicóloga.",
       "Neste workshop as crianças vão aprender algumas técnicas e como controlar as suas emoções."
     ],
-    "image": "https://i.imgur.com/u81VQEO.png"
+    "image": "/images/u81VQEO.webp"
   },
   {
     "id": 1,
@@ -1929,7 +1929,7 @@ export const news = [
       "Este evento envolvente oferecerá uma experiência única, explorando os ritmos vibrantes e a cultura do Dance Hall.",
       "Dinamizado por uma professora de excelência, Andreia Lemos, o workshop promete aprimorar habilidades, proporcionar momentos de diversão e celebrar a energia contagiante do Dancehall."
     ],
-    "image": "https://i.imgur.com/zStKdyu.jpg",
+    "image": "/images/zStKdyu.webp",
     "embed": {
       "type": "instagram",
       "src": "https://www.instagram.com/reel/CjNU3MCDYWa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"

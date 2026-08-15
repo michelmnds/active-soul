@@ -7,7 +7,7 @@ export const classes = [
       "Desenvolve o corpo de uma forma eficaz.",
       "Utiliza pesos, caneleiras, halteres e barras para fortalecer principalmente os glúteos, abdominais e pernas.",
     ],
-    image: "https://i.imgur.com/tDhGlQa.jpg",
+    image: "/images/tDhGlQa.webp",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const classes = [
       "Uma mistura contagiante de dança, fitness e energia positiva, ideal para todas as idades e níveis de condicionamento.",
       "Não é preciso saber dançar é só sentir a música e deixar o corpo falar.",
     ],
-    image: "https://imgur.com/ZBvxxNH.jpg",
+    image: "/images/ZBvxxNH.webp",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const classes = [
       "O método Pilates tem como objetivo atingir a saúde através da conexão entre corpo e mente nas aulas.",
       "Para isso, os exercícios são baseados em 6 princípios: Centralização, Respiração, Fluidez, Controlo, Precisão e Concentração.",
     ],
-    image: "https://i.imgur.com/NcYH3Tp.jpg",
+    image: "/images/NcYH3Tp.webp",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ export const classes = [
     description: [
       "O treino em circuito assume-se como um tipo de treino muito interessante quando o objetivo é treinar o corpo todo numa só sessão de treino, poupando tempo e acarreta ainda um elevando dispêndio energético quando se mobilizam grandes grupos musculares com tempos de pausa reduzidos.",
     ],
-    image: "https://i.imgur.com/2Bptrkd.jpg",
+    image: "/images/2Bptrkd.webp",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ export const classes = [
       "Esta aula combina exercícios de caráter cardiorrespiratório com movimentos de força e resistência muscular, promovendo vários benefícios para a saúde.",
       "Realizado em grupo e ao som de música, envolve sequências que mantém a frequência cardíaca elevada, melhorando a capacidade cardiovascular, enquanto incorpora exercícios localizados, como agachamentos, abdominais e flexões, que trabalham a força e a tonificação muscular.",
     ],
-    image: "https://i.imgur.com/UEd2WbZ.jpg",
+    image: "/images/UEd2WbZ.webp",
   },
   {
     id: 6,
@@ -56,7 +56,7 @@ export const classes = [
       "A aula Active Move é uma experiência cheia de energia pensada especialmente para crianças! Inspirada no treino funcional, ela combina atividades variadas como circuitos com obstáculos, jogos de equilíbrio e desafios em grupo.",
       "Cada aula é diferente, garantindo movimento constante, desenvolvimento da coordenação motora, força e agilidade – tudo de forma lúdica e segura.",
     ],
-    image: "https://i.imgur.com/oqwsEV1.jpg",
+    image: "/images/oqwsEV1.webp",
   },
   {
     id: 7,
@@ -66,6 +66,6 @@ export const classes = [
       "Treino capaz de desenvolver capacidades físicas como força, flexibilidade e agilidade.",
       "Podendo ser trabalhado a individualidade de cada bailarino segundo orientação do professor da sua modalidade.",
     ],
-    image: "https://i.imgur.com/rFKTgv6.jpg",
+    image: "/images/rFKTgv6.webp",
   },
 ];
