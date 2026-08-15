@@ -7,7 +7,8 @@ export const services = [
       "Quer tornar o seu evento/espetáculo único e inesquecível? Os nossos bailarinos fazem-no com qualidade, profissionalismo e dedicação.",
       "Para os bailarinos: Queres fazer parte desta equipa?"
     ],
-    "image": "https://i.imgur.com/KccM2ub.jpg"
+    "image": "https://i.imgur.com/KccM2ub.jpg",
+    "imagePosition": "right"
   },
   {
     "id": 2,

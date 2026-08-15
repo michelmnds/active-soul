@@ -20,6 +20,11 @@ export const about = {
       "image": "https://i.imgur.com/Hrv1wXI.jpg"
     },
     {
+      "id": "sala-1",
+      "label": "Sala 1",
+      "image": "https://i.imgur.com/j1RIPvI.jpeg"
+    },
+    {
       "id": "sala-polivalente",
       "label": "Sala Polivalente",
       "image": "https://i.imgur.com/3zh9r0V.jpg"

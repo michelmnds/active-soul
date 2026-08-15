@@ -19,7 +19,7 @@ export function TeamPage() {
         <SectionHeading
           eyebrow="Conheça-nos"
           title="Quem dá vida ao estúdio"
-          lede="Do palco ao treino, reunimos diferentes experiências em torno da mesma paixão pelo movimento."
+          lede="Do palco ao treino, reunimos diferentes experiências em torno da mesma paixão."
         />
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {team.map((member) => (

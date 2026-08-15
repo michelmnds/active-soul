@@ -5,17 +5,17 @@ import { Button, Section } from "@/ui/components";
 
 export function DetailLayout({ item, backTo, backLabel, category, children }) {
   return (
-    <Section className="pt-10 sm:pt-14 lg:grid lg:min-h-[calc(100vh-5rem)] lg:place-items-center lg:!py-8 [&>div]:relative">
-      <Button to={backTo} variant="ghost" className="mb-8 lg:absolute lg:-top-16 lg:mb-0">
+    <Section className="pt-10 sm:pt-14 lg:grid lg:min-h-[calc(100vh-5rem)] lg:place-items-center lg:!py-8">
+      <Button to={backTo} variant="ghost" className="mb-8">
         <LuArrowLeft aria-hidden /> {backLabel}
       </Button>
-      <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,.9fr)_minmax(0,1.1fr)] lg:items-center lg:gap-16">
+      <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,.9fr)_minmax(0,1.1fr)] lg:gap-16">
         <div className="overflow-hidden rounded-card bg-brand-100 shadow-card lg:sticky lg:top-28 lg:aspect-[4/5]">
           <img
             {...{ fetchpriority: "high" }}
             src={item.image}
             alt={item.name ?? item.title}
-            className="aspect-[4/5] h-full w-full object-cover"
+            className={`aspect-[4/5] h-full w-full object-cover ${item.imagePosition === "right" ? "object-right" : "object-center"}`}
           />
         </div>
         <article className="py-2 lg:py-0">
