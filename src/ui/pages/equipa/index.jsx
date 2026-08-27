@@ -31,7 +31,9 @@ export function TeamPage() {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+                  className={`h-full w-full transition-transform duration-700 hover:scale-105 ${
+                    member.logo ? "object-contain p-8" : "object-cover"
+                  }`}
                   loading="lazy"
                 />
               </div>
