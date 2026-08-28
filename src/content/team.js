@@ -3,8 +3,7 @@ export const team = [
     id: 1,
     image: "/images/team/patricia.webp",
     name: "Patrícia Lourenço",
-    modality:
-      "Diretora Active Soul\nBallet e contemporâneo\nMestrado em Ensino de Educação Física nos Ensinos Básicos e Secundários pela Universidade da Beira Interior",
+    modality: "Diretora Active Soul\nBallet e contemporâneo",
   },
   {
     id: 2,
@@ -23,7 +22,7 @@ export const team = [
     image: "/images/team/sandra.webp",
     name: "Sandra Vicente",
     modality:
-      "Pilates, GAP, Circuito,\nPreparação Física,\nActive Fit e Active Move\nMestrado em Ensino de Educação Física nos Ensinos Básicos e Secundários pela Universidade da Beira Interior",
+      "Pilates, GAP, Circuito,\nPreparação Física,\nActive Fit e Active Move",
   },
   {
     id: 8,
@@ -72,7 +71,7 @@ export const team = [
     id: 10,
     image: "/images/team/francisco.webp",
     name: "Francisco Ribeiro",
-    modality: "Ecos D'Arte",
+    modality: "Ecos D'Arte e Coro",
   },
   {
     id: 12,
