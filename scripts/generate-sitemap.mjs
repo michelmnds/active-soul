@@ -15,7 +15,7 @@ assert(dances.length === 7, "Expected 7 dances");
 assert(classes.length === 7, "Expected 7 classes");
 assert(arts.length === 3, "Expected 3 arts");
 assert(services.length === 4, "Expected 4 services");
-assert(news.length === 81, "Expected 81 events");
+assert(news.length === 83, "Expected 83 events");
 assert(new Set(news.map(({ id }) => id)).size === news.length, "Event IDs must be unique");
 assert(news.every(({ date }) => /^\d{4}-\d{2}-\d{2}$/.test(date) && new Date(`${date}T00:00:00Z`).toISOString().slice(0, 10) === date), "Event dates must be valid ISO dates");
 assert(news.flatMap(({ images = [] }) => images).length === 77, "Expected 77 gallery images");
@@ -29,7 +29,7 @@ const detailRoutes = [
 ];
 
 const urls = [...staticRoutes, ...detailRoutes];
-assert(urls.length === 110, "Expected 110 sitemap URLs");
+assert(urls.length === 112, "Expected 112 sitemap URLs");
 assert(new Set(urls).size === urls.length, "Sitemap URLs must be unique");
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

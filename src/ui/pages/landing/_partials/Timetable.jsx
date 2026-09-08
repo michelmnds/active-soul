@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { LuExternalLink, LuMaximize2 } from "react-icons/lu";
+import { LuMaximize2 } from "react-icons/lu";
 import { landing } from "@/content/landing";
-import { Button, Lightbox, Section, SectionHeading } from "@/ui/components";
+import { Lightbox, Section, SectionHeading } from "@/ui/components";
 
 export function Timetable() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,22 +15,6 @@ export function Timetable() {
             title={landing.timetable.title}
             lede="Consulta o horário completo e encontra a aula certa para ti."
           />
-          <div className="mt-7 rounded-card border border-brand-200 bg-brand-50 p-5">
-            {landing.registrationNotice.map((notice) => (
-              <p key={notice} className="text-sm leading-6 text-brand-800">
-                {notice}
-              </p>
-            ))}
-            <Button
-              className="mt-4"
-              href={landing.registrationForm}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Novo aluno
-              <LuExternalLink aria-hidden />
-            </Button>
-          </div>
         </div>
         <button
           className="group relative overflow-hidden rounded-card bg-brand-100 shadow-card"

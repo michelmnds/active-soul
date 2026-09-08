@@ -46,8 +46,4 @@ export const landing = {
     width: 1000,
     height: 707,
   },
-  registrationNotice: [
-    "Renovações de inscrição até dia 10 de agosto.",
-    "Inscrição de novos alunos dia 14 de agosto.",
-  ],
 };
