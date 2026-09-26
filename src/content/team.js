@@ -44,10 +44,9 @@ export const team = [
   },
   {
     id: 14,
-    image: "/logo.png",
+    image: "/images/team/maria-francisca.jpeg",
     name: "Maria Francisca",
     modality: "Ballet",
-    logo: true,
   },
   {
     id: 5,
