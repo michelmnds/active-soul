@@ -42,8 +42,8 @@ export const landing = {
   ],
   timetable: {
     title: "Horário 2026/2027",
-    image: "/images/vQqajeV.webp",
-    width: 1000,
-    height: 707,
+    image: "/images/horario-2026-2027.webp",
+    width: 1600,
+    height: 1131,
   },
 };
